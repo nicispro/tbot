@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-25
-timestamp: "2026-08-25 21:11:50 UTC"
+timestamp: "2026-08-25 23:55:49 UTC"
 ticker: "SOL/USDT"
 outcome: "LOSS"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 80.0
-pnl_percent: -2.24
+pnl_percent: -2.13
 tags:
   - autopsy
   - loss
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `SOL/USDT`
-> - **Realized Outcome:** `LOSS` (`-2.24%`)
+> - **Realized Outcome:** `LOSS` (`-2.13%`)
 > - **Process Quality Score:** `80/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
