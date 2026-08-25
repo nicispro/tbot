@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-25
-timestamp: "2026-08-25 21:16:57 UTC"
+timestamp: "2026-08-25 21:22:04 UTC"
 ticker: "XRP/USDT"
 outcome: "LOSS"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 80.0
-pnl_percent: -2.62
+pnl_percent: -2.88
 tags:
   - autopsy
   - loss
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `XRP/USDT`
-> - **Realized Outcome:** `LOSS` (`-2.62%`)
+> - **Realized Outcome:** `LOSS` (`-2.88%`)
 > - **Process Quality Score:** `80/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
