@@ -1,0 +1,24 @@
+# Configuration & Validation
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+python-dotenv>=1.0.1
+
+# Market Data & Web Scraping
+yfinance>=0.2.38
+pandas>=2.2.0
+beautifulsoup4>=4.12.3
+lxml>=5.1.0
+
+# Crypto Market Data
+ccxt>=4.2.0
+
+# HTTP Clients & Networking
+requests>=2.31.0
+urllib3>=2.2.1
+
+# Scheduling & Task Execution
+apscheduler>=3.10.4
+
+# Optional Utilities & CLI Formatting
+rich>=13.7.1
+colorama>=0.4.6
