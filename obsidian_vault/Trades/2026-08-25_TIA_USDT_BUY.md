@@ -1,19 +1,19 @@
 ---
 type: trade
 date: 2026-08-25
-timestamp: "2026-08-25 16:08:01 UTC"
+timestamp: "2026-08-25 19:18:37 UTC"
 ticker: "TIA/USDT"
 action: "BUY"
-price: 0.3681
+price: 0.3653
 quantity: 1.0000
 order_value: 0.37
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787674081797"
+order_id: "CRYPTO-1787685517031"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -24,7 +24,7 @@ tags:
 # ⚡ Trade Execution: `TIA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-25 16:08:01 UTC`
+> - **Date & Time:** `2026-08-25 19:18:37 UTC`
 > - **Ticker:** `TIA/USDT`
 > - **Action:** `BUY` @ `$0.37`
 > - **Quantity:** `1.0000` shares/units
@@ -35,15 +35,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Trigger: Price ($0.37) vs 20-SMA ($0.33) Deviation +11.01%
+[DEMO / FUTURE] Trend Momentum Trigger: Price ($0.37) vs 20-SMA ($0.33) Deviation +10.20%
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive trend momentum and price deviation from the 20-SMA, this trade proposal indicates an upward potential. However, crucial technical metrics like short_sma, dip_percentage, rsi, atr, support, and resistance are missing.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is 10.20% above the 20‑SMA, indicating bullish momentum, but lack of additional technical data limits full assessment.
 > 
-> **Key Catalysts:** *Price ($0.37) surpasses the 20-SMA ($0.33), triggering a BULLISH sentiment.*
+> **Key Catalysts:** *Price above 20‑SMA with +10.20% deviation*
 
 ---
 
