@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 16:00:21 UTC"
+timestamp: "2026-08-26 16:06:22 UTC"
 ticker: "APT/USDT"
 canonical_symbol: "APT/USDT"
 base_symbol: "APT"
@@ -14,7 +14,7 @@ quantity: 1.0000
 order_value: 0.56
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787760021826"
+order_id: "CRYPTO-1787760382585"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BEARISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `APT/USDT` (SELL)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 16:00:21 UTC`
+> - **Date & Time:** `2026-08-26 16:06:22 UTC`
 > - **Canonical Instrument:** `APT/USDT` (APT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `SELL` @ `$0.5561`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BEARISH - 70% Confidence)**
-> Sell entry below the 20‑SMA with a moderate risk‑to‑reward profile: potential profit to 0.5283 versus a stop at 0.5756.
+> Sell entry justified by price below the 20‑SMA and a moderate downside risk with a 1.4:1 reward potential.
 > 
-> **Key Catalysts:** *Price below 20‑SMA and RSI under 50 indicating bearish momentum*
+> **Key Catalysts:** *Price below 20‑SMA, momentum shift, and support level at 0.5155*
 
 ---
 
