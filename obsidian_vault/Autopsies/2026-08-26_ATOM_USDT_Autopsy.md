@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-26
-timestamp: "2026-08-26 16:11:59 UTC"
+timestamp: "2026-08-26 16:17:53 UTC"
 ticker: "ATOM/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
