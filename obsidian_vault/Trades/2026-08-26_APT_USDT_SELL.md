@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 14:52:13 UTC"
+timestamp: "2026-08-26 15:24:10 UTC"
 ticker: "APT/USDT"
 canonical_symbol: "APT/USDT"
 base_symbol: "APT"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "SELL"
-price: 0.5570
+price: 0.5562
 quantity: 1.0000
 order_value: 0.56
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787755933023"
+order_id: "CRYPTO-1787757850756"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BEARISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - sell
@@ -30,10 +30,10 @@ tags:
 # ⚡ Trade Execution: `APT/USDT` (SELL)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 14:52:13 UTC`
+> - **Date & Time:** `2026-08-26 15:24:10 UTC`
 > - **Canonical Instrument:** `APT/USDT` (APT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `SELL` @ `$0.5570`
+> - **Action:** `SELL` @ `$0.5562`
 > - **Quantity:** `1.0000` shares/units
 > - **Total Value:** `$0.56`
 > - **Status:** `SUCCESS` (`FILLED`)
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (SELL): Price ($0.5570) vs 20-SMA ($0.5749) Deviation -3.11% [SL: $0.5765 | TP: $0.5292 | Risk: $0.02]
+[DEMO / FUTURE] Trend Momentum Entry (SELL): Price ($0.5562) vs 20-SMA ($0.5749) Deviation -3.25% [SL: $0.5757 | TP: $0.5284 | Risk: $0.02]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BEARISH - 72% Confidence)**
-> Price trading below the 20-SMA with RSI under 50 confirms short-term bearish momentum, offering a favorable risk/reward setup toward the $0.5292 target.
+> [!info] **AI Thesis (BEARISH - 70% Confidence)**
+> Trend Momentum Entry (SELL): Price ($0.5562) vs 20-SMA ($0.5749) Deviation -3.25% [SL: $0.5757 | TP: $0.5284 | Risk: $0.02]
 > 
-> **Key Catalysts:** *Price deviation below 20-SMA and sub-50 RSI indicating weakening bullish momentum*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
