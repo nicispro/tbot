@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-26
-timestamp: "2026-08-26 15:41:57 UTC"
+timestamp: "2026-08-26 15:59:50 UTC"
 ticker: "TIA/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
