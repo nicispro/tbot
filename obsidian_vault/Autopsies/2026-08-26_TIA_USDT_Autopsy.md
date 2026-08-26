@@ -1,15 +1,15 @@
 ---
 type: autopsy
 date: 2026-08-26
-timestamp: "2026-08-26 15:05:07 UTC"
+timestamp: "2026-08-26 15:17:27 UTC"
 ticker: "TIA/USDT"
-outcome: "LOSS"
+outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
-process_quality_score: 80.0
-pnl_percent: -0.84
+process_quality_score: 65.0
+pnl_percent: -0.12
 tags:
   - autopsy
-  - loss
+  - neutral
   - tia
   - good_decision_loss
 ---
@@ -18,20 +18,20 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `TIA/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.84%`)
-> - **Process Quality Score:** `80/100`
+> - **Realized Outcome:** `NEUTRAL` (`-0.12%`)
+> - **Process Quality Score:** `65/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Require volume confirmation multiplier >= 1.5x before validating breakout entries."*
+> *"Avoid trading in low-volatility compression zones without clear catalyst."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *LOSS*
+  *NEUTRAL*
 - **Alternative 2 (Delayed Entry for Confirmation):**
-  *LOSS*
+  *WIN*
