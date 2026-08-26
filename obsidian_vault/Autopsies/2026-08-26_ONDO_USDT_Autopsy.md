@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-26
-timestamp: "2026-08-26 15:23:37 UTC"
+timestamp: "2026-08-26 15:29:46 UTC"
 ticker: "ONDO/USDT"
 outcome: "WIN"
 quadrant: "GOOD_DECISION_WIN"
 process_quality_score: 90.0
-pnl_percent: 0.39
+pnl_percent: 0.42
 tags:
   - autopsy
   - win
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `ONDO/USDT`
-> - **Realized Outcome:** `WIN` (`+0.39%`)
+> - **Realized Outcome:** `WIN` (`+0.42%`)
 > - **Process Quality Score:** `90/100`
 > - **Quadrant Classification:** `GOOD_DECISION_WIN`
 
