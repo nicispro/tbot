@@ -1,19 +1,19 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 07:25:06 UTC"
+timestamp: "2026-08-26 07:31:13 UTC"
 ticker: "FET/USDT"
 action: "BUY"
-price: 0.1685
+price: 0.1687
 quantity: 1.0000
 order_value: 0.17
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787729106834"
+order_id: "CRYPTO-1787729473409"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -24,7 +24,7 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 07:25:06 UTC`
+> - **Date & Time:** `2026-08-26 07:31:13 UTC`
 > - **Ticker:** `FET/USDT`
 > - **Action:** `BUY` @ `$0.17`
 > - **Quantity:** `1.0000` shares/units
@@ -35,15 +35,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Trigger: Price ($0.17) vs 20-SMA ($0.14) Deviation +18.08%
+[DEMO / FUTURE] Trend Momentum Trigger: Price ($0.17) vs 20-SMA ($0.14) Deviation +18.22%
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the trade hypothesis indicates a bullish sentiment with a high confidence score of 85%. The price deviation of +18.08% surpasses the threshold, suggesting a potential price surge. However, some technical metrics data is unavailable, which may affect the overall analysis.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given parameters, the trade hypothesis indicates a potential buy opportunity with a 18.22% deviation in favor, suggesting an upward trend. However, some metrics' data is unavailable, which weakens the analysis's reliability.
 > 
-> **Key Catalysts:** *Price deviation (+18.08%) and trend momentum trigger drive the bullish sentiment, but missing data may impact the confidence in the analysis.*
+> **Key Catalysts:** *Trend momentum trigger: Price ($0.17) vs 20-SMA ($0.14) Deviation +18.22%*
 
 ---
 
