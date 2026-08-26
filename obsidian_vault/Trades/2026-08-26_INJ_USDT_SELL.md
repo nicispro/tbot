@@ -1,19 +1,19 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 05:12:41 UTC"
+timestamp: "2026-08-26 05:18:26 UTC"
 ticker: "INJ/USDT"
 action: "SELL"
-price: 5.5220
+price: 5.5200
 quantity: 1.0000
 order_value: 5.52
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787721161668"
+order_id: "CRYPTO-1787721506984"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BEARISH"
-ai_confidence: 35
+ai_confidence: 30
 tags:
   - trade
   - sell
@@ -24,7 +24,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (SELL)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 05:12:41 UTC`
+> - **Date & Time:** `2026-08-26 05:18:26 UTC`
 > - **Ticker:** `INJ/USDT`
 > - **Action:** `SELL` @ `$5.52`
 > - **Quantity:** `1.0000` shares/units
@@ -35,15 +35,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] 🛑 Stop Loss Trigger: Drawdown -2.32% breached risk threshold (-2.0%) [Entry: $5.65 -> Exit: $5.52]
+[DEMO / FUTURE] 🛑 Stop Loss Trigger: Drawdown -2.37% breached risk threshold (-2.0%) [Entry: $5.65 -> Exit: $5.52]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BEARISH - 35% Confidence)**
-> The short position was closed at a 2.3% loss after the price fell below the entry, breaching the stop‑loss threshold. The trade failed to achieve the intended profit.
+> [!info] **AI Thesis (BEARISH - 30% Confidence)**
+> The stop‑loss was triggered when the drawdown exceeded the risk threshold, indicating a bearish move from the entry price.
 > 
-> **Key Catalysts:** *Stop‑loss triggered by drawdown breach; no technical metrics available.*
+> **Key Catalysts:** *Stop‑loss breach of the -2.0% risk threshold.*
 
 ---
 
