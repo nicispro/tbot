@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 15:36:19 UTC"
+timestamp: "2026-08-26 15:48:20 UTC"
 ticker: "SUI/USDT"
 canonical_symbol: "SUI/USDT"
 base_symbol: "SUI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.7355
+price: 0.7373
 quantity: 1.0000
 order_value: 0.74
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787758579178"
+order_id: "CRYPTO-1787759300149"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,10 +30,10 @@ tags:
 # ⚡ Trade Execution: `SUI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 15:36:19 UTC`
+> - **Date & Time:** `2026-08-26 15:48:20 UTC`
 > - **Canonical Instrument:** `SUI/USDT` (SUI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.7355`
+> - **Action:** `BUY` @ `$0.7373`
 > - **Quantity:** `1.0000` shares/units
 > - **Total Value:** `$0.74`
 > - **Status:** `SUCCESS` (`FILLED`)
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.7355) vs 20-SMA ($0.7200) Deviation +2.15% [SL: $0.7098 | TP: $0.7723 | Risk: $0.03]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.7373) vs 20-SMA ($0.7201) Deviation +2.39% [SL: $0.7115 | TP: $0.7742 | Risk: $0.03]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a modest upside potential; risk‑reward ratio is roughly 1.4:1 and RSI near 50 indicates no overbought condition.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> The entry is justified by a 2.39% price deviation above the 20‑SMA, indicating upward momentum, with a modest risk‑to‑reward ratio (0.03 risk to 0.037 profit).
 > 
-> **Key Catalysts:** *Price above 20‑SMA, trend momentum entry, RSI near 50*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
