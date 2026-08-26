@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 15:30:09 UTC"
+timestamp: "2026-08-26 15:36:12 UTC"
 ticker: "TIA/USDT"
 canonical_symbol: "TIA/USDT"
 base_symbol: "TIA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.3479
+price: 0.3466
 quantity: 1.0000
 order_value: 0.35
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787758209854"
+order_id: "CRYPTO-1787758572361"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,10 +30,10 @@ tags:
 # ⚡ Trade Execution: `TIA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 15:30:09 UTC`
+> - **Date & Time:** `2026-08-26 15:36:12 UTC`
 > - **Canonical Instrument:** `TIA/USDT` (TIA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.3479`
+> - **Action:** `BUY` @ `$0.3466`
 > - **Quantity:** `1.0000` shares/units
 > - **Total Value:** `$0.35`
 > - **Status:** `SUCCESS` (`FILLED`)
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.3479) vs 20-SMA ($0.3313) Deviation +5.01% [SL: $0.3357 | TP: $0.3653 | Risk: $0.01]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.3466) vs 20-SMA ($0.3313) Deviation +4.62% [SL: $0.3345 | TP: $0.3639 | Risk: $0.01]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> The entry is above the 20‑SMA with a modest upside potential (TP 0.3653 vs SL 0.3357) and a reward‑to‑risk ratio of roughly 1.4:1, suggesting a favorable risk/reward profile.
+> The entry is above the 20‑SMA with a modest 4.62% deviation, and the target (0.3639) lies well below resistance (0.4229) while the stop (0.3345) is comfortably above support (0.2937), giving a reward/risk ratio of about 1.4:1.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+5.01% deviation) and a neutral RSI (50.73) indicate upward momentum, while the ATR (0.0264) supports manageable volatility.*
+> **Key Catalysts:** *Price momentum above the 20‑SMA and a favorable reward‑to‑risk profile*
 
 ---
 
