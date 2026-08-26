@@ -1,37 +1,37 @@
 ---
 type: autopsy
 date: 2026-08-26
-timestamp: "2026-08-26 15:05:00 UTC"
+timestamp: "2026-08-26 15:23:37 UTC"
 ticker: "ONDO/USDT"
-outcome: "LOSS"
-quadrant: "GOOD_DECISION_LOSS"
-process_quality_score: 80.0
-pnl_percent: -1.22
+outcome: "WIN"
+quadrant: "GOOD_DECISION_WIN"
+process_quality_score: 90.0
+pnl_percent: 0.39
 tags:
   - autopsy
-  - loss
+  - win
   - ondo
-  - good_decision_loss
+  - good_decision_win
 ---
 
 # 🔬 Trade Autopsy 2.0: `ONDO/USDT`
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `ONDO/USDT`
-> - **Realized Outcome:** `LOSS` (`-1.22%`)
-> - **Process Quality Score:** `80/100`
-> - **Quadrant Classification:** `GOOD_DECISION_LOSS`
+> - **Realized Outcome:** `WIN` (`+0.39%`)
+> - **Process Quality Score:** `90/100`
+> - **Quadrant Classification:** `GOOD_DECISION_WIN`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Require volume confirmation multiplier >= 1.5x before validating breakout entries."*
+> *"Triple-timeframe alignment provides consistent directional edge."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *LOSS*
+  *WIN*
 - **Alternative 2 (Delayed Entry for Confirmation):**
-  *LOSS*
+  *WIN*
