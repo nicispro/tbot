@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 15:42:23 UTC"
+timestamp: "2026-08-26 15:48:15 UTC"
 ticker: "APT/USDT"
 canonical_symbol: "APT/USDT"
 base_symbol: "APT"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "SELL"
-price: 0.5578
+price: 0.5576
 quantity: 1.0000
 order_value: 0.56
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787758943229"
+order_id: "CRYPTO-1787759295873"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BEARISH"
@@ -30,10 +30,10 @@ tags:
 # ⚡ Trade Execution: `APT/USDT` (SELL)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 15:42:23 UTC`
+> - **Date & Time:** `2026-08-26 15:48:15 UTC`
 > - **Canonical Instrument:** `APT/USDT` (APT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `SELL` @ `$0.5578`
+> - **Action:** `SELL` @ `$0.5576`
 > - **Quantity:** `1.0000` shares/units
 > - **Total Value:** `$0.56`
 > - **Status:** `SUCCESS` (`FILLED`)
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (SELL): Price ($0.5578) vs 20-SMA ($0.5750) Deviation -2.99% [SL: $0.5773 | TP: $0.5299 | Risk: $0.02]
+[DEMO / FUTURE] Trend Momentum Entry (SELL): Price ($0.5576) vs 20-SMA ($0.5750) Deviation -3.03% [SL: $0.5771 | TP: $0.5297 | Risk: $0.02]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BEARISH - 70% Confidence)**
-> Sell entry justified by price below the 20‑SMA and an RSI under 50, offering a reward‑to‑risk ratio of roughly 1.4:1.
+> The trade targets a price below the 20‑SMA with a favorable reward‑to‑risk ratio (≈1.43:1) and a stop just above the entry, but the RSI is near neutral and ATR moderate, indicating limited momentum strength.
 > 
-> **Key Catalysts:** *Price below 20‑SMA and RSI 44.8 indicating bearish momentum*
+> **Key Catalysts:** *Price below 20‑SMA, 3.03% deviation, RSI 44.79, support at 0.5155*
 
 ---
 
