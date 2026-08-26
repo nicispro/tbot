@@ -1,19 +1,19 @@
 ---
 type: trade
 date: 2026-08-26
-timestamp: "2026-08-26 06:00:24 UTC"
+timestamp: "2026-08-26 06:24:23 UTC"
 ticker: "INJ/USDT"
 action: "BUY"
-price: 5.5140
+price: 5.5180
 quantity: 1.0000
-order_value: 5.51
+order_value: 5.52
 status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1787724024394"
+order_id: "CRYPTO-1787725463876"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -24,32 +24,32 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-26 06:00:24 UTC`
+> - **Date & Time:** `2026-08-26 06:24:23 UTC`
 > - **Ticker:** `INJ/USDT`
-> - **Action:** `BUY` @ `$5.51`
+> - **Action:** `BUY` @ `$5.52`
 > - **Quantity:** `1.0000` shares/units
-> - **Total Value:** `$5.51`
+> - **Total Value:** `$5.52`
 > - **Status:** `SUCCESS` (`FILLED`)
 > - **Environment:** `DEMO`
 
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Trigger: Price ($5.51) vs 20-SMA ($4.68) Deviation +17.78%
+[DEMO / FUTURE] Trend Momentum Trigger: Price ($5.52) vs 20-SMA ($4.68) Deviation +17.86%
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the trade hypothesis indicates a potential bullish breakout. The price ($5.51) is above the 20-SMA ($4.68) with a significant deviation of 17.78%. However, some key metrics like RSI, ATR, support, and resistance are missing or unavailable.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is 17.86% above the 20‑period SMA, indicating upward momentum, but other technical data are unavailable.
 > 
-> **Key Catalysts:** *Price deviation from 20-SMA and trend momentum support the bullish case, but missing data limits the analysis's depth.*
+> **Key Catalysts:** *Price crossing above 20‑SMA with a +17.86% deviation*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.51`
-- **Actual Fill Price:** `$5.51`
+- **Expected Fill Price:** `$5.52`
+- **Actual Fill Price:** `$5.52`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
