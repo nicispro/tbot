@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-27
-timestamp: "2026-08-27 20:42:51 UTC"
+timestamp: "2026-08-27 21:28:12 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,7 +14,7 @@ quantity: 1612.0000
 order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787863370770"
+order_id: "CRYPTO-1787866092349"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-27 20:42:51 UTC`
+> - **Date & Time:** `2026-08-27 21:28:12 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0886`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading significantly above the 20-SMA with positive momentum, supported by a clear risk/reward structure defined by ATR-based stop loss and take profit levels. The absence of short/long SMA data limits trend confirmation depth, but current RSI and price action support a bullish bias.
+> Price is trading 13.88% above the 20-SMA, indicating strong upward momentum, though the RSI of 67.65 suggests the asset is approaching overbought territory. The trade offers a favorable risk-reward profile with a stop-loss at $0.0855 and target at $0.0930.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA (+13.88%) and RSI at 67.65 indicating strong but not overbought momentum.*
+> **Key Catalysts:** *Strong positive deviation from the 20-SMA (+13.88%) confirming trend momentum, supported by price holding above the $0.0689 support level.*
 
 ---
 
