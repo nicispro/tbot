@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-27
-timestamp: "2026-08-27 18:31:25 UTC"
+timestamp: "2026-08-27 19:34:28 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0882
-quantity: 1619.0000
-order_value: 142.80
+price: 0.0886
+quantity: 1612.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787855485147"
+order_id: "CRYPTO-1787859267860"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-27 18:31:25 UTC`
+> - **Date & Time:** `2026-08-27 19:34:28 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0882`
-> - **Quantity:** `1619.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0886`
+> - **Quantity:** `1612.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0777) Deviation +13.51% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0886) vs 20-SMA ($0.0778) Deviation +13.88% [SL: $0.0855 | TP: $0.0930 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 13.51% above the 20-SMA, indicating strong upward momentum, though the RSI of 67.22 suggests the asset is approaching overbought territory. The trade offers a favorable risk-reward profile with a stop loss at $0.0851 and a target at $0.0926.
+> Strong positive deviation from the 20-SMA indicates upward momentum, supported by an RSI of 67.75 that suggests bullish strength without immediate overbought exhaustion. The risk-reward ratio is favorable with a stop loss below recent support and a target near resistance.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA (+13.51%) and RSI at 67.22 indicating sustained bullish momentum.*
+> **Key Catalysts:** *Price trading 13.88% above the 20-SMA confirms trend momentum, while RSI at 67.75 supports continued upside potential before potential mean reversion.*
 
 ---
 
