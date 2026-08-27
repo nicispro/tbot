@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-27
-timestamp: "2026-08-27 15:06:31 UTC"
+timestamp: "2026-08-27 18:42:50 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.5150
+price: 7.4850
 quantity: 19.0000
-order_value: 142.78
+order_value: 142.22
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787843190814"
+order_id: "CRYPTO-1787856169882"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-27 15:06:31 UTC`
+> - **Date & Time:** `2026-08-27 18:42:50 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.5150`
+> - **Action:** `BUY` @ `$7.4850`
 > - **Quantity:** `19.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Total Value:** `$142.22`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.5150) vs 20-SMA ($6.8522) Deviation +9.67% [SL: $7.2520 | TP: $7.8907 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4850) vs 20-SMA ($6.8507) Deviation +9.26% [SL: $7.2230 | TP: $7.8593 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the proposed trade has a positive sentiment as the RSI (63.57) and ATR (0.432) indicate strong momentum and volatility. The deviation of 9.67% from the 20-SMA supports the entry.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is trading 9.26% above the 20-SMA with RSI at 63.1, indicating strong upward momentum without immediate overbought conditions. The risk-reward ratio is favorable with a stop loss at $7.2230 and target at $7.8593.
 > 
-> **Key Catalysts:** *Technical indicators point to a strong momentum and positive sentiment for AVAX/USDT.*
+> **Key Catalysts:** *Positive deviation from 20-SMA and moderate RSI level supporting trend continuation.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.51`
-- **Actual Fill Price:** `$7.51`
+- **Expected Fill Price:** `$7.49`
+- **Actual Fill Price:** `$7.49`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
