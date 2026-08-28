@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:20:59 UTC"
+timestamp: "2026-08-28 20:33:21 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77453.8000
+price: 77414.9000
 quantity: 0.0010
-order_value: 77.45
+order_value: 77.41
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787948459127"
+order_id: "CRYPTO-1787949200805"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 74
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:20:59 UTC`
+> - **Date & Time:** `2026-08-28 20:33:21 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,453.8000`
+> - **Action:** `BUY` @ `$77,414.9000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.45`
+> - **Total Value:** `$77.41`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,453.8000) vs 20-SMA ($70,332.7300) Deviation +10.12% [SL: $74,742.9170 | TP: $81,326.4900 | Risk: $2.71]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,414.9000) vs 20-SMA ($70,330.7850) Deviation +10.07% [SL: $74,705.3785 | TP: $81,285.6450 | Risk: $2.71]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 74% Confidence)**
-> The setup targets a momentum continuation toward the $81,085 resistance with a 1:1.43 risk/reward ratio, though the +10.12% deviation from the 20-SMA and RSI near 70 signal potential short-term overextension.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is well above the 20‑SMA (+10.07%) indicating strong upward momentum, but RSI is near overbought (69.74), suggesting caution; TP is close to resistance while SL is below support.
 > 
-> **Key Catalysts:** *Strong upward momentum relative to the 20-SMA and RSI approaching overbought levels, targeting the immediate resistance zone.*
+> **Key Catalysts:** *Price above 20‑SMA +10% deviation, trend momentum entry*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,453.80`
-- **Actual Fill Price:** `$77,453.80`
+- **Expected Fill Price:** `$77,414.90`
+- **Actual Fill Price:** `$77,414.90`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
