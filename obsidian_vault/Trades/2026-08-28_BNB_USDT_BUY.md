@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:11:19 UTC"
+timestamp: "2026-08-28 04:17:18 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 708.4000
+price: 711.1300
 quantity: 0.2000
-order_value: 141.68
+order_value: 142.23
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787890278894"
+order_id: "CRYPTO-1787890638201"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:11:19 UTC`
+> - **Date & Time:** `2026-08-28 04:17:18 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$708.4000`
+> - **Action:** `BUY` @ `$711.1300`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$141.68`
+> - **Total Value:** `$142.23`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.4000) vs 20-SMA ($648.3390) Deviation +9.26% [SL: $683.6060 | TP: $743.8200 | Risk: $4.96]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($711.1300) vs 20-SMA ($648.4725) Deviation +9.66% [SL: $686.2405 | TP: $746.6865 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> The proposed trade to buy BNB/USDT at $708.40 is based on a 9.26% deviation from the 20-SMA and an RSI of 79.34, indicating strong bullish momentum. The risk-to-reward ratio is favorable with a stop-loss at $683.6060 and take-profit at $743.8200.
+> The proposed trade in BNB/USDT shows a strong bullish sentiment with RSI at 81.27, indicating overbought conditions. The price deviation from 20-SMA is positive at 9.66%, and there is no significant resistance in sight. The risk-to-reward ratio is favorable with a stop-loss at $686.24 and take-profit at $746.69.
 > 
-> **Key Catalysts:** *Positive technical indicators and momentum support the trade.*
+> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and lack of significant resistance*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$708.40`
-- **Actual Fill Price:** `$708.40`
+- **Expected Fill Price:** `$711.13`
+- **Actual Fill Price:** `$711.13`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
