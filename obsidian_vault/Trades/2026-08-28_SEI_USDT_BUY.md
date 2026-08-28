@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:44:12 UTC"
+timestamp: "2026-08-28 00:50:07 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0483
-quantity: 2956.0000
-order_value: 142.77
+price: 0.0482
+quantity: 2963.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787877852458"
+order_id: "CRYPTO-1787878207175"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:44:12 UTC`
+> - **Date & Time:** `2026-08-28 00:50:07 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0483`
-> - **Quantity:** `2956.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.0482`
+> - **Quantity:** `2963.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0483) vs 20-SMA ($0.0433) Deviation +11.55% [SL: $0.0466 | TP: $0.0507 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0482) vs 20-SMA ($0.0433) Deviation +11.32% [SL: $0.0465 | TP: $0.0506 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above 50, indicating bullish momentum. The risk is defined by the stop-loss at $0.0466, and the potential reward is set at $0.0041 (from $0.0466 to $0.0507).
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale for buying SEI/USDT at $0.05 with a stop-loss at $0.0465 and take-profit at $0.0506 indicates a potential for profit. The RSI of 64.44 and the deviation of +11.32% from the 20-SMA support the bullish sentiment.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA and bullish RSI*
+> **Key Catalysts:** *Positive RSI (64.44), +11.32% deviation from 20-SMA, and strong trend momentum*
 
 ---
 
