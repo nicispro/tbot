@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:39:36 UTC"
+timestamp: "2026-08-28 07:15:06 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2103
-quantity: 679.0000
-order_value: 142.79
+price: 0.2094
+quantity: 682.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899176043"
+order_id: "CRYPTO-1787901306715"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:39:36 UTC`
+> - **Date & Time:** `2026-08-28 07:15:06 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2103`
-> - **Quantity:** `679.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.2094`
+> - **Quantity:** `682.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2103) vs 20-SMA ($0.1976) Deviation +6.43% [SL: $0.2029 | TP: $0.2208 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2094) vs 20-SMA ($0.1975) Deviation +6.03% [SL: $0.2021 | TP: $0.2199 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive deviation (+6.43%) from the 20-SMA and RSI value (59.44), this trade rationale indicates a potential for growth. The validated price of $0.2103 and defined stop-loss ($0.2029) and take-profit ($0.2208) levels provide a clear risk/reward framework.
+> Based on the given data, the proposed trade has a positive sentiment as the RSI (58.75) is within the favorable range and the price deviation (+6.03%) from the 20-SMA supports the entry. The validated price of $0.21 offers a potential upside target of $0.2199.
 > 
-> **Key Catalysts:** *Positive trend momentum, RSI value, and defined risk/reward levels*
+> **Key Catalysts:** *Positive RSI and price deviation from 20-SMA trigger the bullish sentiment.*
 
 ---
 
