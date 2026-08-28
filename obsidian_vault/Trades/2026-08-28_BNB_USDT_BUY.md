@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:24:12 UTC"
+timestamp: "2026-08-28 19:30:34 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 689.7000
+price: 690.0400
 quantity: 0.2000
-order_value: 137.94
+order_value: 138.01
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787945052055"
+order_id: "CRYPTO-1787945433966"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:24:12 UTC`
+> - **Date & Time:** `2026-08-28 19:30:34 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$689.7000`
+> - **Action:** `BUY` @ `$690.0400`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$137.94`
+> - **Total Value:** `$138.01`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($689.7000) vs 20-SMA ($647.4065) Deviation +6.53% [SL: $665.5605 | TP: $724.1850 | Risk: $4.83]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($690.0400) vs 20-SMA ($647.4250) Deviation +6.58% [SL: $665.8886 | TP: $724.5420 | Risk: $4.83]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a 6.53% deviation, indicating upward momentum; the TP is near the resistance level while the SL is well below support, providing a modest risk‑reward profile.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Buying at $690.04 with a stop at $665.89 and target $724.54 offers a ~1.4:1 risk‑reward, supported by a 6.58% price premium over the 20‑SMA and strong momentum.
 > 
-> **Key Catalysts:** *Price above 20‑SMA trend momentum entry*
+> **Key Catalysts:** *Price trading 6.58% above the 20‑SMA and RSI at 68.26 indicating bullish momentum*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$689.70`
-- **Actual Fill Price:** `$689.70`
+- **Expected Fill Price:** `$690.04`
+- **Actual Fill Price:** `$690.04`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
