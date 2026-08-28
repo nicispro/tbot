@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:07:50 UTC"
+timestamp: "2026-08-28 01:25:32 UTC"
 ticker: "ATOM/USDT"
 canonical_symbol: "ATOM/USDT"
 base_symbol: "ATOM"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5670
-quantity: 91.1000
-order_value: 142.75
+price: 1.5740
+quantity: 90.7000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787879270360"
+order_id: "CRYPTO-1787880332361"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ATOM/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:07:50 UTC`
+> - **Date & Time:** `2026-08-28 01:25:32 UTC`
 > - **Canonical Instrument:** `ATOM/USDT` (ATOM/USDT (Cosmos/Crypto on Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5670`
-> - **Quantity:** `91.1000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$1.5740`
+> - **Quantity:** `90.7000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.5670) vs 20-SMA ($1.4918) Deviation +5.04% [SL: $1.5122 | TP: $1.6454 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.5740) vs 20-SMA ($1.4921) Deviation +5.49% [SL: $1.5189 | TP: $1.6527 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The ATOM/USDT pair shows a 5.04% deviation from the 20-SMA, an RSI of 59.27, and a support level of 1.367. These indicators indicate a potential for price growth.
+> Based on the positive deviation (+5.49%) from the 20-SMA and RSI value (59.9), this trade proposal indicates bullish sentiment with a moderate risk.
 > 
-> **Key Catalysts:** *Deviation from the 20-SMA, RSI above 50, and support level met.*
+> **Key Catalysts:** *Trend momentum entry (BUY) and support level (1.367)*
 
 ---
 
