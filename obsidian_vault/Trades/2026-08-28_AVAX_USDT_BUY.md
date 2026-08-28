@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:05:02 UTC"
+timestamp: "2026-08-28 19:11:19 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2450
-quantity: 19.7000
-order_value: 142.73
+price: 7.2610
+quantity: 19.6000
+order_value: 142.32
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787943902160"
+order_id: "CRYPTO-1787944278839"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:05:02 UTC`
+> - **Date & Time:** `2026-08-28 19:11:19 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2450`
-> - **Quantity:** `19.7000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$7.2610`
+> - **Quantity:** `19.6000` shares/units
+> - **Total Value:** `$142.32`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2450) vs 20-SMA ($6.8909) Deviation +5.14% [SL: $6.9914 | TP: $7.6072 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2610) vs 20-SMA ($6.8918) Deviation +5.36% [SL: $7.0069 | TP: $7.6241 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.14% surpasses the threshold, RSI (56.71) indicates a positive momentum, and the price is above the support level (5.69). However, the data for short and long SMA is unavailable.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates potential for price appreciation. The validated price of $7.26 and calculated TP of $7.62 suggest a 5.82% potential return.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and above support level*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI crossing above 50 are the key technical catalysts for this trade proposal.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.25`
-- **Actual Fill Price:** `$7.25`
+- **Expected Fill Price:** `$7.26`
+- **Actual Fill Price:** `$7.26`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
