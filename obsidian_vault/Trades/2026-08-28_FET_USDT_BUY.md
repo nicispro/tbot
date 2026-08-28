@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:41:33 UTC"
+timestamp: "2026-08-28 15:58:48 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1598
-quantity: 893.0000
-order_value: 142.70
+price: 0.1573
+quantity: 908.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787931692925"
+order_id: "CRYPTO-1787932728382"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:41:33 UTC`
+> - **Date & Time:** `2026-08-28 15:58:48 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1598`
-> - **Quantity:** `893.0000` shares/units
-> - **Total Value:** `$142.70`
+> - **Action:** `BUY` @ `$0.1573`
+> - **Quantity:** `908.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1598) vs 20-SMA ($0.1452) Deviation +10.06% [SL: $0.1542 | TP: $0.1678 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1573) vs 20-SMA ($0.1451) Deviation +8.41% [SL: $0.1518 | TP: $0.1652 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a moderate RSI suggests upward momentum; the risk‑reward ratio is roughly 1:1.6 with a tight stop and a realistic target.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a positive sentiment as the RSI (54.3) indicates a moderate level of buying interest. The deviation of the price from the 20-SMA (8.41%) and the support level (0.1193) also support the bullish sentiment.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend‑momentum entry*
+> **Key Catalysts:** *Price deviation from 20-SMA (8.41%) and support level (0.1193) trigger the trade.*
 
 ---
 
