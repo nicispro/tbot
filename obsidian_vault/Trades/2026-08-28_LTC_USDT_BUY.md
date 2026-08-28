@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:59:15 UTC"
+timestamp: "2026-08-28 04:17:03 UTC"
 ticker: "LTC/USDT"
 canonical_symbol: "LTC/USDT"
 base_symbol: "LTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 49.3700
+price: 49.3900
 quantity: 2.8000
-order_value: 138.24
+order_value: 138.29
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787889555655"
+order_id: "CRYPTO-1787890623141"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:59:15 UTC`
+> - **Date & Time:** `2026-08-28 04:17:03 UTC`
 > - **Canonical Instrument:** `LTC/USDT` (LTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$49.3700`
+> - **Action:** `BUY` @ `$49.3900`
 > - **Quantity:** `2.8000` shares/units
-> - **Total Value:** `$138.24`
+> - **Total Value:** `$138.29`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($49.3700) vs 20-SMA ($47.5030) Deviation +3.93% [SL: $47.6420 | TP: $51.8385 | Risk: $4.84]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($49.3900) vs 20-SMA ($47.5040) Deviation +3.97% [SL: $47.6613 | TP: $51.8595 | Risk: $4.84]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80. The price deviation of +3.93% from the 20-SMA and RSI value of 57.35 indicate positive momentum. The support level of 43.38 and resistance level of 55.39 provide potential profit targets.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +3.97% from the 20-SMA and RSI value of 57.45 indicate potential growth. The support level of 43.38 and resistance level of 55.39 provide key price levels to monitor.
 > 
-> **Key Catalysts:** *Positive momentum (RSI 57.35), price deviation (+3.93% from 20-SMA), and defined support/resistance levels (43.38, 55.39)*
+> **Key Catalysts:** *Positive price deviation, RSI value, and key price levels*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$49.37`
-- **Actual Fill Price:** `$49.37`
+- **Expected Fill Price:** `$49.39`
+- **Actual Fill Price:** `$49.39`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
