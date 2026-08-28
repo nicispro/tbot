@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:07:54 UTC"
+timestamp: "2026-08-28 01:13:47 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,7 +14,7 @@ quantity: 2956.0000
 order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787879274543"
+order_id: "CRYPTO-1787879627283"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:07:54 UTC`
+> - **Date & Time:** `2026-08-28 01:13:47 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0483`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward rationale. The deviation of 11.55% surpasses the threshold, RSI is at a healthy level (64.9), and the price is above both short and long SMAs. However, the data for short and long SMAs is missing, which could impact the analysis.
+> Based on the given parameters, the trade rationale is positive with a 11.55% deviation and RSI of 64.9, indicating strong momentum. The price is below the support level of 0.035 and above the resistance level of 0.051.
 > 
-> **Key Catalysts:** *Price deviation (11.55%) and RSI (64.9) indicate potential bullish momentum, but missing SMAs data affects the analysis.*
+> **Key Catalysts:** *Strong momentum (RSI 64.9), deviation from 20-SMA, and crossing above resistance level*
 
 ---
 
