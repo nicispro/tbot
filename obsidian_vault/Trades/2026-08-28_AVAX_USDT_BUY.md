@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:23:53 UTC"
+timestamp: "2026-08-28 04:05:12 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4540
-quantity: 19.1000
-order_value: 142.37
+price: 7.4270
+quantity: 19.2000
+order_value: 142.60
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787887433624"
+order_id: "CRYPTO-1787889912176"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:23:53 UTC`
+> - **Date & Time:** `2026-08-28 04:05:12 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4540`
-> - **Quantity:** `19.1000` shares/units
-> - **Total Value:** `$142.37`
+> - **Action:** `BUY` @ `$7.4270`
+> - **Quantity:** `19.2000` shares/units
+> - **Total Value:** `$142.60`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4540) vs 20-SMA ($6.9014) Deviation +8.01% [SL: $7.1931 | TP: $7.8267 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4270) vs 20-SMA ($6.9001) Deviation +7.64% [SL: $7.1671 | TP: $7.7984 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (62.15) indicates a strong but not overbought market condition, and the price deviation from the 20-SMA (+8.01%) suggests a potential bullish momentum. The support level (5.69) is close to the validated price, providing a strong base for the trade.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is trading 7.64% above the 20-SMA with RSI at 61.39, indicating strong upward momentum without immediate overbought conditions. The risk-reward ratio is favorable with a stop loss at $7.1671 and target at $7.7984.
 > 
-> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and strong support level near validated price*
+> **Key Catalysts:** *Positive deviation from 20-SMA (+7.64%) and RSI momentum at 61.39*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.45`
-- **Actual Fill Price:** `$7.45`
+- **Expected Fill Price:** `$7.43`
+- **Actual Fill Price:** `$7.43`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
