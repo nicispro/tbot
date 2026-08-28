@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:32:10 UTC"
+timestamp: "2026-08-28 09:38:00 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1609
-quantity: 887.0000
-order_value: 142.72
+price: 0.1607
+quantity: 889.0000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787909530460"
+order_id: "CRYPTO-1787909879924"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:32:10 UTC`
+> - **Date & Time:** `2026-08-28 09:38:00 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1609`
-> - **Quantity:** `887.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$0.1607`
+> - **Quantity:** `889.0000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1609) vs 20-SMA ($0.1453) Deviation +10.74% [SL: $0.1553 | TP: $0.1689 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1607) vs 20-SMA ($0.1453) Deviation +10.60% [SL: $0.1551 | TP: $0.1687 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a positive deviation of 10.74% between the price ($0.1609) and the 20-SMA ($0.1453), RSI of 56.57, and support level of 0.1193.
+> Based on the given parameters, this trade hypothesis indicates a potential for profit as the price deviation from the 20-SMA is significant (10.60%) and RSI (56.43) is within the favorable range. However, the lack of short and long SMA data limits the analysis's depth.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level*
+> **Key Catalysts:** *Price deviation (10.60%) and favorable RSI (56.43) contribute to the bullish sentiment, but missing SMA data affects the confidence.*
 
 ---
 
