@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:57:31 UTC"
+timestamp: "2026-08-28 07:03:27 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1623
+price: 0.1622
 quantity: 880.0000
-order_value: 142.82
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787900251433"
+order_id: "CRYPTO-1787900607317"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:57:31 UTC`
+> - **Date & Time:** `2026-08-28 07:03:27 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1623`
+> - **Action:** `BUY` @ `$0.1622`
 > - **Quantity:** `880.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1623) vs 20-SMA ($0.1454) Deviation +11.62% [SL: $0.1566 | TP: $0.1704 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1622) vs 20-SMA ($0.1453) Deviation +11.63% [SL: $0.1565 | TP: $0.1703 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of 11.62% above the 20-SMA and RSI value of 57.53 indicate potential growth. The support level of 0.1193 and resistance level of 0.1843 provide risk management guidelines.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 11.63% deviation from the 20-SMA and an RSI of 57.46, indicating potential for growth. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI value drive the BULLISH sentiment.*
+> **Key Catalysts:** *Trend momentum entry (BUY) triggered by the deviation from 20-SMA and RSI value.*
 
 ---
 
