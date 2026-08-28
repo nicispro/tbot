@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:42:36 UTC"
+timestamp: "2026-08-28 14:48:31 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 79526.8000
+price: 79250.0000
 quantity: 0.0010
-order_value: 79.53
+order_value: 79.25
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787928156652"
+order_id: "CRYPTO-1787928510999"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:42:36 UTC`
+> - **Date & Time:** `2026-08-28 14:48:31 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$79,526.8000`
+> - **Action:** `BUY` @ `$79,250.0000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$79.53`
+> - **Total Value:** `$79.25`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,526.8000) vs 20-SMA ($70,436.3800) Deviation +12.91% [SL: $76,743.3620 | TP: $83,503.1400 | Risk: $2.78]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,250.0000) vs 20-SMA ($70,422.5200) Deviation +12.54% [SL: $76,476.2500 | TP: $83,212.5000 | Risk: $2.77]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is well above the 20‑SMA (+12.91%) indicating strong upward momentum, but the high RSI (79.2) signals overbought conditions; the stop‑loss is set below the 20‑SMA to limit downside while the target sits above resistance for a favorable risk‑reward ratio.
+> Price is well above the 20‑SMA with a 12.5% deviation, indicating strong upward momentum, but the high RSI suggests potential short‑term pullback risk.
 > 
-> **Key Catalysts:** *Price above 20‑SMA with significant deviation (+12.91%) and trend momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA and 12.5% deviation from SMA*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$79,526.80`
-- **Actual Fill Price:** `$79,526.80`
+- **Expected Fill Price:** `$79,250.00`
+- **Actual Fill Price:** `$79,250.00`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
