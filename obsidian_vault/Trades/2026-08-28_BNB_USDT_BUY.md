@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:08:42 UTC"
+timestamp: "2026-08-28 08:14:37 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 708.8000
+price: 708.9300
 quantity: 0.2000
-order_value: 141.76
+order_value: 141.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787904522287"
+order_id: "CRYPTO-1787904877189"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:08:42 UTC`
+> - **Date & Time:** `2026-08-28 08:14:37 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$708.8000`
+> - **Action:** `BUY` @ `$708.9300`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$141.76`
+> - **Total Value:** `$141.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.8000) vs 20-SMA ($648.3610) Deviation +9.32% [SL: $683.9920 | TP: $744.2400 | Risk: $4.96]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.9300) vs 20-SMA ($648.3675) Deviation +9.34% [SL: $684.1174 | TP: $744.3765 | Risk: $4.96]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The proposed trade in BNB/USDT exhibits a strong bullish sentiment with a 85% confidence score. The RSI (79.65) and dip percentage (DATA_UNAVAILABLE) indicate an overbought and potentially strong upward momentum. The validated price is above both short_sma (DATA_UNAVAILABLE) and long_sma (DATA_UNAVAILABLE), suggesting a potential breakout. The target price (TP: $744.24) is above the resistance level (726.93), suggesting potential for capital appreciation.
+> Based on the positive deviation of price ($708.93) from the 20-SMA ($648.3675) at 9.34% and RSI at 79.75, we have a strong bullish signal.
 > 
-> **Key Catalysts:** *Positive RSI, overbought conditions, and potential breakout above key moving averages.*
+> **Key Catalysts:** *Positive price deviation, high RSI (79.75), and strong trend momentum*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$708.80`
-- **Actual Fill Price:** `$708.80`
+- **Expected Fill Price:** `$708.93`
+- **Actual Fill Price:** `$708.93`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
