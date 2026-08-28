@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:52:05 UTC"
+timestamp: "2026-08-28 20:58:21 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0875
-quantity: 1632.0000
-order_value: 142.80
+price: 0.0874
+quantity: 1634.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787950324779"
+order_id: "CRYPTO-1787950700894"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:52:05 UTC`
+> - **Date & Time:** `2026-08-28 20:58:21 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0875`
-> - **Quantity:** `1632.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0874`
+> - **Quantity:** `1634.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0849) Deviation +3.06% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0849) Deviation +2.94% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest +3.06% deviation, RSI is neutral (50.76) and ATR is low, indicating a controlled risk environment. The trade offers a tight stop at $0.0844 and a target near $0.0919, providing a favorable risk‑reward profile.
+> The entry is justified by a price above the 20‑SMA and a modest upside target of $0.0918 against a stop at $0.0843, offering a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.06%) and proximity to resistance at $0.1094*
+> **Key Catalysts:** *Price above 20‑SMA (+2.94% deviation) and proximity to resistance at $0.1094*
 
 ---
 
