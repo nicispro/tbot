@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:26:03 UTC"
+timestamp: "2026-08-28 14:42:24 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2072
-quantity: 689.0000
-order_value: 142.76
+price: 0.2104
+quantity: 678.0000
+order_value: 142.65
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787923562974"
+order_id: "CRYPTO-1787928144314"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:26:03 UTC`
+> - **Date & Time:** `2026-08-28 14:42:24 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2072`
-> - **Quantity:** `689.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.2104`
+> - **Quantity:** `678.0000` shares/units
+> - **Total Value:** `$142.65`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2072) vs 20-SMA ($0.1974) Deviation +4.96% [SL: $0.1999 | TP: $0.2176 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2104) vs 20-SMA ($0.1976) Deviation +6.48% [SL: $0.2030 | TP: $0.2209 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The ADA/USDT pair presents a dip percentage of 13.64% and an RSI of 57.18, indicating a potential buying opportunity. The validated price is $0.21, with a target price of $0.2176 and stop-loss of $0.1999.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation (+6.48%) between the validated price ($0.2104) and 20-SMA ($0.1976), along with an RSI of 59.52, we have a strong bullish signal for ADA/USDT.
 > 
-> **Key Catalysts:** *The dip percentage and RSI values suggest an attractive entry point for buyers, while the validated price and target price indicate a potential for profit.*
+> **Key Catalysts:** *Positive price deviation and RSI above 50 indicate potential for price appreciation.*
 
 ---
 
