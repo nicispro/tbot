@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:42:22 UTC"
+timestamp: "2026-08-28 14:48:13 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0907
-quantity: 1575.0000
-order_value: 142.85
+price: 0.0905
+quantity: 1578.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787928142050"
+order_id: "CRYPTO-1787928493368"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:42:22 UTC`
+> - **Date & Time:** `2026-08-28 14:48:13 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0907`
-> - **Quantity:** `1575.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0905`
+> - **Quantity:** `1578.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0907) vs 20-SMA ($0.0851) Deviation +6.58% [SL: $0.0875 | TP: $0.0952 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0905) vs 20-SMA ($0.0851) Deviation +6.35% [SL: $0.0873 | TP: $0.0950 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale is positive as the price deviates significantly from the 20-SMA and RSI is above 50, indicating potential bullish momentum. The risk is defined by the stop-loss at $0.0875, and the target is set at $0.0952.
+> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is driven by a 6.35% deviation from the 20-SMA, RSI of 55.63, and support level at $0.0722. The target price of $0.0950 represents a potential 6.35% upside.
 > 
-> **Key Catalysts:** *Price deviating from 20-SMA and positive RSI indicate potential bullish momentum.*
+> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and support level met*
 
 ---
 
