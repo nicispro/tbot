@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:34:09 UTC"
+timestamp: "2026-08-28 17:46:01 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0886
-quantity: 1612.0000
-order_value: 142.82
+price: 0.0881
+quantity: 1621.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787938449642"
+order_id: "CRYPTO-1787939161521"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:34:09 UTC`
+> - **Date & Time:** `2026-08-28 17:46:01 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0886`
-> - **Quantity:** `1612.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0881`
+> - **Quantity:** `1621.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0886) vs 20-SMA ($0.0850) Deviation +4.24% [SL: $0.0855 | TP: $0.0930 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0881) vs 20-SMA ($0.0849) Deviation +3.77% [SL: $0.0850 | TP: $0.0925 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 4.24% deviation between the current price ($0.09) and the 20-SMA ($0.0850), an RSI of 52.29, and support at $0.0722.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 3.77% deviation from the 20-SMA and an RSI of 51.58. The support level is at 0.0722, and the target is at 0.1094.
 > 
-> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and support level*
+> **Key Catalysts:** *Positive trend momentum and proximity to support/resistance levels*
 
 ---
 
