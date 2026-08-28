@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:45:38 UTC"
+timestamp: "2026-08-28 07:03:23 UTC"
 ticker: "AKE/USDT"
 canonical_symbol: "AKE/USDT"
 base_symbol: "AKE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0085
-quantity: 16778.0000
-order_value: 142.61
+price: 0.0084
+quantity: 17006.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899538576"
+order_id: "CRYPTO-1787900602987"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AKE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:45:38 UTC`
+> - **Date & Time:** `2026-08-28 07:03:23 UTC`
 > - **Canonical Instrument:** `AKE/USDT` (AKE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0085`
-> - **Quantity:** `16778.0000` shares/units
-> - **Total Value:** `$142.61`
+> - **Action:** `BUY` @ `$0.0084`
+> - **Quantity:** `17006.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.0085) vs 20-SMA ($0.0077) Deviation +10.39% [SL: $0.0082 | TP: $0.0089 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.0084) vs 20-SMA ($0.0077) Deviation +9.09% [SL: $0.0081 | TP: $0.0088 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.39% deviation from the 20-SMA and an RSI of 60.18. The support level is at 0.0038, and the trigger price is at a reasonable risk level of $5.00.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation (+9.09%) from the 20-SMA and RSI reading (59.69), this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Positive RSI (60.18), deviation from 20-SMA, and support level at 0.0038*
+> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a 9.09% deviation from 20-SMA and RSI reading above 50*
 
 ---
 
