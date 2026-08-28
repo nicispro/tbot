@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 11:45:31 UTC"
+timestamp: "2026-08-28 11:51:34 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3630
+price: 5.3600
 quantity: 26.6000
-order_value: 142.66
+order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787917531326"
+order_id: "CRYPTO-1787917894194"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 11:45:31 UTC`
+> - **Date & Time:** `2026-08-28 11:51:34 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3630`
+> - **Action:** `BUY` @ `$5.3600`
 > - **Quantity:** `26.6000` shares/units
-> - **Total Value:** `$142.66`
+> - **Total Value:** `$142.58`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3630) vs 20-SMA ($4.7806) Deviation +12.18% [SL: $5.1753 | TP: $5.6311 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3600) vs 20-SMA ($4.7805) Deviation +12.12% [SL: $5.1724 | TP: $5.6280 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a bullish RSI and moderate ATR; TP lies above resistance while SL is below support, providing a favorable risk/reward profile.
+> Price is 12% above the 20‑SMA with RSI at 60.4, offering a ~1.4:1 reward‑to‑risk ratio (TP $5.6280 vs SL $5.1724).
 > 
-> **Key Catalysts:** *Price crossing above the 20‑SMA and RSI of 60.53 indicating upward momentum*
+> **Key Catalysts:** *Trend momentum entry confirmed by price deviation above 20‑SMA and bullish RSI*
 
 ---
 
