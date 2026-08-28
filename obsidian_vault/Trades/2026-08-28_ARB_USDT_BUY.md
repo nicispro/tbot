@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:42:25 UTC"
+timestamp: "2026-08-28 22:54:27 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0875
-quantity: 1632.0000
-order_value: 142.80
+price: 0.0877
+quantity: 1628.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787956945077"
+order_id: "CRYPTO-1787957667276"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:42:25 UTC`
+> - **Date & Time:** `2026-08-28 22:54:27 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0875`
-> - **Quantity:** `1632.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0877`
+> - **Quantity:** `1628.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0849) Deviation +3.06% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0849) Deviation +3.30% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is trading above the 20‑SMA with a modest upside to the TP and a stop below key support, indicating a controlled bullish move.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is driven by a 3.30% deviation positive price movement from the 20-SMA ($0.0849) and an RSI of 51.03, indicating potential bullish momentum.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.06%) and RSI near 50.76 suggesting potential upward momentum*
+> **Key Catalysts:** *Positive price deviation and moderate RSI suggest a potential bullish catalyst.*
 
 ---
 
