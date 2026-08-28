@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:40:10 UTC"
+timestamp: "2026-08-28 17:46:10 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -14,7 +14,7 @@ quantity: 32.2000
 order_value: 142.49
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787938809997"
+order_id: "CRYPTO-1787939170080"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:40:10 UTC`
+> - **Date & Time:** `2026-08-28 17:46:10 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$4.4250`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is well above the 20‑SMA with a strong upward deviation and a moderate RSI, indicating bullish momentum; the trade offers a favorable risk‑reward profile with a TP near 4.65 and SL at 4.27.
+> Buy at $4.42 with a 14% upside over the 20‑SMA, moderate RSI and ATR indicating manageable volatility; target $4.6463 offers ~5.5% upside while stop $4.2701 limits loss to ~3.5%.
 > 
-> **Key Catalysts:** *Price crossing above the 20‑SMA (+14.28% deviation) and the current RSI of 60.95 supporting upward momentum*
+> **Key Catalysts:** *Price above 20‑SMA, RSI above 50, and ATR‑based volatility support a bullish momentum entry.*
 
 ---
 
