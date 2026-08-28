@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:58:08 UTC"
+timestamp: "2026-08-28 06:04:03 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1616
-quantity: 884.0000
-order_value: 142.85
+price: 0.1621
+quantity: 881.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787896688018"
+order_id: "CRYPTO-1787897043305"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:58:08 UTC`
+> - **Date & Time:** `2026-08-28 06:04:03 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1616`
-> - **Quantity:** `884.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.1621`
+> - **Quantity:** `881.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1616) vs 20-SMA ($0.1453) Deviation +11.22% [SL: $0.1559 | TP: $0.1697 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1621) vs 20-SMA ($0.1453) Deviation +11.56% [SL: $0.1564 | TP: $0.1702 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying FET/USDT at $0.16 is due to a 11.22% deviation from the 20-SMA favoring a bullish trend, RSI at a favorable level of 57.04, and support at $0.1193.
+> Based on the given data, the trade rationale for buying FET/USDT at $0.16 is due to a 11.56% deviation in favor of the bullish trend, with an RSI of 57.39 indicating a potential price increase.
 > 
-> **Key Catalysts:** *Positive trend momentum, RSI, and support level*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish sentiment.*
 
 ---
 
