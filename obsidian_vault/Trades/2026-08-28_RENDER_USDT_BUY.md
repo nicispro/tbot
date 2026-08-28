@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:38:12 UTC"
+timestamp: "2026-08-28 00:44:14 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5360
-quantity: 93.0000
-order_value: 142.85
+price: 1.5370
+quantity: 92.9000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787877492227"
+order_id: "CRYPTO-1787877854397"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:38:12 UTC`
+> - **Date & Time:** `2026-08-28 00:44:14 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5360`
-> - **Quantity:** `93.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$1.5370`
+> - **Quantity:** `92.9000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5360) vs 20-SMA ($1.3756) Deviation +11.66% [SL: $1.4822 | TP: $1.6128 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5370) vs 20-SMA ($1.3756) Deviation +11.73% [SL: $1.4832 | TP: $1.6139 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.66% deviation from the 20-SMA and an RSI of 65.9. The support level is at 1.152, and the trade has a potential take-profit at 1.637.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of 11.73% from the trend momentum entry and RSI reading of 66.07, we have a strong bullish signal.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and strong RSI indicate potential bullish momentum in RENDER/USDT.*
+> **Key Catalysts:** *Trend momentum entry and RSI reading indicate potential for price appreciation.*
 
 ---
 
