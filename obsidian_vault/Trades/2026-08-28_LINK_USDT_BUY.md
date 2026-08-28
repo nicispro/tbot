@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:40:22 UTC"
+timestamp: "2026-08-28 18:46:26 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.2990
+price: 11.3040
 quantity: 12.6000
-order_value: 142.37
+order_value: 142.43
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787942422648"
+order_id: "CRYPTO-1787942786457"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:40:22 UTC`
+> - **Date & Time:** `2026-08-28 18:46:26 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.2990`
+> - **Action:** `BUY` @ `$11.3040`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.37`
+> - **Total Value:** `$142.43`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.2990) vs 20-SMA ($10.1916) Deviation +10.87% [SL: $10.9035 | TP: $11.8640 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3040) vs 20-SMA ($10.1918) Deviation +10.91% [SL: $10.9084 | TP: $11.8692 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑period SMA with a +10.87% deviation, indicating upward momentum and a moderate reward‑to‑risk of ~1.4 (TP $11.8640 vs SL $10.9035).
+> Price is above the 20‑SMA with a strong upward deviation, offering a modest reward‑to‑risk of ~1.4x and a clear trend‑momentum entry.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and significant deviation from SMA*
+> **Key Catalysts:** *Price above 20‑SMA (+10.91% deviation) indicating bullish momentum*
 
 ---
 
