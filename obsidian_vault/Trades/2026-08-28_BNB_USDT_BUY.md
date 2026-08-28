@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:24:54 UTC"
+timestamp: "2026-08-28 10:30:56 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 705.0400
+price: 705.6900
 quantity: 0.2000
-order_value: 141.01
+order_value: 141.14
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787912693934"
+order_id: "CRYPTO-1787913056248"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:24:54 UTC`
+> - **Date & Time:** `2026-08-28 10:30:56 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$705.0400`
+> - **Action:** `BUY` @ `$705.6900`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$141.01`
+> - **Total Value:** `$141.14`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($705.0400) vs 20-SMA ($648.1730) Deviation +8.77% [SL: $680.3636 | TP: $740.2920 | Risk: $4.94]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($705.6900) vs 20-SMA ($648.2055) Deviation +8.87% [SL: $680.9909 | TP: $740.9745 | Risk: $4.94]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The proposed trade in BNB/USDT shows a strong bullish signal with a 8.77% deviation from the 20-SMA and an RSI of 77.07. The validated price of $705.04 falls within the resistance level of 598.14 to 726.93.
+> The BULLISH sentiment is based on a 8.87% deviation from the 20-SMA, an RSI of 77.5, and strong support at $598.14. These indicators suggest a potential for price growth.
 > 
-> **Key Catalysts:** *Positive RSI (77.07), significant deviation from 20-SMA, and trading within resistance levels*
+> **Key Catalysts:** *Deviation from the 20-SMA, high RSI, and strong support drive the BULLISH sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$705.04`
-- **Actual Fill Price:** `$705.04`
+- **Expected Fill Price:** `$705.69`
+- **Actual Fill Price:** `$705.69`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
