@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:56:39 UTC"
+timestamp: "2026-08-28 08:02:38 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3480
+price: 5.3450
 quantity: 26.7000
-order_value: 142.79
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787903798804"
+order_id: "CRYPTO-1787904158459"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:56:39 UTC`
+> - **Date & Time:** `2026-08-28 08:02:38 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3480`
+> - **Action:** `BUY` @ `$5.3450`
 > - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.79`
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3480) vs 20-SMA ($4.7800) Deviation +11.88% [SL: $5.1608 | TP: $5.6154 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3450) vs 20-SMA ($4.7794) Deviation +11.83% [SL: $5.1579 | TP: $5.6123 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale for buying INJ/USDT at $5.35 is driven by a positive RSI (60.11) and a significant deviation (11.88%) between the short-term SMA ($5.3480) and the long-term SMA ($4.7800). The support level of $3.78 is close, providing a potential strong floor for the investment.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +11.83% from the 20-SMA and RSI value of 59.87 indicate bullish momentum. However, the missing short_sma and long_sma values impact the accuracy of the analysis.
 > 
-> **Key Catalysts:** *Positive RSI and significant SMA deviation with support near $3.78*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI values drive the bullish sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.35`
-- **Actual Fill Price:** `$5.35`
+- **Expected Fill Price:** `$5.34`
+- **Actual Fill Price:** `$5.34`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
