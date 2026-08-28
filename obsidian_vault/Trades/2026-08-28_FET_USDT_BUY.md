@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:46:04 UTC"
+timestamp: "2026-08-28 17:52:08 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1542
-quantity: 926.0000
-order_value: 142.79
+price: 0.1544
+quantity: 925.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787939164022"
+order_id: "CRYPTO-1787939527864"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:46:04 UTC`
+> - **Date & Time:** `2026-08-28 17:52:08 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1542`
-> - **Quantity:** `926.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.1544`
+> - **Quantity:** `925.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1542) vs 20-SMA ($0.1449) Deviation +6.42% [SL: $0.1488 | TP: $0.1619 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1544) vs 20-SMA ($0.1450) Deviation +6.48% [SL: $0.1490 | TP: $0.1621 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying FET/USDT at $0.15 is driven by a 6.42% deviation from the 20-SMA, an RSI of 52.39 indicating a potential oversold condition, and a support level at $0.1193. The risk is defined at $5.00.
+> Based on the positive deviation of price from 20-SMA and RSI value of 52.5, this trade proposal indicates upside potential. The validated price of $0.15 and calculated target price of $0.1621 present a risk of $5.00.
 > 
-> **Key Catalysts:** *Positive momentum and potential oversold conditions support the bullish sentiment.*
+> **Key Catalysts:** *Price deviating 6.48% positively from 20-SMA and RSI value above 50 indicate potential bullish momentum.*
 
 ---
 
