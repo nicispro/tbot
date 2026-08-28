@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:49:03 UTC"
+timestamp: "2026-08-28 01:55:00 UTC"
 ticker: "SUI/USDT"
 canonical_symbol: "SUI/USDT"
 base_symbol: "SUI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.7875
+price: 0.7862
 quantity: 181.0000
-order_value: 142.54
+order_value: 142.30
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787881742825"
+order_id: "CRYPTO-1787882100313"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SUI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:49:03 UTC`
+> - **Date & Time:** `2026-08-28 01:55:00 UTC`
 > - **Canonical Instrument:** `SUI/USDT` (SUI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.7875`
+> - **Action:** `BUY` @ `$0.7862`
 > - **Quantity:** `181.0000` shares/units
-> - **Total Value:** `$142.54`
+> - **Total Value:** `$142.30`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.7875) vs 20-SMA ($0.7317) Deviation +7.63% [SL: $0.7599 | TP: $0.8269 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.7862) vs 20-SMA ($0.7316) Deviation +7.46% [SL: $0.7587 | TP: $0.8255 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +7.63% from the 20-SMA and RSI value of 57.75 indicate positive momentum. However, the missing short_sma and long_sma values impact the overall analysis.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The trade entry point is triggered by the positive deviation of 7.46% between the price ($0.7862) and the 20-SMA ($0.7316). The RSI value of 57.57 indicates a positive momentum.
 > 
-> **Key Catalysts:** *Positive momentum (RSI=57.75), price deviation (+7.63% from 20-SMA), but missing short_sma and long_sma values*
+> **Key Catalysts:** *Positive RSI (57.57), positive price deviation (7.46%) from 20-SMA, and support level at 0.5791.*
 
 ---
 
