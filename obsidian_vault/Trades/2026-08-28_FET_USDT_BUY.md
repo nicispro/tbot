@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:30:46 UTC"
+timestamp: "2026-08-28 02:36:41 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1619
-quantity: 882.0000
-order_value: 142.80
+price: 0.1620
+quantity: 881.0000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787884246250"
+order_id: "CRYPTO-1787884601033"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:30:46 UTC`
+> - **Date & Time:** `2026-08-28 02:36:41 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1619`
-> - **Quantity:** `882.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.1620`
+> - **Quantity:** `881.0000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1619) vs 20-SMA ($0.1453) Deviation +11.42% [SL: $0.1562 | TP: $0.1700 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (57.18) and ATR (0.014) indicate positive momentum and low volatility, respectively. The price deviates 11.42% above the 20-SMA, suggesting a potential bullish breakout.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, this trade proposal shows potential as the deviation from the 20-SMA is significant (11.49%) and RSI (57.32) indicates a positive momentum. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Positive momentum indicators and price deviation above 20-SMA*
+> **Key Catalysts:** *Positive RSI and significant deviation from 20-SMA*
 
 ---
 
