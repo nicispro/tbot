@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:50:30 UTC"
+timestamp: "2026-08-28 08:56:20 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1611
-quantity: 886.0000
-order_value: 142.73
+price: 0.1606
+quantity: 889.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787907029778"
+order_id: "CRYPTO-1787907379805"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:50:30 UTC`
+> - **Date & Time:** `2026-08-28 08:56:20 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1611`
-> - **Quantity:** `886.0000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$0.1606`
+> - **Quantity:** `889.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1611) vs 20-SMA ($0.1453) Deviation +10.87% [SL: $0.1555 | TP: $0.1692 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1606) vs 20-SMA ($0.1453) Deviation +10.53% [SL: $0.1550 | TP: $0.1686 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, this trade hypothesis indicates a potential for profit as the price deviation from the 20-SMA is significant (10.87%) and RSI (56.7) is in the overbought zone, suggesting a potential reversal. However, the data for short_sma and dip_percentage is unavailable.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +10.53% from the 20-SMA supports a bullish sentiment. The RSI (56.37) indicates a potential buying opportunity.
 > 
-> **Key Catalysts:** *Price deviation from 20-SMA and overbought RSI conditions are the key technical catalysts for this trade hypothesis.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and a potential support level at 0.1193.*
 
 ---
 
