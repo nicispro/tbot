@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:56:43 UTC"
+timestamp: "2026-08-28 08:02:43 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,11 +14,11 @@ quantity: 1632.0000
 order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787903803513"
+order_id: "CRYPTO-1787904163158"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:56:43 UTC`
+> - **Date & Time:** `2026-08-28 08:02:43 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0875`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.32% deviation and RSI of 64.83, indicating bullish momentum. The support level is at 0.0689, and the buy trigger occurs at a validated price of $0.09.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential price surge with a risk of $5.00. The RSI (64.81) and dip percentage (DATA_UNAVAILABLE) indicate a strong buying signal, while the trend momentum entry supports a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from the 20-SMA support the BULLISH sentiment.*
+> **Key Catalysts:** *RSI (64.81), trend momentum entry, and potential price surge catalysts are present.*
 
 ---
 
