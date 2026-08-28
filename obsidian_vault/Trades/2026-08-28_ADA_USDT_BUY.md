@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:42:24 UTC"
+timestamp: "2026-08-28 15:12:01 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2104
-quantity: 678.0000
-order_value: 142.65
+price: 0.2084
+quantity: 685.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787928144314"
+order_id: "CRYPTO-1787929921572"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:42:24 UTC`
+> - **Date & Time:** `2026-08-28 15:12:01 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2104`
-> - **Quantity:** `678.0000` shares/units
-> - **Total Value:** `$142.65`
+> - **Action:** `BUY` @ `$0.2084`
+> - **Quantity:** `685.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2104) vs 20-SMA ($0.1976) Deviation +6.48% [SL: $0.2030 | TP: $0.2209 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2084) vs 20-SMA ($0.1975) Deviation +5.52% [SL: $0.2011 | TP: $0.2188 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation (+6.48%) between the validated price ($0.2104) and 20-SMA ($0.1976), along with an RSI of 59.52, we have a strong bullish signal for ADA/USDT.
+> Based on the given parameters, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The entry trigger is based on a 5.52% deviation from the 20-SMA, RSI of 57.99, and support level of 0.1696. The validated price is $0.21, with a stop-loss at $0.2011 and take-profit at $0.2188.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI above 50 indicate potential for price appreciation.*
+> **Key Catalysts:** *Positive technical indicators and momentum support the trade execution.*
 
 ---
 
