@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:54:23 UTC"
+timestamp: "2026-08-28 23:00:34 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,11 +14,11 @@ quantity: 98.7000
 order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787957662842"
+order_id: "CRYPTO-1787958034652"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:54:23 UTC`
+> - **Date & Time:** `2026-08-28 23:00:34 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4470`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of 5.54% and RSI value of 53.98, this trade proposal indicates bullish sentiment. The validated price is $1.45 with a target price of $1.5193.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.54% and RSI of 53.98 indicate potential growth. The support level of 1.152 suggests a low risk.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50 suggest upward momentum*
+> **Key Catalysts:** *Trend momentum entry, support level, and positive RSI and deviation metrics drive the bullish sentiment.*
 
 ---
 
