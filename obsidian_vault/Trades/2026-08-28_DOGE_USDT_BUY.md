@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:46:55 UTC"
+timestamp: "2026-08-28 04:52:51 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0877
+quantity: 1628.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787892414961"
+order_id: "CRYPTO-1787892771555"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:46:55 UTC`
+> - **Date & Time:** `2026-08-28 04:52:51 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0877`
+> - **Quantity:** `1628.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0786) Deviation +11.45% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0786) Deviation +11.58% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price increase from the validated price of $0.09. The RSI (64.95) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum. However, the short_sma (DATA_UNAVAILABLE), long_sma (DATA_UNAVAILABLE), and support (0.0689) levels are missing crucial information.
+> Based on the given metrics, the trade rationale is a potential price increase with a risk of $5.00. The RSI (65.15) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the support level (0.0689) suggests a potential buying opportunity.
 > 
-> **Key Catalysts:** *Positive RSI and momentum, but lack of key technical data hampers a comprehensive analysis.*
+> **Key Catalysts:** *Positive RSI and support level indicate a potential bullish catalyst.*
 
 ---
 
