@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:58:40 UTC"
+timestamp: "2026-08-28 05:04:34 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3420
+price: 5.3390
 quantity: 26.7000
-order_value: 142.63
+order_value: 142.55
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787893120661"
+order_id: "CRYPTO-1787893474421"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:58:40 UTC`
+> - **Date & Time:** `2026-08-28 05:04:34 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3420`
+> - **Action:** `BUY` @ `$5.3390`
 > - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.63`
+> - **Total Value:** `$142.55`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3420) vs 20-SMA ($4.7797) Deviation +11.76% [SL: $5.1550 | TP: $5.6091 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3390) vs 20-SMA ($4.7794) Deviation +11.71% [SL: $5.1521 | TP: $5.6059 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.76% deviation and RSI of 59.98, indicating an upward momentum. The validated price is above the resistance level (5.991).
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The trend momentum entry triggers a BUY signal with a validated price of $5.34. The RSI (59.87) and ATR (0.4099) indicate positive momentum and stability, respectively. The support level (3.779) is close to the validated price, suggesting potential strength. The resistance level (5.991) is above the validated price, indicating potential for growth.
 > 
-> **Key Catalysts:** *Positive deviation, RSI above 50 and validated price above resistance level*
+> **Key Catalysts:** *Positive RSI, ATR, and support level support the BULLISH sentiment.*
 
 ---
 
