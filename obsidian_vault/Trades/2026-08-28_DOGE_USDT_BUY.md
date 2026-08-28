@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:04:39 UTC"
+timestamp: "2026-08-28 05:10:32 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0875
+quantity: 1632.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787893479380"
+order_id: "CRYPTO-1787893832294"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:04:39 UTC`
+> - **Date & Time:** `2026-08-28 05:10:32 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0875`
+> - **Quantity:** `1632.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0786) Deviation +11.45% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0786) Deviation +11.32% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price surge with a risk of $5.00. The RSI (64.95) and dip percentage (DATA_UNAVAILABLE) indicate a strong buying signal. However, the short_sma (DATA_UNAVAILABLE), long_sma (DATA_UNAVAILABLE), and ATR (0.0053) suggest caution. The trade has a positive risk/reward ratio.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> The trade rationale for buying DOGE/USDT at $0.09 is based on a 11.32% deviation from the 20-SMA, an RSI of 64.72, and support at $0.0689. The risk is set at $5.00.
 > 
-> **Key Catalysts:** *Positive RSI and buying signal, but missing key SMA and ATR data*
+> **Key Catalysts:** *Positive technical indicators and potential support level*
 
 ---
 
