@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:08:15 UTC"
+timestamp: "2026-08-28 20:14:30 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2640
+price: 7.2800
 quantity: 19.6000
-order_value: 142.37
+order_value: 142.69
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787947695334"
+order_id: "CRYPTO-1787948070480"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:08:15 UTC`
+> - **Date & Time:** `2026-08-28 20:14:30 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2640`
+> - **Action:** `BUY` @ `$7.2800`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.37`
+> - **Total Value:** `$142.69`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2640) vs 20-SMA ($6.8919) Deviation +5.40% [SL: $7.0098 | TP: $7.6272 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2800) vs 20-SMA ($6.8927) Deviation +5.62% [SL: $7.0252 | TP: $7.6440 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price ($7.26) from 20-SMA ($6.8919) at 5.40% and RSI (57.16) indicating bullish momentum, we have a BULLISH sentiment.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Price deviation and RSI values point to potential price appreciation.*
+> **Key Catalysts:** *Price deviation (+5.62%) and RSI (57.55) support the bullish rationale.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.26`
-- **Actual Fill Price:** `$7.26`
+- **Expected Fill Price:** `$7.28`
+- **Actual Fill Price:** `$7.28`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
