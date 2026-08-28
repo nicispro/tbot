@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:15:53 UTC"
+timestamp: "2026-08-28 06:21:55 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1622
-quantity: 880.0000
-order_value: 142.74
+price: 0.1620
+quantity: 881.0000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897753517"
+order_id: "CRYPTO-1787898114939"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:15:53 UTC`
+> - **Date & Time:** `2026-08-28 06:21:55 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1622`
-> - **Quantity:** `880.0000` shares/units
-> - **Total Value:** `$142.74`
+> - **Action:** `BUY` @ `$0.1620`
+> - **Quantity:** `881.0000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1622) vs 20-SMA ($0.1453) Deviation +11.63% [SL: $0.1565 | TP: $0.1703 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, this trade proposal exhibits a favorable risk/reward ratio with a positive RSI and price deviation from the short and long SMAs. The support level is strong at $0.1193.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates upside potential.
 > 
-> **Key Catalysts:** *Positive technical indicators and strong support level support a bullish trade sentiment.*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI crossing above 50*
 
 ---
 
