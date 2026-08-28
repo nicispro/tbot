@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:33:49 UTC"
+timestamp: "2026-08-28 06:39:45 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1619
+price: 0.1618
 quantity: 882.0000
-order_value: 142.80
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787898829194"
+order_id: "CRYPTO-1787899185064"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:33:49 UTC`
+> - **Date & Time:** `2026-08-28 06:39:45 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1619`
+> - **Action:** `BUY` @ `$0.1618`
 > - **Quantity:** `882.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1619) vs 20-SMA ($0.1453) Deviation +11.42% [SL: $0.1562 | TP: $0.1700 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1618) vs 20-SMA ($0.1453) Deviation +11.36% [SL: $0.1561 | TP: $0.1699 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.42% deviation from the 20-SMA and an RSI of 57.25, indicating a positive momentum. However, the data for short_sma, long_sma, and dip_percentage are missing, which weakens the analysis.
+> Based on the given metrics, the trade rationale is a potential gain with a risk of $4.99. The RSI (57.11) and ATR (0.0141) indicate positive momentum, while the trend momentum entry supports a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from 20-SMA contribute to the buy trigger, but missing key metrics limit the confidence.*
+> **Key Catalysts:** *Positive RSI (57.11), ATR (0.0141), and trend momentum entry catalysts support the bullish sentiment.*
 
 ---
 
