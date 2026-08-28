@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:20:31 UTC"
+timestamp: "2026-08-28 08:26:33 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,11 +14,11 @@ quantity: 26.8000
 order_value: 142.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787905230825"
+order_id: "CRYPTO-1787905593213"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:20:31 UTC`
+> - **Date & Time:** `2026-08-28 08:26:33 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.3220`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.37% deviation and RSI at 59.42. The proposed buy price of $5.32 falls within the support level of $3.779 and is close to the resistance level of $5.991.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 11.37% deviation and RSI of 59.42. The validated price is $5.32, and the risk is calculated as $4.99.
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support the bullish sentiment.*
+> **Key Catalysts:** *Positive RSI (59.42) and deviation from 20-SMA (11.37%) indicate potential momentum for INJ/USDT.*
 
 ---
 
