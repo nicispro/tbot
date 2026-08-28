@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:14:14 UTC"
+timestamp: "2026-08-28 13:20:09 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0897
-quantity: 1592.0000
-order_value: 142.80
+price: 0.0895
+quantity: 1595.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787922854262"
+order_id: "CRYPTO-1787923209325"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:14:14 UTC`
+> - **Date & Time:** `2026-08-28 13:20:09 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0897`
-> - **Quantity:** `1592.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0895`
+> - **Quantity:** `1595.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0897) vs 20-SMA ($0.0850) Deviation +5.53% [SL: $0.0866 | TP: $0.0942 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0895) vs 20-SMA ($0.0850) Deviation +5.29% [SL: $0.0864 | TP: $0.0940 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential gain with a risk of $5.00. The RSI (53.91) and ATR (0.0066) indicate positive momentum, while the trend momentum entry supports a bullish sentiment. The support level (0.0722) is close to the validated price, suggesting a strong buying opportunity.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.29% and RSI of 53.61 indicate bullish momentum. The support level of 0.0722 suggests a potential entry point.
 > 
-> **Key Catalysts:** *Positive momentum, RSI, and ATR values, as well as the support level proximity, support the bullish catalyst.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.0722*
 
 ---
 
