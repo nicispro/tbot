@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:52:51 UTC"
+timestamp: "2026-08-28 04:58:45 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0877
-quantity: 1628.0000
-order_value: 142.78
+price: 0.0876
+quantity: 1630.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787892771555"
+order_id: "CRYPTO-1787893125090"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:52:51 UTC`
+> - **Date & Time:** `2026-08-28 04:58:45 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0877`
-> - **Quantity:** `1628.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0876`
+> - **Quantity:** `1630.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0786) Deviation +11.58% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0786) Deviation +11.45% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price increase with a risk of $5.00. The RSI (65.15) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the support level (0.0689) suggests a potential buying opportunity.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (65.01) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the trend momentum entry supports the buy action. However, the missing short_sma, long_sma, and dip percentage values should be carefully considered before finalizing the analysis.
 > 
-> **Key Catalysts:** *Positive RSI and support level indicate a potential bullish catalyst.*
+> **Key Catalysts:** *Positive RSI and trend momentum entry drive the bullish sentiment, but missing data requires further assessment.*
 
 ---
 
