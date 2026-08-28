@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:05:56 UTC"
+timestamp: "2026-08-28 22:12:04 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3100
+price: 11.3430
 quantity: 12.6000
-order_value: 142.51
+order_value: 142.92
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787954756630"
+order_id: "CRYPTO-1787955123854"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:05:56 UTC`
+> - **Date & Time:** `2026-08-28 22:12:04 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3100`
+> - **Action:** `BUY` @ `$11.3430`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.51`
+> - **Total Value:** `$142.92`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3100) vs 20-SMA ($10.1921) Deviation +10.97% [SL: $10.9141 | TP: $11.8755 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3430) vs 20-SMA ($10.1938) Deviation +11.27% [SL: $10.9460 | TP: $11.9101 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> The trade leverages strong short-term momentum with price trading 10.97% above the 20-SMA and an RSI of 65 indicating healthy upside potential without extreme overbought conditions. The defined stop loss and take profit offer a favorable risk-to-reward ratio aligned with current ATR volatility.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade exhibits a favorable risk/reward profile driven by price trading 11.27% above the 20-SMA and an RSI of 65.53, indicating healthy upward momentum toward the $12.59 resistance level. The defined stop loss and take profit align with current ATR volatility, offering a calculated 1.46:1 reward-to-risk ratio.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA combined with bullish RSI momentum*
+> **Key Catalysts:** *Short-term trend momentum confirmed by price deviation above the 20-SMA and supportive RSI readings, targeting the established $12.59 resistance zone.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.31`
-- **Actual Fill Price:** `$11.31`
+- **Expected Fill Price:** `$11.34`
+- **Actual Fill Price:** `$11.34`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
