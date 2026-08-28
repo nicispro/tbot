@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:36:43 UTC"
+timestamp: "2026-08-28 23:42:48 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4480
-quantity: 98.6000
-order_value: 142.77
+price: 1.4470
+quantity: 98.7000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787960203057"
+order_id: "CRYPTO-1787960568104"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:36:43 UTC`
+> - **Date & Time:** `2026-08-28 23:42:48 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4480`
-> - **Quantity:** `98.6000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$1.4470`
+> - **Quantity:** `98.7000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4480) vs 20-SMA ($1.3711) Deviation +5.61% [SL: $1.3973 | TP: $1.5204 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4470) vs 20-SMA ($1.3711) Deviation +5.54% [SL: $1.3964 | TP: $1.5193 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 72% confidence score. The price deviation of +5.61% from the 20-SMA indicates potential growth. RSI (54.09) and ATR (0.0988) suggest stable conditions.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation of 5.54% from the trend momentum entry and RSI value of 53.98, we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation, stable RSI, and ATR values.*
+> **Key Catalysts:** *Trend momentum entry and RSI value indicate potential price increase.*
 
 ---
 
