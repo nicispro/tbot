@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:22:38 UTC"
+timestamp: "2026-08-28 16:28:32 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.3920
-quantity: 102.6000
-order_value: 142.82
+price: 1.3910
+quantity: 102.7000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787934157882"
+order_id: "CRYPTO-1787934512455"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:22:38 UTC`
+> - **Date & Time:** `2026-08-28 16:28:32 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.3920`
-> - **Quantity:** `102.6000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$1.3910`
+> - **Quantity:** `102.7000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3920) vs 20-SMA ($1.2030) Deviation +15.71% [SL: $1.3433 | TP: $1.4616 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3910) vs 20-SMA ($1.2030) Deviation +15.63% [SL: $1.3423 | TP: $1.4606 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Strong upward momentum with price well above the 20‑SMA (+15.71%) and a moderate RSI (65.89) suggests a favorable risk/reward profile, with TP above resistance and SL comfortably below support.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> The trade targets a bullish breakout above the 20‑SMA with a favorable risk‑reward ratio (TP $1.4606 vs SL $1.3423). The price is 15.63% above the SMA, indicating strong momentum, while RSI remains below extreme overbought levels.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+15.71%) and moderate RSI indicating momentum*
+> **Key Catalysts:** *Price above 20‑SMA with a 15.63% deviation, indicating trend momentum entry*
 
 ---
 
