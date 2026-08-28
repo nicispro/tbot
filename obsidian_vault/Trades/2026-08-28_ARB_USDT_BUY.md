@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:24:43 UTC"
+timestamp: "2026-08-28 23:30:44 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1628.0000
 order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787959483272"
+order_id: "CRYPTO-1787959844014"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:24:43 UTC`
+> - **Date & Time:** `2026-08-28 23:30:44 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0877`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (51.03) indicates a moderate level of buying interest, and the price deviation from the 20-SMA ($0.0849) is at +3.30%. The support level of $0.0722 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is driven by a 3.30% deviation from the 20-SMA, an RSI of 51.03 indicating a potential bullish momentum, and the support level of $0.0722. The risk is set at $5.00 and the take-profit at $0.0921.
 > 
-> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and support level trigger the BULLISH sentiment.*
+> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support the bullish sentiment.*
 
 ---
 
