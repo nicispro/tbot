@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:17:13 UTC"
+timestamp: "2026-08-28 04:23:15 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1620
-quantity: 881.0000
-order_value: 142.72
+price: 0.1617
+quantity: 883.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787890633425"
+order_id: "CRYPTO-1787890994827"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:17:13 UTC`
+> - **Date & Time:** `2026-08-28 04:23:15 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1620`
-> - **Quantity:** `881.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$0.1617`
+> - **Quantity:** `883.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1617) vs 20-SMA ($0.1453) Deviation +11.29% [SL: $0.1560 | TP: $0.1698 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 11.49% deviation from the 20-SMA, RSI of 57.32, and support level at 0.1193. Technical metrics indicate potential for price growth.
+> Based on the given data, the proposed trade has a positive sentiment as the RSI is above 50 and there is a 11.29% deviation from the 20-SMA, indicating potential for growth. The risk is defined with a stop-loss at $0.1560 and take-profit at $0.1698.
 > 
-> **Key Catalysts:** *Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49%*
+> **Key Catalysts:** *Positive RSI (57.11), significant deviation from 20-SMA (11.29%)*
 
 ---
 
