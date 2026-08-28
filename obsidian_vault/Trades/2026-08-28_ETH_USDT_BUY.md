@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:28:25 UTC"
+timestamp: "2026-08-28 18:40:35 UTC"
 ticker: "ETH/USDT"
 canonical_symbol: "ETH/USDT"
 base_symbol: "ETH"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 2430.3800
+price: 2423.0800
 quantity: 0.0500
-order_value: 121.52
+order_value: 121.15
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787941705512"
+order_id: "CRYPTO-1787942435291"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ETH/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:28:25 UTC`
+> - **Date & Time:** `2026-08-28 18:40:35 UTC`
 > - **Canonical Instrument:** `ETH/USDT` (ETH/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$2,430.3800`
+> - **Action:** `BUY` @ `$2,423.0800`
 > - **Quantity:** `0.0500` shares/units
-> - **Total Value:** `$121.52`
+> - **Total Value:** `$121.15`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,430.3800) vs 20-SMA ($2,162.0540) Deviation +12.41% [SL: $2,345.3167 | TP: $2,551.8990 | Risk: $4.25]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,423.0800) vs 20-SMA ($2,161.6295) Deviation +12.10% [SL: $2,338.2722 | TP: $2,544.2340 | Risk: $4.24]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The RSI (69.23) and trend momentum entry at a 12.41% deviation support a bullish rationale. The risk-to-reward ratio is favorable with a stop-loss at $2,345.32 and take-profit at $2,551.89.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Buy at $2,423.08 with a 12% deviation above the 20‑SMA, targeting $2,544.23 and protecting with a $2,338.27 stop; moderate risk with a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Positive RSI (69.23), trend momentum entry, and favorable risk-to-reward ratio*
+> **Key Catalysts:** *Price well above 20‑SMA indicating strong upward momentum; RSI near 68 suggests a bullish stance yet not yet overbought; ATR of 133.38 confirms sufficient volatility for the trade.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$2,430.38`
-- **Actual Fill Price:** `$2,430.38`
+- **Expected Fill Price:** `$2,423.08`
+- **Actual Fill Price:** `$2,423.08`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
