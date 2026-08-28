@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:49:13 UTC"
+timestamp: "2026-08-28 01:55:12 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5330
-quantity: 93.1000
-order_value: 142.72
+price: 1.5310
+quantity: 93.3000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787881753477"
+order_id: "CRYPTO-1787882112035"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:49:13 UTC`
+> - **Date & Time:** `2026-08-28 01:55:12 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5330`
-> - **Quantity:** `93.1000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$1.5310`
+> - **Quantity:** `93.3000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5330) vs 20-SMA ($1.3755) Deviation +11.45% [SL: $1.4793 | TP: $1.6097 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5310) vs 20-SMA ($1.3753) Deviation +11.32% [SL: $1.4774 | TP: $1.6076 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.45% deviation and RSI at 65.73. The support level is at 1.152, and the target price is at 1.637. The risk level is set at $5.00.
+> Based on the provided metrics, the trade rationale is positive with a 11.32% deviation and RSI at 65.32. The support level is at 1.152 and resistance at 1.637.
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support a bullish trade.*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages indicate potential bullish momentum.*
 
 ---
 
