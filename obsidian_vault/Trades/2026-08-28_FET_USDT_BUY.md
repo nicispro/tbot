@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 12:15:45 UTC"
+timestamp: "2026-08-28 12:21:35 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1620
-quantity: 881.0000
-order_value: 142.72
+price: 0.1623
+quantity: 880.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787919344856"
+order_id: "CRYPTO-1787919695529"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 12:15:45 UTC`
+> - **Date & Time:** `2026-08-28 12:21:35 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1620`
-> - **Quantity:** `881.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$0.1623`
+> - **Quantity:** `880.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1623) vs 20-SMA ($0.1454) Deviation +11.62% [SL: $0.1566 | TP: $0.1704 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Buy at $0.16 with a ~2.2:1 risk‑reward (TP $0.1701, SL $0.1563) supported by price 11.5% above the 20‑SMA and RSI at 57.3 indicating modest bullish momentum.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is 11.6% above the 20‑SMA with a moderate RSI and a ~3:1 risk‑reward ratio, indicating a bullish bias.
 > 
-> **Key Catalysts:** *Trend momentum entry: price significantly above 20‑SMA with supportive ATR and clear support/resistance levels.*
+> **Key Catalysts:** *Trend momentum entry above 20‑SMA and price deviation*
 
 ---
 
