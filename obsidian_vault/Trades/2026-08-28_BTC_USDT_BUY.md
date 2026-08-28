@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:49:20 UTC"
+timestamp: "2026-08-28 13:02:45 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 79349.0000
+price: 79402.9000
 quantity: 0.0010
-order_value: 79.35
+order_value: 79.40
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787914159821"
+order_id: "CRYPTO-1787922165034"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 78
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:49:20 UTC`
+> - **Date & Time:** `2026-08-28 13:02:45 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$79,349.0000`
+> - **Action:** `BUY` @ `$79,402.9000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$79.35`
+> - **Total Value:** `$79.40`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,349.0000) vs 20-SMA ($70,425.2250) Deviation +12.67% [SL: $76,571.7850 | TP: $83,316.4500 | Risk: $2.78]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,402.9000) vs 20-SMA ($70,430.2250) Deviation +12.74% [SL: $76,623.7985 | TP: $83,373.0450 | Risk: $2.78]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 78% Confidence)**
-> The trade is based on a strong upward momentum with the price well above the 20‑SMA and a tight risk‑reward profile (risk 2.78, TP 83,316). The high RSI indicates a potentially strong rally, but also signals caution for overbought conditions.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above 20‑SMA with strong trend momentum; risk‑reward ratio ~1:1.5, but RSI 78.6 signals potential pullback.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+12.67%), high RSI (78.08), and a tight ATR‑based risk‑reward setup.*
+> **Key Catalysts:** *Price 12.74% above 20‑SMA, ATR 2,542, support at 62,584 and resistance at 81,085.5*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$79,349.00`
-- **Actual Fill Price:** `$79,349.00`
+- **Expected Fill Price:** `$79,402.90`
+- **Actual Fill Price:** `$79,402.90`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
