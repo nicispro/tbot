@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:12:36 UTC"
+timestamp: "2026-08-28 23:18:42 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4480
-quantity: 98.6000
-order_value: 142.77
+price: 1.4470
+quantity: 98.7000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787958755931"
+order_id: "CRYPTO-1787959121765"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:12:36 UTC`
+> - **Date & Time:** `2026-08-28 23:18:42 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4480`
-> - **Quantity:** `98.6000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$1.4470`
+> - **Quantity:** `98.7000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4480) vs 20-SMA ($1.3711) Deviation +5.61% [SL: $1.3973 | TP: $1.5204 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4470) vs 20-SMA ($1.3711) Deviation +5.54% [SL: $1.3964 | TP: $1.5193 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.61% and RSI of 54.09 indicate potential growth. The support level of 1.152 suggests a low risk.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.54% deviation from the 20-SMA, RSI of 53.98, and support level at $1.152. However, the data for short_sma and atr is unavailable.
 > 
-> **Key Catalysts:** *Trend momentum entry, support level, and positive RSI and deviation metrics drive the bullish sentiment.*
+> **Key Catalysts:** *Trend momentum entry (BUY) and support level at $1.152*
 
 ---
 
