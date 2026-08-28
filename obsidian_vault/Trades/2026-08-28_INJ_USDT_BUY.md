@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:08:03 UTC"
+timestamp: "2026-08-28 01:13:55 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,11 +14,11 @@ quantity: 26.0000
 order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787879283005"
+order_id: "CRYPTO-1787879635189"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:08:03 UTC`
+> - **Date & Time:** `2026-08-28 01:13:55 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.4900`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4900) vs 20-SMA ($4.7870) Deviation +14.69% [SL: $5.2979 | TP: $5.7645 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4900) vs 20-SMA ($4.7869) Deviation +14.69% [SL: $5.2979 | TP: $5.7645 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 14.69% deviation from the 20-SMA and an RSI of 64.24. The support level is at $3.78, and the resistance level is at $5.99.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 14.69% deviation and RSI of 64.18, indicating bullish momentum. The validated price is above the resistance level at $5.991.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA indicate potential price increase.*
+> **Key Catalysts:** *Positive RSI, deviation, and resistance level crossing*
 
 ---
 
