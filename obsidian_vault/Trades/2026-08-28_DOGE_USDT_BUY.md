@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:19:00 UTC"
+timestamp: "2026-08-28 02:24:54 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0884
-quantity: 1616.0000
-order_value: 142.85
+price: 0.0882
+quantity: 1619.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787883539780"
+order_id: "CRYPTO-1787883894371"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:19:00 UTC`
+> - **Date & Time:** `2026-08-28 02:24:54 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0884`
-> - **Quantity:** `1616.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0882`
+> - **Quantity:** `1619.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0884) vs 20-SMA ($0.0787) Deviation +12.33% [SL: $0.0853 | TP: $0.0928 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0787) Deviation +12.07% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 12.33% deviation and RSI at 66.9. The support level is at 0.0689, and the buy trigger occurs at $0.09. The risk level is set at $5.00.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 12.07% deviation from the 20-SMA and an RSI of 66.32, indicating an overbought condition. However, the lack of short and long SMA values limits the analysis's depth.
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
+> **Key Catalysts:** *Positive momentum and overbought RSI support the buy trigger, but missing SMA data restricts the comprehensive assessment.*
 
 ---
 
