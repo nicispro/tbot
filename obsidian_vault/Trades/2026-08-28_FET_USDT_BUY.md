@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:18:01 UTC"
+timestamp: "2026-08-28 15:23:57 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1604
-quantity: 890.0000
-order_value: 142.76
+price: 0.1615
+quantity: 884.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787930280809"
+order_id: "CRYPTO-1787930637261"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:18:01 UTC`
+> - **Date & Time:** `2026-08-28 15:23:57 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1604`
-> - **Quantity:** `890.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.1615`
+> - **Quantity:** `884.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1604) vs 20-SMA ($0.1453) Deviation +10.39% [SL: $0.1548 | TP: $0.1684 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1615) vs 20-SMA ($0.1453) Deviation +11.15% [SL: $0.1558 | TP: $0.1696 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a moderate RSI and ATR indicates upward momentum; the stop is well below support and the target is near resistance, giving a reward/risk of roughly 1.4:1.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Entry above the 20‑SMA with a 2.3:1 reward‑to‑risk ratio; RSI is neutral and ATR indicates a tight stop, supporting bullish momentum.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+10.39% deviation), RSI 56.23, ATR 0.0143*
+> **Key Catalysts:** *Price above 20‑SMA (+11.15%) and ATR‑based tight stop*
 
 ---
 
