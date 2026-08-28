@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:48:20 UTC"
+timestamp: "2026-08-28 22:54:23 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4460
+price: 1.4470
 quantity: 98.7000
-order_value: 142.72
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787957300253"
+order_id: "CRYPTO-1787957662842"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:48:20 UTC`
+> - **Date & Time:** `2026-08-28 22:54:23 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4460`
+> - **Action:** `BUY` @ `$1.4470`
 > - **Quantity:** `98.7000` shares/units
-> - **Total Value:** `$142.72`
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4460) vs 20-SMA ($1.3710) Deviation +5.47% [SL: $1.3954 | TP: $1.5183 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4470) vs 20-SMA ($1.3711) Deviation +5.54% [SL: $1.3964 | TP: $1.5193 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 85% confidence score. The RSI (53.87) and ATR (0.0988) indicate positive momentum, and the price deviation from the 20-SMA (5.47%) supports the entry. The support level (1.152) is close to the current price, providing a strong base for potential growth.
+> Based on the positive deviation of 5.54% and RSI value of 53.98, this trade proposal indicates bullish sentiment. The validated price is $1.45 with a target price of $1.5193.
 > 
-> **Key Catalysts:** *Positive momentum indicators and strong support level support the bullish trade rationale.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50 suggest upward momentum*
 
 ---
 
