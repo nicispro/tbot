@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:48:51 UTC"
+timestamp: "2026-08-28 23:54:52 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4460
-quantity: 98.7000
-order_value: 142.72
+price: 1.4450
+quantity: 98.8000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787960930961"
+order_id: "CRYPTO-1787961292696"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:48:51 UTC`
+> - **Date & Time:** `2026-08-28 23:54:52 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4460`
-> - **Quantity:** `98.7000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$1.4450`
+> - **Quantity:** `98.8000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4460) vs 20-SMA ($1.3710) Deviation +5.47% [SL: $1.3954 | TP: $1.5183 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4450) vs 20-SMA ($1.3710) Deviation +5.40% [SL: $1.3944 | TP: $1.5172 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of 5.47% from the 20-SMA and RSI value of 53.87, this trade proposal exhibits a strong risk/reward rationale.
+> Based on the positive deviation of 5.40% and RSI value of 53.76, this trade proposal indicates bullish sentiment with a moderate risk/reward ratio.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a price of $1.4460 and RSI value of 53.87*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI value above 50 suggest potential for price increase.*
 
 ---
 
