@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:23:57 UTC"
+timestamp: "2026-08-28 15:29:49 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1615
-quantity: 884.0000
-order_value: 142.77
+price: 0.1609
+quantity: 887.0000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787930637261"
+order_id: "CRYPTO-1787930989163"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:23:57 UTC`
+> - **Date & Time:** `2026-08-28 15:29:49 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1615`
-> - **Quantity:** `884.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1609`
+> - **Quantity:** `887.0000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1615) vs 20-SMA ($0.1453) Deviation +11.15% [SL: $0.1558 | TP: $0.1696 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1609) vs 20-SMA ($0.1453) Deviation +10.74% [SL: $0.1553 | TP: $0.1689 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Entry above the 20‑SMA with a 2.3:1 reward‑to‑risk ratio; RSI is neutral and ATR indicates a tight stop, supporting bullish momentum.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a modest upside to the TP and a tight SL suggests a favorable risk/reward profile.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+11.15%) and ATR‑based tight stop*
+> **Key Catalysts:** *Price above 20‑SMA and RSI in the neutral‑bullish range*
 
 ---
 
