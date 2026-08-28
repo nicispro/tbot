@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:35:37 UTC"
+timestamp: "2026-08-28 03:53:27 UTC"
 ticker: "ONDO/USDT"
 canonical_symbol: "ONDO/USDT"
 base_symbol: "ONDO"
@@ -14,11 +14,11 @@ quantity: 385.0000
 order_value: 142.53
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787888136855"
+order_id: "CRYPTO-1787889207300"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ONDO/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:35:37 UTC`
+> - **Date & Time:** `2026-08-28 03:53:27 UTC`
 > - **Canonical Instrument:** `ONDO/USDT` (ONDO/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.3702`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of 5.14% from the 20-SMA and RSI value of 53.08, this trade proposal exhibits a favorable risk/reward ratio.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale for buying ONDO/USDT at $0.37 is driven by a 5.14% deviation from the 20-SMA, RSI of 53.05, and support level of $0.3216. The risk is calculated at $4.99 with a target price of $0.3887.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) and 20-SMA deviation contribute to the bullish catalyst.*
+> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and strong support level*
 
 ---
 
