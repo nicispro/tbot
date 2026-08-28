@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:23:19 UTC"
+timestamp: "2026-08-28 04:29:17 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 710.8200
+price: 710.7800
 quantity: 0.2000
 order_value: 142.16
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787890999482"
+order_id: "CRYPTO-1787891357093"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,10 +30,10 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:23:19 UTC`
+> - **Date & Time:** `2026-08-28 04:29:17 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$710.8200`
+> - **Action:** `BUY` @ `$710.7800`
 > - **Quantity:** `0.2000` shares/units
 > - **Total Value:** `$142.16`
 > - **Status:** `FAILED` (`FAILED`)
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($710.8200) vs 20-SMA ($648.4620) Deviation +9.62% [SL: $685.9413 | TP: $746.3610 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($710.7800) vs 20-SMA ($648.4600) Deviation +9.61% [SL: $685.9027 | TP: $746.3190 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The BULLISH sentiment is based on a 9.62% deviation from the 20-SMA, an RSI of 81.11, and strong support at $598.14. The target price is set at $746.36.
+> The BULLISH sentiment is based on a 9.61% deviation from the 20-SMA, an RSI of 81.08, and strong support at $598.14. The target price of $746.31 represents a potential 28.91% return.
 > 
-> **Key Catalysts:** *Positive momentum and significant resistance at $726.93*
+> **Key Catalysts:** *Positive price deviation, high RSI, and strong support trigger the bullish sentiment in BNB/USDT.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$710.82`
-- **Actual Fill Price:** `$710.82`
+- **Expected Fill Price:** `$710.78`
+- **Actual Fill Price:** `$710.78`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
