@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:51:29 UTC"
+timestamp: "2026-08-28 07:27:08 UTC"
 ticker: "ONDO/USDT"
 canonical_symbol: "ONDO/USDT"
 base_symbol: "ONDO"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.3724
-quantity: 383.0000
-order_value: 142.63
+price: 0.3683
+quantity: 387.0000
+order_value: 142.53
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899888866"
+order_id: "CRYPTO-1787902027822"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ONDO/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:51:29 UTC`
+> - **Date & Time:** `2026-08-28 07:27:08 UTC`
 > - **Canonical Instrument:** `ONDO/USDT` (ONDO/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.3724`
-> - **Quantity:** `383.0000` shares/units
-> - **Total Value:** `$142.63`
+> - **Action:** `BUY` @ `$0.3683`
+> - **Quantity:** `387.0000` shares/units
+> - **Total Value:** `$142.53`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3724) vs 20-SMA ($0.3522) Deviation +5.74% [SL: $0.3594 | TP: $0.3910 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3683) vs 20-SMA ($0.3520) Deviation +4.63% [SL: $0.3554 | TP: $0.3867 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The trade entry point is triggered at $0.3724, with a stop-loss at $0.3594 and take-profit at $0.3910. The trend momentum entry supports a positive outlook.
+> Based on the given metrics, this trade proposal exhibits a favorable risk/reward ratio with a BULLISH sentiment. The RSI (52.42) indicates a potential entry point, and the price deviation from the 20-SMA (+4.63%) suggests an upward momentum.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) and RSI (53.74) indicate potential for price appreciation.*
+> **Key Catalysts:** *Positive RSI and price deviation from the 20-SMA support the BULLISH sentiment.*
 
 ---
 
