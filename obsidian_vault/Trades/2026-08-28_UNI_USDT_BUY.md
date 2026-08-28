@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 21:29:04 UTC"
+timestamp: "2026-08-28 21:35:08 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3960
+price: 4.4010
 quantity: 32.4000
-order_value: 142.43
+order_value: 142.59
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787952543957"
+order_id: "CRYPTO-1787952908478"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 78
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 21:29:04 UTC`
+> - **Date & Time:** `2026-08-28 21:35:08 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3960`
+> - **Action:** `BUY` @ `$4.4010`
 > - **Quantity:** `32.4000` shares/units
-> - **Total Value:** `$142.43`
+> - **Total Value:** `$142.59`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3960) vs 20-SMA ($3.8708) Deviation +13.57% [SL: $4.2421 | TP: $4.6158 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4010) vs 20-SMA ($3.8711) Deviation +13.69% [SL: $4.2470 | TP: $4.6211 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 78% Confidence)**
-> Price is 13.6% above the 20‑SMA with RSI at 60, offering a ~1.4:1 reward‑to‑risk ratio (TP $4.6158 vs SL $4.2421).
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is trading 13.69% above the 20‑SMA with RSI at 60.29, offering a ~1.4:1 reward‑to‑risk on the proposed BUY trade.
 > 
-> **Key Catalysts:** *Momentum breakout above 20‑SMA and supportive RSI indicating continued upward bias*
+> **Key Catalysts:** *Trend momentum entry confirmed by price deviation above 20‑SMA and moderate bullish RSI*
 
 ---
 
