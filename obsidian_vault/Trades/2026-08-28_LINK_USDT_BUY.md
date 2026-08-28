@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:30:49 UTC"
+timestamp: "2026-08-28 19:37:13 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4060
+price: 11.4010
 quantity: 12.5000
-order_value: 142.58
+order_value: 142.51
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787945449738"
+order_id: "CRYPTO-1787945833568"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:30:49 UTC`
+> - **Date & Time:** `2026-08-28 19:37:13 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4060`
+> - **Action:** `BUY` @ `$11.4010`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$142.58`
+> - **Total Value:** `$142.51`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4060) vs 20-SMA ($10.1971) Deviation +11.86% [SL: $11.0068 | TP: $11.9763 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4010) vs 20-SMA ($10.1967) Deviation +11.81% [SL: $11.0020 | TP: $11.9710 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with strong upward momentum, but RSI at 66.58 signals a potential overbought condition; risk/reward ratio is roughly 1.4:1.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> The trade leverages strong short-term momentum with price trading 11.8% above the 20-SMA and RSI at 66.45, offering a favorable ~1:1.4 risk-to-reward ratio targeting the $12.59 resistance zone. Downside exposure is tightly controlled via an ATR-aligned stop loss, supporting a high-probability trend continuation setup.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and upward momentum*
+> **Key Catalysts:** *Price deviation above 20-SMA (+11.81%) combined with bullish RSI momentum (66.45) driving upward price action toward established resistance.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.41`
-- **Actual Fill Price:** `$11.41`
+- **Expected Fill Price:** `$11.40`
+- **Actual Fill Price:** `$11.40`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
