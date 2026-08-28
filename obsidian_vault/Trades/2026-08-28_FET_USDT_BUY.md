@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:19:11 UTC"
+timestamp: "2026-08-28 14:30:45 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -14,7 +14,7 @@ quantity: 892.0000
 order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787926750802"
+order_id: "CRYPTO-1787927444913"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:19:11 UTC`
+> - **Date & Time:** `2026-08-28 14:30:45 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.1601`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 10% deviation and a moderately bullish RSI suggests upward momentum; the target near resistance offers a modest risk‑reward of ~1.4:1.
+> Entry above the 20‑SMA with a 10% deviation signals upward momentum; the target at 0.1681 offers a modest reward that slightly exceeds the risk to 0.1545, while ATR suggests manageable volatility.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+10.26%), RSI 56.03, ATR 0.0143*
+> **Key Catalysts:** *Price above 20‑SMA (+10.26%), RSI 56.1 (neutral), ATR 0.0143 indicating moderate volatility*
 
 ---
 
