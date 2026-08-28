@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:04:01 UTC"
+timestamp: "2026-08-28 06:45:38 UTC"
 ticker: "AKE/USDT"
 canonical_symbol: "AKE/USDT"
 base_symbol: "AKE"
@@ -14,7 +14,7 @@ quantity: 16778.0000
 order_value: 142.61
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897040842"
+order_id: "CRYPTO-1787899538576"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `AKE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:04:01 UTC`
+> - **Date & Time:** `2026-08-28 06:45:38 UTC`
 > - **Canonical Instrument:** `AKE/USDT` (AKE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0085`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviates significantly (+10.39%) from the 20-SMA and RSI is at a favorable level (60.17). The support level (0.0038) is close to the validated price ($0.0039).
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.39% deviation from the 20-SMA and an RSI of 60.18. The support level is at 0.0038, and the trigger price is at a reasonable risk level of $5.00.
 > 
-> **Key Catalysts:** *Positive RSI, significant deviation from 20-SMA, and strong support level near validated price*
+> **Key Catalysts:** *Positive RSI (60.18), deviation from 20-SMA, and support level at 0.0038*
 
 ---
 
