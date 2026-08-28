@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:24:56 UTC"
+timestamp: "2026-08-28 02:30:50 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 709.6000
+price: 708.8500
 quantity: 0.2000
-order_value: 141.92
+order_value: 141.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787883896421"
+order_id: "CRYPTO-1787884250445"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:24:56 UTC`
+> - **Date & Time:** `2026-08-28 02:30:50 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$709.6000`
+> - **Action:** `BUY` @ `$708.8500`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$141.92`
+> - **Total Value:** `$141.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($709.6000) vs 20-SMA ($648.3920) Deviation +9.44% [SL: $684.7640 | TP: $745.0800 | Risk: $4.97]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.8500) vs 20-SMA ($648.3635) Deviation +9.33% [SL: $684.0403 | TP: $744.2925 | Risk: $4.96]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> The trade rationale for buying BNB/USDT at $709.60 is based on a 9.44% positive price deviation from the 20-SMA and an RSI of 80.1, indicating strong bullish momentum. The risk-to-reward ratio is favorable with a stop-loss at $684.76 and take-profit at $745.
+> The BULLISH sentiment is based on a 9.33% deviation from the 20-SMA, an RSI of 79.69 indicating strong buying interest, and the absence of significant support or resistance levels. The validated price of $708.85 provides a potential high-risk-to-reward ratio.
 > 
-> **Key Catalysts:** *Positive price deviation, high RSI, and favorable risk-to-reward ratio*
+> **Key Catalysts:** *Deviation from 20-SMA, high RSI, and favorable price*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$709.60`
-- **Actual Fill Price:** `$709.60`
+- **Expected Fill Price:** `$708.85`
+- **Actual Fill Price:** `$708.85`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
