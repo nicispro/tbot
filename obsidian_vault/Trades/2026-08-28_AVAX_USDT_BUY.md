@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:23:12 UTC"
+timestamp: "2026-08-28 04:29:11 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -14,11 +14,11 @@ quantity: 19.1000
 order_value: 142.30
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787890992218"
+order_id: "CRYPTO-1787891350987"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:23:12 UTC`
+> - **Date & Time:** `2026-08-28 04:29:11 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$7.4500`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4500) vs 20-SMA ($6.9011) Deviation +7.95% [SL: $7.1893 | TP: $7.8225 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4500) vs 20-SMA ($6.9012) Deviation +7.95% [SL: $7.1893 | TP: $7.8225 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk/reward rationale. The RSI (62.01) and ATR (0.4374) indicate positive momentum, while the deviation of +7.95% from the 20-SMA supports the entry. However, the data for short_sma, long_sma, and dip_percentage are missing, which weakens the analysis's reliability.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviation is above the 20-SMA and RSI is above 50, indicating potential bullish momentum. The support level at $5.69 adds further support to the trade.
 > 
-> **Key Catalysts:** *Positive momentum indicators and deviation from 20-SMA support the trade, but missing key data limits confidence.*
+> **Key Catalysts:** *Price deviation (7.95%) and RSI above 50*
 
 ---
 
