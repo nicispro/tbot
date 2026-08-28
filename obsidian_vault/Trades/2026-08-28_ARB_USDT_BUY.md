@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:04:05 UTC"
+timestamp: "2026-08-28 17:15:58 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0882
-quantity: 1619.0000
-order_value: 142.80
+price: 0.0885
+quantity: 1613.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787936645262"
+order_id: "CRYPTO-1787937358643"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:04:05 UTC`
+> - **Date & Time:** `2026-08-28 17:15:58 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0882`
-> - **Quantity:** `1619.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0885`
+> - **Quantity:** `1613.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0849) Deviation +3.89% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0885) vs 20-SMA ($0.0850) Deviation +4.12% [SL: $0.0854 | TP: $0.0929 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 3.89% deviation from the 20-SMA and an RSI of 51.72. The support level is at 0.0722, and the target is at 0.1094.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 4.12% deviation and RSI of 52.15, indicating a neutral to bullish sentiment. The risk-to-reward ratio seems favorable with a stop-loss at $0.0854 and take-profit at $0.0929.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA and RSI above 50 indicate potential bullish momentum.*
+> **Key Catalysts:** *Deviation from the 20-SMA and RSI values suggest a potential price increase.*
 
 ---
 
