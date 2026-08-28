@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:40:25 UTC"
+timestamp: "2026-08-28 18:46:30 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0871
-quantity: 1639.0000
-order_value: 142.76
+price: 0.0870
+quantity: 1642.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787942425555"
+order_id: "CRYPTO-1787942789975"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:40:25 UTC`
+> - **Date & Time:** `2026-08-28 18:46:30 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0871`
-> - **Quantity:** `1639.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.0870`
+> - **Quantity:** `1642.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0871) vs 20-SMA ($0.0849) Deviation +2.59% [SL: $0.0841 | TP: $0.0915 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0870) vs 20-SMA ($0.0849) Deviation +2.47% [SL: $0.0840 | TP: $0.0914 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is slightly above the 20‑SMA (+2.59%) with a neutral RSI, suggesting modest upward momentum and a favorable risk‑to‑reward profile.
+> Entry above the 20‑SMA with a modest upside target and tighter downside risk; reward exceeds risk by roughly 1.5×.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+2.59%) indicating trend momentum*
+> **Key Catalysts:** *Price 0.0870 is 2.47% above the 20‑SMA, indicating upward momentum, and the ATR of 0.0068 suggests manageable volatility.*
 
 ---
 
