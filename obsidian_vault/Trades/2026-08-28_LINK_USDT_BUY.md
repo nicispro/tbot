@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:04:49 UTC"
+timestamp: "2026-08-28 16:10:43 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4950
+price: 11.5060
 quantity: 12.4000
-order_value: 142.54
+order_value: 142.67
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787933088973"
+order_id: "CRYPTO-1787933443028"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:04:49 UTC`
+> - **Date & Time:** `2026-08-28 16:10:43 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4950`
+> - **Action:** `BUY` @ `$11.5060`
 > - **Quantity:** `12.4000` shares/units
-> - **Total Value:** `$142.54`
+> - **Total Value:** `$142.67`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4950) vs 20-SMA ($10.2014) Deviation +12.68% [SL: $11.0927 | TP: $12.0698 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.5060) vs 20-SMA ($10.2021) Deviation +12.78% [SL: $11.1033 | TP: $12.0813 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 12.68% deviation from the 20-SMA and an RSI of 68.0. The support level is at $8.167 and resistance at $12.594.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above 20‑SMA with strong momentum, moderate upside to $12.08 against a $11.10 stop, offering a 1.4:1 risk‑reward.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from the 20-SMA indicate potential for price increase.*
+> **Key Catalysts:** *Price above 20‑SMA (+12.78%) and ATR‑based support*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.49`
-- **Actual Fill Price:** `$11.49`
+- **Expected Fill Price:** `$11.51`
+- **Actual Fill Price:** `$11.51`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
