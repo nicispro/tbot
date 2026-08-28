@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:18:10 UTC"
+timestamp: "2026-08-28 22:30:20 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0874
-quantity: 1634.0000
-order_value: 142.81
+price: 0.0875
+quantity: 1632.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787955490611"
+order_id: "CRYPTO-1787956220542"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:18:10 UTC`
+> - **Date & Time:** `2026-08-28 22:30:20 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0874`
-> - **Quantity:** `1634.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.0875`
+> - **Quantity:** `1632.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0849) Deviation +2.94% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0849) Deviation +3.06% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0849) Deviation +2.94% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 3.06% deviation and RSI at 50.76. The support level is at 0.0722, and the target is at 0.1094.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages indicate potential price appreciation.*
 
 ---
 
