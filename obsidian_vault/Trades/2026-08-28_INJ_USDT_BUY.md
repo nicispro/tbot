@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:11:09 UTC"
+timestamp: "2026-08-28 04:17:11 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3100
-quantity: 26.9000
-order_value: 142.84
+price: 5.3430
+quantity: 26.7000
+order_value: 142.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787890269498"
+order_id: "CRYPTO-1787890630683"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:11:09 UTC`
+> - **Date & Time:** `2026-08-28 04:17:11 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3100`
-> - **Quantity:** `26.9000` shares/units
-> - **Total Value:** `$142.84`
+> - **Action:** `BUY` @ `$5.3430`
+> - **Quantity:** `26.7000` shares/units
+> - **Total Value:** `$142.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3100) vs 20-SMA ($4.7781) Deviation +11.13% [SL: $5.1242 | TP: $5.5755 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3430) vs 20-SMA ($4.7797) Deviation +11.79% [SL: $5.1560 | TP: $5.6101 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential profit opportunity as the RSI (59.1) is within the favorable range and the price deviation from the 20-SMA is positive. The support level (3.779) is below the current price, adding strength to the bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.79% deviation from the 20-SMA and an RSI of 60.01, indicating a balanced market sentiment.
 > 
-> **Key Catalysts:** *Positive RSI (59.1), price deviation from 20-SMA, and support level (3.779) below current price*
+> **Key Catalysts:** *Strong trend momentum and RSI value support the buy decision.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.31`
-- **Actual Fill Price:** `$5.31`
+- **Expected Fill Price:** `$5.34`
+- **Actual Fill Price:** `$5.34`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
