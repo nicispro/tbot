@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:28:07 UTC"
+timestamp: "2026-08-28 17:34:03 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1880
+price: 5.1910
 quantity: 27.5000
-order_value: 142.67
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787938087368"
+order_id: "CRYPTO-1787938443502"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:28:07 UTC`
+> - **Date & Time:** `2026-08-28 17:34:03 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1880`
+> - **Action:** `BUY` @ `$5.1910`
 > - **Quantity:** `27.5000` shares/units
-> - **Total Value:** `$142.67`
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1880) vs 20-SMA ($4.7718) Deviation +8.72% [SL: $5.0064 | TP: $5.4474 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1910) vs 20-SMA ($4.7720) Deviation +8.78% [SL: $5.0093 | TP: $5.4505 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +8.72% and RSI of 56.01 indicate bullish momentum. The support level at $3.779 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this BUY trade proposal aligns with a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at $3.779*
+> **Key Catalysts:** *Price deviation (8.78%) and RSI (56.1) indicate potential for price growth.*
 
 ---
 
