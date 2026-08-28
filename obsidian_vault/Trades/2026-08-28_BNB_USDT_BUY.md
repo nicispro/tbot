@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:00:29 UTC"
+timestamp: "2026-08-28 03:06:18 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 708.1600
+price: 708.2900
 quantity: 0.2000
-order_value: 141.63
+order_value: 141.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787886029728"
+order_id: "CRYPTO-1787886378693"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:00:29 UTC`
+> - **Date & Time:** `2026-08-28 03:06:18 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$708.1600`
+> - **Action:** `BUY` @ `$708.2900`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$141.63`
+> - **Total Value:** `$141.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.1600) vs 20-SMA ($648.3310) Deviation +9.23% [SL: $683.3744 | TP: $743.5680 | Risk: $4.96]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($708.2900) vs 20-SMA ($648.3345) Deviation +9.25% [SL: $683.4999 | TP: $743.7045 | Risk: $4.96]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The trade rationale for buying BNB/USDT at $708.16 is based on a 9.23% deviation from the 20-SMA and an RSI of 79.18, indicating strong bullish momentum. The risk-to-reward ratio is favorable with a stop-loss at $683.3744 and take-profit at $743.5680.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a high confidence score of 80. The RSI (79.28) and the deviation (+9.25%) from the 20-SMA support the entry signal. The validated price of $708.29 falls within the resistance level of 598.14 to 726.93.
 > 
-> **Key Catalysts:** *Positive technical indicators and momentum support the trade.*
+> **Key Catalysts:** *Positive RSI (79.28), deviation (+9.25%) from the 20-SMA, and price validation ($708.29) within the resistance range (598.14 to 726.93)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$708.16`
-- **Actual Fill Price:** `$708.16`
+- **Expected Fill Price:** `$708.29`
+- **Actual Fill Price:** `$708.29`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
