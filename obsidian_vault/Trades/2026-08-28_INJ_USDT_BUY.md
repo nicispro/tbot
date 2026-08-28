@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:46:02 UTC"
+timestamp: "2026-08-28 05:52:12 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,11 +14,11 @@ quantity: 26.6000
 order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787895962691"
+order_id: "CRYPTO-1787896331967"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:46:02 UTC`
+> - **Date & Time:** `2026-08-28 05:52:12 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.3600`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive deviation of 12.12% from the trend momentum entry and RSI value of 60.44, we have a strong bullish signal for INJ/USDT. The validated price of $5.36 presents a favorable entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a positive sentiment as the RSI (60.44) and trend momentum entry deviate positively. The risk-to-reward ratio is favorable with a TP of $0.62 and a risk of $0.49.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) at a 12.12% deviation and RSI value of 60.44*
+> **Key Catalysts:** *Positive RSI (60.44), trend momentum entry deviation, and favorable risk-to-reward ratio*
 
 ---
 
