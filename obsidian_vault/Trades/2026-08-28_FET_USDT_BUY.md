@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:34:16 UTC"
+timestamp: "2026-08-28 16:40:15 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1547
-quantity: 923.0000
-order_value: 142.79
+price: 0.1555
+quantity: 918.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787934855935"
+order_id: "CRYPTO-1787935215462"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:34:16 UTC`
+> - **Date & Time:** `2026-08-28 16:40:15 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1547`
-> - **Quantity:** `923.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.1555`
+> - **Quantity:** `918.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1547) vs 20-SMA ($0.1450) Deviation +6.69% [SL: $0.1493 | TP: $0.1624 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1555) vs 20-SMA ($0.1450) Deviation +7.24% [SL: $0.1501 | TP: $0.1633 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price ($0.1547) from the 20-SMA ($0.1450) at 6.69% and RSI at 52.56, this trade has a bullish sentiment.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +7.24% and RSI of 53.03 indicate potential bullish momentum. The support level at 0.1193 supports this bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI indicate potential for price increase.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.1193*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$0.15`
-- **Actual Fill Price:** `$0.15`
+- **Expected Fill Price:** `$0.16`
+- **Actual Fill Price:** `$0.16`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
