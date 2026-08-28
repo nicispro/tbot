@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:16:34 UTC"
+timestamp: "2026-08-28 05:22:26 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3240
+price: 5.3160
 quantity: 26.8000
-order_value: 142.68
+order_value: 142.47
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787894194098"
+order_id: "CRYPTO-1787894546034"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:16:34 UTC`
+> - **Date & Time:** `2026-08-28 05:22:26 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3240`
+> - **Action:** `BUY` @ `$5.3160`
 > - **Quantity:** `26.8000` shares/units
-> - **Total Value:** `$142.68`
+> - **Total Value:** `$142.47`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3240) vs 20-SMA ($4.7787) Deviation +11.41% [SL: $5.1377 | TP: $5.5902 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3160) vs 20-SMA ($4.7783) Deviation +11.25% [SL: $5.1299 | TP: $5.5818 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +11.41% from the 20-SMA and RSI value of 59.47 indicate potential for price appreciation. The support level at $3.78 supports this bullish case.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviates positively by 11.25% from the 20-SMA, RSI is at a healthy level of 59.26, and the support level is at $3.78, indicating potential growth. The risk is calculated at $4.99.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI value above the support level*
+> **Key Catalysts:** *Positive price deviation from 20-SMA, healthy RSI, and strong support level*
 
 ---
 
