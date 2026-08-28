@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:29:39 UTC"
+timestamp: "2026-08-28 15:35:31 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0903
-quantity: 1582.0000
-order_value: 142.85
+price: 0.0899
+quantity: 1588.0000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787930979482"
+order_id: "CRYPTO-1787931331446"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:29:39 UTC`
+> - **Date & Time:** `2026-08-28 15:35:31 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0903`
-> - **Quantity:** `1582.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0899`
+> - **Quantity:** `1588.0000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0903) vs 20-SMA ($0.0851) Deviation +6.11% [SL: $0.0871 | TP: $0.0948 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0899) vs 20-SMA ($0.0850) Deviation +5.76% [SL: $0.0868 | TP: $0.0944 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the trade rationale for buying ARB/USDT at $0.0903 is due to a 6.11% deviation from the 20-SMA, an RSI of 54.83, and support at $0.0722. The risk-to-reward ratio seems favorable with a TP of $0.0948.
+> Based on the given metrics, the trade rationale is positive with a 5.76% deviation and RSI at 54.21. The support level is at 0.0722 and resistance at 0.1094.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from 20-SMA indicate potential for price increase.*
+> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
 
 ---
 
