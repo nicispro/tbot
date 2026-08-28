@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:54:27 UTC"
+timestamp: "2026-08-28 23:00:37 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0877
-quantity: 1628.0000
-order_value: 142.78
+price: 0.0876
+quantity: 1630.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787957667276"
+order_id: "CRYPTO-1787958037665"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:54:27 UTC`
+> - **Date & Time:** `2026-08-28 23:00:37 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0877`
-> - **Quantity:** `1628.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0876`
+> - **Quantity:** `1630.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0849) Deviation +3.30% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0849) Deviation +3.18% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is driven by a 3.30% deviation positive price movement from the 20-SMA ($0.0849) and an RSI of 51.03, indicating potential bullish momentum.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.18% from the 20-SMA provides a strong entry signal. The RSI of 50.9 indicates a potential buying opportunity.
 > 
-> **Key Catalysts:** *Positive price deviation and moderate RSI suggest a potential bullish catalyst.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and strong entry signal from trend momentum analysis*
 
 ---
 
