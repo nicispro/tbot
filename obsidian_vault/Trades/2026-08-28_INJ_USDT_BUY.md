@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:02:39 UTC"
+timestamp: "2026-08-28 00:08:43 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.5000
-quantity: 25.9000
-order_value: 142.45
+price: 5.4700
+quantity: 26.1000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787875358780"
+order_id: "CRYPTO-1787875723622"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:02:39 UTC`
+> - **Date & Time:** `2026-08-28 00:08:43 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.5000`
-> - **Quantity:** `25.9000` shares/units
-> - **Total Value:** `$142.45`
+> - **Action:** `BUY` @ `$5.4700`
+> - **Quantity:** `26.1000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.5000) vs 20-SMA ($4.7876) Deviation +14.88% [SL: $5.3075 | TP: $5.7750 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4700) vs 20-SMA ($4.7860) Deviation +14.29% [SL: $5.2786 | TP: $5.7435 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of 14.88% from the trend momentum entry and RSI value of 64.46, we have a strong bullish signal for INJ/USDT. The validated price of $5.50 and calculated TP ($5.7750) and SL ($5.3075) provide a clear risk-reward ratio.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 14.29% deviation and RSI of 63.63. The support level is at $3.78 and resistance at $5.99.
 > 
-> **Key Catalysts:** *Positive trend momentum entry, high RSI value, and validated price with risk-reward targets*
+> **Key Catalysts:** *Positive RSI (63.63), deviation from 20-SMA, and reaching the resistance level ($5.99)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.50`
-- **Actual Fill Price:** `$5.50`
+- **Expected Fill Price:** `$5.47`
+- **Actual Fill Price:** `$5.47`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
