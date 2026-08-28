@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:19:00 UTC"
+timestamp: "2026-08-28 14:24:50 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0890
-quantity: 1605.0000
-order_value: 142.84
+price: 0.0893
+quantity: 1599.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787926740730"
+order_id: "CRYPTO-1787927090108"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:19:00 UTC`
+> - **Date & Time:** `2026-08-28 14:24:50 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0890`
-> - **Quantity:** `1605.0000` shares/units
-> - **Total Value:** `$142.84`
+> - **Action:** `BUY` @ `$0.0893`
+> - **Quantity:** `1599.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0890) vs 20-SMA ($0.0850) Deviation +4.71% [SL: $0.0859 | TP: $0.0935 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0893) vs 20-SMA ($0.0850) Deviation +5.06% [SL: $0.0862 | TP: $0.0938 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 4.71% deviation from the 20-SMA and an RSI of 52.87, indicating a neutral to bullish sentiment. The support level at 0.0722 and resistance at 0.1094 provide risk management guidelines.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.06% deviation and RSI of 53.31. The support level is at 0.0722, and the buy trigger occurs at a deviation above the 20-SMA.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a 4.71% deviation from the 20-SMA and RSI of 52.87*
+> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support a potential bullish catalyst.*
 
 ---
 
