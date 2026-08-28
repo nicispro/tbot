@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:09:56 UTC"
+timestamp: "2026-08-28 06:15:51 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3490
-quantity: 26.7000
-order_value: 142.82
+price: 5.3530
+quantity: 26.6000
+order_value: 142.39
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897395747"
+order_id: "CRYPTO-1787897751531"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:09:56 UTC`
+> - **Date & Time:** `2026-08-28 06:15:51 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3490`
-> - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$5.3530`
+> - **Quantity:** `26.6000` shares/units
+> - **Total Value:** `$142.39`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3490) vs 20-SMA ($4.7800) Deviation +11.90% [SL: $5.1618 | TP: $5.6165 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3530) vs 20-SMA ($4.7802) Deviation +11.98% [SL: $5.1656 | TP: $5.6207 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +11.90% and RSI of 60.14 indicate potential growth. The support level at $3.78 supports this bullish case.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The deviation of price from 20-SMA is 11.98%, RSI is at 60.28, indicating a potential bullish momentum. However, the lack of short and long SMA data makes the analysis less robust.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at $3.78*
+> **Key Catalysts:** *Positive RSI (60.28) and price deviation from 20-SMA (11.98%) are the key technical catalysts for this trade.*
 
 ---
 
