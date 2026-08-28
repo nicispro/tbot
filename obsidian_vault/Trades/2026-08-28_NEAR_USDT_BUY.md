@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:19:39 UTC"
+timestamp: "2026-08-28 01:37:19 UTC"
 ticker: "NEAR/USDT"
 canonical_symbol: "NEAR/USDT"
 base_symbol: "NEAR"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.9610
+price: 1.9620
 quantity: 72.8000
-order_value: 142.76
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787879978938"
+order_id: "CRYPTO-1787881038997"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `NEAR/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:19:39 UTC`
+> - **Date & Time:** `2026-08-28 01:37:19 UTC`
 > - **Canonical Instrument:** `NEAR/USDT` (NEAR/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.9610`
+> - **Action:** `BUY` @ `$1.9620`
 > - **Quantity:** `72.8000` shares/units
-> - **Total Value:** `$142.76`
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.9610) vs 20-SMA ($1.7567) Deviation +11.63% [SL: $1.8924 | TP: $2.0591 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.9620) vs 20-SMA ($1.7567) Deviation +11.69% [SL: $1.8933 | TP: $2.0601 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The trade entry point is triggered by the deviation of +11.63% from the 20-SMA, RSI of 60.4, and support level of 1.538. The risk-to-reward ratio seems favorable.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The NEAR/USDT pair shows a 11.69% deviation from the 20-SMA, an RSI of 60.45, and a support level of 1.538. These indicators indicate a potential for price growth.
 > 
-> **Key Catalysts:** *Positive RSI (60.4), deviation (+11.63%) from 20-SMA, and support level (1.538)*
+> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support a bullish trade.*
 
 ---
 
