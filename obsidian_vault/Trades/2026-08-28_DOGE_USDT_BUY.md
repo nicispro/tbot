@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:42:46 UTC"
+timestamp: "2026-08-28 11:01:36 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0866
-quantity: 1649.0000
-order_value: 142.80
+price: 0.0872
+quantity: 1638.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787913765787"
+order_id: "CRYPTO-1787914896141"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:42:46 UTC`
+> - **Date & Time:** `2026-08-28 11:01:36 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0866`
-> - **Quantity:** `1649.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0872`
+> - **Quantity:** `1638.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0866) vs 20-SMA ($0.0786) Deviation +10.18% [SL: $0.0836 | TP: $0.0909 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0872) vs 20-SMA ($0.0786) Deviation +10.94% [SL: $0.0841 | TP: $0.0916 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is trading above the 20‑period SMA with a moderate RSI, indicating upward momentum; the tight stop at $0.0836 and TP near $0.0909 provide a favorable risk‑reward profile.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is trading 10.94% above the 20‑SMA with RSI at 63.9, suggesting upward momentum; the trade targets a modest 5% upside to $0.0916 against a tight stop at $0.0841.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and RSI 62.87*
+> **Key Catalysts:** *Break above 20‑SMA and sustained RSI above 60 driving momentum entry*
 
 ---
 
