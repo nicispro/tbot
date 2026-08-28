@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:51:31 UTC"
+timestamp: "2026-08-28 06:57:27 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4960
+price: 7.4890
 quantity: 19.0000
-order_value: 142.42
+order_value: 142.29
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899890831"
+order_id: "CRYPTO-1787900246971"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:51:31 UTC`
+> - **Date & Time:** `2026-08-28 06:57:27 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4960`
+> - **Action:** `BUY` @ `$7.4890`
 > - **Quantity:** `19.0000` shares/units
-> - **Total Value:** `$142.42`
+> - **Total Value:** `$142.29`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4960) vs 20-SMA ($6.9035) Deviation +8.58% [SL: $7.2336 | TP: $7.8708 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4890) vs 20-SMA ($6.9031) Deviation +8.49% [SL: $7.2269 | TP: $7.8635 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of 8.58% from the price vs 20-SMA and RSI value of 63.38, we have a strong bullish signal for AVAX/USDT.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk. The RSI value of 63.17 indicates strong momentum, and the price deviation from the 20-SMA is positive (+8.49%). The support level of 5.69 suggests a potential buying opportunity.
 > 
-> **Key Catalysts:** *Price deviating positively from the 20-SMA and RSI crossing above the neutral threshold*
+> **Key Catalysts:** *Strong momentum (RSI 63.17), positive price deviation (+8.49% from 20-SMA), and support level (5.69)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.50`
-- **Actual Fill Price:** `$7.50`
+- **Expected Fill Price:** `$7.49`
+- **Actual Fill Price:** `$7.49`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
