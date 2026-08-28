@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:48:28 UTC"
+timestamp: "2026-08-28 14:54:17 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.4140
-quantity: 26.3000
-order_value: 142.39
+price: 5.4050
+quantity: 26.4000
+order_value: 142.69
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787928508433"
+order_id: "CRYPTO-1787928857019"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:48:28 UTC`
+> - **Date & Time:** `2026-08-28 14:54:17 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.4140`
-> - **Quantity:** `26.3000` shares/units
-> - **Total Value:** `$142.39`
+> - **Action:** `BUY` @ `$5.4050`
+> - **Quantity:** `26.4000` shares/units
+> - **Total Value:** `$142.69`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4140) vs 20-SMA ($4.7833) Deviation +13.19% [SL: $5.2245 | TP: $5.6847 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4050) vs 20-SMA ($4.7825) Deviation +13.02% [SL: $5.2158 | TP: $5.6753 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 13% momentum deviation offers a moderate risk/reward profile, targeting 5.6847 with a stop at 5.2245.
+> Entry above 20‑SMA with a 13% price deviation and a moderately bullish RSI of 61.59; target 5.6753 offers a ~1.36:1 reward‑to‑risk ratio.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+13%) momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA and RSI 61.59 indicating upward momentum*
 
 ---
 
