@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:45:33 UTC"
+timestamp: "2026-08-28 20:51:51 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,7 +14,7 @@ quantity: 0.2000
 order_value: 137.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787949933468"
+order_id: "CRYPTO-1787950310801"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:45:33 UTC`
+> - **Date & Time:** `2026-08-28 20:51:51 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$689.2000`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 6.46% above the 20-SMA, indicating strong short-term momentum, though RSI at 67.81 suggests approaching overbought conditions. The trade offers a favorable risk-reward profile with a stop loss at $665.08 and target at $723.66.
+> Price is trading significantly above the 20-SMA with a positive deviation, indicating strong short-term momentum, though the RSI near 68 suggests limited upside room before potential overbought conditions.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA (+6.46%) and price holding above support at $598.14.*
+> **Key Catalysts:** *Positive deviation from 20-SMA (+6.46%) and price holding above support at $598.14 with resistance at $726.93.*
 
 ---
 
