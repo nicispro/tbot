@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:03:54 UTC"
+timestamp: "2026-08-28 06:09:50 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0902
-quantity: 1583.0000
-order_value: 142.79
+price: 0.0905
+quantity: 1578.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897033776"
+order_id: "CRYPTO-1787897390075"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:03:54 UTC`
+> - **Date & Time:** `2026-08-28 06:09:50 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0902`
-> - **Quantity:** `1583.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0905`
+> - **Quantity:** `1578.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0902) vs 20-SMA ($0.0851) Deviation +5.99% [SL: $0.0870 | TP: $0.0947 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0905) vs 20-SMA ($0.0851) Deviation +6.35% [SL: $0.0873 | TP: $0.0950 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive price deviation (+5.99%) and RSI (54.68) reading, this trade proposal indicates bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 6.35% deviation and RSI at 55.15. The support level is at 0.0722, and the buy trigger occurs at a deviation above the 20-SMA.
 > 
-> **Key Catalysts:** *Price deviation and RSI values suggest potential price appreciation.*
+> **Key Catalysts:** *Positive RSI and deviation from 20-SMA*
 
 ---
 
