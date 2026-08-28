@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:59:18 UTC"
+timestamp: "2026-08-28 04:05:16 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0900
-quantity: 1587.0000
-order_value: 142.83
+price: 0.0898
+quantity: 1590.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787889557963"
+order_id: "CRYPTO-1787889915805"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:59:18 UTC`
+> - **Date & Time:** `2026-08-28 04:05:16 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0900`
-> - **Quantity:** `1587.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.0898`
+> - **Quantity:** `1590.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0900) vs 20-SMA ($0.0850) Deviation +5.88% [SL: $0.0868 | TP: $0.0945 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0898) vs 20-SMA ($0.0850) Deviation +5.65% [SL: $0.0867 | TP: $0.0943 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 70% confidence score. The price deviates positively by 5.88% from the 20-SMA and RSI is at a favorable level of 54.37.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviates significantly (+5.65%) from the 20-SMA and RSI (54.06) indicates a positive momentum. However, the lack of short and long SMA data limits the overall analysis.
 > 
-> **Key Catalysts:** *Positive price deviation (5.88%) and favorable RSI (54.37) indicate a potential bullish catalyst.*
+> **Key Catalysts:** *Positive RSI and price deviation from 20-SMA*
 
 ---
 
