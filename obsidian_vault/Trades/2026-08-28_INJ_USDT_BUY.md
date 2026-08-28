@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:29:46 UTC"
+timestamp: "2026-08-28 15:35:38 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3720
-quantity: 26.5000
-order_value: 142.36
+price: 5.3670
+quantity: 26.6000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787930986626"
+order_id: "CRYPTO-1787931338377"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:29:46 UTC`
+> - **Date & Time:** `2026-08-28 15:35:38 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3720`
-> - **Quantity:** `26.5000` shares/units
-> - **Total Value:** `$142.36`
+> - **Action:** `BUY` @ `$5.3670`
+> - **Quantity:** `26.6000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3720) vs 20-SMA ($4.7812) Deviation +12.36% [SL: $5.1840 | TP: $5.6406 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3670) vs 20-SMA ($4.7809) Deviation +12.26% [SL: $5.1792 | TP: $5.6353 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with an RSI of 60.8 signals bullish momentum; the target of $5.6406 offers a modest upside (~5.1%) against a tighter downside risk to $5.1840 (~3.6%).
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Price is 12% above the 20‑SMA with an RSI of 60.66, indicating bullish momentum; the target of $5.6353 offers a modest upside versus a tighter stop at $5.1792.
 > 
-> **Key Catalysts:** *Price 12.36% above 20‑SMA, RSI 60.8, ATR 0.4116*
+> **Key Catalysts:** *Price above 20‑SMA, RSI 60.66, and ATR 0.4116 confirming upward momentum*
 
 ---
 
