@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:08:31 UTC"
+timestamp: "2026-08-28 00:14:29 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5200
-quantity: 93.9000
-order_value: 142.73
+price: 1.5220
+quantity: 93.8000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787875711708"
+order_id: "CRYPTO-1787876069125"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:08:31 UTC`
+> - **Date & Time:** `2026-08-28 00:14:29 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5200`
-> - **Quantity:** `93.9000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$1.5220`
+> - **Quantity:** `93.8000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5200) vs 20-SMA ($1.3747) Deviation +10.57% [SL: $1.4668 | TP: $1.5960 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5220) vs 20-SMA ($1.3748) Deviation +10.71% [SL: $1.4687 | TP: $1.5981 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive deviation of 10.57% from the trend momentum entry and RSI value of 63.57, we enter a bullish sentiment.
+> Based on the positive deviation of 10.71% from the trend momentum entry and RSI value of 64.04, we have a strong bullish signal.
 > 
-> **Key Catalysts:** *Trend momentum entry and RSI value indicate potential for price appreciation.*
+> **Key Catalysts:** *Trend momentum entry and RSI indicate market optimism and potential for price appreciation.*
 
 ---
 
