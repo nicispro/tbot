@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:18:51 UTC"
+timestamp: "2026-08-28 23:24:54 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4280
+price: 4.4300
 quantity: 32.2000
-order_value: 142.58
+order_value: 142.65
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787959130818"
+order_id: "CRYPTO-1787959494076"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 78
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:18:51 UTC`
+> - **Date & Time:** `2026-08-28 23:24:54 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4280`
+> - **Action:** `BUY` @ `$4.4300`
 > - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.58`
+> - **Total Value:** `$142.65`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4280) vs 20-SMA ($3.8724) Deviation +14.35% [SL: $4.2730 | TP: $4.6494 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4300) vs 20-SMA ($3.8725) Deviation +14.40% [SL: $4.2749 | TP: $4.6515 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is 14.35% above the 20‑SMA with a moderate RSI of 61, indicating bullish momentum; the target of $4.6494 offers a ~5.6% upside against a 3.6% downside risk to the stop at $4.2730.
+> [!info] **AI Thesis (BULLISH - 78% Confidence)**
+> The trade hypothesis is supported by strong bullish momentum, indicated by price trading 14.4% above the 20-SMA and an RSI of 61.08, with a target set prudently below the $4.836 resistance level.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, RSI 61.03, ATR 0.3334, and proximity to resistance at $4.836*
+> **Key Catalysts:** *Positive deviation from 20-SMA and RSI momentum*
 
 ---
 
