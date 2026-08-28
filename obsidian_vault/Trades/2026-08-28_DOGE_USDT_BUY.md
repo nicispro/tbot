@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:26:26 UTC"
+timestamp: "2026-08-28 00:32:28 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0887
-quantity: 1610.0000
-order_value: 142.81
+price: 0.0891
+quantity: 1603.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787876785808"
+order_id: "CRYPTO-1787877147961"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:26:26 UTC`
+> - **Date & Time:** `2026-08-28 00:32:28 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0887`
-> - **Quantity:** `1610.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.0891`
+> - **Quantity:** `1603.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0887) vs 20-SMA ($0.0787) Deviation +12.71% [SL: $0.0856 | TP: $0.0931 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0891) vs 20-SMA ($0.0787) Deviation +13.21% [SL: $0.0860 | TP: $0.0936 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the proposed trade has a BULLISH sentiment with a confidence score of 75. The dip percentage is 12.71%, RSI is at 67.57, and the support level is at 0.0689, indicating potential for growth. The trigger price of $0.09 and target price of $0.0931 present a risk of $5.00.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from the 20-SMA is significant (13.21%), RSI is at a healthy level (68.53), and the support level is strong (0.0689). However, the lack of short and long SMA data and ATR value raises concerns. Proceed with caution.
 > 
-> **Key Catalysts:** *The positive technical indicators and momentum suggest a potential for growth in the DOGE/USDT market.*
+> **Key Catalysts:** *Positive price deviation from 20-SMA, healthy RSI, and strong support level*
 
 ---
 
