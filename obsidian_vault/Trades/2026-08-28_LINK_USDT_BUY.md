@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:52:29 UTC"
+timestamp: "2026-08-28 18:58:54 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.2820
-quantity: 12.7000
-order_value: 143.28
+price: 11.3130
+quantity: 12.6000
+order_value: 142.54
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787943149698"
+order_id: "CRYPTO-1787943534134"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:52:29 UTC`
+> - **Date & Time:** `2026-08-28 18:58:54 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.2820`
-> - **Quantity:** `12.7000` shares/units
-> - **Total Value:** `$143.28`
+> - **Action:** `BUY` @ `$11.3130`
+> - **Quantity:** `12.6000` shares/units
+> - **Total Value:** `$142.54`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.2820) vs 20-SMA ($10.1908) Deviation +10.71% [SL: $10.8871 | TP: $11.8461 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3130) vs 20-SMA ($10.1922) Deviation +11.00% [SL: $10.9170 | TP: $11.8787 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a moderate risk/reward ratio (≈1.4:1) supports a bullish stance, though the RSI of 64.6 signals a mildly overbought condition.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (65.04) and ATR (0.7911) indicate strong momentum and volatility, respectively. The price is above the support level (8.167) and close to the resistance level (12.594), suggesting a potential breakout.
 > 
-> **Key Catalysts:** *Price 10.71% above the 20‑SMA, indicating upward momentum*
+> **Key Catalysts:** *Strong momentum (RSI 65.04), low volatility (ATR 0.7911), and potential breakout due to support/resistance levels*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.28`
-- **Actual Fill Price:** `$11.28`
+- **Expected Fill Price:** `$11.31`
+- **Actual Fill Price:** `$11.31`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
