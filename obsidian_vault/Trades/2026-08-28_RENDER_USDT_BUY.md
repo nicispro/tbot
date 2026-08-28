@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:41:26 UTC"
+timestamp: "2026-08-28 04:52:38 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5000
-quantity: 95.2000
-order_value: 142.80
+price: 1.4960
+quantity: 95.4000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787888486181"
+order_id: "CRYPTO-1787892758247"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:41:26 UTC`
+> - **Date & Time:** `2026-08-28 04:52:38 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5000`
-> - **Quantity:** `95.2000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$1.4960`
+> - **Quantity:** `95.4000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5000) vs 20-SMA ($1.3737) Deviation +9.19% [SL: $1.4475 | TP: $1.5750 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4960) vs 20-SMA ($1.3736) Deviation +8.91% [SL: $1.4436 | TP: $1.5708 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 9.19% above the 20-SMA with RSI at 60.62, indicating strong upward momentum without immediate overbought conditions. The setup offers a favorable risk-reward profile with a stop loss at $1.4475 and target at $1.5750.
+> The trade aligns with positive trend momentum as the price trades 8.91% above the 20-SMA, supported by an RSI of 60.06 indicating strength without extreme overbought conditions. The risk-reward ratio is favorable with a stop loss at $1.4436 and a target at $1.5708, though the proximity to the $1.637 resistance level caps immediate upside potential.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA (+9.19%) and neutral-to-bullish RSI (60.62) confirming trend momentum.*
+> **Key Catalysts:** *Trend Momentum Entry with price deviation of +8.91% from 20-SMA and RSI at 60.06*
 
 ---
 
