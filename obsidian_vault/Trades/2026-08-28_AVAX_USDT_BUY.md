@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:17:56 UTC"
+timestamp: "2026-08-28 22:24:02 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2630
+price: 7.2650
 quantity: 19.6000
-order_value: 142.35
+order_value: 142.39
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787955475976"
+order_id: "CRYPTO-1787955842512"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:17:56 UTC`
+> - **Date & Time:** `2026-08-28 22:24:02 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2630`
+> - **Action:** `BUY` @ `$7.2650`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.35`
+> - **Total Value:** `$142.39`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2630) vs 20-SMA ($6.8918) Deviation +5.39% [SL: $7.0088 | TP: $7.6261 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2650) vs 20-SMA ($6.8919) Deviation +5.41% [SL: $7.0107 | TP: $7.6283 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.39% and RSI of 57.14 indicate bullish momentum. The support level of $5.69 and resistance level of $8.318 provide potential profit targets.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.41% from the 20-SMA and RSI value of 57.19 indicate bullish momentum. However, the missing short_sma and long_sma values affect the overall analysis.
 > 
-> **Key Catalysts:** *Price deviation, RSI, and support/resistance levels drive the bullish sentiment.*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI value drive the bullish sentiment, but missing SMA values impact confidence.*
 
 ---
 
