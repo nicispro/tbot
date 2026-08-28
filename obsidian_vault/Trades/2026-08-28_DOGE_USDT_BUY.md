@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:41:02 UTC"
+timestamp: "2026-08-28 04:46:55 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,7 +14,7 @@ quantity: 1630.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787892062679"
+order_id: "CRYPTO-1787892414961"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:41:02 UTC`
+> - **Date & Time:** `2026-08-28 04:46:55 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0876`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the trade rationale is a potential price increase from the validated price of $0.09. The RSI (64.86) and trend momentum entry support a bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential price increase from the validated price of $0.09. The RSI (64.95) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum. However, the short_sma (DATA_UNAVAILABLE), long_sma (DATA_UNAVAILABLE), and support (0.0689) levels are missing crucial information.
 > 
-> **Key Catalysts:** *RSI (64.86), trend momentum entry*
+> **Key Catalysts:** *Positive RSI and momentum, but lack of key technical data hampers a comprehensive analysis.*
 
 ---
 
