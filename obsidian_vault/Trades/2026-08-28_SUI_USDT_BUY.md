@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:55:56 UTC"
+timestamp: "2026-08-28 01:07:43 UTC"
 ticker: "SUI/USDT"
 canonical_symbol: "SUI/USDT"
 base_symbol: "SUI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.7815
+price: 0.7832
 quantity: 182.0000
-order_value: 142.23
+order_value: 142.54
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787878556376"
+order_id: "CRYPTO-1787879263439"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SUI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:55:56 UTC`
+> - **Date & Time:** `2026-08-28 01:07:43 UTC`
 > - **Canonical Instrument:** `SUI/USDT` (SUI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.7815`
+> - **Action:** `BUY` @ `$0.7832`
 > - **Quantity:** `182.0000` shares/units
-> - **Total Value:** `$142.23`
+> - **Total Value:** `$142.54`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.7815) vs 20-SMA ($0.7314) Deviation +6.85% [SL: $0.7541 | TP: $0.8206 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.7832) vs 20-SMA ($0.7315) Deviation +7.07% [SL: $0.7558 | TP: $0.8224 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the provided metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The sentiment is supported by a RSI of 56.93 and a dip percentage of 11.28%, indicating a potential recovery from a previous dip. The validated price of $0.78 and the trigger reason suggest a trend momentum entry.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 7.07% above the 20-SMA indicates a potential entry point. The RSI value of 57.18 suggests the asset is not overbought or oversold, indicating a stable market.
 > 
-> **Key Catalysts:** *The RSI above 50 and dip percentage below 15% indicate a potential recovery in the market, providing a catalyst for this trade.*
+> **Key Catalysts:** *Trend momentum entry (BUY) and stable market conditions contribute to the bullish sentiment.*
 
 ---
 
