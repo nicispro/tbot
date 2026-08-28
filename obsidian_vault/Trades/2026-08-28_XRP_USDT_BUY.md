@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:46:05 UTC"
+timestamp: "2026-08-28 20:52:25 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.3800
-quantity: 103.5000
-order_value: 142.83
+price: 1.3811
+quantity: 103.4000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787949964906"
+order_id: "CRYPTO-1787950344998"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:46:05 UTC`
+> - **Date & Time:** `2026-08-28 20:52:25 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.3800`
-> - **Quantity:** `103.5000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$1.3811`
+> - **Quantity:** `103.4000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3800) vs 20-SMA ($1.2024) Deviation +14.77% [SL: $1.3317 | TP: $1.4490 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3811) vs 20-SMA ($1.2025) Deviation +14.85% [SL: $1.3328 | TP: $1.4502 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (64.51) and trend momentum entry at $1.3800 indicate strong buying interest. However, the missing short_sma and long_sma metrics impact the overall analysis.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is well above the 20‑SMA with a strong +14.85% deviation, offering a moderate risk‑reward (≈1.4:1) and a TP near 1.45 before the next resistance at 1.7.
 > 
-> **Key Catalysts:** *Technical indicators (RSI, trend momentum entry) support a bullish sentiment.*
+> **Key Catalysts:** *Trend momentum entry: price above 20‑SMA with significant deviation*
 
 ---
 
