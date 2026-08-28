@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:35:32 UTC"
+timestamp: "2026-08-28 03:41:31 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0902
-quantity: 1583.0000
-order_value: 142.79
+price: 0.0901
+quantity: 1585.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787888132271"
+order_id: "CRYPTO-1787888491575"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:35:32 UTC`
+> - **Date & Time:** `2026-08-28 03:41:31 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0902`
-> - **Quantity:** `1583.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0901`
+> - **Quantity:** `1585.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0902) vs 20-SMA ($0.0851) Deviation +5.99% [SL: $0.0870 | TP: $0.0947 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0901) vs 20-SMA ($0.0850) Deviation +6.00% [SL: $0.0869 | TP: $0.0946 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.99% deviation from the 20-SMA and an RSI of 54.68, indicating a possible price increase. However, the data for short_sma, long_sma, dip_percentage, and ATR are missing.
+> Based on the given parameters, the trade rationale is positive as the price deviates significantly from the 20-SMA and RSI is above the neutral threshold. The buy trigger is supported by a 6.00% deviation and a dip percentage of 25.00%.
 > 
-> **Key Catalysts:** *Price deviating positively from the 20-SMA and showing bullish RSI indicate potential price growth. But missing data affects the overall assessment.*
+> **Key Catalysts:** *Positive RSI, significant price deviation, and 25.00% dip percentage indicate potential bullish momentum.*
 
 ---
 
