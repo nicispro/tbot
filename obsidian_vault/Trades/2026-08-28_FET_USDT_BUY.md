@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:55:45 UTC"
+timestamp: "2026-08-28 14:01:38 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1612
-quantity: 886.0000
-order_value: 142.82
+price: 0.1614
+quantity: 885.0000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787925345712"
+order_id: "CRYPTO-1787925698382"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:55:45 UTC`
+> - **Date & Time:** `2026-08-28 14:01:38 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1612`
-> - **Quantity:** `886.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.1614`
+> - **Quantity:** `885.0000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1612) vs 20-SMA ($0.1453) Deviation +10.94% [SL: $0.1556 | TP: $0.1693 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1614) vs 20-SMA ($0.1453) Deviation +11.08% [SL: $0.1558 | TP: $0.1695 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Price is 10.94% above the 20‑SMA with a moderate RSI of 56.77, offering a 4.5% upside to 0.1693 versus a 3.5% downside to 0.1556, indicating a favorable risk/reward profile.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a moderate RSI and ATR suggests upward momentum; potential upside to 0.1695 against a stop at 0.1558.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and RSI >50 signaling upward momentum*
+> **Key Catalysts:** *Price above 20‑SMA with +11% deviation and RSI near 57*
 
 ---
 
