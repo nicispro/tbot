@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:36:45 UTC"
+timestamp: "2026-08-28 10:49:12 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1610
-quantity: 887.0000
-order_value: 142.81
+price: 0.1617
+quantity: 883.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787913405185"
+order_id: "CRYPTO-1787914152336"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:36:45 UTC`
+> - **Date & Time:** `2026-08-28 10:49:12 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1610`
-> - **Quantity:** `887.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.1617`
+> - **Quantity:** `883.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1610) vs 20-SMA ($0.1453) Deviation +10.81% [SL: $0.1554 | TP: $0.1691 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1617) vs 20-SMA ($0.1453) Deviation +11.29% [SL: $0.1560 | TP: $0.1698 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above 50, indicating bullish momentum. The support level at $0.1193 and resistance at $0.1843 provide potential profit targets.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with an 11% momentum deviation and a moderate RSI of 57.18 supports a bullish stance, while the target near resistance offers a reward‑to‑risk ratio of roughly 2.5:1.
 > 
-> **Key Catalysts:** *Positive RSI, significant deviation from 20-SMA, and strong support/resistance levels*
+> **Key Catalysts:** *Price above 20‑SMA (+11.29%), RSI 57.18, ATR 0.0143, and proximity to resistance at 0.1843*
 
 ---
 
