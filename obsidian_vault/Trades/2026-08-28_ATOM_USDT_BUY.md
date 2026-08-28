@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:25:32 UTC"
+timestamp: "2026-08-28 01:37:17 UTC"
 ticker: "ATOM/USDT"
 canonical_symbol: "ATOM/USDT"
 base_symbol: "ATOM"
@@ -14,11 +14,11 @@ quantity: 90.7000
 order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787880332361"
+order_id: "CRYPTO-1787881036953"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ATOM/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:25:32 UTC`
+> - **Date & Time:** `2026-08-28 01:37:17 UTC`
 > - **Canonical Instrument:** `ATOM/USDT` (ATOM/USDT (Cosmos/Crypto on Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.5740`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation (+5.49%) from the 20-SMA and RSI value (59.9), this trade proposal indicates bullish sentiment with a moderate risk.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the positive deviation (+5.49%) from the 20-SMA and RSI value (59.9), this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) and support level (1.367)*
+> **Key Catalysts:** *Strong trend momentum and RSI reading support the buy proposal.*
 
 ---
 
