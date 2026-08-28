@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:40:22 UTC"
+timestamp: "2026-08-28 16:46:19 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4350
-quantity: 32.2000
-order_value: 142.81
+price: 4.4430
+quantity: 32.1000
+order_value: 142.62
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787935222549"
+order_id: "CRYPTO-1787935578783"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:40:22 UTC`
+> - **Date & Time:** `2026-08-28 16:46:19 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4350`
-> - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$4.4430`
+> - **Quantity:** `32.1000` shares/units
+> - **Total Value:** `$142.62`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4350) vs 20-SMA ($3.8727) Deviation +14.52% [SL: $4.2798 | TP: $4.6567 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4430) vs 20-SMA ($3.8731) Deviation +14.71% [SL: $4.2875 | TP: $4.6651 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a moderate RSI, indicating upward momentum; the target of $4.6567 offers a ~5.3% upside against a ~3.4% downside risk.
+> Price is well above the 20‑SMA with a strong momentum entry and RSI in the bullish zone, offering a favorable risk‑reward profile (SL 4.2875, TP 4.6651).
 > 
-> **Key Catalysts:** *Price crossing above the 20‑SMA and an RSI of 61.22*
+> **Key Catalysts:** *Price above 20‑SMA (+14.71% deviation) and RSI 61.42 indicating upward momentum*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.43`
-- **Actual Fill Price:** `$4.43`
+- **Expected Fill Price:** `$4.44`
+- **Actual Fill Price:** `$4.44`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
