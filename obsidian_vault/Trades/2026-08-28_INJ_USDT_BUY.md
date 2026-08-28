@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:23:51 UTC"
+timestamp: "2026-08-28 03:29:43 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3300
+price: 5.3270
 quantity: 26.8000
-order_value: 142.84
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787887431650"
+order_id: "CRYPTO-1787887783176"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:23:51 UTC`
+> - **Date & Time:** `2026-08-28 03:29:43 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3300`
+> - **Action:** `BUY` @ `$5.3270`
 > - **Quantity:** `26.8000` shares/units
-> - **Total Value:** `$142.84`
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3300) vs 20-SMA ($4.7790) Deviation +11.53% [SL: $5.1434 | TP: $5.5965 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3270) vs 20-SMA ($4.7789) Deviation +11.47% [SL: $5.1406 | TP: $5.5934 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a positive sentiment as the RSI (59.6) and ATR (0.4099) indicate strength and volatility, respectively. The deviation of 11.53% from the 20-SMA supports the entry.
+> Based on the given data, the trade rationale for buying INJ/USDT at $5.33 is a positive price deviation of 11.47% from the 20-SMA, and an RSI of 59.55 indicating a potential bullish momentum. However, the DATA_UNAVAILABLE values for short_sma, long_sma, and dip_percentage limit the analysis.
 > 
-> **Key Catalysts:** *Technical indicators point to a potential bullish move with RSI at 59.6 and ATR at 0.4099.*
+> **Key Catalysts:** *Positive price deviation and RSI indicate bullish momentum, but missing key metrics hinder comprehensive analysis.*
 
 ---
 
