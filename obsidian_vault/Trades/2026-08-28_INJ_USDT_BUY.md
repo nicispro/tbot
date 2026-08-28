@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:42:21 UTC"
+timestamp: "2026-08-28 22:48:22 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1330
-quantity: 27.8000
-order_value: 142.70
+price: 5.1490
+quantity: 27.7000
+order_value: 142.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787956941127"
+order_id: "CRYPTO-1787957302323"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:42:21 UTC`
+> - **Date & Time:** `2026-08-28 22:48:22 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1330`
-> - **Quantity:** `27.8000` shares/units
-> - **Total Value:** `$142.70`
+> - **Action:** `BUY` @ `$5.1490`
+> - **Quantity:** `27.7000` shares/units
+> - **Total Value:** `$142.63`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1330) vs 20-SMA ($4.7691) Deviation +7.63% [SL: $4.9533 | TP: $5.3896 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1490) vs 20-SMA ($4.7699) Deviation +7.95% [SL: $4.9688 | TP: $5.4065 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 7.63% deviation between the current price ($5.13) and the 20-SMA ($4.7691), an RSI of 54.78 indicating a potential buying opportunity, and the support level at $3.779.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 7.95% deviation and RSI at 55.15. The support level is at $3.78, resistance at $5.99, and the validated price is $5.15. The risk is calculated as $4.99.
 > 
-> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and support level support the trade.*
+> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.13`
-- **Actual Fill Price:** `$5.13`
+- **Expected Fill Price:** `$5.15`
+- **Actual Fill Price:** `$5.15`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
