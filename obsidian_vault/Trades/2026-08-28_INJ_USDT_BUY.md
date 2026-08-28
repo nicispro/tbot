@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:58:15 UTC"
+timestamp: "2026-08-28 21:04:29 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1500
-quantity: 27.7000
-order_value: 142.66
+price: 5.1340
+quantity: 27.8000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787950694915"
+order_id: "CRYPTO-1787951069116"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:58:15 UTC`
+> - **Date & Time:** `2026-08-28 21:04:29 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1500`
-> - **Quantity:** `27.7000` shares/units
-> - **Total Value:** `$142.66`
+> - **Action:** `BUY` @ `$5.1340`
+> - **Quantity:** `27.8000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1500) vs 20-SMA ($4.7700) Deviation +7.97% [SL: $4.9698 | TP: $5.4075 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1340) vs 20-SMA ($4.7692) Deviation +7.65% [SL: $4.9543 | TP: $5.3907 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 7.97% surpasses the trigger requirement, RSI (55.17) indicates a potential buying opportunity, and the price is above the support level (3.779). However, some metrics are missing or unavailable, so the analysis relies on limited data.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation of price ($5.13) from 20-SMA ($4.7692) at 7.65% and RSI (54.81) indicating bullish momentum, we enter a BUY trade.
 > 
-> **Key Catalysts:** *Deviation, RSI, and support level catalysts*
+> **Key Catalysts:** *Positive price deviation and bullish RSI indicate potential for price growth.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.15`
-- **Actual Fill Price:** `$5.15`
+- **Expected Fill Price:** `$5.13`
+- **Actual Fill Price:** `$5.13`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
