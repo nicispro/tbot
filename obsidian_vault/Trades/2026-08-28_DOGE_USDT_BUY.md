@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:39:02 UTC"
+timestamp: "2026-08-28 07:44:55 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,7 +14,7 @@ quantity: 1632.0000
 order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787902742326"
+order_id: "CRYPTO-1787903095468"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:39:02 UTC`
+> - **Date & Time:** `2026-08-28 07:44:55 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0875`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price increase with a 75% confidence score. The RSI (64.9) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the trend is supported by the deviation (+11.32%) from the 20-SMA. The support level (0.0689) is close to the validated price ($0.09), suggesting a low risk.
+> Based on the given metrics, the trade rationale is a potential price surge from the current level of $0.09. The RSI (64.83) and dip percentage (DATA_UNAVAILABLE) indicate an upward momentum. However, the short_sma (DATA_UNAVAILABLE), long_sma (DATA_UNAVAILABLE), and ATR (0.0053) suggest caution. The trade has a favorable risk-reward ratio.
 > 
-> **Key Catalysts:** *Positive momentum indicators and low risk due to support level proximity*
+> **Key Catalysts:** *Positive RSI and upward momentum, but missing key SMA and ATR data*
 
 ---
 
