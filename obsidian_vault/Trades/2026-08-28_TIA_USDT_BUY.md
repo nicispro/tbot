@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:50:43 UTC"
+timestamp: "2026-08-28 10:01:29 UTC"
 ticker: "TIA/USDT"
 canonical_symbol: "TIA/USDT"
 base_symbol: "TIA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.3533
-quantity: 404.0000
-order_value: 142.73
+price: 0.3503
+quantity: 407.0000
+order_value: 142.57
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787903443554"
+order_id: "CRYPTO-1787911289143"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `TIA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:50:43 UTC`
+> - **Date & Time:** `2026-08-28 10:01:29 UTC`
 > - **Canonical Instrument:** `TIA/USDT` (TIA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.3533`
-> - **Quantity:** `404.0000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$0.3503`
+> - **Quantity:** `407.0000` shares/units
+> - **Total Value:** `$142.57`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3533) vs 20-SMA ($0.3347) Deviation +5.56% [SL: $0.3409 | TP: $0.3710 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3503) vs 20-SMA ($0.3346) Deviation +4.69% [SL: $0.3380 | TP: $0.3678 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (52.02) and ATR (0.0273) indicate a stable market, while the deviation of +5.56% surpasses the threshold. The support level (0.2937) is close to the validated price, suggesting a potential for growth.
+> Based on the positive deviation (+4.69%) from the trend momentum entry and RSI value (50.96), this trade has a strong risk-reward rationale.
 > 
-> **Key Catalysts:** *Positive RSI, stable ATR, and close support level*
+> **Key Catalysts:** *Trend momentum entry and RSI crossing the neutral threshold*
 
 ---
 
