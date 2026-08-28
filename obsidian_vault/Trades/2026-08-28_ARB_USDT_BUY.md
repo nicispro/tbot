@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 11:13:46 UTC"
+timestamp: "2026-08-28 11:20:12 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0902
-quantity: 1583.0000
-order_value: 142.79
+price: 0.0903
+quantity: 1582.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787915626608"
+order_id: "CRYPTO-1787916012361"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 11:13:46 UTC`
+> - **Date & Time:** `2026-08-28 11:20:12 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0902`
-> - **Quantity:** `1583.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0903`
+> - **Quantity:** `1582.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0902) vs 20-SMA ($0.0851) Deviation +5.99% [SL: $0.0870 | TP: $0.0947 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0903) vs 20-SMA ($0.0851) Deviation +6.11% [SL: $0.0871 | TP: $0.0948 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Based on the positive price deviation (+5.99%) and RSI value (54.68), this trade proposal indicates bullish sentiment with a moderate risk/reward ratio.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is due to a 6.11% deviation in favor of the bullish trend, with RSI at 54.83 indicating a potential buy signal.
 > 
-> **Key Catalysts:** *Price deviation and RSI support the buy signal.*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish sentiment.*
 
 ---
 
