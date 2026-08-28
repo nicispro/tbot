@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:27:00 UTC"
+timestamp: "2026-08-28 07:32:57 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0902
-quantity: 1583.0000
-order_value: 142.79
+price: 0.0900
+quantity: 1587.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787902020284"
+order_id: "CRYPTO-1787902377196"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:27:00 UTC`
+> - **Date & Time:** `2026-08-28 07:32:57 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0902`
-> - **Quantity:** `1583.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0900`
+> - **Quantity:** `1587.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0902) vs 20-SMA ($0.0851) Deviation +5.99% [SL: $0.0870 | TP: $0.0947 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0900) vs 20-SMA ($0.0850) Deviation +5.88% [SL: $0.0868 | TP: $0.0945 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale is positive with a 75% confidence score. The price deviates 5.99% above the 20-SMA and RSI is at 54.68, indicating potential for growth. The support level is at 0.0722 and resistance at 0.1094.
+> Based on the given parameters, this trade hypothesis indicates a potential for profit with a risk of $5.00. The RSI (54.37) and trend momentum entry contribute to a positive sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above average, and potential for growth based on support and resistance levels.*
+> **Key Catalysts:** *RSI (54.37) and trend momentum entry support the bullish catalyst.*
 
 ---
 
