@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:21:47 UTC"
+timestamp: "2026-08-28 07:27:05 UTC"
 ticker: "DOT/USDT"
 canonical_symbol: "DOT/USDT"
 base_symbol: "DOT"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.8717
+price: 0.8712
 quantity: 163.0000
-order_value: 142.09
+order_value: 142.01
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787898106924"
+order_id: "CRYPTO-1787902025294"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOT/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:21:47 UTC`
+> - **Date & Time:** `2026-08-28 07:27:05 UTC`
 > - **Canonical Instrument:** `DOT/USDT` (DOT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.8717`
+> - **Action:** `BUY` @ `$0.8712`
 > - **Quantity:** `163.0000` shares/units
-> - **Total Value:** `$142.09`
+> - **Total Value:** `$142.01`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8717) vs 20-SMA ($0.8269) Deviation +5.42% [SL: $0.8412 | TP: $0.9153 | Risk: $4.97]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8712) vs 20-SMA ($0.8268) Deviation +5.37% [SL: $0.8407 | TP: $0.9148 | Risk: $4.97]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, this trade proposal exhibits a favorable risk/reward ratio with a 5.42% deviation and RSI at 55.3, indicating a potential bullish move. The support level at 0.638 supports this trade.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of +5.37% surpasses the threshold, and the RSI (55.11) indicates a potential entry point. However, the data for short_sma, long_sma, and dip_percentage are unavailable, which weakens the analysis.
 > 
-> **Key Catalysts:** *Positive RSI (55.3), 5.42% deviation, and support at 0.638*
+> **Key Catalysts:** *Positive RSI and price deviation, but missing key SMA data*
 
 ---
 
