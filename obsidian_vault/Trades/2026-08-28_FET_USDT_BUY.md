@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:35:41 UTC"
+timestamp: "2026-08-28 15:41:33 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1604
-quantity: 890.0000
-order_value: 142.76
+price: 0.1598
+quantity: 893.0000
+order_value: 142.70
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787931340840"
+order_id: "CRYPTO-1787931692925"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:35:41 UTC`
+> - **Date & Time:** `2026-08-28 15:41:33 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1604`
-> - **Quantity:** `890.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.1598`
+> - **Quantity:** `893.0000` shares/units
+> - **Total Value:** `$142.70`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1604) vs 20-SMA ($0.1453) Deviation +10.39% [SL: $0.1548 | TP: $0.1684 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1598) vs 20-SMA ($0.1452) Deviation +10.06% [SL: $0.1542 | TP: $0.1678 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above 20‑SMA with a 10.39% deviation and RSI 56.23 supports bullish momentum; risk to 0.1548 and potential reward to 0.1684.
+> Entry above the 20‑SMA with a moderate RSI suggests upward momentum; the risk‑reward ratio is roughly 1:1.6 with a tight stop and a realistic target.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, RSI >50, ATR 0.0143 indicating sufficient volatility*
+> **Key Catalysts:** *Price above 20‑SMA and trend‑momentum entry*
 
 ---
 
