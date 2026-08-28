@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:21:49 UTC"
+timestamp: "2026-08-28 06:27:48 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4760
+price: 7.4780
 quantity: 19.1000
-order_value: 142.79
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787898109553"
+order_id: "CRYPTO-1787898468383"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:21:49 UTC`
+> - **Date & Time:** `2026-08-28 06:27:48 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4760`
+> - **Action:** `BUY` @ `$7.4780`
 > - **Quantity:** `19.1000` shares/units
-> - **Total Value:** `$142.79`
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4760) vs 20-SMA ($6.9025) Deviation +8.31% [SL: $7.2143 | TP: $7.8498 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4780) vs 20-SMA ($6.9026) Deviation +8.34% [SL: $7.2163 | TP: $7.8519 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 80% confidence score. The price deviation of +8.31% and RSI of 62.79 indicate bullish momentum. The support level of $5.69 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 85% confidence score. The RSI (62.85) and ATR (0.4374) indicate positive momentum, and the deviation (+8.34%) from the 20-SMA supports the entry decision. The support level (5.69) is below the buy price, ensuring potential capital appreciation.
 > 
-> **Key Catalysts:** *Positive momentum, support level, and deviation from the 20-SMA*
+> **Key Catalysts:** *Positive momentum indicators, deviation from 20-SMA, and support level below buy price*
 
 ---
 
