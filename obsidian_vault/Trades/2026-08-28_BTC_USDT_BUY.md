@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:11:34 UTC"
+timestamp: "2026-08-28 19:24:19 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77664.0000
+price: 77706.8000
 quantity: 0.0010
-order_value: 77.66
+order_value: 77.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787944294510"
+order_id: "CRYPTO-1787945058790"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 74
+ai_confidence: 78
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:11:34 UTC`
+> - **Date & Time:** `2026-08-28 19:24:19 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,664.0000`
+> - **Action:** `BUY` @ `$77,706.8000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.66`
+> - **Total Value:** `$77.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,664.0000) vs 20-SMA ($70,343.2450) Deviation +10.41% [SL: $74,945.7600 | TP: $81,547.2000 | Risk: $2.72]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,706.8000) vs 20-SMA ($70,345.3800) Deviation +10.46% [SL: $74,987.0620 | TP: $81,592.1400 | Risk: $2.72]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 74% Confidence)**
-> The trade targets a momentum continuation with a 1.43:1 risk/reward ratio, though an RSI of 70.74 signals potential short-term overextension near the $81,085 resistance zone.
+> [!info] **AI Thesis (BULLISH - 78% Confidence)**
+> The setup captures strong upward momentum with price trading 10.46% above the 20-SMA, supported by an ATR-calibrated stop loss and a take-profit target aligned with immediate resistance. Elevated RSI (70.91) indicates potential short-term overextension, requiring strict adherence to the defined risk parameters.
 > 
-> **Key Catalysts:** *Price trading +10.41% above the 20-SMA confirms strong upward momentum, while the take-profit aligns closely with the identified resistance level at $81,085.50.*
+> **Key Catalysts:** *Trend momentum above the 20-SMA and ATR-aligned risk management targeting near-term resistance.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,664.00`
-- **Actual Fill Price:** `$77,664.00`
+- **Expected Fill Price:** `$77,706.80`
+- **Actual Fill Price:** `$77,706.80`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
