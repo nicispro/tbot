@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:58:05 UTC"
+timestamp: "2026-08-28 06:03:58 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3480
+price: 5.3460
 quantity: 26.7000
-order_value: 142.79
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787896685438"
+order_id: "CRYPTO-1787897038486"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:58:05 UTC`
+> - **Date & Time:** `2026-08-28 06:03:58 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3480`
+> - **Action:** `BUY` @ `$5.3460`
 > - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.79`
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3480) vs 20-SMA ($4.7800) Deviation +11.88% [SL: $5.1608 | TP: $5.6154 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3460) vs 20-SMA ($4.7797) Deviation +11.85% [SL: $5.1589 | TP: $5.6133 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +11.88% from the 20-SMA and RSI value of 60.14 indicate positive momentum. The support level of 3.779 suggests a potential entry point.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +11.85% from the 20-SMA and RSI value of 60.03 indicate positive momentum. The support level of 3.779 supports the bullish case.
 > 
-> **Key Catalysts:** *Positive momentum and support level trigger the BULLISH trade.*
+> **Key Catalysts:** *Positive momentum, support level at 3.779*
 
 ---
 
