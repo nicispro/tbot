@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:40:02 UTC"
+timestamp: "2026-08-28 17:45:59 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4420
-quantity: 99.0000
-order_value: 142.76
+price: 1.4410
+quantity: 99.1000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787938801839"
+order_id: "CRYPTO-1787939159302"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:40:02 UTC`
+> - **Date & Time:** `2026-08-28 17:45:59 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4420`
-> - **Quantity:** `99.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$1.4410`
+> - **Quantity:** `99.1000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4420) vs 20-SMA ($1.3708) Deviation +5.19% [SL: $1.3915 | TP: $1.5141 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4410) vs 20-SMA ($1.3708) Deviation +5.12% [SL: $1.3906 | TP: $1.5131 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.19% from the 20-SMA and RSI value of 53.43 indicate bullish momentum. The support level of 1.152 suggests a potential entry point.
+> Based on the given metrics, the trade rationale is positive as RSI (53.32) and ATR (0.0985) indicate strength and low volatility in the market. The price deviation of +5.12% from the 20-SMA supports the bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum, price deviation, and support level trigger the bullish trade.*
+> **Key Catalysts:** *Positive RSI (53.32), low ATR (0.0985), and price deviation (+5.12%) from the 20-SMA*
 
 ---
 
