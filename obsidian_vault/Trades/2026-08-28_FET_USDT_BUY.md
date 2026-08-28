@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 11:26:55 UTC"
+timestamp: "2026-08-28 12:03:58 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1620
-quantity: 881.0000
-order_value: 142.72
+price: 0.1622
+quantity: 880.0000
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787916415358"
+order_id: "CRYPTO-1787918638578"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 11:26:55 UTC`
+> - **Date & Time:** `2026-08-28 12:03:58 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1620`
-> - **Quantity:** `881.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$0.1622`
+> - **Quantity:** `880.0000` shares/units
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1622) vs 20-SMA ($0.1453) Deviation +11.63% [SL: $0.1565 | TP: $0.1703 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 78% Confidence)**
-> The price is trading 11.5% above the 20‑SMA with a moderate RSI (57.3) and a favorable risk‑reward (~2.7:1) given the SL at $0.1563 and TP at $0.1701.
+> Entry above 20‑SMA with an 11.6% premium and a ~3:1 reward‑to‑risk ratio (TP $0.1703 vs SL $0.1565) supports a bullish bias.
 > 
-> **Key Catalysts:** *Momentum breakout above the 20‑SMA combined with supportive ATR indicating sufficient volatility for the target move.*
+> **Key Catalysts:** *Price crossing above the 20‑SMA and positive momentum deviation*
 
 ---
 
