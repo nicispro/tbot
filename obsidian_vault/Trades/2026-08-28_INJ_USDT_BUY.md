@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 14:07:23 UTC"
+timestamp: "2026-08-28 14:13:14 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3290
-quantity: 26.8000
-order_value: 142.82
+price: 5.3350
+quantity: 26.7000
+order_value: 142.44
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787926043066"
+order_id: "CRYPTO-1787926393766"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 14:07:23 UTC`
+> - **Date & Time:** `2026-08-28 14:13:14 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3290`
-> - **Quantity:** `26.8000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$5.3350`
+> - **Quantity:** `26.7000` shares/units
+> - **Total Value:** `$142.44`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3290) vs 20-SMA ($4.7790) Deviation +11.51% [SL: $5.1425 | TP: $5.5954 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3350) vs 20-SMA ($4.7791) Deviation +11.63% [SL: $5.1483 | TP: $5.6018 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +11.51% and RSI of 59.66 indicate bullish momentum. The support level of 3.779 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviation is above the 20-SMA and RSI is above 50, indicating bullish momentum. The risk is calculated at $4.99.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level met*
+> **Key Catalysts:** *Price deviation (11.63%) and RSI (59.68) indicate potential for price appreciation.*
 
 ---
 
