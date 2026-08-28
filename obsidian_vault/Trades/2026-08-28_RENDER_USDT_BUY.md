@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 21:47:14 UTC"
+timestamp: "2026-08-28 21:53:23 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4390
-quantity: 99.2000
-order_value: 142.75
+price: 1.4360
+quantity: 99.4000
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787953633973"
+order_id: "CRYPTO-1787954003014"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 21:47:14 UTC`
+> - **Date & Time:** `2026-08-28 21:53:23 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4390`
-> - **Quantity:** `99.2000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$1.4360`
+> - **Quantity:** `99.4000` shares/units
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4390) vs 20-SMA ($1.3707) Deviation +4.98% [SL: $1.3886 | TP: $1.5110 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4360) vs 20-SMA ($1.3705) Deviation +4.78% [SL: $1.3857 | TP: $1.5078 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation (+4.98%) between the entry price and 20-SMA, along with an RSI of 53.1, we enter a bullish sentiment.
+> Based on the positive deviation (+4.78%) between the entry price and 20-SMA, along with an RSI of 52.78, we have a BULLISH sentiment.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a 4.98% deviation and RSI above the neutral threshold*
+> **Key Catalysts:** *Positive price deviation and moderate RSI indicate potential for RENDER price appreciation.*
 
 ---
 
