@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:50:32 UTC"
+timestamp: "2026-08-28 08:56:22 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0873
-quantity: 1636.0000
-order_value: 142.82
+price: 0.0874
+quantity: 1634.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787907032404"
+order_id: "CRYPTO-1787907381855"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:50:32 UTC`
+> - **Date & Time:** `2026-08-28 08:56:22 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0873`
-> - **Quantity:** `1636.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0874`
+> - **Quantity:** `1634.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0873) vs 20-SMA ($0.0786) Deviation +11.07% [SL: $0.0842 | TP: $0.0917 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0786) Deviation +11.20% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +11.07% and RSI of 64.46 indicate bullish momentum. The support level of 0.0689 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the trade rationale for buying DOGE/USDT at $0.09 is driven by a 11.20% deviation in favor of the bulls between the current price and the 20-SMA, as well as an RSI of 64.55, indicating an overbought condition. The support level at $0.0689 and resistance at $0.1002 provide additional support for this trade.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.0689*
+> **Key Catalysts:** *Positive price deviation, overbought RSI, and defined support/resistance levels*
 
 ---
 
