@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:55:41 UTC"
+timestamp: "2026-08-28 20:01:58 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1160
-quantity: 27.9000
-order_value: 142.74
+price: 5.1340
+quantity: 27.8000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787946941616"
+order_id: "CRYPTO-1787947318716"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:55:41 UTC`
+> - **Date & Time:** `2026-08-28 20:01:58 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1160`
-> - **Quantity:** `27.9000` shares/units
-> - **Total Value:** `$142.74`
+> - **Action:** `BUY` @ `$5.1340`
+> - **Quantity:** `27.8000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1160) vs 20-SMA ($4.7683) Deviation +7.29% [SL: $4.9369 | TP: $5.3718 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1340) vs 20-SMA ($4.7692) Deviation +7.65% [SL: $4.9543 | TP: $5.3907 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +7.29% and RSI of 54.4 indicate bullish momentum. The support level at $3.779 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +7.65% from the 20-SMA and RSI value of 54.81 indicate potential growth. The support level of 3.779 suggests a risk level, while the resistance level of 5.991 indicates a potential target price of $5.3907.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at $3.779*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI value drive the BULLISH sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.12`
-- **Actual Fill Price:** `$5.12`
+- **Expected Fill Price:** `$5.13`
+- **Actual Fill Price:** `$5.13`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
