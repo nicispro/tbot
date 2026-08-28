@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:49:55 UTC"
+timestamp: "2026-08-28 19:56:10 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.3757
-quantity: 103.8000
-order_value: 142.80
+price: 1.3786
+quantity: 103.6000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787946595512"
+order_id: "CRYPTO-1787946969903"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:49:55 UTC`
+> - **Date & Time:** `2026-08-28 19:56:10 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.3757`
-> - **Quantity:** `103.8000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$1.3786`
+> - **Quantity:** `103.6000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3757) vs 20-SMA ($1.2023) Deviation +14.42% [SL: $1.3276 | TP: $1.4445 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3786) vs 20-SMA ($1.2024) Deviation +14.65% [SL: $1.3303 | TP: $1.4475 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($1.3757) vs 20-SMA ($1.2023) Deviation +14.42% [SL: $1.3276 | TP: $1.4445 | Risk: $5.00]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.3786) vs 20-SMA ($1.2024) Deviation +14.65% [SL: $1.3303 | TP: $1.4475 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
