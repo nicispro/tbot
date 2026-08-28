@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:16:02 UTC"
+timestamp: "2026-08-28 06:22:04 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 79809.3000
+price: 79828.0000
 quantity: 0.0010
-order_value: 79.81
+order_value: 79.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897761987"
+order_id: "CRYPTO-1787898123984"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:16:02 UTC`
+> - **Date & Time:** `2026-08-28 06:22:04 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$79,809.3000`
+> - **Action:** `BUY` @ `$79,828.0000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$79.81`
+> - **Total Value:** `$79.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,809.3000) vs 20-SMA ($70,450.6400) Deviation +13.28% [SL: $77,015.9745 | TP: $83,799.7650 | Risk: $2.79]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,828.0000) vs 20-SMA ($70,451.4400) Deviation +13.31% [SL: $77,034.0200 | TP: $83,819.4000 | Risk: $2.79]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a confidence score of 80. The rationale includes a positive deviation of 13.28% from the 20-SMA and an RSI of 80.68, indicating strong momentum. The trigger price of $79,809.30 falls within the resistance level of $81,085.5.
+> Based on the given parameters, the proposed trade has a bullish sentiment with a confidence score of 80. The rationale includes a positive deviation of 13.31% from the trend momentum entry price ($79,828.00) compared to the 20-SMA ($70,451.44). The RSI (80.76) and ATR (2512.3643) indicate strong bullish momentum.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA, high RSI, and resistance level support*
+> **Key Catalysts:** *Positive trend momentum entry price deviation, high RSI (80.76), and strong bullish momentum (ATR 2512.3643)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$79,809.30`
-- **Actual Fill Price:** `$79,809.30`
+- **Expected Fill Price:** `$79,828.00`
+- **Actual Fill Price:** `$79,828.00`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
