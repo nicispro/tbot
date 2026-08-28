@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:20:29 UTC"
+timestamp: "2026-08-28 00:26:28 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1642
-quantity: 870.0000
-order_value: 142.85
+price: 0.1646
+quantity: 867.0000
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787876429583"
+order_id: "CRYPTO-1787876787910"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:20:29 UTC`
+> - **Date & Time:** `2026-08-28 00:26:28 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1642`
-> - **Quantity:** `870.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.1646`
+> - **Quantity:** `867.0000` shares/units
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1642) vs 20-SMA ($0.1454) Deviation +12.93% [SL: $0.1585 | TP: $0.1724 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1646) vs 20-SMA ($0.1455) Deviation +13.13% [SL: $0.1588 | TP: $0.1728 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 12.93% surpasses the threshold, RSI is at a favorable level of 58.88, and the price is above the support level of 0.1193. TP: $0.1724 (16.67% potential gain) > SL: $0.1585 (4.29% stop-loss)
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a positive deviation of 13.13% between the current price ($0.1646) and the 20-SMA ($0.1455), an RSI of 59.08 indicating a potential buying opportunity, and the support level at $0.1193.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA ($0.1454), RSI above 50, and above support level*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at $0.1193*
 
 ---
 
