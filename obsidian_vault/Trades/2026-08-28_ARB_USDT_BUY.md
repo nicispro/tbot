@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:24:45 UTC"
+timestamp: "2026-08-28 02:30:41 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0908
-quantity: 1573.0000
-order_value: 142.83
+price: 0.0906
+quantity: 1576.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787883885150"
+order_id: "CRYPTO-1787884241371"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:24:45 UTC`
+> - **Date & Time:** `2026-08-28 02:30:41 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0908`
-> - **Quantity:** `1573.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.0906`
+> - **Quantity:** `1576.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0908) vs 20-SMA ($0.0851) Deviation +6.70% [SL: $0.0876 | TP: $0.0953 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0906) vs 20-SMA ($0.0851) Deviation +6.46% [SL: $0.0874 | TP: $0.0951 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 6.70% deviation from the 20-SMA and RSI at 55.63. The support level is at 0.0722, and the resistance level is at 0.1094.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 6.46% deviation between the short-term moving average and the entry price, as well as an RSI value of 55.31, indicating a potential for price appreciation.
 > 
-> **Key Catalysts:** *Positive trend momentum and deviation from 20-SMA indicate potential for price increase.*
+> **Key Catalysts:** *Deviation between short-term moving averages and RSI value suggest a potential price appreciation catalyst.*
 
 ---
 
