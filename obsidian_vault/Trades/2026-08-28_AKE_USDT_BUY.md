@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:38:58 UTC"
+timestamp: "2026-08-28 08:08:33 UTC"
 ticker: "AKE/USDT"
 canonical_symbol: "AKE/USDT"
 base_symbol: "AKE"
@@ -14,7 +14,7 @@ quantity: 17182.0000
 order_value: 142.61
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787902738037"
+order_id: "CRYPTO-1787904513270"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `AKE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:38:58 UTC`
+> - **Date & Time:** `2026-08-28 08:08:33 UTC`
 > - **Canonical Instrument:** `AKE/USDT` (AKE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0083`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The trigger reason highlights a positive deviation of 7.79% from the 20-SMA, indicating potential for price growth. The RSI value of 59.14 also supports the bullish sentiment.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +7.79% and RSI of 59.34 indicate potential growth. The support level of 0.0038 and resistance level of 0.0157 provide key price levels.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and RSI value above 50 indicate potential for price growth.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and key price levels support the bullish trade catalyst.*
 
 ---
 
