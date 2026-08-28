@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:37:31 UTC"
+timestamp: "2026-08-28 01:43:24 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1683
-quantity: 848.0000
-order_value: 142.72
+price: 0.1674
+quantity: 853.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787881051326"
+order_id: "CRYPTO-1787881404296"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:37:31 UTC`
+> - **Date & Time:** `2026-08-28 01:43:24 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1683`
-> - **Quantity:** `848.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$0.1674`
+> - **Quantity:** `853.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1683) vs 20-SMA ($0.1457) Deviation +15.51% [SL: $0.1624 | TP: $0.1767 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1674) vs 20-SMA ($0.1456) Deviation +14.97% [SL: $0.1615 | TP: $0.1758 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 15.51% above the 20-SMA indicates potential for growth. A RSI of 60.92 suggests the asset is not overbought or oversold, and the support level of 0.1193 and resistance level of 0.1843 provide key technical catalysts for this trade.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI of 60.4 indicates a strong upward momentum, and the price deviation from the 20-SMA is 14.97%, suggesting potential for price appreciation. The support level of 0.1193 indicates a strong level of support for the current price.
 > 
-> **Key Catalysts:** *RSI (60.92), 20-SMA deviation (+15.51%), support level (0.1193), resistance level (0.1843)*
+> **Key Catalysts:** *Positive RSI, significant price deviation, and strong support level*
 
 ---
 
