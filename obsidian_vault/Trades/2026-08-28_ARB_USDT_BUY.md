@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:04:42 UTC"
+timestamp: "2026-08-28 16:16:33 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0878
-quantity: 1627.0000
-order_value: 142.85
+price: 0.0875
+quantity: 1632.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787933082297"
+order_id: "CRYPTO-1787933792887"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:04:42 UTC`
+> - **Date & Time:** `2026-08-28 16:16:33 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0878`
-> - **Quantity:** `1627.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0875`
+> - **Quantity:** `1632.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0849) Deviation +3.42% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0849) Deviation +3.06% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest 3.42% deviation, RSI is neutral at 51.03, and ATR is low, suggesting a controlled upward move to the TP of $0.0922.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Price is above the 20‑SMA with a modest upside to the TP and a tight stop, indicating a short‑term bullish bias with limited downside risk.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.42%) and neutral RSI indicating potential momentum to the resistance level.*
+> **Key Catalysts:** *Price above 20‑SMA (+3.06% deviation) and RSI near 50 suggest momentum entry; ATR indicates low volatility, supporting a tight stop‑loss.*
 
 ---
 
