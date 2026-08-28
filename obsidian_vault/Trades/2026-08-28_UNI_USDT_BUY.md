@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:16:05 UTC"
+timestamp: "2026-08-28 17:22:04 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4470
-quantity: 32.1000
-order_value: 142.75
+price: 4.4540
+quantity: 32.0000
+order_value: 142.53
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787937364889"
+order_id: "CRYPTO-1787937723745"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:16:05 UTC`
+> - **Date & Time:** `2026-08-28 17:22:04 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4470`
-> - **Quantity:** `32.1000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$4.4540`
+> - **Quantity:** `32.0000` shares/units
+> - **Total Value:** `$142.53`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4470) vs 20-SMA ($3.8733) Deviation +14.81% [SL: $4.2914 | TP: $4.6693 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4540) vs 20-SMA ($3.8737) Deviation +14.98% [SL: $4.2981 | TP: $4.6767 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is well above the 20‑SMA with a moderate RSI, suggesting upward momentum and a favorable risk‑reward profile (TP > resistance, SL below support).
+> The trade is bullish: price is 15% above the 20‑SMA, RSI 61.75 supports momentum, and the TP/SL spread gives a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and positive momentum deviation*
+> **Key Catalysts:** *Price above 20‑SMA with 15% deviation and RSI 61.75 indicating bullish momentum.*
 
 ---
 
