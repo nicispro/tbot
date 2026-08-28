@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:18:44 UTC"
+timestamp: "2026-08-28 23:24:43 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0877
+quantity: 1628.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787959123937"
+order_id: "CRYPTO-1787959483272"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:18:44 UTC`
+> - **Date & Time:** `2026-08-28 23:24:43 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0877`
+> - **Quantity:** `1628.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0849) Deviation +3.18% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0849) Deviation +3.30% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 3.18% deviation and RSI of 50.9, indicating a stable market condition. The support level is at 0.0722, and the resistance level is at 0.1094.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (51.03) indicates a moderate level of buying interest, and the price deviation from the 20-SMA ($0.0849) is at +3.30%. The support level of $0.0722 suggests a potential entry point.
 > 
-> **Key Catalysts:** *Strong trend momentum and a stable market condition support the buy trigger.*
+> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and support level trigger the BULLISH sentiment.*
 
 ---
 
