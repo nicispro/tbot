@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:34:23 UTC"
+timestamp: "2026-08-28 16:40:22 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4280
+price: 4.4350
 quantity: 32.2000
-order_value: 142.58
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787934863191"
+order_id: "CRYPTO-1787935222549"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:34:23 UTC`
+> - **Date & Time:** `2026-08-28 16:40:22 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4280`
+> - **Action:** `BUY` @ `$4.4350`
 > - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.58`
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4280) vs 20-SMA ($3.8724) Deviation +14.35% [SL: $4.2730 | TP: $4.6494 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4350) vs 20-SMA ($3.8727) Deviation +14.52% [SL: $4.2798 | TP: $4.6567 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a +14.35% deviation and RSI 61.06, indicating upward momentum; the target of $4.6494 offers a ~1.4x reward versus the $0.155 risk to the stop at $4.2730.
+> Price is above the 20‑SMA with a moderate RSI, indicating upward momentum; the target of $4.6567 offers a ~5.3% upside against a ~3.4% downside risk.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+14.35% deviation) and RSI 61.06*
+> **Key Catalysts:** *Price crossing above the 20‑SMA and an RSI of 61.22*
 
 ---
 
