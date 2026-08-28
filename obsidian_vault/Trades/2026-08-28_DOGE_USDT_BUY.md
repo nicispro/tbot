@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:50:17 UTC"
+timestamp: "2026-08-28 00:56:12 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,11 +14,11 @@ quantity: 1603.0000
 order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787878217412"
+order_id: "CRYPTO-1787878572086"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:50:17 UTC`
+> - **Date & Time:** `2026-08-28 00:56:12 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0891`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 13.21% deviation from the 20-SMA and an RSI of 68.56, indicating an overbought condition. However, the data for short_sma, long_sma, and dip_percentage are unavailable.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 13.21% deviation from the 20-SMA and RSI at 68.48, indicating an overbought condition. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY): Price ($0.0891) vs 20-SMA ($0.0787) Deviation +13.21%*
+> **Key Catalysts:** *Positive momentum and overbought RSI, but missing key SMA data*
 
 ---
 
