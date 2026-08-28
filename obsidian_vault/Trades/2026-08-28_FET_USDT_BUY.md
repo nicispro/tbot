@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:32:21 UTC"
+timestamp: "2026-08-28 00:38:18 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1655
-quantity: 863.0000
-order_value: 142.83
+price: 0.1660
+quantity: 860.0000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787877141114"
+order_id: "CRYPTO-1787877498382"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:32:21 UTC`
+> - **Date & Time:** `2026-08-28 00:38:18 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1655`
-> - **Quantity:** `863.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.1660`
+> - **Quantity:** `860.0000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1655) vs 20-SMA ($0.1455) Deviation +13.75% [SL: $0.1597 | TP: $0.1738 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1660) vs 20-SMA ($0.1455) Deviation +14.09% [SL: $0.1602 | TP: $0.1743 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price has deviated positively from the 20-SMA and RSI is above 50, indicating potential for price appreciation. The support level is at 0.1193 and resistance at 0.1843.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 14.09% deviation, RSI of 59.78, and support at 0.1193. The validated price is $0.17, offering a TP of $0.1743 (10.91% potential gain) and a SL of $0.1602 (4.76% risk).
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA*
+> **Key Catalysts:** *Positive momentum and deviation from the 20-SMA support the bullish trade hypothesis.*
 
 ---
 
