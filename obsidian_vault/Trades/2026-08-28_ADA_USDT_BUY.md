@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:18:59 UTC"
+timestamp: "2026-08-28 10:24:49 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -14,11 +14,11 @@ quantity: 691.0000
 order_value: 142.69
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787912339346"
+order_id: "CRYPTO-1787912689615"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:18:59 UTC`
+> - **Date & Time:** `2026-08-28 10:24:49 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.2065`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the trade rationale for buying ADA/USDT at $0.21 is fueled by a 4.61% deviation from the 20-SMA support ($0.1993) and RSI at 56.61, indicating bullish momentum. The risk is calculated at $4.99.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The ADA/USDT pair shows a 4.61% deviation from the 20-SMA, an RSI of 56.61, and a support level of 0.1696. These indicators indicate a potential for price growth.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support*
+> **Key Catalysts:** *Positive technical indicators and deviation from the 20-SMA support a bullish trade catalyst.*
 
 ---
 
