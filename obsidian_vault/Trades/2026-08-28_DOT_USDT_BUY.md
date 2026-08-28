@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:14:23 UTC"
+timestamp: "2026-08-28 00:44:03 UTC"
 ticker: "DOT/USDT"
 canonical_symbol: "DOT/USDT"
 base_symbol: "DOT"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.8792
+price: 0.8810
 quantity: 162.0000
-order_value: 142.43
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787876062810"
+order_id: "CRYPTO-1787877843594"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOT/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:14:23 UTC`
+> - **Date & Time:** `2026-08-28 00:44:03 UTC`
 > - **Canonical Instrument:** `DOT/USDT` (DOT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.8792`
+> - **Action:** `BUY` @ `$0.8810`
 > - **Quantity:** `162.0000` shares/units
-> - **Total Value:** `$142.43`
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8792) vs 20-SMA ($0.8272) Deviation +6.29% [SL: $0.8484 | TP: $0.9232 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8810) vs 20-SMA ($0.8273) Deviation +6.49% [SL: $0.8502 | TP: $0.9251 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of 6.29% from the 20-SMA and RSI value of 56.75, we have a BULLISH sentiment.
+> Based on the given data, the trade rationale for buying DOT/USDT at $0.88 is due to a positive trend momentum entry, with a 6.49% deviation from the 20-SMA. The RSI of 57.09 indicates positive momentum.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI crossing above 50 indicate potential bullish momentum.*
+> **Key Catalysts:** *Positive RSI (57.09), trend momentum entry, and deviation from 20-SMA (6.49%)*
 
 ---
 
