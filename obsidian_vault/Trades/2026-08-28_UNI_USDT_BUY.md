@@ -1,0 +1,69 @@
+---
+type: trade
+date: 2026-08-28
+timestamp: "2026-08-28 15:58:57 UTC"
+ticker: "UNI/USDT"
+canonical_symbol: "UNI/USDT"
+base_symbol: "UNI"
+asset_class: "CRYPTO"
+exchange: "BINANCE"
+market_type: "USD_M_FUTURES"
+action: "BUY"
+price: 4.4940
+quantity: 31.7000
+order_value: 142.46
+status: "FAILED"
+environment: "demo"
+order_id: "CRYPTO-1787932737424"
+slippage_bps: 0.0
+fee_usd: 0.00
+ai_sentiment: "BULLISH"
+ai_confidence: 70
+tags:
+  - trade
+  - buy
+  - uni
+  - crypto
+  - failed
+---
+
+# ⚡ Trade Execution: `UNI/USDT` (BUY)
+
+> [!summary] **Order Execution Summary**
+> - **Date & Time:** `2026-08-28 15:58:57 UTC`
+> - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
+> - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
+> - **Action:** `BUY` @ `$4.4940`
+> - **Quantity:** `31.7000` shares/units
+> - **Total Value:** `$142.46`
+> - **Status:** `FAILED` (`FAILED`)
+> - **Environment:** `DEMO`
+
+
+---
+
+## 🎯 Strategy & Technical Context
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4940) vs 20-SMA ($3.8757) Deviation +15.95% [SL: $4.3367 | TP: $4.7187 | Risk: $4.99]
+
+---
+
+## 🤖 Groq AI Analysis & Reasoning
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is well above the 20‑SMA with a strong momentum entry and a favorable risk/reward of roughly 1.05:1. RSI is moderate and ATR indicates manageable volatility.
+> 
+> **Key Catalysts:** *Price crossing above the 20‑SMA (+15.95% deviation) and the trend momentum entry signal*
+
+---
+
+## ⚡ Execution Quality & Broker Latency
+- **Expected Fill Price:** `$4.49`
+- **Actual Fill Price:** `$4.49`
+- **Execution Slippage:** `+0.0 bps`
+- **Exchange/Broker Fee:** `$0.00`
+- **Execution Latency:** `0.0 ms`
+
+---
+
+## ⚠️ Execution Errors
+> [!danger] **Error Details**
+> `binanceusdm {"code":-1022,"msg":"Signature for this request is not valid."}`
