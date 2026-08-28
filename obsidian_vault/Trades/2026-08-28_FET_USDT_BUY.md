@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:38:18 UTC"
+timestamp: "2026-08-28 00:44:16 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1660
-quantity: 860.0000
-order_value: 142.76
+price: 0.1657
+quantity: 862.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787877498382"
+order_id: "CRYPTO-1787877856516"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:38:18 UTC`
+> - **Date & Time:** `2026-08-28 00:44:16 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1660`
-> - **Quantity:** `860.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.1657`
+> - **Quantity:** `862.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1660) vs 20-SMA ($0.1455) Deviation +14.09% [SL: $0.1602 | TP: $0.1743 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1657) vs 20-SMA ($0.1455) Deviation +13.88% [SL: $0.1599 | TP: $0.1740 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 14.09% deviation, RSI of 59.78, and support at 0.1193. The validated price is $0.17, offering a TP of $0.1743 (10.91% potential gain) and a SL of $0.1602 (4.76% risk).
+> Based on the given metrics, the trade rationale is a potential gain with a risk of $5.00. The RSI (59.68) and ATR (0.0137) indicate positive momentum, while the trend momentum entry supports a buy. However, the missing short_sma and long_sma data limit the analysis's depth.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from the 20-SMA support the bullish trade hypothesis.*
+> **Key Catalysts:** *Positive RSI, ATR, and trend momentum entry support a buy; missing short_sma and long_sma data limit analysis*
 
 ---
 
