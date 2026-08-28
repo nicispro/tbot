@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:32:12 UTC"
+timestamp: "2026-08-28 09:38:02 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0870
-quantity: 1642.0000
-order_value: 142.85
+price: 0.0869
+quantity: 1644.0000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787909532693"
+order_id: "CRYPTO-1787909882189"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:32:12 UTC`
+> - **Date & Time:** `2026-08-28 09:38:02 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0870`
-> - **Quantity:** `1642.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0869`
+> - **Quantity:** `1644.0000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0870) vs 20-SMA ($0.0786) Deviation +10.69% [SL: $0.0840 | TP: $0.0914 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0869) vs 20-SMA ($0.0786) Deviation +10.56% [SL: $0.0839 | TP: $0.0912 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 10.69% surpasses the trigger requirement, RSI is at a healthy level (63.65), and the price is above the support level (0.0689). However, the data for short and long SMA is unavailable.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 10.56% deviation from the 20-SMA and RSI at 63.5, indicating an overbought condition. The support level at 0.0689 and resistance at 0.1002 provide additional support for the trade.
 > 
-> **Key Catalysts:** *Price deviating positively from the 20-SMA and RSI at 63.65 support the bullish sentiment.*
+> **Key Catalysts:** *Deviation from 20-SMA, overbought RSI, and defined support/resistance levels*
 
 ---
 
