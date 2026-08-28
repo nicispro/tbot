@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 11:39:22 UTC"
+timestamp: "2026-08-28 11:45:31 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3580
+price: 5.3630
 quantity: 26.6000
-order_value: 142.52
+order_value: 142.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787917161896"
+order_id: "CRYPTO-1787917531326"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 11:39:22 UTC`
+> - **Date & Time:** `2026-08-28 11:45:31 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3580`
+> - **Action:** `BUY` @ `$5.3630`
 > - **Quantity:** `26.6000` shares/units
-> - **Total Value:** `$142.52`
+> - **Total Value:** `$142.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3580) vs 20-SMA ($4.7804) Deviation +12.08% [SL: $5.1705 | TP: $5.6259 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3630) vs 20-SMA ($4.7806) Deviation +12.18% [SL: $5.1753 | TP: $5.6311 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is 12% above the 20‑SMA with a moderate RSI of 60, providing upside potential to the TP of $5.6259 while the SL at $5.1705 limits downside, yielding a modest risk‑reward profile.
+> Entry above the 20‑SMA with a bullish RSI and moderate ATR; TP lies above resistance while SL is below support, providing a favorable risk/reward profile.
 > 
-> **Key Catalysts:** *Trend momentum entry as price exceeds the 20‑SMA*
+> **Key Catalysts:** *Price crossing above the 20‑SMA and RSI of 60.53 indicating upward momentum*
 
 ---
 
