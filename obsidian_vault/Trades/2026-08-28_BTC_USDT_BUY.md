@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:45:48 UTC"
+timestamp: "2026-08-28 06:51:43 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 79824.7000
+price: 79936.1000
 quantity: 0.0010
-order_value: 79.82
+order_value: 79.94
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899548666"
+order_id: "CRYPTO-1787899903618"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:45:48 UTC`
+> - **Date & Time:** `2026-08-28 06:51:43 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$79,824.7000`
+> - **Action:** `BUY` @ `$79,936.1000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$79.82`
+> - **Total Value:** `$79.94`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,824.7000) vs 20-SMA ($70,451.4600) Deviation +13.30% [SL: $77,030.8355 | TP: $83,815.9350 | Risk: $2.79]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,936.1000) vs 20-SMA ($70,456.8450) Deviation +13.45% [SL: $77,138.3365 | TP: $83,932.9050 | Risk: $2.80]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the provided metrics, the trade rationale is a potential buy opportunity with a 13.30% deviation from the 20-SMA and an RSI of 80.77, indicating strong upward momentum. However, the lack of short_sma, long_sma, dip_percentage, and support/resistance values restricts the analysis's depth.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the provided metrics, the trade rationale is strong as RSI (81.34) and ATR (2512.3643) indicate bullish momentum and high volatility respectively. The price is near the resistance level of 81085.5.
 > 
-> **Key Catalysts:** *Strong upward momentum (RSI 80.77) and price deviation from 20-SMA*
+> **Key Catalysts:** *RSI (81.34) and ATR (2512.3643) values, proximity to resistance level*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$79,824.70`
-- **Actual Fill Price:** `$79,824.70`
+- **Expected Fill Price:** `$79,936.10`
+- **Actual Fill Price:** `$79,936.10`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
