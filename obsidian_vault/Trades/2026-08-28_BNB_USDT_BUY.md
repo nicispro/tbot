@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:15:57 UTC"
+timestamp: "2026-08-28 06:21:59 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 714.5600
-quantity: 0.1000
-order_value: 71.46
+price: 713.5500
+quantity: 0.2000
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897757510"
+order_id: "CRYPTO-1787898119689"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:15:57 UTC`
+> - **Date & Time:** `2026-08-28 06:21:59 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$714.5600`
-> - **Quantity:** `0.1000` shares/units
-> - **Total Value:** `$71.46`
+> - **Action:** `BUY` @ `$713.5500`
+> - **Quantity:** `0.2000` shares/units
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($714.5600) vs 20-SMA ($648.6480) Deviation +10.16% [SL: $689.5504 | TP: $750.2880 | Risk: $2.50]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($713.5500) vs 20-SMA ($648.5985) Deviation +10.01% [SL: $688.5757 | TP: $749.2275 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a high confidence score of 85%. The price deviation of 10.16% surpasses the RSI value of 82.73, indicating strong momentum for a buy. The support level of 598.14 and resistance level of 726.93 provide clear risk and reward parameters.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> The proposed trade for BNB/USDT has a bullish sentiment with a confidence score of 80. The trigger reason indicates a positive deviation of 10.01% from the 20-SMA and an RSI of 82.57, suggesting strong momentum. The validated price is above the resistance level of 726.93.
 > 
-> **Key Catalysts:** *Positive RSI (82.73), significant price deviation (10.16%), and strong momentum support the buy trigger.*
+> **Key Catalysts:** *Positive deviation from 20-SMA, high RSI, and resistance level exceeded*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$714.56`
-- **Actual Fill Price:** `$714.56`
+- **Expected Fill Price:** `$713.55`
+- **Actual Fill Price:** `$713.55`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
