@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:56:20 UTC"
+timestamp: "2026-08-28 09:02:11 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1606
-quantity: 889.0000
-order_value: 142.77
+price: 0.1603
+quantity: 891.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787907379805"
+order_id: "CRYPTO-1787907731527"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:56:20 UTC`
+> - **Date & Time:** `2026-08-28 09:02:11 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1606`
-> - **Quantity:** `889.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1603`
+> - **Quantity:** `891.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1606) vs 20-SMA ($0.1453) Deviation +10.53% [SL: $0.1550 | TP: $0.1686 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1603) vs 20-SMA ($0.1453) Deviation +10.32% [SL: $0.1547 | TP: $0.1683 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +10.53% from the 20-SMA supports a bullish sentiment. The RSI (56.37) indicates a potential buying opportunity.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.32% deviation from the 20-SMA, an RSI of 56.17, and support at 0.1193. However, some metrics are missing or unavailable, which may impact the analysis's accuracy.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and a potential support level at 0.1193.*
+> **Key Catalysts:** *Trend momentum entry (BUY): Price ($0.1603) vs 20-SMA ($0.1453) Deviation +10.32%*
 
 ---
 
