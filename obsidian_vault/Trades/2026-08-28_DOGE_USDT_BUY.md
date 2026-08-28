@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:20:20 UTC"
+timestamp: "2026-08-28 09:26:15 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,11 +14,11 @@ quantity: 1639.0000
 order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787908820522"
+order_id: "CRYPTO-1787909175532"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:20:20 UTC`
+> - **Date & Time:** `2026-08-28 09:26:15 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0871`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio with a 10.81% deviation and RSI at 64.0. The support level is at 0.0689, and the buy trigger occurs at a deviation of +10.81%.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 10.81% deviation from the 20-SMA and RSI at 63.87, indicating an overbought condition. However, the lack of short and long SMA data limits the analysis's depth.
 > 
-> **Key Catalysts:** *Positive RSI (64.0), deviation (+10.81%), and support level (0.0689)*
+> **Key Catalysts:** *Positive price deviation from 20-SMA and overbought RSI condition drive the bullish sentiment, but missing SMA data weakens the analysis.*
 
 ---
 
