@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:09:50 UTC"
+timestamp: "2026-08-28 06:15:46 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1578.0000
 order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787897390075"
+order_id: "CRYPTO-1787897746270"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:09:50 UTC`
+> - **Date & Time:** `2026-08-28 06:15:46 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0905`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 6.35% deviation and RSI at 55.15. The support level is at 0.0722, and the buy trigger occurs at a deviation above the 20-SMA.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 6.35% surpasses the trigger requirement, RSI is above the neutral threshold (50), and the price is above the support level (0.0722). However, some metrics are missing or unavailable, which may impact the accuracy of the analysis.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA*
+> **Key Catalysts:** *Price deviating positively from the 20-SMA and RSI crossing above the neutral threshold contribute to the bullish catalyst.*
 
 ---
 
