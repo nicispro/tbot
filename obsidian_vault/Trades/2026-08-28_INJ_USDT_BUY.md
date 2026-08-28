@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:53:01 UTC"
+timestamp: "2026-08-28 15:58:46 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.2950
+price: 5.2930
 quantity: 26.9000
-order_value: 142.44
+order_value: 142.38
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787932381749"
+order_id: "CRYPTO-1787932726224"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:53:01 UTC`
+> - **Date & Time:** `2026-08-28 15:58:46 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.2950`
+> - **Action:** `BUY` @ `$5.2930`
 > - **Quantity:** `26.9000` shares/units
-> - **Total Value:** `$142.44`
+> - **Total Value:** `$142.38`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2950) vs 20-SMA ($4.7773) Deviation +10.84% [SL: $5.1097 | TP: $5.5598 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2930) vs 20-SMA ($4.7772) Deviation +10.80% [SL: $5.1077 | TP: $5.5576 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential gain with a risk of $4.99. The RSI (58.73) and ATR (0.4116) indicate positive momentum, while the trigger price (5.29) falls within the support level (3.779) and resistance level (5.991).
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 85% confidence score. The RSI (58.65) and ATR (0.4116) indicate positive momentum, and the price deviation from the 20-SMA (+10.80%) supports the entry. The support level (3.779) is close to the trigger price, suggesting a strong base for the investment.
 > 
-> **Key Catalysts:** *Positive RSI, ATR, and price within support/resistance levels*
+> **Key Catalysts:** *Positive momentum indicators, close support level*
 
 ---
 
