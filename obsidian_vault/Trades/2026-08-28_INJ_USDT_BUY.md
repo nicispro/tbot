@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:56:10 UTC"
+timestamp: "2026-08-28 01:02:04 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.4850
-quantity: 26.0000
-order_value: 142.61
+price: 5.4970
+quantity: 25.9000
+order_value: 142.37
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787878570105"
+order_id: "CRYPTO-1787878924540"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:56:10 UTC`
+> - **Date & Time:** `2026-08-28 01:02:04 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.4850`
-> - **Quantity:** `26.0000` shares/units
-> - **Total Value:** `$142.61`
+> - **Action:** `BUY` @ `$5.4970`
+> - **Quantity:** `25.9000` shares/units
+> - **Total Value:** `$142.37`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4850) vs 20-SMA ($4.7867) Deviation +14.59% [SL: $5.2930 | TP: $5.7592 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4970) vs 20-SMA ($4.7870) Deviation +14.83% [SL: $5.3046 | TP: $5.7718 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 14.59% deviation and RSI at 64.09. The support level is at $3.779 and resistance at $5.991.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviation is above the 20-SMA and RSI is above the overbought zone. However, the 'DATA_UNAVAILABLE' values for short_sma, long_sma, and dip_percentage indicate uncertainty in the short-term trend.
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
+> **Key Catalysts:** *Price deviation (14.83%) and RSI (64.21) are positive catalysts, but missing key short-term trend data (short_sma, long_sma, dip_percentage) adds uncertainty.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.49`
-- **Actual Fill Price:** `$5.49`
+- **Expected Fill Price:** `$5.50`
+- **Actual Fill Price:** `$5.50`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
