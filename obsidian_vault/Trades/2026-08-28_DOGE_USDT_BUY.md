@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:58:45 UTC"
+timestamp: "2026-08-28 05:04:39 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,11 +14,11 @@ quantity: 1630.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787893125090"
+order_id: "CRYPTO-1787893479380"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:58:45 UTC`
+> - **Date & Time:** `2026-08-28 05:04:39 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0876`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (65.01) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the trend momentum entry supports the buy action. However, the missing short_sma, long_sma, and dip percentage values should be carefully considered before finalizing the analysis.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential price surge with a risk of $5.00. The RSI (64.95) and dip percentage (DATA_UNAVAILABLE) indicate a strong buying signal. However, the short_sma (DATA_UNAVAILABLE), long_sma (DATA_UNAVAILABLE), and ATR (0.0053) suggest caution. The trade has a positive risk/reward ratio.
 > 
-> **Key Catalysts:** *Positive RSI and trend momentum entry drive the bullish sentiment, but missing data requires further assessment.*
+> **Key Catalysts:** *Positive RSI and buying signal, but missing key SMA and ATR data*
 
 ---
 
