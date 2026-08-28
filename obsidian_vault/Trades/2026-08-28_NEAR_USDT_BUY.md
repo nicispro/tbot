@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:07:16 UTC"
+timestamp: "2026-08-28 10:18:51 UTC"
 ticker: "NEAR/USDT"
 canonical_symbol: "NEAR/USDT"
 base_symbol: "NEAR"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.8510
-quantity: 77.1000
-order_value: 142.71
+price: 1.8550
+quantity: 77.0000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787911636197"
+order_id: "CRYPTO-1787912331683"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `NEAR/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:07:16 UTC`
+> - **Date & Time:** `2026-08-28 10:18:51 UTC`
 > - **Canonical Instrument:** `NEAR/USDT` (NEAR/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.8510`
-> - **Quantity:** `77.1000` shares/units
-> - **Total Value:** `$142.71`
+> - **Action:** `BUY` @ `$1.8550`
+> - **Quantity:** `77.0000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.8510) vs 20-SMA ($1.7512) Deviation +5.70% [SL: $1.7862 | TP: $1.9436 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($1.8550) vs 20-SMA ($1.7514) Deviation +5.92% [SL: $1.7901 | TP: $1.9478 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation (+5.70%) from the 20-SMA and RSI value (53.12), this trade rationale indicates upside potential with a risk of $4.99. The supported price level is $1.538 and the resistance level is $2.143.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the positive deviation (+5.92%) from the 20-SMA and RSI value (53.39), this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Trend Momentum Entry (BUY) and positive technical indicators*
+> **Key Catalysts:** *Strong trend momentum and RSI support indicate potential for NEAR price growth.*
 
 ---
 
