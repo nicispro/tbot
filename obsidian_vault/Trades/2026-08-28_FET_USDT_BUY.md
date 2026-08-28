@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:26:13 UTC"
+timestamp: "2026-08-28 09:32:10 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1611
-quantity: 886.0000
-order_value: 142.73
+price: 0.1609
+quantity: 887.0000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787909173208"
+order_id: "CRYPTO-1787909530460"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:26:13 UTC`
+> - **Date & Time:** `2026-08-28 09:32:10 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1611`
-> - **Quantity:** `886.0000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$0.1609`
+> - **Quantity:** `887.0000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1611) vs 20-SMA ($0.1453) Deviation +10.87% [SL: $0.1555 | TP: $0.1692 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1609) vs 20-SMA ($0.1453) Deviation +10.74% [SL: $0.1553 | TP: $0.1689 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. The support level is strong at $0.1193.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a positive deviation of 10.74% between the price ($0.1609) and the 20-SMA ($0.1453), RSI of 56.57, and support level of 0.1193.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA and RSI above neutral threshold*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level*
 
 ---
 
