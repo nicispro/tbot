@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:46:18 UTC"
+timestamp: "2026-08-28 18:52:23 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1040
-quantity: 27.9000
-order_value: 142.40
+price: 5.1010
+quantity: 28.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787942778397"
+order_id: "CRYPTO-1787943143095"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:46:18 UTC`
+> - **Date & Time:** `2026-08-28 18:52:23 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1040`
-> - **Quantity:** `27.9000` shares/units
-> - **Total Value:** `$142.40`
+> - **Action:** `BUY` @ `$5.1010`
+> - **Quantity:** `28.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1040) vs 20-SMA ($4.7678) Deviation +7.05% [SL: $4.9254 | TP: $5.3592 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1010) vs 20-SMA ($4.7676) Deviation +6.99% [SL: $4.9225 | TP: $5.3560 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the trade rationale is a potential profit opportunity as the price deviation is positive (7.05%) and the RSI (54.16) indicates a positive momentum. 
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI indicate bullish momentum.*
+> **Key Catalysts:** *Price deviation (+6.99%) from 20-SMA and RSI value above 50*
 
 ---
 
