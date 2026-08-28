@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:32:05 UTC"
+timestamp: "2026-08-28 10:01:27 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2086
-quantity: 684.0000
-order_value: 142.68
+price: 0.2072
+quantity: 689.0000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787909525754"
+order_id: "CRYPTO-1787911286758"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:32:05 UTC`
+> - **Date & Time:** `2026-08-28 10:01:27 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2086`
-> - **Quantity:** `684.0000` shares/units
-> - **Total Value:** `$142.68`
+> - **Action:** `BUY` @ `$0.2072`
+> - **Quantity:** `689.0000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2086) vs 20-SMA ($0.1975) Deviation +5.62% [SL: $0.2013 | TP: $0.2190 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2072) vs 20-SMA ($0.1974) Deviation +4.96% [SL: $0.1999 | TP: $0.2176 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80. The key technical catalyst includes a RSI of 58.21, a dip percentage of -2.38%, and a support level of 0.1696. The validated price of $0.21 and the trend momentum entry criteria support this bullish analysis.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a positive sentiment as the RSI is above 50, indicating strong momentum. The trigger price has a 4.96% deviation from the 20-SMA, providing a solid entry point. The support level is above the trigger price, adding to the bullish case.
 > 
-> **Key Catalysts:** *RSI (58.21), dip percentage (-2.38%), support level (0.1696)*
+> **Key Catalysts:** *Strong momentum (RSI > 50), deviation from 20-SMA, and support above trigger price*
 
 ---
 
