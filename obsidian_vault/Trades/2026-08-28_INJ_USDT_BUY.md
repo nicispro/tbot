@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:59:22 UTC"
+timestamp: "2026-08-28 04:05:18 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,7 +14,7 @@ quantity: 26.7000
 order_value: 142.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787889562089"
+order_id: "CRYPTO-1787889918488"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:59:22 UTC`
+> - **Date & Time:** `2026-08-28 04:05:18 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.3380`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 11.69% deviation and RSI at 59.84. The sentiment is bullish.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviates positively by 11.69% from the 20-SMA, RSI is at 59.84 indicating a potential bullish momentum, and the support level is at 3.779, which is close to the validated price. The resistance level is at 5.991.
 > 
-> **Key Catalysts:** *Deviation from 20-SMA and RSI above 50 indicate potential for price increase.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level close to the validated price*
 
 ---
 
