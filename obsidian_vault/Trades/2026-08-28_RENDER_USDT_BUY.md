@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:07:03 UTC"
+timestamp: "2026-08-28 02:12:58 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.5240
-quantity: 93.7000
-order_value: 142.80
+price: 1.5170
+quantity: 94.1000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787882823615"
+order_id: "CRYPTO-1787883177921"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:07:03 UTC`
+> - **Date & Time:** `2026-08-28 02:12:58 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.5240`
-> - **Quantity:** `93.7000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$1.5170`
+> - **Quantity:** `94.1000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5240) vs 20-SMA ($1.3750) Deviation +10.84% [SL: $1.4707 | TP: $1.6002 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.5170) vs 20-SMA ($1.3746) Deviation +10.36% [SL: $1.4639 | TP: $1.5929 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 10.84% deviation and RSI of 64.51, indicating strong momentum. The validated price is above the support level at $1.152 and resistance level at $1.637.
+> Based on the positive deviation of 10.36% from the trend momentum entry and RSI reading of 63.26, we have a strong bullish signal for RENDER/USDT.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from 20-SMA support the BULLISH sentiment.*
+> **Key Catalysts:** *Trend momentum entry and RSI indicate potential for price appreciation.*
 
 ---
 
