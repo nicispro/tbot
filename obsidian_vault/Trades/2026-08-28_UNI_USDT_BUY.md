@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:52:12 UTC"
+timestamp: "2026-08-28 17:58:12 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4340
+price: 4.4280
 quantity: 32.2000
-order_value: 142.77
+order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787939531756"
+order_id: "CRYPTO-1787939892008"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:52:12 UTC`
+> - **Date & Time:** `2026-08-28 17:58:12 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4340`
+> - **Action:** `BUY` @ `$4.4280`
 > - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.77`
+> - **Total Value:** `$142.58`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4340) vs 20-SMA ($3.8727) Deviation +14.49% [SL: $4.2788 | TP: $4.6557 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4280) vs 20-SMA ($3.8724) Deviation +14.35% [SL: $4.2730 | TP: $4.6494 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Entry at $4.4340 above the 20‑SMA with a 14.5% premium, SL at $4.2788 and TP at $4.6557 yields a ~1.4:1 risk‑reward ratio, supporting a bullish stance.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI reading above 50, this BUY trade proposal exhibits potential for growth. However, the missing short_sma and dip_percentage metrics impact the overall analysis.
 > 
-> **Key Catalysts:** *Strong upward momentum as price trades significantly above the 20‑SMA combined with RSI 61.19 indicating continued buying pressure.*
+> **Key Catalysts:** *Price deviation (14.35%) and RSI (61.03) indicate potential for growth; missing metrics impact overall analysis*
 
 ---
 
