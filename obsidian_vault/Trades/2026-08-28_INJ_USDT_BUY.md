@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:43:50 UTC"
+timestamp: "2026-08-28 13:49:43 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,11 +14,11 @@ quantity: 26.5000
 order_value: 142.44
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787924630165"
+order_id: "CRYPTO-1787924983650"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:43:50 UTC`
+> - **Date & Time:** `2026-08-28 13:49:43 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.3750`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3750) vs 20-SMA ($4.7812) Deviation +12.42% [SL: $5.1869 | TP: $5.6437 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3750) vs 20-SMA ($4.7813) Deviation +12.42% [SL: $5.1869 | TP: $5.6437 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The price is 12.4% above the 20‑SMA with RSI at 60.9, indicating bullish momentum; the trade offers a modest ~1.4:1 reward‑to‑risk ratio (TP $5.6437 vs SL $5.1869).
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is 12% above the 20‑SMA with a bullish momentum entry and a moderate RSI of 60.89, offering a favorable risk/reward profile.
 > 
-> **Key Catalysts:** *Price breaking above the 20‑SMA and sustaining a positive deviation, supported by a mid‑range RSI above 50.*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
