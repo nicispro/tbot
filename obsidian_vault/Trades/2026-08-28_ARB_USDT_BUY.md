@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:30:20 UTC"
+timestamp: "2026-08-28 22:36:24 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1632.0000
 order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787956220542"
+order_id: "CRYPTO-1787956583798"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:30:20 UTC`
+> - **Date & Time:** `2026-08-28 22:36:24 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0875`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 3.06% deviation and RSI at 50.76. The support level is at 0.0722, and the target is at 0.1094.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a modest upside to 0.0919 and a stop below support at 0.0844 gives a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages indicate potential price appreciation.*
+> **Key Catalysts:** *Price above 20‑SMA and momentum indicated by ATR 0.0068*
 
 ---
 
