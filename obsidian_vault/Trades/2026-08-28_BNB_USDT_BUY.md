@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 22:30:07 UTC"
+timestamp: "2026-08-28 22:36:26 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 689.3900
+price: 690.0400
 quantity: 0.2000
-order_value: 137.88
+order_value: 138.01
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787956207214"
+order_id: "CRYPTO-1787956585860"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 22:30:07 UTC`
+> - **Date & Time:** `2026-08-28 22:36:26 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$689.3900`
+> - **Action:** `BUY` @ `$690.0400`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$137.88`
+> - **Total Value:** `$138.01`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($689.3900) vs 20-SMA ($647.3905) Deviation +6.49% [SL: $665.2613 | TP: $723.8595 | Risk: $4.83]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($690.0400) vs 20-SMA ($647.4230) Deviation +6.58% [SL: $665.8886 | TP: $724.5420 | Risk: $4.83]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The trade aligns with a strong upward trend as the price trades significantly above the 20-SMA, offering a favorable risk-reward ratio with a defined stop-loss below recent support levels. However, the RSI approaching overbought territory and the proximity to resistance cap the immediate upside potential.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, this trade proposal exhibits a favorable risk/reward ratio with a RSI of 68.24 and a positive deviation of 6.58% from the 20-SMA. The support level of 598.14 and resistance level of 726.93 provide clear boundaries for potential gains.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA indicating sustained momentum, with RSI at 67.91 suggesting strong but not yet exhausted buying pressure.*
+> **Key Catalysts:** *Positive RSI (68.24), 6.58% deviation from 20-SMA, and support/resistance levels (598.14, 726.93)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$689.39`
-- **Actual Fill Price:** `$689.39`
+- **Expected Fill Price:** `$690.04`
+- **Actual Fill Price:** `$690.04`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
