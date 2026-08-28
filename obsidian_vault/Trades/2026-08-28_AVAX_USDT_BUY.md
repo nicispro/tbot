@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:39:27 UTC"
+timestamp: "2026-08-28 20:45:39 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2680
+price: 7.2740
 quantity: 19.6000
-order_value: 142.45
+order_value: 142.57
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787949566952"
+order_id: "CRYPTO-1787949938948"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:39:27 UTC`
+> - **Date & Time:** `2026-08-28 20:45:39 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2680`
+> - **Action:** `BUY` @ `$7.2740`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.45`
+> - **Total Value:** `$142.57`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2680) vs 20-SMA ($6.8921) Deviation +5.45% [SL: $7.0136 | TP: $7.6314 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2740) vs 20-SMA ($6.8924) Deviation +5.54% [SL: $7.0194 | TP: $7.6377 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.45% from the 20-SMA and RSI value of 57.28 indicate bullish momentum. The support level of $5.69 and resistance level of $8.318 suggest potential profit opportunities.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a positive price deviation of 5.54% from the 20-SMA and an RSI of 57.41, indicating potential for price growth. The support level at $5.69 and resistance level at $8.318 also support the bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and strong support/resistance levels*
+> **Key Catalysts:** *Price deviation, RSI, support, and resistance levels*
 
 ---
 
