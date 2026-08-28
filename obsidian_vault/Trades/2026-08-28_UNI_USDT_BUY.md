@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:24:08 UTC"
+timestamp: "2026-08-28 19:30:30 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4050
+price: 4.4060
 quantity: 32.4000
-order_value: 142.72
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787945047840"
+order_id: "CRYPTO-1787945430577"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:24:08 UTC`
+> - **Date & Time:** `2026-08-28 19:30:30 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4050`
+> - **Action:** `BUY` @ `$4.4060`
 > - **Quantity:** `32.4000` shares/units
-> - **Total Value:** `$142.72`
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4050) vs 20-SMA ($3.8712) Deviation +13.79% [SL: $4.2508 | TP: $4.6253 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4060) vs 20-SMA ($3.8714) Deviation +13.81% [SL: $4.2518 | TP: $4.6263 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate to high risk-reward ratio. The deviation of price from the 20-SMA is significant, and the RSI is above the neutral threshold, indicating potential for price appreciation. However, the lack of short-term SMA data and ATR values should be considered when assessing overall market conditions.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviates positively by 13.81% from the 20-SMA, RSI is at a favorable level of 60.46, and the support level is at 3.17, while the resistance level is at 4.836. The trade rationale is supported by the positive momentum.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) and RSI above neutral threshold*
+> **Key Catalysts:** *Positive momentum, favorable RSI, and price deviation from 20-SMA*
 
 ---
 
