@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:14:30 UTC"
+timestamp: "2026-08-28 08:20:31 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3350
-quantity: 26.7000
-order_value: 142.44
+price: 5.3220
+quantity: 26.8000
+order_value: 142.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787904869829"
+order_id: "CRYPTO-1787905230825"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:14:30 UTC`
+> - **Date & Time:** `2026-08-28 08:20:31 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3350`
-> - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.44`
+> - **Action:** `BUY` @ `$5.3220`
+> - **Quantity:** `26.8000` shares/units
+> - **Total Value:** `$142.63`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3350) vs 20-SMA ($4.7793) Deviation +11.63% [SL: $5.1483 | TP: $5.6018 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3220) vs 20-SMA ($4.7786) Deviation +11.37% [SL: $5.1357 | TP: $5.5881 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk/reward rationale. The RSI (59.76) indicates a strong upward momentum, and the price deviation (+11.63%) surpasses the RSI threshold (10%). The support level (3.779) is close to the current price, providing a potential strong floor for the trade.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 11.37% deviation and RSI at 59.42. The proposed buy price of $5.32 falls within the support level of $3.779 and is close to the resistance level of $5.991.
 > 
-> **Key Catalysts:** *Strong upward momentum (RSI 59.76), price deviation (+11.63%) above RSI threshold (10%), support level (3.779) close to current price*
+> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support the bullish sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.33`
-- **Actual Fill Price:** `$5.33`
+- **Expected Fill Price:** `$5.32`
+- **Actual Fill Price:** `$5.32`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
