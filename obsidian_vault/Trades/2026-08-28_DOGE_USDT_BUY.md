@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:15:15 UTC"
+timestamp: "2026-08-28 07:21:13 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0877
+quantity: 1628.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787901315626"
+order_id: "CRYPTO-1787901672843"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:15:15 UTC`
+> - **Date & Time:** `2026-08-28 07:21:13 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0877`
+> - **Quantity:** `1628.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0786) Deviation +11.45% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0787) Deviation +11.44% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price surge from the current level. The RSI (65.03) and dip percentage (DATA_UNAVAILABLE) indicate strong buying interest and a potential recovery.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.44% deviation from the 20-SMA and RSI at 65.35. However, please note the missing data points in the Technical Metrics JSON object.
 > 
-> **Key Catalysts:** *Strong RSI (65.03) and absence of significant bearish catalysts suggest a potential bullish momentum.*
+> **Key Catalysts:** *Strong RSI (65.35) and deviation from 20-SMA support the bullish sentiment.*
 
 ---
 
