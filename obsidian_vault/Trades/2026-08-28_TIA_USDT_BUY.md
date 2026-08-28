@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:01:29 UTC"
+timestamp: "2026-08-28 12:39:01 UTC"
 ticker: "TIA/USDT"
 canonical_symbol: "TIA/USDT"
 base_symbol: "TIA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.3503
-quantity: 407.0000
-order_value: 142.57
+price: 0.3523
+quantity: 405.0000
+order_value: 142.68
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787911289143"
+order_id: "CRYPTO-1787920741651"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `TIA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:01:29 UTC`
+> - **Date & Time:** `2026-08-28 12:39:01 UTC`
 > - **Canonical Instrument:** `TIA/USDT` (TIA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.3503`
-> - **Quantity:** `407.0000` shares/units
-> - **Total Value:** `$142.57`
+> - **Action:** `BUY` @ `$0.3523`
+> - **Quantity:** `405.0000` shares/units
+> - **Total Value:** `$142.68`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3503) vs 20-SMA ($0.3346) Deviation +4.69% [SL: $0.3380 | TP: $0.3678 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.3523) vs 20-SMA ($0.3347) Deviation +5.26% [SL: $0.3400 | TP: $0.3699 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive deviation (+4.69%) from the trend momentum entry and RSI value (50.96), this trade has a strong risk-reward rationale.
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (51.66) and ATR (0.0273) indicate positive momentum, and the deviation of +5.26% from the 20-SMA supports the entry. The support level of 0.2937 and resistance level of 0.4229 provide potential take-profit and stop-loss levels.
 > 
-> **Key Catalysts:** *Trend momentum entry and RSI crossing the neutral threshold*
+> **Key Catalysts:** *Positive momentum indicators and price deviation from 20-SMA trigger the BULLISH sentiment.*
 
 ---
 
