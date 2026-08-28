@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:51:57 UTC"
+timestamp: "2026-08-28 20:58:15 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,7 +14,7 @@ quantity: 27.7000
 order_value: 142.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787950317293"
+order_id: "CRYPTO-1787950694915"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:51:57 UTC`
+> - **Date & Time:** `2026-08-28 20:58:15 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.1500`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1500) vs 20-SMA ($4.7699) Deviation +7.97% [SL: $4.9698 | TP: $5.4075 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1500) vs 20-SMA ($4.7700) Deviation +7.97% [SL: $4.9698 | TP: $5.4075 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +7.97% from the 20-SMA and RSI value of 55.15 indicate positive momentum. However, the missing short_sma and long_sma values impact the overall analysis.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 7.97% surpasses the trigger requirement, RSI (55.17) indicates a potential buying opportunity, and the price is above the support level (3.779). However, some metrics are missing or unavailable, so the analysis relies on limited data.
 > 
-> **Key Catalysts:** *Positive momentum (RSI 55.15), price deviation (+7.97% from 20-SMA), and trend alignment with the USDT market.*
+> **Key Catalysts:** *Deviation, RSI, and support level catalysts*
 
 ---
 
