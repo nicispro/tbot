@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 21:22:53 UTC"
+timestamp: "2026-08-28 21:28:58 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4440
-quantity: 98.9000
-order_value: 142.81
+price: 1.4470
+quantity: 98.7000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787952172902"
+order_id: "CRYPTO-1787952538471"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 21:22:53 UTC`
+> - **Date & Time:** `2026-08-28 21:28:58 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4440`
-> - **Quantity:** `98.9000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$1.4470`
+> - **Quantity:** `98.7000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4440) vs 20-SMA ($1.3710) Deviation +5.32% [SL: $1.3935 | TP: $1.5162 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4470) vs 20-SMA ($1.3711) Deviation +5.54% [SL: $1.3964 | TP: $1.5193 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of 5.32% and RSI value of 53.65, this trade proposal indicates bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential gain with a risk of $5.00. The RSI (53.98) and ATR (0.0988) indicate positive momentum, and the price deviation from the 20-SMA (+5.54%) supports the entry. The support level (1.152) is close to the current price, providing a strong base for the trade.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI value above 50 suggest potential for price increase.*
+> **Key Catalysts:** *Positive momentum, RSI, and price deviation from 20-SMA support the trade entry.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$1.44`
-- **Actual Fill Price:** `$1.44`
+- **Expected Fill Price:** `$1.45`
+- **Actual Fill Price:** `$1.45`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
