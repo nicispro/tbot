@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:58:37 UTC"
+timestamp: "2026-08-28 21:04:55 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1517
-quantity: 941.0000
-order_value: 142.75
+price: 0.1515
+quantity: 942.0000
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787950716882"
+order_id: "CRYPTO-1787951095600"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:58:37 UTC`
+> - **Date & Time:** `2026-08-28 21:04:55 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1517`
-> - **Quantity:** `941.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.1515`
+> - **Quantity:** `942.0000` shares/units
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1517) vs 20-SMA ($0.1448) Deviation +4.77% [SL: $0.1464 | TP: $0.1593 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1515) vs 20-SMA ($0.1448) Deviation +4.63% [SL: $0.1462 | TP: $0.1591 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($0.1517) vs 20-SMA ($0.1448) Deviation +4.77% [SL: $0.1464 | TP: $0.1593 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade targets a short-term momentum continuation as price trades 4.63% above the 20-SMA with a neutral-to-bullish RSI of 50.87. The defined stop loss and take profit establish a favorable 1.43:1 risk/reward ratio within the current volatility range.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Price breakout above 20-SMA with positive momentum deviation and neutral RSI supporting upward continuation toward resistance.*
 
 ---
 
