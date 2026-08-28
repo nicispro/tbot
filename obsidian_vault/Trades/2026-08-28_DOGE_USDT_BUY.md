@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:36:43 UTC"
+timestamp: "2026-08-28 02:42:38 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0883
-quantity: 1618.0000
-order_value: 142.87
+price: 0.0881
+quantity: 1621.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787884602922"
+order_id: "CRYPTO-1787884958396"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:36:43 UTC`
+> - **Date & Time:** `2026-08-28 02:42:38 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0883`
-> - **Quantity:** `1618.0000` shares/units
-> - **Total Value:** `$142.87`
+> - **Action:** `BUY` @ `$0.0881`
+> - **Quantity:** `1621.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0883) vs 20-SMA ($0.0787) Deviation +12.20% [SL: $0.0852 | TP: $0.0927 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0881) vs 20-SMA ($0.0787) Deviation +11.94% [SL: $0.0850 | TP: $0.0925 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price surge from the current level (0.09) to the resistance level (0.1002). The RSI value (66.71) indicates a strong upward momentum.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.94% deviation from the 20-SMA and an RSI of 66.27, indicating an overbought condition. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Positive RSI and upward price movement towards resistance level*
+> **Key Catalysts:** *Technical momentum entry: deviation from 20-SMA and overbought RSI condition*
 
 ---
 
