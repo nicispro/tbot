@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:20:33 UTC"
+timestamp: "2026-08-28 08:26:37 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1624
-quantity: 879.0000
-order_value: 142.75
+price: 0.1621
+quantity: 881.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787905233733"
+order_id: "CRYPTO-1787905597021"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:20:33 UTC`
+> - **Date & Time:** `2026-08-28 08:26:37 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1624`
-> - **Quantity:** `879.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.1621`
+> - **Quantity:** `881.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1624) vs 20-SMA ($0.1454) Deviation +11.69% [SL: $0.1567 | TP: $0.1705 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1621) vs 20-SMA ($0.1453) Deviation +11.56% [SL: $0.1564 | TP: $0.1702 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.69% deviation from the 20-SMA and an RSI of 57.6, indicating a positive momentum. However, please note that some crucial metrics are missing.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 11.56% deviation from the 20-SMA and RSI at 57.39, indicating a positive momentum. However, please note the missing data points in the Technical Metrics.
 > 
-> **Key Catalysts:** *Positive momentum, deviation from 20-SMA, and RSI above 50 are the key catalysts for this trade.*
+> **Key Catalysts:** *Positive momentum and deviation from 20-SMA support the buy trigger, but incomplete data limits confidence.*
 
 ---
 
