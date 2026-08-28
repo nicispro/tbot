@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:26:32 UTC"
+timestamp: "2026-08-28 00:32:26 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.4990
+price: 5.5050
 quantity: 25.9000
-order_value: 142.42
+order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787876791960"
+order_id: "CRYPTO-1787877146108"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:26:32 UTC`
+> - **Date & Time:** `2026-08-28 00:32:26 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.4990`
+> - **Action:** `BUY` @ `$5.5050`
 > - **Quantity:** `25.9000` shares/units
-> - **Total Value:** `$142.42`
+> - **Total Value:** `$142.58`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.4990) vs 20-SMA ($4.7873) Deviation +14.87% [SL: $5.3065 | TP: $5.7740 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.5050) vs 20-SMA ($4.7877) Deviation +14.98% [SL: $5.3123 | TP: $5.7802 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential profit opportunity as the RSI is above 50, indicating strong momentum, and the price deviation from the 20-SMA is positive. The support level is at $3.78, and the resistance level is at $5.99.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 14.98% deviation from the 20-SMA and an RSI of 64.51. The validated price is $5.50.
 > 
-> **Key Catalysts:** *Positive RSI and price deviation from 20-SMA, along with support and resistance levels*
+> **Key Catalysts:** *Positive RSI and deviation from the 20-SMA indicate potential price growth.*
 
 ---
 
