@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:43:44 UTC"
+timestamp: "2026-08-28 13:49:39 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0894
-quantity: 1597.0000
-order_value: 142.77
+price: 0.0897
+quantity: 1592.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787924624613"
+order_id: "CRYPTO-1787924978778"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:43:44 UTC`
+> - **Date & Time:** `2026-08-28 13:49:39 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0894`
-> - **Quantity:** `1597.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.0897`
+> - **Quantity:** `1592.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0894) vs 20-SMA ($0.0850) Deviation +5.18% [SL: $0.0863 | TP: $0.0939 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0897) vs 20-SMA ($0.0850) Deviation +5.53% [SL: $0.0866 | TP: $0.0942 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.18% deviation from the 20-SMA and an RSI of 53.46. The support level is at 0.0722, providing a potential low-risk entry point.
+> Based on the given data, the trade rationale is positive as the price deviates significantly from the 20-SMA and RSI is above 50, indicating potential price appreciation. The support level at 0.0722 adds further support to the bullish sentiment.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and RSI above 50 indicate potential bullish momentum.*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI above 50*
 
 ---
 
