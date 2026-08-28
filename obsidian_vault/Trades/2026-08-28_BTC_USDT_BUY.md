@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 02:07:14 UTC"
+timestamp: "2026-08-28 02:13:10 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 80388.2000
+price: 80335.8000
 quantity: 0.0010
-order_value: 80.39
+order_value: 80.34
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787882834329"
+order_id: "CRYPTO-1787883189827"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 02:07:14 UTC`
+> - **Date & Time:** `2026-08-28 02:13:10 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$80,388.2000`
+> - **Action:** `BUY` @ `$80,335.8000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$80.39`
+> - **Total Value:** `$80.34`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($80,388.2000) vs 20-SMA ($70,479.4450) Deviation +14.06% [SL: $77,574.6130 | TP: $84,407.6100 | Risk: $2.81]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($80,335.8000) vs 20-SMA ($70,476.8300) Deviation +13.99% [SL: $77,524.0470 | TP: $84,352.5900 | Risk: $2.81]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a high confidence score of 80. The RSI (83.04) and absence of 'DATA_UNAVAILABLE' values indicate strong momentum in the market. The trigger price (80,388.20) falls within the resistance level (81,085.5).
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, this trade proposal has a bullish sentiment with a high confidence score of 85%. The rationale behind this trade is a positive deviation of 13.99% from the 20-SMA and an RSI of 82.98, indicating strong momentum. The validated price is above both short and long-term SMAs, suggesting potential for upside movement.
 > 
-> **Key Catalysts:** *RSI (83.04) and resistance level (81,085.5) support the bullish sentiment.*
+> **Key Catalysts:** *Positive deviation from 20-SMA, high RSI, and validated price above short and long-term SMAs*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$80,388.20`
-- **Actual Fill Price:** `$80,388.20`
+- **Expected Fill Price:** `$80,335.80`
+- **Actual Fill Price:** `$80,335.80`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
