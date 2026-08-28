@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:21:52 UTC"
+timestamp: "2026-08-28 06:27:51 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3430
+price: 5.3420
 quantity: 26.7000
-order_value: 142.66
+order_value: 142.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787898112641"
+order_id: "CRYPTO-1787898471037"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:21:52 UTC`
+> - **Date & Time:** `2026-08-28 06:27:51 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3430`
+> - **Action:** `BUY` @ `$5.3420`
 > - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.66`
+> - **Total Value:** `$142.63`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3430) vs 20-SMA ($4.7797) Deviation +11.79% [SL: $5.1560 | TP: $5.6101 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3420) vs 20-SMA ($4.7797) Deviation +11.76% [SL: $5.1550 | TP: $5.6091 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the trade rationale for buying INJ/USDT at $5.34 is driven by a positive price deviation of 11.79% from the 20-SMA and an RSI of 59.98, indicating potential bullish momentum. However, the lack of short and long SMA data limits our analysis.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale for buying INJ/USDT at $5.34 is supported by a positive RSI (59.98) and a 11.76% deviation from the 20-SMA, indicating potential for growth. The risk is calculated at $4.99.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI indicate bullish momentum, but missing SMA data restricts comprehensive analysis.*
+> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support a bullish sentiment.*
 
 ---
 
