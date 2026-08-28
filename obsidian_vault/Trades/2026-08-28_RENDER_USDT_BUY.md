@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 21:10:45 UTC"
+timestamp: "2026-08-28 21:16:46 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4470
-quantity: 98.7000
-order_value: 142.82
+price: 1.4490
+quantity: 98.5000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787951445348"
+order_id: "CRYPTO-1787951806565"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 21:10:45 UTC`
+> - **Date & Time:** `2026-08-28 21:16:46 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4470`
-> - **Quantity:** `98.7000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$1.4490`
+> - **Quantity:** `98.5000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4470) vs 20-SMA ($1.3710) Deviation +5.54% [SL: $1.3964 | TP: $1.5193 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4490) vs 20-SMA ($1.3712) Deviation +5.67% [SL: $1.3983 | TP: $1.5214 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.54% deviation and RSI of 53.87, indicating an entry point. However, please note that some metrics are missing or unavailable.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.67% and RSI of 54.2 indicate potential growth. The support level at $1.152 suggests a low risk.
 > 
-> **Key Catalysts:** *Deviation from short-term SMA, RSI above average, and potential support at 1.152.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at $1.152*
 
 ---
 
