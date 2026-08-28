@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 08:38:32 UTC"
+timestamp: "2026-08-28 08:44:29 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1621
+price: 0.1620
 quantity: 881.0000
-order_value: 142.81
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787906312383"
+order_id: "CRYPTO-1787906669002"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 08:38:32 UTC`
+> - **Date & Time:** `2026-08-28 08:44:29 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1621`
+> - **Action:** `BUY` @ `$0.1620`
 > - **Quantity:** `881.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1621) vs 20-SMA ($0.1453) Deviation +11.56% [SL: $0.1564 | TP: $0.1702 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1620) vs 20-SMA ($0.1453) Deviation +11.49% [SL: $0.1563 | TP: $0.1701 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 11.56% deviation between the current price ($0.1621) and the 20-SMA ($0.1453), an RSI of 57.39, and a support level of 0.1193.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 11.49% deviation between the current price ($0.16) and the 20-SMA ($0.1453), an RSI of 57.32, and a support level of $0.1193.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support a potential bullish move.*
+> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and strong support level indicate potential for price appreciation.*
 
 ---
 
