@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:24:49 UTC"
+timestamp: "2026-08-28 10:55:03 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2065
-quantity: 691.0000
-order_value: 142.69
+price: 0.2084
+quantity: 685.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787912689615"
+order_id: "CRYPTO-1787914502948"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:24:49 UTC`
+> - **Date & Time:** `2026-08-28 10:55:03 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2065`
-> - **Quantity:** `691.0000` shares/units
-> - **Total Value:** `$142.69`
+> - **Action:** `BUY` @ `$0.2084`
+> - **Quantity:** `685.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2065) vs 20-SMA ($0.1974) Deviation +4.61% [SL: $0.1993 | TP: $0.2168 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2084) vs 20-SMA ($0.1975) Deviation +5.52% [SL: $0.2011 | TP: $0.2188 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The ADA/USDT pair shows a 4.61% deviation from the 20-SMA, an RSI of 56.61, and a support level of 0.1696. These indicators indicate a potential for price growth.
+> Based on the positive RSI (57.99) and price deviation from 20-SMA entry at $0.2084 (+5.52%), we have a BULLISH sentiment with a high confidence score.
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from the 20-SMA support a bullish trade catalyst.*
+> **Key Catalysts:** *Positive RSI and price deviation from 20-SMA entry point*
 
 ---
 
