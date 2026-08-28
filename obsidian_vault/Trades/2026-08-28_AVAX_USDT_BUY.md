@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:57:27 UTC"
+timestamp: "2026-08-28 07:03:21 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4890
+price: 7.4820
 quantity: 19.0000
-order_value: 142.29
+order_value: 142.16
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787900246971"
+order_id: "CRYPTO-1787900600998"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:57:27 UTC`
+> - **Date & Time:** `2026-08-28 07:03:21 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4890`
+> - **Action:** `BUY` @ `$7.4820`
 > - **Quantity:** `19.0000` shares/units
-> - **Total Value:** `$142.29`
+> - **Total Value:** `$142.16`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4890) vs 20-SMA ($6.9031) Deviation +8.49% [SL: $7.2269 | TP: $7.8635 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4820) vs 20-SMA ($6.9028) Deviation +8.39% [SL: $7.2201 | TP: $7.8561 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk. The RSI value of 63.17 indicates strong momentum, and the price deviation from the 20-SMA is positive (+8.49%). The support level of 5.69 suggests a potential buying opportunity.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (62.96) and ATR (0.4374) indicate positive momentum, and the deviation of +8.39% supports the entry. However, the missing short_sma and long_sma values might impact the overall analysis.
 > 
-> **Key Catalysts:** *Strong momentum (RSI 63.17), positive price deviation (+8.49% from 20-SMA), and support level (5.69)*
+> **Key Catalysts:** *Positive momentum (RSI, ATR), trend momentum entry (deviation +8.39%)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.49`
-- **Actual Fill Price:** `$7.49`
+- **Expected Fill Price:** `$7.48`
+- **Actual Fill Price:** `$7.48`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
