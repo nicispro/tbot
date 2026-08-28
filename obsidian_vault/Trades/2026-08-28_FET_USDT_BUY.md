@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:28:15 UTC"
+timestamp: "2026-08-28 18:34:22 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1527
-quantity: 935.0000
-order_value: 142.77
+price: 0.1525
+quantity: 936.0000
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787941695379"
+order_id: "CRYPTO-1787942061757"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:28:15 UTC`
+> - **Date & Time:** `2026-08-28 18:34:22 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1527`
-> - **Quantity:** `935.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1525`
+> - **Quantity:** `936.0000` shares/units
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1527) vs 20-SMA ($0.1449) Deviation +5.38% [SL: $0.1474 | TP: $0.1603 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1525) vs 20-SMA ($0.1449) Deviation +5.24% [SL: $0.1472 | TP: $0.1601 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest RSI, offering upside to resistance at $0.1843 while the stop‑loss at $0.1474 keeps risk limited.
+> Price is above the 20‑SMA with a modest upside to the TP of $0.1601 and a tight stop at $0.1472, offering a favorable risk‑reward profile.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA and positive trend momentum*
 
 ---
 
