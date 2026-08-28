@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 07:50:57 UTC"
+timestamp: "2026-08-28 07:56:49 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 79644.5000
+price: 79634.1000
 quantity: 0.0010
-order_value: 79.64
+order_value: 79.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787903457201"
+order_id: "CRYPTO-1787903809531"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 07:50:57 UTC`
+> - **Date & Time:** `2026-08-28 07:56:49 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$79,644.5000`
+> - **Action:** `BUY` @ `$79,634.1000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$79.64`
+> - **Total Value:** `$79.63`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,644.5000) vs 20-SMA ($70,442.2650) Deviation +13.06% [SL: $76,856.9425 | TP: $83,626.7250 | Risk: $2.79]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($79,634.1000) vs 20-SMA ($70,441.6000) Deviation +13.05% [SL: $76,846.9065 | TP: $83,615.8050 | Risk: $2.79]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the provided metrics, the trade rationale is strong as RSI (79.81) and ATR (2512.3643) indicate bullish momentum and high volatility respectively. The price deviation from 20-SMA (+13.06%) further supports the entry.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (79.74) and trend momentum entry criteria indicate strong buying interest. However, the missing short_sma and long_sma metrics limit the confidence score to 85 out of 100.
 > 
-> **Key Catalysts:** *Positive RSI and ATR values, price deviation from 20-SMA*
+> **Key Catalysts:** *Rising RSI and trend momentum entry contribute to the bullish sentiment, but missing SMA metrics impact confidence.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$79,644.50`
-- **Actual Fill Price:** `$79,644.50`
+- **Expected Fill Price:** `$79,634.10`
+- **Actual Fill Price:** `$79,634.10`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
