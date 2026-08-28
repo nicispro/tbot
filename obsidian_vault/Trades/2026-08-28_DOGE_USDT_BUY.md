@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:49:22 UTC"
+timestamp: "2026-08-28 01:55:21 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0893
-quantity: 1599.0000
-order_value: 142.79
+price: 0.0892
+quantity: 1601.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787881761944"
+order_id: "CRYPTO-1787882121052"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:49:22 UTC`
+> - **Date & Time:** `2026-08-28 01:55:21 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0893`
-> - **Quantity:** `1599.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0892`
+> - **Quantity:** `1601.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0893) vs 20-SMA ($0.0787) Deviation +13.47% [SL: $0.0862 | TP: $0.0938 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0892) vs 20-SMA ($0.0787) Deviation +13.34% [SL: $0.0861 | TP: $0.0937 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential gain with a risk of $5.00. The RSI (68.77) and ATR (0.0052) indicate positive momentum, while the price is within support (0.0689) and resistance (0.1002) levels.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 13.34% deviation from the 20-SMA and an RSI of 68.7, indicating an overbought condition. However, the missing short_sma and long_sma values limit the analysis's depth.
 > 
-> **Key Catalysts:** *Positive RSI, ATR, and price levels within support and resistance zones*
+> **Key Catalysts:** *Positive momentum and overbought conditions trigger the buy signal.*
 
 ---
 
