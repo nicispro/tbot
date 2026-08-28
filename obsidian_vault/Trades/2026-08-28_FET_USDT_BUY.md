@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:35:09 UTC"
+timestamp: "2026-08-28 04:41:00 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1612
+price: 0.1611
 quantity: 886.0000
-order_value: 142.82
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787891709191"
+order_id: "CRYPTO-1787892060719"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:35:09 UTC`
+> - **Date & Time:** `2026-08-28 04:41:00 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1612`
+> - **Action:** `BUY` @ `$0.1611`
 > - **Quantity:** `886.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1612) vs 20-SMA ($0.1453) Deviation +10.94% [SL: $0.1556 | TP: $0.1693 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1611) vs 20-SMA ($0.1453) Deviation +10.87% [SL: $0.1555 | TP: $0.1692 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Buy signal with a 10.94% deviation and RSI of 56.77, indicating positive momentum. TP: $0.1693 (16.67% potential gain).
+> Based on the given data, the trade rationale for buying FET/USDT at $0.16 is driven by a 10.87% deviation between the price and 20-SMA, an RSI of 56.7, and support at $0.1193. The target price is set at $0.1692.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support level*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level met*
 
 ---
 
