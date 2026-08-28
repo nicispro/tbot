@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:34:24 UTC"
+timestamp: "2026-08-28 18:40:22 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3490
+price: 11.2990
 quantity: 12.6000
-order_value: 143.00
+order_value: 142.37
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787942064265"
+order_id: "CRYPTO-1787942422648"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:34:24 UTC`
+> - **Date & Time:** `2026-08-28 18:40:22 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3490`
+> - **Action:** `BUY` @ `$11.2990`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.00`
+> - **Total Value:** `$142.37`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3490) vs 20-SMA ($10.1941) Deviation +11.33% [SL: $10.9518 | TP: $11.9164 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.2990) vs 20-SMA ($10.1916) Deviation +10.87% [SL: $10.9035 | TP: $11.8640 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a strong +11.33% deviation, indicating upward momentum; the TP is roughly 1.4× the potential loss, offering a favorable risk/reward profile.
+> Price is above the 20‑period SMA with a +10.87% deviation, indicating upward momentum and a moderate reward‑to‑risk of ~1.4 (TP $11.8640 vs SL $10.9035).
 > 
-> **Key Catalysts:** *Price above 20‑SMA and significant deviation (+11.33%) driving trend momentum*
+> **Key Catalysts:** *Price above 20‑SMA and significant deviation from SMA*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.35`
-- **Actual Fill Price:** `$11.35`
+- **Expected Fill Price:** `$11.30`
+- **Actual Fill Price:** `$11.30`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
