@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 21:59:33 UTC"
+timestamp: "2026-08-28 22:05:41 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4350
-quantity: 99.5000
-order_value: 142.78
+price: 1.4370
+quantity: 99.4000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787954372782"
+order_id: "CRYPTO-1787954741668"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 21:59:33 UTC`
+> - **Date & Time:** `2026-08-28 22:05:41 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4350`
-> - **Quantity:** `99.5000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$1.4370`
+> - **Quantity:** `99.4000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4350) vs 20-SMA ($1.3705) Deviation +4.71% [SL: $1.3848 | TP: $1.5068 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4370) vs 20-SMA ($1.3706) Deviation +4.84% [SL: $1.3867 | TP: $1.5089 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive price deviation (+4.71%) and RSI value (52.67) indicating potential strength, we enter a bullish sentiment.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.84% and RSI of 52.89 indicate potential growth. The support level at 1.152 suggests a low risk.
 > 
-> **Key Catalysts:** *Price deviation and RSI indicate upward momentum.*
+> **Key Catalysts:** *Trend momentum entry, support level, and positive RSI contribute to the bullish trade rationale.*
 
 ---
 
