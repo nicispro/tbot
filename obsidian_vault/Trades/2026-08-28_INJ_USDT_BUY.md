@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 04:40:56 UTC"
+timestamp: "2026-08-28 04:46:50 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3110
+price: 5.3290
 quantity: 26.8000
-order_value: 142.33
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787892056029"
+order_id: "CRYPTO-1787892409858"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 04:40:56 UTC`
+> - **Date & Time:** `2026-08-28 04:46:50 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3110`
+> - **Action:** `BUY` @ `$5.3290`
 > - **Quantity:** `26.8000` shares/units
-> - **Total Value:** `$142.33`
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3110) vs 20-SMA ($4.7781) Deviation +11.15% [SL: $5.1251 | TP: $5.5766 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3290) vs 20-SMA ($4.7790) Deviation +11.51% [SL: $5.1425 | TP: $5.5954 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk. The RSI (59.12) indicates an overbought condition, suggesting potential for a return. The deviation (+11.15%) between the price ($5.31) and the 20-SMA ($4.7781) supports the bullish case.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +11.51% from the 20-SMA and RSI value of 59.6 indicate potential bullish momentum. The support level at $3.779 provides a safe stop-loss, while the resistance level at $5.991 suggests a potential take-profit target.
 > 
-> **Key Catalysts:** *Positive RSI (59.12), deviation (+11.15%) between price and 20-SMA*
+> **Key Catalysts:** *Positive momentum, price deviation, and resistance level support the trade rationale.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.31`
-- **Actual Fill Price:** `$5.31`
+- **Expected Fill Price:** `$5.33`
+- **Actual Fill Price:** `$5.33`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
