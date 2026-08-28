@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:56:02 UTC"
+timestamp: "2026-08-28 01:01:58 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0482
-quantity: 2963.0000
-order_value: 142.82
+price: 0.0483
+quantity: 2956.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787878561940"
+order_id: "CRYPTO-1787878918046"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:56:02 UTC`
+> - **Date & Time:** `2026-08-28 01:01:58 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0482`
-> - **Quantity:** `2963.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0483`
+> - **Quantity:** `2956.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0482) vs 20-SMA ($0.0433) Deviation +11.32% [SL: $0.0465 | TP: $0.0506 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0483) vs 20-SMA ($0.0433) Deviation +11.55% [SL: $0.0466 | TP: $0.0507 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from the 20-SMA is significant (11.32%) and RSI (64.44) indicates strong buying interest. However, the lack of short and long SMA data and dip percentage hinders a comprehensive analysis.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 11.55% surpasses the threshold, RSI is at a healthy level (64.9), and the price is above both short and long SMA. The support level is at 0.035, and resistance is at 0.051.
 > 
-> **Key Catalysts:** *Strong RSI (64.44) and price deviation (11.32%) from the 20-SMA are the key technical catalysts for this trade.*
+> **Key Catalysts:** *Positive RSI, deviation, and price above SMA levels*
 
 ---
 
