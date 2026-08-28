@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:20:20 UTC"
+timestamp: "2026-08-28 00:26:17 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2138
-quantity: 668.0000
-order_value: 142.82
+price: 0.2139
+quantity: 667.0000
+order_value: 142.67
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787876420608"
+order_id: "CRYPTO-1787876777209"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:20:20 UTC`
+> - **Date & Time:** `2026-08-28 00:26:17 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2138`
-> - **Quantity:** `668.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.2139`
+> - **Quantity:** `667.0000` shares/units
+> - **Total Value:** `$142.67`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2138) vs 20-SMA ($0.1977) Deviation +8.14% [SL: $0.2063 | TP: $0.2245 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2139) vs 20-SMA ($0.1977) Deviation +8.19% [SL: $0.2064 | TP: $0.2246 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive RSI (62.25) and significant deviation (+8.14%) from the 20-SMA, this trade proposal indicates bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale for buying ADA/USDT at $0.21 is driven by a positive trend momentum entry, with a 8.19% deviation from the 20-SMA and RSI at 62.3. The support level is $0.1696 and resistance level is $0.2583.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support the bullish trade sentiment.*
+> **Key Catalysts:** *Positive RSI (62.3), significant deviation from 20-SMA, and strong support ($0.1696) and resistance ($0.2583) levels*
 
 ---
 
