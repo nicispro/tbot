@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 06:51:39 UTC"
+timestamp: "2026-08-28 06:57:35 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,7 +14,7 @@ quantity: 0.2000
 order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787899899360"
+order_id: "CRYPTO-1787900255410"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 06:51:39 UTC`
+> - **Date & Time:** `2026-08-28 06:57:35 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$713.6900`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($713.6900) vs 20-SMA ($648.6055) Deviation +10.03% [SL: $688.7109 | TP: $749.3745 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($713.6900) vs 20-SMA ($648.5985) Deviation +10.04% [SL: $688.7109 | TP: $749.3745 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> The proposed trade in BNB/USDT shows a strong bullish signal with a 10.03% deviation from the 20-SMA and an RSI of 82.6. The current validated price is above the resistance level of 726.93.
+> The BULLISH sentiment is based on a 10.04% deviation from the 20-SMA, an RSI of 82.57, and strong support at $598.14. The target price is set at $749.37.
 > 
-> **Key Catalysts:** *Positive RSI (82.6) and significant deviation from 20-SMA (10.03%) combined with price above resistance (726.93)*
+> **Key Catalysts:** *Positive momentum and strong support indicate potential for growth.*
 
 ---
 
