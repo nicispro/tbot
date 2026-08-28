@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:37:13 UTC"
+timestamp: "2026-08-28 01:49:05 UTC"
 ticker: "DOT/USDT"
 canonical_symbol: "DOT/USDT"
 base_symbol: "DOT"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.8906
-quantity: 160.0000
-order_value: 142.50
+price: 0.8843
+quantity: 161.0000
+order_value: 142.37
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787881032907"
+order_id: "CRYPTO-1787881744761"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOT/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:37:13 UTC`
+> - **Date & Time:** `2026-08-28 01:49:05 UTC`
 > - **Canonical Instrument:** `DOT/USDT` (DOT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.8906`
-> - **Quantity:** `160.0000` shares/units
-> - **Total Value:** `$142.50`
+> - **Action:** `BUY` @ `$0.8843`
+> - **Quantity:** `161.0000` shares/units
+> - **Total Value:** `$142.37`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8906) vs 20-SMA ($0.8278) Deviation +7.59% [SL: $0.8594 | TP: $0.9351 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.8843) vs 20-SMA ($0.8275) Deviation +6.86% [SL: $0.8533 | TP: $0.9285 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, this trade proposal suggests entering a long position in DOT/USDT as the price deviation from the 20-SMA is significant (7.59%) and RSI (58.51) indicates bullish momentum. However, please note that some data points are missing.
+> Based on the given data, the trade rationale for buying DOT/USDT at $0.88 is driven by a positive trend momentum entry with a 6.86% deviation from the 20-SMA. The RSI (57.6) and ATR (0.0577) indicate positive momentum and stability.
 > 
-> **Key Catalysts:** *Positive RSI, significant price deviation, and absence of major news or events indicating bearish sentiment.*
+> **Key Catalysts:** *Positive RSI (57.6), ATR (0.0577), and trend momentum entry with 6.86% deviation from 20-SMA*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$0.89`
-- **Actual Fill Price:** `$0.89`
+- **Expected Fill Price:** `$0.88`
+- **Actual Fill Price:** `$0.88`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
