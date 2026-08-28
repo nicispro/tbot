@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:08:05 UTC"
+timestamp: "2026-08-28 01:13:57 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0892
-quantity: 1601.0000
-order_value: 142.81
+price: 0.0894
+quantity: 1597.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787879285184"
+order_id: "CRYPTO-1787879637292"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:08:05 UTC`
+> - **Date & Time:** `2026-08-28 01:13:57 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0892`
-> - **Quantity:** `1601.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.0894`
+> - **Quantity:** `1597.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0892) vs 20-SMA ($0.0787) Deviation +13.34% [SL: $0.0861 | TP: $0.0937 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0894) vs 20-SMA ($0.0787) Deviation +13.60% [SL: $0.0863 | TP: $0.0939 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 13.34% deviation from the 20-SMA and an RSI of 68.72, indicating potential for price growth. The support level at 0.0689 and resistance level at 0.1002 provide additional support for the bullish sentiment.
+> Based on the given metrics, the proposed trade has a positive sentiment with a moderate confidence score. The RSI (68.89) indicates a strong upward momentum, and the price deviation from the 20-SMA (+13.60%) supports the entry signal. The support level (0.0689) is close to the validated price ($0.09), suggesting a strong potential for price appreciation.
 > 
-> **Key Catalysts:** *Deviation from 20-SMA, RSI above 50, and support/resistance levels*
+> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and strong support level near validated price*
 
 ---
 
