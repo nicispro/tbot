@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 13:49:39 UTC"
+timestamp: "2026-08-28 13:55:33 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0897
-quantity: 1592.0000
-order_value: 142.80
+price: 0.0899
+quantity: 1588.0000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787924978778"
+order_id: "CRYPTO-1787925333078"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 13:49:39 UTC`
+> - **Date & Time:** `2026-08-28 13:55:33 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0897`
-> - **Quantity:** `1592.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0899`
+> - **Quantity:** `1588.0000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0897) vs 20-SMA ($0.0850) Deviation +5.53% [SL: $0.0866 | TP: $0.0942 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0899) vs 20-SMA ($0.0850) Deviation +5.76% [SL: $0.0868 | TP: $0.0944 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale is positive as the price deviates significantly from the 20-SMA and RSI is above 50, indicating potential price appreciation. The support level at 0.0722 adds further support to the bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.76% deviation from the 20-SMA and RSI at 54.21. However, the data for short_sma, long_sma, dip_percentage, and ATR are unavailable.
 > 
-> **Key Catalysts:** *Price deviation from 20-SMA and RSI above 50*
+> **Key Catalysts:** *Trend momentum entry (BUY): Price ($0.0899) vs 20-SMA ($0.0850) Deviation +5.76%*
 
 ---
 
