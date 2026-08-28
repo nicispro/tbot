@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:24:02 UTC"
+timestamp: "2026-08-28 19:30:26 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1160
-quantity: 27.9000
-order_value: 142.74
+price: 5.1240
+quantity: 27.8000
+order_value: 142.45
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787945042746"
+order_id: "CRYPTO-1787945425854"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:24:02 UTC`
+> - **Date & Time:** `2026-08-28 19:30:26 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1160`
-> - **Quantity:** `27.9000` shares/units
-> - **Total Value:** `$142.74`
+> - **Action:** `BUY` @ `$5.1240`
+> - **Quantity:** `27.8000` shares/units
+> - **Total Value:** `$142.45`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1160) vs 20-SMA ($4.7683) Deviation +7.29% [SL: $4.9369 | TP: $5.3718 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1240) vs 20-SMA ($4.7687) Deviation +7.45% [SL: $4.9447 | TP: $5.3802 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +7.29% from the 20-SMA and RSI value of 54.38 indicate potential growth. The support level of 3.779 suggests a low risk.
+> Based on the given parameters, the trade rationale is positive as the price deviates significantly from the 20-SMA and RSI is above 50, indicating potential bullish momentum. However, the data for short_sma, dip_percentage, and support levels are missing.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a 7.29% price deviation and positive RSI value.*
+> **Key Catalysts:** *Price deviation from 20-SMA and positive RSI indicate potential bullish momentum.*
 
 ---
 
