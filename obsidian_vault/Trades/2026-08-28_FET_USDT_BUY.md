@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:00:13 UTC"
+timestamp: "2026-08-28 15:06:16 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1621
-quantity: 881.0000
-order_value: 142.81
+price: 0.1613
+quantity: 885.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787929213187"
+order_id: "CRYPTO-1787929575831"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:00:13 UTC`
+> - **Date & Time:** `2026-08-28 15:06:16 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1621`
-> - **Quantity:** `881.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.1613`
+> - **Quantity:** `885.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1621) vs 20-SMA ($0.1453) Deviation +11.56% [SL: $0.1564 | TP: $0.1702 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1613) vs 20-SMA ($0.1453) Deviation +11.01% [SL: $0.1557 | TP: $0.1694 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a moderate RSI, providing a favorable risk‑reward ratio (~1:2.7) and clear support/resistance levels.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Price is 11% above the 20‑SMA with a moderate RSI and ATR, offering a ~5.5% upside to 0.1694 against a 2.7% downside to 0.1557.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+11.56%) and RSI 57.39 indicating momentum*
+> **Key Catalysts:** *Price above 20‑SMA with upward momentum and neutral RSI*
 
 ---
 
