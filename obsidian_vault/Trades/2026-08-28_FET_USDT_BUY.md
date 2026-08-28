@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:11:44 UTC"
+timestamp: "2026-08-28 19:37:01 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1518
-quantity: 941.0000
-order_value: 142.84
+price: 0.1524
+quantity: 937.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787944304519"
+order_id: "CRYPTO-1787945821013"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:11:44 UTC`
+> - **Date & Time:** `2026-08-28 19:37:01 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1518`
-> - **Quantity:** `941.0000` shares/units
-> - **Total Value:** `$142.84`
+> - **Action:** `BUY` @ `$0.1524`
+> - **Quantity:** `937.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1518) vs 20-SMA ($0.1448) Deviation +4.83% [SL: $0.1465 | TP: $0.1594 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1524) vs 20-SMA ($0.1449) Deviation +5.18% [SL: $0.1471 | TP: $0.1600 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup capitalizes on a +4.83% deviation above the 20-SMA with a neutral RSI (51.04), providing a defined risk/reward profile targeting $0.1594 against a $0.1465 stop.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation (+5.18%) between the price ($0.1524) and 20-SMA ($0.1449), along with an RSI of 51.37, this trade has a bullish sentiment.
 > 
-> **Key Catalysts:** *Short-term trend momentum confirmed by price trading above the 20-SMA, supported by neutral RSI indicating capacity for further upside expansion.*
+> **Key Catalysts:** *Price deviation and RSI indicate potential for price increase.*
 
 ---
 
