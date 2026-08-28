@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 18:03:59 UTC"
+timestamp: "2026-08-28 18:15:57 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2740
+price: 7.2630
 quantity: 19.6000
-order_value: 142.57
+order_value: 142.35
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787940239018"
+order_id: "CRYPTO-1787940957577"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 18:03:59 UTC`
+> - **Date & Time:** `2026-08-28 18:15:57 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2740`
+> - **Action:** `BUY` @ `$7.2630`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.57`
+> - **Total Value:** `$142.35`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2740) vs 20-SMA ($6.8924) Deviation +5.54% [SL: $7.0194 | TP: $7.6377 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2630) vs 20-SMA ($6.8918) Deviation +5.39% [SL: $7.0088 | TP: $7.6261 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price ($7.2740) from 20-SMA ($6.8924) at 5.54%, along with RSI (57.41) and ATR (0.4516) indicating bullish momentum, this trade has a high potential for profit.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of 5.39% from the trend momentum entry and RSI value of 57.14, we have a strong bullish signal.
 > 
-> **Key Catalysts:** *Price deviation, RSI, and ATR metrics point to a bullish catalyst.*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI indicating market sentiment for AVAX/USDT*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.27`
-- **Actual Fill Price:** `$7.27`
+- **Expected Fill Price:** `$7.26`
+- **Actual Fill Price:** `$7.26`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
