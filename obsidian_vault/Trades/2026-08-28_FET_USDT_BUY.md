@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 17:28:10 UTC"
+timestamp: "2026-08-28 17:34:07 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1553
+price: 0.1554
 quantity: 919.0000
-order_value: 142.72
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787938089841"
+order_id: "CRYPTO-1787938447244"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 17:28:10 UTC`
+> - **Date & Time:** `2026-08-28 17:34:07 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1553`
+> - **Action:** `BUY` @ `$0.1554`
 > - **Quantity:** `919.0000` shares/units
-> - **Total Value:** `$142.72`
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1553) vs 20-SMA ($0.1450) Deviation +7.10% [SL: $0.1499 | TP: $0.1631 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1554) vs 20-SMA ($0.1450) Deviation +7.17% [SL: $0.1500 | TP: $0.1632 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Based on the given data, the trade rationale for buying FET/USDT at $0.16 is a BULLISH sentiment. With a RSI of 53.03, the asset is considered overbought, indicating potential for a price increase. The trend momentum entry criteria are met with a 7.10% deviation.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. The support level is strong at $0.1193.
 > 
-> **Key Catalysts:** *Overbought RSI (53.03), 7.10% deviation from 20-SMA ($0.1450)*
+> **Key Catalysts:** *Price deviation, RSI above neutral, strong support at $0.1193*
 
 ---
 
