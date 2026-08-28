@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:55:03 UTC"
+timestamp: "2026-08-28 11:20:10 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2084
-quantity: 685.0000
-order_value: 142.75
+price: 0.2097
+quantity: 681.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787914502948"
+order_id: "CRYPTO-1787916010074"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:55:03 UTC`
+> - **Date & Time:** `2026-08-28 11:20:10 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2084`
-> - **Quantity:** `685.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.2097`
+> - **Quantity:** `681.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2084) vs 20-SMA ($0.1975) Deviation +5.52% [SL: $0.2011 | TP: $0.2188 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2097) vs 20-SMA ($0.1975) Deviation +6.18% [SL: $0.2024 | TP: $0.2202 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive RSI (57.99) and price deviation from 20-SMA entry at $0.2084 (+5.52%), we have a BULLISH sentiment with a high confidence score.
+> Based on the provided technical metrics, the sentiment indicates a bullish trend with an RSI of 58.98 and a support level of 0.1696. The trigger price of $0.21 falls within the validated price range.
 > 
-> **Key Catalysts:** *Positive RSI and price deviation from 20-SMA entry point*
+> **Key Catalysts:** *The positive RSI and support level support a bullish momentum entry.*
 
 ---
 
