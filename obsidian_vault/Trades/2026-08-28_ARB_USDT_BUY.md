@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 05:22:28 UTC"
+timestamp: "2026-08-28 05:28:21 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0897
-quantity: 1592.0000
-order_value: 142.80
+price: 0.0898
+quantity: 1590.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787894548247"
+order_id: "CRYPTO-1787894901487"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 05:22:28 UTC`
+> - **Date & Time:** `2026-08-28 05:28:21 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0897`
-> - **Quantity:** `1592.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0898`
+> - **Quantity:** `1590.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0897) vs 20-SMA ($0.0850) Deviation +5.53% [SL: $0.0866 | TP: $0.0942 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0898) vs 20-SMA ($0.0850) Deviation +5.65% [SL: $0.0867 | TP: $0.0943 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.53% deviation from the 20-SMA and RSI at 53.91. The support level at 0.0722 adds further support to the bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from the 20-SMA is 7.14%, and the RSI is at 53.91, indicating potential for price appreciation. The support level at 0.0722 and resistance level at 0.1094 provide key technical catalysts for this trade.
 > 
-> **Key Catalysts:** *Deviation from 20-SMA, RSI, and Support Level*
+> **Key Catalysts:** *Positive technical indicators (deviation, RSI), support level, and resistance level*
 
 ---
 
