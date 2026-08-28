@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 00:44:16 UTC"
+timestamp: "2026-08-28 00:50:11 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1657
-quantity: 862.0000
-order_value: 142.83
+price: 0.1653
+quantity: 864.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787877856516"
+order_id: "CRYPTO-1787878211205"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 00:44:16 UTC`
+> - **Date & Time:** `2026-08-28 00:50:11 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1657`
-> - **Quantity:** `862.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.1653`
+> - **Quantity:** `864.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1657) vs 20-SMA ($0.1455) Deviation +13.88% [SL: $0.1599 | TP: $0.1740 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1653) vs 20-SMA ($0.1455) Deviation +13.61% [SL: $0.1595 | TP: $0.1736 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential gain with a risk of $5.00. The RSI (59.68) and ATR (0.0137) indicate positive momentum, while the trend momentum entry supports a buy. However, the missing short_sma and long_sma data limit the analysis's depth.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 13.61% deviation in favor of the buy action, RSI at 59.43 indicating a potential buying opportunity, and the support level at 0.1193.
 > 
-> **Key Catalysts:** *Positive RSI, ATR, and trend momentum entry support a buy; missing short_sma and long_sma data limit analysis*
+> **Key Catalysts:** *Deviation, RSI, and support level catalysts support the bullish sentiment.*
 
 ---
 
