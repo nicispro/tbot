@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 16:34:18 UTC"
+timestamp: "2026-08-28 16:46:14 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0878
-quantity: 1627.0000
-order_value: 142.85
+price: 0.0882
+quantity: 1619.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787934858138"
+order_id: "CRYPTO-1787935574282"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 16:34:18 UTC`
+> - **Date & Time:** `2026-08-28 16:46:14 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0878`
-> - **Quantity:** `1627.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0882`
+> - **Quantity:** `1619.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0849) Deviation +3.42% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0849) Deviation +3.89% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.42% and RSI of 51.17 indicate potential bullish momentum. The support level of 0.0722 suggests a low risk.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is above the 20‑SMA with a +3.89% deviation, RSI is neutral at 51.72, and the target lies below resistance while the stop is above support, indicating a moderate‑risk, moderate‑reward setup.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level below current price*
+> **Key Catalysts:** *Price above 20‑SMA (+3.89%) and RSI 51.72 showing upward momentum*
 
 ---
 
