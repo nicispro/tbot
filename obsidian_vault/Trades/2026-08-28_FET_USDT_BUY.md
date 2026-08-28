@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 03:41:39 UTC"
+timestamp: "2026-08-28 03:47:33 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1612
-quantity: 886.0000
-order_value: 142.82
+price: 0.1610
+quantity: 887.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787888499202"
+order_id: "CRYPTO-1787888853633"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 03:41:39 UTC`
+> - **Date & Time:** `2026-08-28 03:47:33 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1612`
-> - **Quantity:** `886.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.1610`
+> - **Quantity:** `887.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1612) vs 20-SMA ($0.1453) Deviation +10.94% [SL: $0.1556 | TP: $0.1693 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1610) vs 20-SMA ($0.1453) Deviation +10.81% [SL: $0.1554 | TP: $0.1691 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 75% confidence score. The price deviates positively by 10.94% from the 20-SMA, RSI is at a favorable level (56.77), and the support level is strong (0.1193). However, the lack of short and long SMA data reduces the overall confidence.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of 10.81% and RSI value of 56.64 indicate bullish momentum. The support level of 0.1193 suggests a potential entry point.
 > 
-> **Key Catalysts:** *Positive price deviation, favorable RSI, and strong support level.*
+> **Key Catalysts:** *Positive momentum, support level, and RSI value drive the bullish sentiment.*
 
 ---
 
