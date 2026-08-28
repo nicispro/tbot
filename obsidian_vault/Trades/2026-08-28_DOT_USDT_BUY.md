@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 01:31:21 UTC"
+timestamp: "2026-08-28 01:37:13 UTC"
 ticker: "DOT/USDT"
 canonical_symbol: "DOT/USDT"
 base_symbol: "DOT"
@@ -14,11 +14,11 @@ quantity: 160.0000
 order_value: 142.50
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787880680982"
+order_id: "CRYPTO-1787881032907"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOT/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 01:31:21 UTC`
+> - **Date & Time:** `2026-08-28 01:37:13 UTC`
 > - **Canonical Instrument:** `DOT/USDT` (DOT/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.8906`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive trend momentum entry and strong RSI reading, this trade has a high potential for profit. The deviation from 20-SMA and support level indicate a favorable risk-reward ratio.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, this trade proposal suggests entering a long position in DOT/USDT as the price deviation from the 20-SMA is significant (7.59%) and RSI (58.51) indicates bullish momentum. However, please note that some data points are missing.
 > 
-> **Key Catalysts:** *Trend momentum entry, RSI reading, deviation from 20-SMA, and support level*
+> **Key Catalysts:** *Positive RSI, significant price deviation, and absence of major news or events indicating bearish sentiment.*
 
 ---
 
