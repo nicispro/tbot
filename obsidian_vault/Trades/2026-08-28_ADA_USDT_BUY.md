@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 15:17:53 UTC"
+timestamp: "2026-08-28 15:29:42 UTC"
 ticker: "ADA/USDT"
 canonical_symbol: "ADA/USDT"
 base_symbol: "ADA"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.2083
-quantity: 685.0000
-order_value: 142.69
+price: 0.2090
+quantity: 683.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787930273493"
+order_id: "CRYPTO-1787930981804"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ADA/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 15:17:53 UTC`
+> - **Date & Time:** `2026-08-28 15:29:42 UTC`
 > - **Canonical Instrument:** `ADA/USDT` (ADA/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.2083`
-> - **Quantity:** `685.0000` shares/units
-> - **Total Value:** `$142.69`
+> - **Action:** `BUY` @ `$0.2090`
+> - **Quantity:** `683.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2083) vs 20-SMA ($0.1975) Deviation +5.47% [SL: $0.2010 | TP: $0.2187 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY) [RE-ENTRY SCALE-IN]: Price ($0.2090) vs 20-SMA ($0.1975) Deviation +5.82% [SL: $0.2017 | TP: $0.2195 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation (+5.47%) from the 20-SMA and RSI (57.92) indicate positive momentum. The support level (0.1696) is close to the validated price, suggesting a potential for growth.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.82% deviation from the 20-SMA, RSI of 58.44, and support level at 0.1696. However, the data for short_sma, long_sma, dip_percentage, and ATR are missing.
 > 
-> **Key Catalysts:** *Positive momentum, price deviation, and support level near validated price*
+> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a 5.82% deviation from the 20-SMA and support level at 0.1696.*
 
 ---
 
