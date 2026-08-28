@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:37:01 UTC"
+timestamp: "2026-08-28 23:42:59 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4230
-quantity: 32.2000
-order_value: 142.42
+price: 4.4190
+quantity: 32.3000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787960221004"
+order_id: "CRYPTO-1787960579361"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 78
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:37:01 UTC`
+> - **Date & Time:** `2026-08-28 23:42:59 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4230`
-> - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.42`
+> - **Action:** `BUY` @ `$4.4190`
+> - **Quantity:** `32.3000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4230) vs 20-SMA ($3.8721) Deviation +14.23% [SL: $4.2682 | TP: $4.6441 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4190) vs 20-SMA ($3.8720) Deviation +14.13% [SL: $4.2643 | TP: $4.6399 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($4.4230) vs 20-SMA ($3.8721) Deviation +14.23% [SL: $4.2682 | TP: $4.6441 | Risk: $4.98]
+> [!info] **AI Thesis (BULLISH - 78% Confidence)**
+> The trade is bullish, with price well above the 20‑SMA and a moderate RSI indicating upward momentum, while the SL and TP levels provide a favorable risk‑reward profile.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Price above 20‑SMA (+14.13% deviation) and RSI 60.81 indicating bullish momentum*
 
 ---
 
