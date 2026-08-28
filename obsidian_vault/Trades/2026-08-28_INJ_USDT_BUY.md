@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 23:12:38 UTC"
+timestamp: "2026-08-28 23:18:39 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1650
+price: 5.1670
 quantity: 27.6000
-order_value: 142.55
+order_value: 142.61
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787958757987"
+order_id: "CRYPTO-1787959119005"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 23:12:38 UTC`
+> - **Date & Time:** `2026-08-28 23:18:39 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1650`
+> - **Action:** `BUY` @ `$5.1670`
 > - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.55`
+> - **Total Value:** `$142.61`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1650) vs 20-SMA ($4.7708) Deviation +8.26% [SL: $4.9842 | TP: $5.4233 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1670) vs 20-SMA ($4.7709) Deviation +8.30% [SL: $4.9862 | TP: $5.4253 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying INJ/USDT at $5.17 is supported by a 8.26% deviation positive price movement compared to the 20-SMA and an RSI of 55.52, indicating a potential bullish trend. The risk is calculated at $4.99.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +8.30% and RSI of 55.56 indicate bullish momentum. The support level of 3.779 suggests a potential entry point.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI values indicate a potential bullish catalyst.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level trigger entry*
 
 ---
 
