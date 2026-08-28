@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 20:02:27 UTC"
+timestamp: "2026-08-28 20:08:38 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3970
-quantity: 12.5000
-order_value: 142.46
+price: 11.3560
+quantity: 12.6000
+order_value: 143.09
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787947346782"
+order_id: "CRYPTO-1787947717875"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 20:02:27 UTC`
+> - **Date & Time:** `2026-08-28 20:08:38 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3970`
-> - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$142.46`
+> - **Action:** `BUY` @ `$11.3560`
+> - **Quantity:** `12.6000` shares/units
+> - **Total Value:** `$143.09`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3970) vs 20-SMA ($10.1965) Deviation +11.77% [SL: $10.9981 | TP: $11.9669 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3560) vs 20-SMA ($10.1942) Deviation +11.40% [SL: $10.9585 | TP: $11.9238 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The trade presents a favorable risk/reward ratio with a target near $12.59 resistance, driven by strong short-term momentum as price trades 11.77% above the 20-SMA. Strict risk management is required as the RSI approaches overbought territory, limiting further upside extension.
+> The trade leverages strong short-term momentum with price trading +11.4% above the 20-SMA and RSI at 65.65, offering a favorable risk/reward setup targeting $11.92 below key resistance.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA (+11.77%) and RSI momentum (66.39) supporting trend continuation toward resistance.*
+> **Key Catalysts:** *Price deviation above 20-SMA combined with bullish RSI momentum supports upward trajectory toward the $11.92 target.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.40`
-- **Actual Fill Price:** `$11.40`
+- **Expected Fill Price:** `$11.36`
+- **Actual Fill Price:** `$11.36`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
