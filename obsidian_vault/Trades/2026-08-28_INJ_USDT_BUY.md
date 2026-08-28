@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 10:30:47 UTC"
+timestamp: "2026-08-28 10:36:40 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3120
+price: 5.3260
 quantity: 26.8000
-order_value: 142.36
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787913046767"
+order_id: "CRYPTO-1787913399825"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 10:30:47 UTC`
+> - **Date & Time:** `2026-08-28 10:36:40 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3120`
+> - **Action:** `BUY` @ `$5.3260`
 > - **Quantity:** `26.8000` shares/units
-> - **Total Value:** `$142.36`
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3120) vs 20-SMA ($4.7781) Deviation +11.17% [SL: $5.1261 | TP: $5.5776 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3260) vs 20-SMA ($4.7788) Deviation +11.45% [SL: $5.1396 | TP: $5.5923 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The RSI (59.15) and dip percentage (DATA_UNAVAILABLE) indicate positive momentum, while the trend momentum entry triggers the trade. The validated price ($5.31) is above the resistance level (5.991), suggesting potential for growth.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The trend momentum entry triggers with a 11.45% deviation and RSI of 59.52 indicate a potential increase in INJ/USDT price. The validated price of $5.33 and the absence of critical 'DATA_UNAVAILABLE' values support this analysis.
 > 
-> **Key Catalysts:** *Positive RSI, trend momentum entry, and validated price above resistance level*
+> **Key Catalysts:** *Trend momentum entry, RSI above 50, and validated price support the bullish catalyst.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.31`
-- **Actual Fill Price:** `$5.31`
+- **Expected Fill Price:** `$5.33`
+- **Actual Fill Price:** `$5.33`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
