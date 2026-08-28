@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 09:08:09 UTC"
+timestamp: "2026-08-28 09:14:11 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -14,11 +14,11 @@ quantity: 889.0000
 order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787908089276"
+order_id: "CRYPTO-1787908451483"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 09:08:09 UTC`
+> - **Date & Time:** `2026-08-28 09:14:11 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.1606`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price from 20-SMA and RSI reading above 50, this trade proposal indicates upside potential with a risk of $5.00.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviates positively by 10.53% from the 20-SMA, RSI is at a favorable level (56.43), and the support level is strong (0.1193). The risk-to-reward ratio seems favorable.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI above 50*
+> **Key Catalysts:** *Positive price deviation from 20-SMA, favorable RSI, and strong support level.*
 
 ---
 
