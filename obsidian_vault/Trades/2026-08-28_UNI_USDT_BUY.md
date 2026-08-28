@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-28
-timestamp: "2026-08-28 19:05:09 UTC"
+timestamp: "2026-08-28 19:24:08 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3890
-quantity: 32.5000
-order_value: 142.64
+price: 4.4050
+quantity: 32.4000
+order_value: 142.72
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787943909676"
+order_id: "CRYPTO-1787945047840"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-28 19:05:09 UTC`
+> - **Date & Time:** `2026-08-28 19:24:08 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3890`
-> - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.64`
+> - **Action:** `BUY` @ `$4.4050`
+> - **Quantity:** `32.4000` shares/units
+> - **Total Value:** `$142.72`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3890) vs 20-SMA ($3.8705) Deviation +13.40% [SL: $4.2354 | TP: $4.6085 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4050) vs 20-SMA ($3.8712) Deviation +13.79% [SL: $4.2508 | TP: $4.6253 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +13.40% and RSI of 59.97 indicate bullish momentum. The support level of 3.17 suggests a potential buying opportunity.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate to high risk-reward ratio. The deviation of price from the 20-SMA is significant, and the RSI is above the neutral threshold, indicating potential for price appreciation. However, the lack of short-term SMA data and ATR values should be considered when assessing overall market conditions.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 3.17*
+> **Key Catalysts:** *Trend momentum entry (BUY) and RSI above neutral threshold*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.39`
-- **Actual Fill Price:** `$4.39`
+- **Expected Fill Price:** `$4.41`
+- **Actual Fill Price:** `$4.41`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
