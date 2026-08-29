@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:00:29 UTC"
+timestamp: "2026-08-29 07:06:25 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4200
-quantity: 100.6000
-order_value: 142.85
+price: 1.4230
+quantity: 100.3000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787986829210"
+order_id: "CRYPTO-1787987185453"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:00:29 UTC`
+> - **Date & Time:** `2026-08-29 07:06:25 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4200`
-> - **Quantity:** `100.6000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$1.4230`
+> - **Quantity:** `100.3000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4200) vs 20-SMA ($1.3771) Deviation +3.12% [SL: $1.3703 | TP: $1.4910 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4230) vs 20-SMA ($1.3773) Deviation +3.32% [SL: $1.3732 | TP: $1.4942 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry justified by price above the 20‑SMA with a 3.12% deviation, moderate RSI and ATR indicating manageable volatility; risk/reward ratio is roughly 1.4:1.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation (+3.32%) between the price ($1.4230) and 20-SMA ($1.3773), along with an RSI of 51.17, we have a BULLISH sentiment.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, trend momentum entry, 3.12% deviation from SMA*
+> **Key Catalysts:** *Price deviation and RSI indicate potential for price appreciation.*
 
 ---
 
