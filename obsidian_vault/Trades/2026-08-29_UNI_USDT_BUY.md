@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 12:01:17 UTC"
+timestamp: "2026-08-29 12:07:19 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -14,7 +14,7 @@ quantity: 32.5000
 order_value: 142.51
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788004877432"
+order_id: "CRYPTO-1788005239212"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 12:01:17 UTC`
+> - **Date & Time:** `2026-08-29 12:07:19 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$4.3850`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +12.65% from the 20-SMA and RSI at 59.65 indicate bullish momentum. However, the lack of short and long SMA data and dip percentage adds uncertainty.
+> Based on the given data, this trade proposal exhibits a positive risk-reward ratio with a BULLISH sentiment. The RSI (59.65) indicates an overbought condition, suggesting potential upside. However, the lack of short and long SMA data limits the analysis's depth.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI support the trade, but missing SMA data and dip percentage raise concerns.*
+> **Key Catalysts:** *Rising RSI (59.65) indicates potential bullish momentum, but missing SMA data reduces confidence.*
 
 ---
 
