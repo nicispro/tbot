@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 11:25:28 UTC"
+timestamp: "2026-08-29 11:31:24 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4190
-quantity: 100.6000
-order_value: 142.75
+price: 1.4180
+quantity: 100.7000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788002728476"
+order_id: "CRYPTO-1788003084537"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 11:25:28 UTC`
+> - **Date & Time:** `2026-08-29 11:31:24 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4190`
-> - **Quantity:** `100.6000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$1.4180`
+> - **Quantity:** `100.7000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4190) vs 20-SMA ($1.3771) Deviation +3.04% [SL: $1.3693 | TP: $1.4900 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4180) vs 20-SMA ($1.3771) Deviation +2.97% [SL: $1.3684 | TP: $1.4889 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($1.4190) vs 20-SMA ($1.3771) Deviation +3.04% [SL: $1.3693 | TP: $1.4900 | Risk: $5.00]
+> Entry above the 20‑SMA with a 2.97% deviation and a 1.43:1 risk‑reward ratio suggests moderate upside potential; RSI is neutral and ATR indicates manageable volatility.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Price above 20‑SMA (+2.97%) indicating upward momentum*
 
 ---
 
