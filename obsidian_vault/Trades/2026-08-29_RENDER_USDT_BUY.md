@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:14:01 UTC"
+timestamp: "2026-08-29 14:20:12 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4320
-quantity: 99.7000
-order_value: 142.77
+price: 1.4300
+quantity: 99.9000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788012840922"
+order_id: "CRYPTO-1788013212544"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:14:01 UTC`
+> - **Date & Time:** `2026-08-29 14:20:12 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4320`
-> - **Quantity:** `99.7000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$1.4300`
+> - **Quantity:** `99.9000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4320) vs 20-SMA ($1.3778) Deviation +3.93% [SL: $1.3819 | TP: $1.5036 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4300) vs 20-SMA ($1.3777) Deviation +3.80% [SL: $1.3800 | TP: $1.5015 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.93% and RSI of 52.15 indicate potential growth. The support level of 1.152 suggests a low risk.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 3.80% deviation from the 20-SMA and an RSI of 52.04, indicating a neutral to bullish sentiment. The support level is at $1.152 and resistance at $1.637.
 > 
-> **Key Catalysts:** *Price deviation, RSI, and support level catalysts support a bullish trade.*
+> **Key Catalysts:** *Positive trend momentum and deviation from 20-SMA support the bullish sentiment.*
 
 ---
 
