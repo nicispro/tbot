@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 11:19:17 UTC"
+timestamp: "2026-08-29 11:25:18 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3280
+price: 11.3220
 quantity: 12.6000
-order_value: 142.73
+order_value: 142.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788002357526"
+order_id: "CRYPTO-1788002718461"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 11:19:17 UTC`
+> - **Date & Time:** `2026-08-29 11:25:18 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3280`
+> - **Action:** `BUY` @ `$11.3220`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.73`
+> - **Total Value:** `$142.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3280) vs 20-SMA ($10.3553) Deviation +9.39% [SL: $10.9315 | TP: $11.8944 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3220) vs 20-SMA ($10.3550) Deviation +9.34% [SL: $10.9257 | TP: $11.8881 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a high confidence score of 85%. The price is above both short and long SMAs, RSI is above 50, and the ATR indicates low volatility. The support level is strong at $8.17, and the resistance level is at $12.60.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (65.19) and trend momentum entry support a positive sentiment. However, the missing short_sma and long_sma metrics impact the confidence score.
 > 
-> **Key Catalysts:** *Positive RSI, strong support, and potential resistance breakout*
+> **Key Catalysts:** *Rising RSI (65.19) and trend momentum entry contribute to the bullish catalyst, but missing short_sma and long_sma metrics impact confidence.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.33`
-- **Actual Fill Price:** `$11.33`
+- **Expected Fill Price:** `$11.32`
+- **Actual Fill Price:** `$11.32`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
