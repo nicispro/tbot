@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 08:48:05 UTC"
+timestamp: "2026-08-29 08:54:04 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3570
-quantity: 32.7000
-order_value: 142.47
+price: 4.3520
+quantity: 32.8000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787993285529"
+order_id: "CRYPTO-1787993644238"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 08:48:05 UTC`
+> - **Date & Time:** `2026-08-29 08:54:04 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3570`
-> - **Quantity:** `32.7000` shares/units
-> - **Total Value:** `$142.47`
+> - **Action:** `BUY` @ `$4.3520`
+> - **Quantity:** `32.8000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3570) vs 20-SMA ($3.8910) Deviation +11.98% [SL: $4.2045 | TP: $4.5748 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3520) vs 20-SMA ($3.8908) Deviation +11.85% [SL: $4.1997 | TP: $4.5696 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 11.98% deviation in favor of the buy action, RSI of 58.87 indicating a strong buying signal, and the absence of significant support and resistance levels.
+> Based on the given metrics, the trade rationale is a potential profit opportunity as the RSI (58.73) is within the favorable range, and the price deviation from the 20-SMA is positive (+11.85%). However, the data for short_sma, long_sma, and dip_percentage are missing, which weakens the analysis.
 > 
-> **Key Catalysts:** *Technical indicators point to a strong buying signal with RSI at 58.87 and a significant deviation in favor of the buy action.*
+> **Key Catalysts:** *Positive RSI and deviation from 20-SMA*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.36`
-- **Actual Fill Price:** `$4.36`
+- **Expected Fill Price:** `$4.35`
+- **Actual Fill Price:** `$4.35`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
