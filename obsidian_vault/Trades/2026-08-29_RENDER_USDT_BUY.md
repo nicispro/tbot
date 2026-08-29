@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:36:50 UTC"
+timestamp: "2026-08-29 09:42:51 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,11 +14,11 @@ quantity: 101.3000
 order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787996210038"
+order_id: "CRYPTO-1787996571344"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:36:50 UTC`
+> - **Date & Time:** `2026-08-29 09:42:51 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4100`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.4100) vs 20-SMA ($1.3766) Deviation +2.43% [SL: $1.3606 | TP: $1.4805 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation of 2.43% from the trend momentum entry and RSI value of 49.8, we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Trend momentum entry and RSI value contribute to the bullish sentiment.*
 
 ---
 
