@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 10:37:44 UTC"
+timestamp: "2026-08-29 10:49:41 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0872
-quantity: 1638.0000
-order_value: 142.83
+price: 0.0873
+quantity: 1636.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787999864628"
+order_id: "CRYPTO-1788000580953"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 10:37:44 UTC`
+> - **Date & Time:** `2026-08-29 10:49:41 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0872`
-> - **Quantity:** `1638.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.0873`
+> - **Quantity:** `1636.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0872) vs 20-SMA ($0.0854) Deviation +2.11% [SL: $0.0841 | TP: $0.0916 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0873) vs 20-SMA ($0.0854) Deviation +2.22% [SL: $0.0842 | TP: $0.0917 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup shows bullish short-term momentum with price trading 2.11% above the 20-SMA and a neutral RSI of 50.01, providing a clear risk/reward structure with a stop below the moving average and a target near immediate resistance.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (50.01) indicates a neutral to bullish condition, and the price deviation (+2.22%) from the 20-SMA supports the entry signal. The support level (0.0722) is close to the buy price, providing a strong technical basis.
 > 
-> **Key Catalysts:** *Price deviation above the 20-SMA combined with a balanced RSI indicates sustainable upward momentum, while the ATR of 0.0067 supports the defined stop and target levels.*
+> **Key Catalysts:** *Positive RSI, price deviation, and support level proximity*
 
 ---
 
