@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:36:24 UTC"
+timestamp: "2026-08-29 07:42:20 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,7 +14,7 @@ quantity: 1630.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787988984726"
+order_id: "CRYPTO-1787989340322"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:36:24 UTC`
+> - **Date & Time:** `2026-08-29 07:42:20 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0876`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0854) Deviation +2.58% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+> Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0854) Deviation +2.58% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
