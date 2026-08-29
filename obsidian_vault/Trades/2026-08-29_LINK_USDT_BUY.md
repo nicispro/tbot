@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 11:13:19 UTC"
+timestamp: "2026-08-29 11:19:17 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3260
+price: 11.3280
 quantity: 12.6000
-order_value: 142.71
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788001999691"
+order_id: "CRYPTO-1788002357526"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 11:13:19 UTC`
+> - **Date & Time:** `2026-08-29 11:19:17 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3260`
+> - **Action:** `BUY` @ `$11.3280`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.71`
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3260) vs 20-SMA ($10.3552) Deviation +9.38% [SL: $10.9296 | TP: $11.8923 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3280) vs 20-SMA ($10.3553) Deviation +9.39% [SL: $10.9315 | TP: $11.8944 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The trade rationale for buying LINK/USDT at $11.33 is based on a 9.38% deviation positive price swing compared to the 20-SMA ($10.3552) and RSI (65.26) indicating strong momentum. The support level at $8.167 and resistance at $12.594 provide additional bullish signals.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a high confidence score of 85%. The price is above both short and long SMAs, RSI is above 50, and the ATR indicates low volatility. The support level is strong at $8.17, and the resistance level is at $12.60.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and strong support/resistance levels*
+> **Key Catalysts:** *Positive RSI, strong support, and potential resistance breakout*
 
 ---
 
