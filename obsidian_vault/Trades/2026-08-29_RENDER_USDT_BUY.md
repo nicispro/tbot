@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:18:46 UTC"
+timestamp: "2026-08-29 09:24:47 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,11 +14,11 @@ quantity: 101.3000
 order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787995125874"
+order_id: "CRYPTO-1787995486775"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:18:46 UTC`
+> - **Date & Time:** `2026-08-29 09:24:47 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4090`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4090) vs 20-SMA ($1.3766) Deviation +2.35% [SL: $1.3597 | TP: $1.4794 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4090) vs 20-SMA ($1.3765) Deviation +2.36% [SL: $1.3597 | TP: $1.4794 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive price deviation (+2.35%) and RSI value (49.7), this trade proposal indicates upside potential with a risk of $5.00. The support level at $1.152 and resistance at $1.637 provide additional context for the trade.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.4090) vs 20-SMA ($1.3765) Deviation +2.36% [SL: $1.3597 | TP: $1.4794 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price deviation, RSI, and key resistance/support levels*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
