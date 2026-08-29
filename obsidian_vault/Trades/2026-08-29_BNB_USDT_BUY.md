@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:40:28 UTC"
+timestamp: "2026-08-29 16:46:28 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 691.8400
+price: 692.1800
 quantity: 0.2000
-order_value: 138.37
+order_value: 138.44
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788021627979"
+order_id: "CRYPTO-1788021988597"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:40:28 UTC`
+> - **Date & Time:** `2026-08-29 16:46:28 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$691.8400`
+> - **Action:** `BUY` @ `$692.1800`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$138.37`
+> - **Total Value:** `$138.44`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($691.8400) vs 20-SMA ($651.9765) Deviation +6.11% [SL: $667.6256 | TP: $726.4320 | Risk: $4.84]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($692.1800) vs 20-SMA ($651.9945) Deviation +6.16% [SL: $667.9537 | TP: $726.7890 | Risk: $4.85]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($691.8400) vs 20-SMA ($651.9765) Deviation +6.11% [SL: $667.6256 | TP: $726.4320 | Risk: $4.84]
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The setup capitalizes on strong trend momentum with price trading 6.16% above the 20-SMA, targeting the $726.93 resistance for a 1:1.43 risk-reward ratio. Elevated RSI (69.54) indicates potential near-term consolidation, necessitating strict stop-loss discipline.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Positive 20-SMA deviation (+6.16%) and take-profit alignment with immediate resistance ($726.93)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$691.84`
-- **Actual Fill Price:** `$691.84`
+- **Expected Fill Price:** `$692.18`
+- **Actual Fill Price:** `$692.18`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
