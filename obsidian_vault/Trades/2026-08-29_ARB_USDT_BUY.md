@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:03:53 UTC"
+timestamp: "2026-08-29 16:09:56 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0878
-quantity: 1627.0000
-order_value: 142.85
+price: 0.0879
+quantity: 1624.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788019433179"
+order_id: "CRYPTO-1788019795965"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:03:53 UTC`
+> - **Date & Time:** `2026-08-29 16:09:56 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0878`
-> - **Quantity:** `1627.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0879`
+> - **Quantity:** `1624.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0854) Deviation +2.81% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0854) Deviation +2.93% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a modest upside to the TP and a tight stop‑loss provides a favorable risk/reward profile. The RSI is neutral, supporting a continuation of the current trend.
+> Entry above the 20‑SMA with a tight stop‑loss at $0.0848 and a target at $0.0923 provides a favorable risk‑reward profile, while the ATR of $0.0067 indicates moderate volatility.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA (+2.93%) and RSI near 51 indicating balanced momentum*
 
 ---
 
