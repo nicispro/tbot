@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 01:12:57 UTC"
+timestamp: "2026-08-29 01:18:52 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4220
+price: 4.4180
 quantity: 32.3000
-order_value: 142.83
+order_value: 142.70
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787965977587"
+order_id: "CRYPTO-1787966332112"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 01:12:57 UTC`
+> - **Date & Time:** `2026-08-29 01:18:52 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4220`
+> - **Action:** `BUY` @ `$4.4180`
 > - **Quantity:** `32.3000` shares/units
-> - **Total Value:** `$142.83`
+> - **Total Value:** `$142.70`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4220) vs 20-SMA ($3.8943) Deviation +13.55% [SL: $4.2672 | TP: $4.6431 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4180) vs 20-SMA ($3.8941) Deviation +13.45% [SL: $4.2634 | TP: $4.6389 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup offers a positive risk/reward ratio with price trading 13.55% above the 20-SMA and RSI at 60.72 confirming sustained upward momentum. The take profit aligns logically with the $4.836 resistance level while the stop loss respects current ATR-based volatility.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a 13.45% deviation and a moderate upside potential of $0.219 versus a downside of $0.157, yielding a risk‑reward ratio of roughly 1.4:1.
 > 
-> **Key Catalysts:** *Price deviation above the 20-SMA combined with a healthy RSI reading supports trend continuation toward the identified resistance zone.*
+> **Key Catalysts:** *Price above 20‑SMA (+13.45%), RSI 60.6, ATR 0.3284, and resistance at $4.836.*
 
 ---
 
