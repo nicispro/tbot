@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 21:38:25 UTC"
+timestamp: "2026-08-29 21:44:28 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4490
+price: 11.4620
 quantity: 12.5000
-order_value: 143.11
+order_value: 143.28
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788039505569"
+order_id: "CRYPTO-1788039868640"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 21:38:25 UTC`
+> - **Date & Time:** `2026-08-29 21:44:28 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4490`
+> - **Action:** `BUY` @ `$11.4620`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$143.11`
+> - **Total Value:** `$143.28`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4490) vs 20-SMA ($10.3613) Deviation +10.50% [SL: $11.0483 | TP: $12.0214 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4620) vs 20-SMA ($10.3619) Deviation +10.62% [SL: $11.0608 | TP: $12.0351 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 75% confidence score. The RSI (67.16) and trend momentum entry criteria are positive, indicating a strong buying signal. The support level (8.167) is close to the validated price, suggesting a strong base for the trade.
+> Based on the given metrics, the trade rationale is a potential price increase with a 75% confidence score. The RSI (67.27) and trend momentum entry support a bullish sentiment. The support level (8.167) is close to the validated price, indicating a strong base for growth.
 > 
-> **Key Catalysts:** *RSI (67.16), trend momentum entry, and support level (8.167) alignment*
+> **Key Catalysts:** *RSI (67.27), trend momentum entry, and support level (8.167) support the bullish sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.45`
-- **Actual Fill Price:** `$11.45`
+- **Expected Fill Price:** `$11.46`
+- **Actual Fill Price:** `$11.46`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
