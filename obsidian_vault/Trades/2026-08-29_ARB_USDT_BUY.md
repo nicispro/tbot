@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:02:56 UTC"
+timestamp: "2026-08-29 22:09:01 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1627.0000
 order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788040975798"
+order_id: "CRYPTO-1788041341434"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:02:56 UTC`
+> - **Date & Time:** `2026-08-29 22:09:01 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0878`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest upside target and a tighter stop, offering a 1.5:1 risk‑reward profile. The trade is supported by momentum and a neutral RSI.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a positive sentiment as the RSI is above 50 and there is a deviation of 2.81% from the 20-SMA. The validated price is above the resistance level.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+2.81% deviation) and RSI near 50 indicating no overbought condition*
+> **Key Catalysts:** *RSI above 50, 2.81% deviation from 20-SMA, and price above resistance level*
 
 ---
 
