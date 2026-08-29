@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:00:31 UTC"
+timestamp: "2026-08-29 07:06:30 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0879
-quantity: 1624.0000
-order_value: 142.75
+price: 0.0880
+quantity: 1623.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787986831650"
+order_id: "CRYPTO-1787987190540"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:00:31 UTC`
+> - **Date & Time:** `2026-08-29 07:06:30 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0879`
-> - **Quantity:** `1624.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.0880`
+> - **Quantity:** `1623.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0854) Deviation +2.93% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0880) vs 20-SMA ($0.0854) Deviation +3.04% [SL: $0.0849 | TP: $0.0924 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest upward deviation, offering a bullish entry with a favorable risk‑to‑reward profile (SL 0.0848, TP 0.0923).
+> Price is above the 20‑SMA with a modest upward deviation and a neutral RSI, indicating a potential short‑term bullish move. The TP is only slightly above resistance, offering a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+2.93% deviation) indicating upward momentum.*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
