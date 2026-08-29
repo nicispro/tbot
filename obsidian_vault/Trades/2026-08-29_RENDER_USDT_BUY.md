@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 10:43:37 UTC"
+timestamp: "2026-08-29 10:49:39 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,11 +14,11 @@ quantity: 101.1000
 order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788000216808"
+order_id: "CRYPTO-1788000579009"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 10:43:37 UTC`
+> - **Date & Time:** `2026-08-29 10:49:39 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4130`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest 2.6% deviation, offering a 7% upside to TP and a 3.5% downside to SL, indicating a favorable risk‑reward profile.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade offers a bullish momentum entry with a risk-to-reward ratio of 1.58, supported by price trading above the 20-SMA and a neutral RSI of 50.11 indicating room for upside expansion.
 > 
-> **Key Catalysts:** *Price above 20‑SMA trend momentum entry*
+> **Key Catalysts:** *Price deviation above 20-SMA and neutral RSI momentum*
 
 ---
 
