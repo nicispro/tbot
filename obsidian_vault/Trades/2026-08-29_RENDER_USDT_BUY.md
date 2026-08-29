@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:27:58 UTC"
+timestamp: "2026-08-29 16:34:04 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4400
-quantity: 99.2000
-order_value: 142.85
+price: 1.4430
+quantity: 99.0000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788020878421"
+order_id: "CRYPTO-1788021244311"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:27:58 UTC`
+> - **Date & Time:** `2026-08-29 16:34:04 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4400`
-> - **Quantity:** `99.2000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$1.4430`
+> - **Quantity:** `99.0000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4400) vs 20-SMA ($1.3781) Deviation +4.49% [SL: $1.3896 | TP: $1.5120 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4430) vs 20-SMA ($1.3783) Deviation +4.69% [SL: $1.3925 | TP: $1.5151 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 4.49% positive price deviation from the 20-SMA and an RSI value of 52.95, indicating potential for growth. The support level of 1.152 and resistance level of 1.637 provide key technical catalysts for this trade.
+> Based on the positive deviation (+4.69%) between the entry price and 20-SMA, along with an RSI of 53.41, we have a strong bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI value, and technical catalysts*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support at $1.152*
 
 ---
 
