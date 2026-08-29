@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:38:50 UTC"
+timestamp: "2026-08-29 14:44:53 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 689.6600
+price: 690.6700
 quantity: 0.2000
-order_value: 137.93
+order_value: 138.13
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788014330539"
+order_id: "CRYPTO-1788014693402"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:38:50 UTC`
+> - **Date & Time:** `2026-08-29 14:44:53 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$689.6600`
+> - **Action:** `BUY` @ `$690.6700`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$137.93`
+> - **Total Value:** `$138.13`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($689.6600) vs 20-SMA ($651.8675) Deviation +5.80% [SL: $665.5219 | TP: $724.1430 | Risk: $4.83]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($690.6700) vs 20-SMA ($651.9175) Deviation +5.94% [SL: $666.4965 | TP: $725.2035 | Risk: $4.83]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> The proposed trade for BNB/USDT shows a strong bullish signal with a 5.80% deviation and RSI of 68.23, indicating an entry point. The validated price of $689.66 falls within the resistance level of 598.14 to 726.93.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($690.6700) vs 20-SMA ($651.9175) Deviation +5.94% [SL: $666.4965 | TP: $725.2035 | Risk: $4.83]
 > 
-> **Key Catalysts:** *Positive RSI (68.23), deviation (5.80%), and resistance level support*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$689.66`
-- **Actual Fill Price:** `$689.66`
+- **Expected Fill Price:** `$690.67`
+- **Actual Fill Price:** `$690.67`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
