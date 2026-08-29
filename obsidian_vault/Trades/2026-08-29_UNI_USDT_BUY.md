@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 05:30:32 UTC"
+timestamp: "2026-08-29 05:36:29 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4210
-quantity: 32.3000
-order_value: 142.80
+price: 4.4230
+quantity: 32.2000
+order_value: 142.42
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787981432585"
+order_id: "CRYPTO-1787981789557"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 05:30:32 UTC`
+> - **Date & Time:** `2026-08-29 05:36:29 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4210`
-> - **Quantity:** `32.3000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$4.4230`
+> - **Quantity:** `32.2000` shares/units
+> - **Total Value:** `$142.42`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4210) vs 20-SMA ($3.8943) Deviation +13.52% [SL: $4.2663 | TP: $4.6421 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4230) vs 20-SMA ($3.8943) Deviation +13.58% [SL: $4.2682 | TP: $4.6441 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 13.5% above the 20‑SMA with RSI at 60.7, offering a ~5% upside to $4.6421 versus a ~3.5% downside to $4.2663, yielding a favorable risk‑reward.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 13.58% deviation from the 20-SMA and an RSI of 60.72, indicating potential for price growth. The support level at $3.17 and resistance level at $4.836 also support the bullish sentiment.
 > 
-> **Key Catalysts:** *Momentum breakout above 20‑SMA and sustained RSI above 60 supporting continued upward pressure*
+> **Key Catalysts:** *Deviation from 20-SMA, RSI, Support, and Resistance levels*
 
 ---
 
