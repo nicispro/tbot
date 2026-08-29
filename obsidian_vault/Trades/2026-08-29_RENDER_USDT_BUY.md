@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 08:12:22 UTC"
+timestamp: "2026-08-29 08:30:16 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4130
-quantity: 101.1000
-order_value: 142.85
+price: 1.4100
+quantity: 101.3000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787991141821"
+order_id: "CRYPTO-1787992215974"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 08:12:22 UTC`
+> - **Date & Time:** `2026-08-29 08:30:16 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4130`
-> - **Quantity:** `101.1000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$1.4100`
+> - **Quantity:** `101.3000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4130) vs 20-SMA ($1.3768) Deviation +2.63% [SL: $1.3635 | TP: $1.4836 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4100) vs 20-SMA ($1.3767) Deviation +2.42% [SL: $1.3606 | TP: $1.4805 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The trade offers a favorable risk/reward profile with a tight stop below the 20-SMA and a target aligned with near-term momentum, though neutral RSI and missing longer-term trend data warrant cautious execution.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> The trade is bullish as the price is above the 20‑SMA with a modest 2.42% deviation, offering a favorable risk‑reward profile (TP 1.4805 vs SL 1.3606).
 > 
-> **Key Catalysts:** *Price trading +2.63% above the 20-SMA confirms short-term bullish momentum, while an RSI of 50.11 indicates balanced conditions with room for upside expansion.*
+> **Key Catalysts:** *Price above 20‑SMA indicating upward momentum*
 
 ---
 
