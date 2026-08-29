@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:06:24 UTC"
+timestamp: "2026-08-29 09:24:39 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3070
+price: 11.3100
 quantity: 12.6000
-order_value: 142.47
+order_value: 142.51
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787994384533"
+order_id: "CRYPTO-1787995479130"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 78
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:06:24 UTC`
+> - **Date & Time:** `2026-08-29 09:24:39 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3070`
+> - **Action:** `BUY` @ `$11.3100`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.47`
+> - **Total Value:** `$142.51`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3070) vs 20-SMA ($10.3543) Deviation +9.20% [SL: $10.9113 | TP: $11.8724 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3100) vs 20-SMA ($10.3544) Deviation +9.23% [SL: $10.9141 | TP: $11.8755 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 78% Confidence)**
-> Price is 9.2% above the 20‑SMA with RSI at 64.9, offering a ~1.4:1 reward‑to‑risk (TP $11.8724 vs SL $10.9113). Support is well below entry and resistance lies above the target, supporting upside potential.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal presents a strong buying opportunity with a potential for growth.
 > 
-> **Key Catalysts:** *Breakout above 20‑SMA with strong momentum and RSI below overbought levels*
+> **Key Catalysts:** *Price ($11.3100) vs 20-SMA ($10.3544) Deviation +9.23% and RSI 64.99*
 
 ---
 
