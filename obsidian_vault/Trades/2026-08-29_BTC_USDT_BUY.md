@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:36:16 UTC"
+timestamp: "2026-08-29 04:00:12 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77610.0000
+price: 77493.5000
 quantity: 0.0010
-order_value: 77.61
+order_value: 77.49
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787974576627"
+order_id: "CRYPTO-1787976012108"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:36:16 UTC`
+> - **Date & Time:** `2026-08-29 04:00:12 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,610.0000`
+> - **Action:** `BUY` @ `$77,493.5000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.61`
+> - **Total Value:** `$77.49`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,610.0000) vs 20-SMA ($70,984.0750) Deviation +9.33% [SL: $74,893.6500 | TP: $81,490.5000 | Risk: $2.72]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,493.5000) vs 20-SMA ($70,978.2500) Deviation +9.18% [SL: $74,781.2275 | TP: $81,368.1750 | Risk: $2.71]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade exhibits a positive sentiment with a relatively high confidence score. The RSI (70.39) and trend momentum entry trigger support a bullish rationale. The validated price is above the resistance level (81085.5).
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (69.89) and trend momentum entry at $77,493.50 show a strong buying signal. However, the missing short_sma and long_sma values impact the overall assessment.
 > 
-> **Key Catalysts:** *RSI (70.39), trend momentum entry trigger, validated price above resistance level*
+> **Key Catalysts:** *RSI (69.89) and trend momentum entry trigger the buy order.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,610.00`
-- **Actual Fill Price:** `$77,610.00`
+- **Expected Fill Price:** `$77,493.50`
+- **Actual Fill Price:** `$77,493.50`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
