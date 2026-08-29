@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:24:37 UTC"
+timestamp: "2026-08-29 04:30:36 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3910
+price: 4.3860
 quantity: 32.5000
-order_value: 142.71
+order_value: 142.55
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787977477564"
+order_id: "CRYPTO-1787977835982"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:24:37 UTC`
+> - **Date & Time:** `2026-08-29 04:30:36 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3910`
+> - **Action:** `BUY` @ `$4.3860`
 > - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.71`
+> - **Total Value:** `$142.55`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3910) vs 20-SMA ($3.8928) Deviation +12.80% [SL: $4.2373 | TP: $4.6105 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3860) vs 20-SMA ($3.8925) Deviation +12.68% [SL: $4.2325 | TP: $4.6053 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The trigger reason highlights a positive deviation of 12.80% from the 20-SMA, indicating potential price appreciation. The RSI value of 59.82 suggests the asset is not overbought or oversold, maintaining a neutral to bullish bias.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +12.68% from the 20-SMA and RSI value of 59.68 indicate bullish momentum. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA (12.80%) and RSI value (59.82) support the bullish sentiment.*
+> **Key Catalysts:** *Positive price deviation and RSI value drive the bullish sentiment.*
 
 ---
 
