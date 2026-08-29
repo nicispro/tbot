@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 13:37:43 UTC"
+timestamp: "2026-08-29 13:43:48 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -14,11 +14,11 @@ quantity: 32.5000
 order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788010663169"
+order_id: "CRYPTO-1788011027797"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 13:37:43 UTC`
+> - **Date & Time:** `2026-08-29 13:43:48 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$4.3870`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price is above both short and long SMAs, RSI is above 50, and the ATR is low. The support is at $3.17 and resistance at $4.836, providing potential for growth.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +12.70% from the 20-SMA and RSI value of 59.71 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 provide potential profit targets.
 > 
-> **Key Catalysts:** *Positive technical indicators and potential for price growth.*
+> **Key Catalysts:** *Positive momentum, price deviation, and support/resistance levels*
 
 ---
 
