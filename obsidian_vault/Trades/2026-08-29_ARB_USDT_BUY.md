@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:56:58 UTC"
+timestamp: "2026-08-29 15:21:23 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0882
-quantity: 1619.0000
-order_value: 142.80
+price: 0.0880
+quantity: 1623.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788015417965"
+order_id: "CRYPTO-1788016883243"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:56:58 UTC`
+> - **Date & Time:** `2026-08-29 15:21:23 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0882`
-> - **Quantity:** `1619.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0880`
+> - **Quantity:** `1623.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0855) Deviation +3.16% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0880) vs 20-SMA ($0.0854) Deviation +3.04% [SL: $0.0849 | TP: $0.0924 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a neutral RSI and an ATR‑based risk/reward of roughly 1.4:1 supports a bullish view.
+> Price is above the 20‑SMA with a modest +3% deviation, indicating upward momentum; the risk‑to‑reward ratio is balanced with a tight stop and a realistic target.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.16%) and ATR‑derived volatility*
+> **Key Catalysts:** *Price above 20‑SMA (+3.04%), RSI near 50 (neutral), ATR 0.0067, support at 0.0722 and resistance at 0.1094*
 
 ---
 
