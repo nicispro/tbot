@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:48:43 UTC"
+timestamp: "2026-08-29 05:00:35 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.0840
+price: 5.0860
 quantity: 28.0000
-order_value: 142.35
+order_value: 142.41
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787978923142"
+order_id: "CRYPTO-1787979635689"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:48:43 UTC`
+> - **Date & Time:** `2026-08-29 05:00:35 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.0840`
+> - **Action:** `BUY` @ `$5.0860`
 > - **Quantity:** `28.0000` shares/units
-> - **Total Value:** `$142.35`
+> - **Total Value:** `$142.41`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0840) vs 20-SMA ($4.8093) Deviation +5.71% [SL: $4.9061 | TP: $5.3382 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0860) vs 20-SMA ($4.8094) Deviation +5.75% [SL: $4.9080 | TP: $5.3403 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price trades above the 20-SMA with a neutral RSI (52.92), supporting a momentum long with a favorable 1.43:1 risk/reward ratio toward the $5.34 target.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a modest upside to the TP and a tight stop‑loss near the 20‑SMA suggests a short‑term bullish move.
 > 
-> **Key Catalysts:** *Short-term trend momentum confirmed by +5.71% deviation above the 20-SMA and unextended RSI providing room for upside expansion.*
+> **Key Catalysts:** *Price 5.0860 is 5.75% above the 20‑SMA, indicating upward momentum.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.08`
-- **Actual Fill Price:** `$5.08`
+- **Expected Fill Price:** `$5.09`
+- **Actual Fill Price:** `$5.09`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
