@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:30:16 UTC"
+timestamp: "2026-08-29 07:36:16 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,11 +14,11 @@ quantity: 0.0010
 order_value: 77.49
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787988616696"
+order_id: "CRYPTO-1787988975990"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:30:16 UTC`
+> - **Date & Time:** `2026-08-29 07:36:16 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$77,488.8000`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk-reward ratio. The RSI is above 50, indicating overbought conditions, and the price deviates 9.17% above the 20-SMA. The support level is at $62,584.00 and resistance at $81,085.50.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is trading 9.17% above the 20‑SMA with RSI at 69.87, indicating strong upward momentum and a favorable risk‑reward (SL ~74,777, TP ~81,363).
 > 
-> **Key Catalysts:** *Price deviating above the 20-SMA and reaching overbought RSI conditions contribute to the bullish catalyst.*
+> **Key Catalysts:** *Trend momentum entry confirmed by price >20‑SMA and high RSI near overbought levels*
 
 ---
 
