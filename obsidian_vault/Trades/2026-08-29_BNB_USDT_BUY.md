@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 01:55:00 UTC"
+timestamp: "2026-08-29 02:00:58 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 691.6800
+price: 691.2900
 quantity: 0.2000
-order_value: 138.34
+order_value: 138.26
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787968500514"
+order_id: "CRYPTO-1787968857850"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 01:55:00 UTC`
+> - **Date & Time:** `2026-08-29 02:00:58 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$691.6800`
+> - **Action:** `BUY` @ `$691.2900`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$138.34`
+> - **Total Value:** `$138.26`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($691.6800) vs 20-SMA ($651.9685) Deviation +6.09% [SL: $667.4712 | TP: $726.2640 | Risk: $4.84]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($691.2900) vs 20-SMA ($651.9490) Deviation +6.03% [SL: $667.0948 | TP: $725.8545 | Risk: $4.84]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($691.6800) vs 20-SMA ($651.9685) Deviation +6.09% [SL: $667.4712 | TP: $726.2640 | Risk: $4.84]
+> Trend Momentum Entry (BUY): Price ($691.2900) vs 20-SMA ($651.9490) Deviation +6.03% [SL: $667.0948 | TP: $725.8545 | Risk: $4.84]
 > 
 > **Key Catalysts:** *Technical rule*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$691.68`
-- **Actual Fill Price:** `$691.68`
+- **Expected Fill Price:** `$691.29`
+- **Actual Fill Price:** `$691.29`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
