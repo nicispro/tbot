@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 21:26:23 UTC"
+timestamp: "2026-08-29 21:32:31 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1624.0000
 order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788038783374"
+order_id: "CRYPTO-1788039151091"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 21:26:23 UTC`
+> - **Date & Time:** `2026-08-29 21:32:31 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0879`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup offers a positive 1:1.4 risk/reward ratio, leveraging short-term upward momentum while maintaining a neutral RSI that leaves room for price expansion before overbought conditions.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0854) Deviation +2.93% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price trading +2.93% above the 20-SMA confirms short-term trend momentum, supported by a neutral RSI (50.87) and clear technical boundaries defined by the ATR and nearby support/resistance levels.*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
