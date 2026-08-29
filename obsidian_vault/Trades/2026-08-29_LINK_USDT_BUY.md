@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:36:35 UTC"
+timestamp: "2026-08-29 04:42:32 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3550
+price: 11.3500
 quantity: 12.6000
-order_value: 143.07
+order_value: 143.01
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787978195135"
+order_id: "CRYPTO-1787978551903"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:36:35 UTC`
+> - **Date & Time:** `2026-08-29 04:42:32 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3550`
+> - **Action:** `BUY` @ `$11.3500`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.07`
+> - **Total Value:** `$143.01`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3550) vs 20-SMA ($10.3567) Deviation +9.64% [SL: $10.9576 | TP: $11.9228 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3500) vs 20-SMA ($10.3563) Deviation +9.60% [SL: $10.9527 | TP: $11.9175 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale for buying LINK/USDT at $11.36 is a bullish sentiment as RSI (65.75) and ATR (0.7469) indicate strong momentum and volatility. The absence of key technical or momentum catalysts is mentioned as a limitation.
+> Based on the positive deviation of price from 20-SMA, RSI above 50, and strong support at $8.167, we have a high-confidence bullish sentiment.
 > 
-> **Key Catalysts:** **
+> **Key Catalysts:** *Price deviation, RSI, and support level*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.36`
-- **Actual Fill Price:** `$11.36`
+- **Expected Fill Price:** `$11.35`
+- **Actual Fill Price:** `$11.35`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
