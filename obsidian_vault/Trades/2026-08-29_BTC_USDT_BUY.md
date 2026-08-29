@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 12:01:19 UTC"
+timestamp: "2026-08-29 12:07:21 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,11 +14,11 @@ quantity: 0.0010
 order_value: 77.56
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788004879511"
+order_id: "CRYPTO-1788005241427"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 12:01:19 UTC`
+> - **Date & Time:** `2026-08-29 12:07:21 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$77,555.0000`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a high confidence score of 85%. The rationale behind this trade is the positive deviation of 9.26% from the 20-SMA and an RSI of 70.13, indicating strong momentum. The trigger price of $77,555.00 is within the resistance level of 81,085.5 and support level of 62,584.0.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the provided data, the proposed trade has a bullish sentiment with a high confidence score of 80. The trigger reason indicates a positive deviation of 9.26% from the 20-SMA, and the RSI value of 70.15 suggests a potential for price appreciation.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA, strong RSI, and alignment with resistance and support levels*
+> **Key Catalysts:** *Positive price deviation from 20-SMA and high RSI value indicate a potential catalyst for price appreciation.*
 
 ---
 
