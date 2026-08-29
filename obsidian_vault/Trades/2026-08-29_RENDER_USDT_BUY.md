@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 06:42:28 UTC"
+timestamp: "2026-08-29 07:00:29 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4180
-quantity: 100.7000
-order_value: 142.79
+price: 1.4200
+quantity: 100.6000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787985747843"
+order_id: "CRYPTO-1787986829210"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 06:42:28 UTC`
+> - **Date & Time:** `2026-08-29 07:00:29 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4180`
-> - **Quantity:** `100.7000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$1.4200`
+> - **Quantity:** `100.6000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4180) vs 20-SMA ($1.3771) Deviation +2.97% [SL: $1.3684 | TP: $1.4889 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4200) vs 20-SMA ($1.3771) Deviation +3.12% [SL: $1.3703 | TP: $1.4910 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a +2.97% deviation and a neutral RSI, indicating upward momentum; the risk/reward ratio is roughly 1:2.
+> Entry justified by price above the 20‑SMA with a 3.12% deviation, moderate RSI and ATR indicating manageable volatility; risk/reward ratio is roughly 1.4:1.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+2.97%) and trend momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA, trend momentum entry, 3.12% deviation from SMA*
 
 ---
 
