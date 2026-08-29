@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:36:07 UTC"
+timestamp: "2026-08-29 08:00:00 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 687.5400
+price: 688.3800
 quantity: 0.2000
-order_value: 137.51
+order_value: 137.68
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787988967115"
+order_id: "CRYPTO-1787990399753"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:36:07 UTC`
+> - **Date & Time:** `2026-08-29 08:00:00 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$687.5400`
+> - **Action:** `BUY` @ `$688.3800`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$137.51`
+> - **Total Value:** `$137.68`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($687.5400) vs 20-SMA ($651.7615) Deviation +5.49% [SL: $663.4761 | TP: $721.9170 | Risk: $4.81]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($688.3800) vs 20-SMA ($651.8030) Deviation +5.61% [SL: $664.2867 | TP: $722.7990 | Risk: $4.82]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 5.49% above the 20-SMA, indicating strong short-term momentum, with a favorable risk-reward ratio of approximately 1:1.75. RSI at 67.07 suggests bullish strength without immediate overbought saturation, though the proximity to resistance at $726.93 caps upside potential.
+> Price is trading 5.61% above the 20-SMA indicating strong short-term momentum, with a favorable risk-reward ratio of approximately 1:1.75. RSI at 67.52 suggests bullish strength without immediate overbought exhaustion, though the proximity to resistance at $726.93 caps upside potential.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA (+5.49%) and RSI momentum at 67.07*
+> **Key Catalysts:** *Positive deviation from 20-SMA (+5.61%) and RSI momentum at 67.52*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$687.54`
-- **Actual Fill Price:** `$687.54`
+- **Expected Fill Price:** `$688.38`
+- **Actual Fill Price:** `$688.38`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
