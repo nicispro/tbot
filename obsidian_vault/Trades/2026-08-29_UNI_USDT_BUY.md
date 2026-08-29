@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 10:31:37 UTC"
+timestamp: "2026-08-29 10:37:30 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3780
+price: 4.3800
 quantity: 32.6000
-order_value: 142.72
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787999497588"
+order_id: "CRYPTO-1787999850650"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 10:31:37 UTC`
+> - **Date & Time:** `2026-08-29 10:37:30 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3780`
+> - **Action:** `BUY` @ `$4.3800`
 > - **Quantity:** `32.6000` shares/units
-> - **Total Value:** `$142.72`
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3780) vs 20-SMA ($3.8921) Deviation +12.48% [SL: $4.2248 | TP: $4.5969 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3800) vs 20-SMA ($3.8923) Deviation +12.53% [SL: $4.2267 | TP: $4.5990 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The RSI (59.46) indicates a strong upward momentum, and the price deviation from the 20-SMA (+12.48%) suggests a potential bullish breakout. However, the lack of short and long SMA data limits the analysis.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate to high confidence score. The trade rationale includes a 12.53% deviation from the 20-SMA and an RSI of 59.6, indicating potential price strength. The support level at $3.17 and resistance level at $4.836 suggest a potential for price appreciation.
 > 
-> **Key Catalysts:** *Strong upward momentum (RSI) and price deviation from 20-SMA*
+> **Key Catalysts:** *Positive deviation from 20-SMA, RSI above 50, and potential for price appreciation based on support and resistance levels.*
 
 ---
 
