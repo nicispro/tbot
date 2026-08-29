@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:20:06 UTC"
+timestamp: "2026-08-29 17:34:48 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3050
-quantity: 19.5000
-order_value: 142.45
+price: 7.2750
+quantity: 19.6000
+order_value: 142.59
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788013206399"
+order_id: "CRYPTO-1788024888641"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:20:06 UTC`
+> - **Date & Time:** `2026-08-29 17:34:48 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3050`
-> - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.45`
+> - **Action:** `BUY` @ `$7.2750`
+> - **Quantity:** `19.6000` shares/units
+> - **Total Value:** `$142.59`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3050) vs 20-SMA ($6.9384) Deviation +5.28% [SL: $7.0493 | TP: $7.6703 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2750) vs 20-SMA ($6.9369) Deviation +4.87% [SL: $7.0204 | TP: $7.6387 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a positive risk/reward rationale with RSI at 57.92 and a price deviation of +5.28% from the 20-SMA. The sentiment is bullish.
+> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (57.14) indicates a positive momentum, and the price deviation from the 20-SMA (+4.87%) suggests a potential entry point. However, the data for short_sma and long_sma is unavailable, which weakens the analysis's reliability.
 > 
-> **Key Catalysts:** *Positive RSI (57.92) and price deviation (+5.28%) from the 20-SMA support the bullish sentiment.*
+> **Key Catalysts:** *Positive momentum (RSI 57.14), price deviation (+4.87% from 20-SMA)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.30`
-- **Actual Fill Price:** `$7.30`
+- **Expected Fill Price:** `$7.28`
+- **Actual Fill Price:** `$7.28`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
