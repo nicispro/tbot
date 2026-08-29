@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:36:38 UTC"
+timestamp: "2026-08-29 09:42:41 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3670
-quantity: 32.7000
-order_value: 142.80
+price: 4.3710
+quantity: 32.6000
+order_value: 142.49
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787996197922"
+order_id: "CRYPTO-1787996560832"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:36:38 UTC`
+> - **Date & Time:** `2026-08-29 09:42:41 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3670`
-> - **Quantity:** `32.7000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$4.3710`
+> - **Quantity:** `32.6000` shares/units
+> - **Total Value:** `$142.49`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3670) vs 20-SMA ($3.8916) Deviation +12.22% [SL: $4.2142 | TP: $4.5854 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3710) vs 20-SMA ($3.8918) Deviation +12.31% [SL: $4.2180 | TP: $4.5896 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +12.22% from the 20-SMA and RSI value of 59.15 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 provide potential profit targets.
+> Based on the given data, the proposed trade has a positive sentiment as the RSI (59.26) and trend momentum entry deviate positively. The risk is calculated at $4.99.
 > 
-> **Key Catalysts:** *Positive momentum, price deviation, and RSI value support the trade rationale.*
+> **Key Catalysts:** *Technical indicators point to a potential bullish move, with RSI above 50 and a 12.31% deviation from the 20-SMA.*
 
 ---
 
