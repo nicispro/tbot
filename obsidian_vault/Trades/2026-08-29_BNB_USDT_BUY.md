@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 21:56:48 UTC"
+timestamp: "2026-08-29 22:03:01 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 693.2200
+price: 692.6100
 quantity: 0.2000
-order_value: 138.64
+order_value: 138.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788040608077"
+order_id: "CRYPTO-1788040981536"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 21:56:48 UTC`
+> - **Date & Time:** `2026-08-29 22:03:01 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$693.2200`
+> - **Action:** `BUY` @ `$692.6100`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$138.64`
+> - **Total Value:** `$138.52`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($693.2200) vs 20-SMA ($652.0460) Deviation +6.31% [SL: $668.9573 | TP: $727.8810 | Risk: $4.85]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($692.6100) vs 20-SMA ($652.0155) Deviation +6.23% [SL: $668.3687 | TP: $727.2405 | Risk: $4.85]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a strong +6.31% deviation and a reward‑to‑risk ratio of ~7.1, but RSI at 69.8 signals potential overbought pressure.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade captures strong short-term momentum with price trading 6.23% above the 20-SMA, targeting immediate resistance at $726.93. The 1:1.43 risk/reward ratio is acceptable, though the RSI near 70 warrants tight risk management to avoid a potential pullback.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, ATR‑based volatility, and proximity to resistance level near TP*
+> **Key Catalysts:** *Price deviation above 20-SMA confirms bullish momentum, while the take-profit aligns precisely with the identified resistance level.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$693.22`
-- **Actual Fill Price:** `$693.22`
+- **Expected Fill Price:** `$692.61`
+- **Actual Fill Price:** `$692.61`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
