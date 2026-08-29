@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:30:14 UTC"
+timestamp: "2026-08-29 07:36:13 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3950
-quantity: 32.5000
-order_value: 142.84
+price: 4.3960
+quantity: 32.4000
+order_value: 142.43
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787988614699"
+order_id: "CRYPTO-1787988973533"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:30:14 UTC`
+> - **Date & Time:** `2026-08-29 07:36:13 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3950`
-> - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.84`
+> - **Action:** `BUY` @ `$4.3960`
+> - **Quantity:** `32.4000` shares/units
+> - **Total Value:** `$142.43`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3950) vs 20-SMA ($3.8929) Deviation +12.90% [SL: $4.2412 | TP: $4.6147 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3960) vs 20-SMA ($3.8930) Deviation +12.92% [SL: $4.2421 | TP: $4.6158 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +12.90% from the 20-SMA and RSI value of 59.94 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 provide potential profit targets.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +12.92% and RSI of 59.97 indicate potential growth. The support level at $3.17 and resistance level at $4.836 suggest a risk-reward ratio favorable to the trade.
 > 
-> **Key Catalysts:** *Positive momentum and price deviation from 20-SMA*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and potential breakout due to support/resistance levels*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.39`
-- **Actual Fill Price:** `$4.39`
+- **Expected Fill Price:** `$4.40`
+- **Actual Fill Price:** `$4.40`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
