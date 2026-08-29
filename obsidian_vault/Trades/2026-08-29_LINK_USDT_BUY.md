@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:30:34 UTC"
+timestamp: "2026-08-29 04:36:35 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3520
+price: 11.3550
 quantity: 12.6000
-order_value: 143.04
+order_value: 143.07
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787977833808"
+order_id: "CRYPTO-1787978195135"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:30:34 UTC`
+> - **Date & Time:** `2026-08-29 04:36:35 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3520`
+> - **Action:** `BUY` @ `$11.3550`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.04`
+> - **Total Value:** `$143.07`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3520) vs 20-SMA ($10.3565) Deviation +9.61% [SL: $10.9547 | TP: $11.9196 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3550) vs 20-SMA ($10.3567) Deviation +9.64% [SL: $10.9576 | TP: $11.9228 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the proposed trade has a bullish sentiment with a high confidence score of 85%. The rationale includes a positive deviation of 9.61% from the 20-SMA and an RSI of 65.7, indicating strong momentum. The support level at $8.167 and resistance level at $12.594 provide potential risk and reward targets.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale for buying LINK/USDT at $11.36 is a bullish sentiment as RSI (65.75) and ATR (0.7469) indicate strong momentum and volatility. The absence of key technical or momentum catalysts is mentioned as a limitation.
 > 
-> **Key Catalysts:** *Positive trend momentum, deviation from 20-SMA, and strong RSI support the bullish catalyst.*
+> **Key Catalysts:** **
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.35`
-- **Actual Fill Price:** `$11.35`
+- **Expected Fill Price:** `$11.36`
+- **Actual Fill Price:** `$11.36`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
