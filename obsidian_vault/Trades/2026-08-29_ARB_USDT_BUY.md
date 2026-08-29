@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:00:16 UTC"
+timestamp: "2026-08-29 04:06:22 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0873
-quantity: 1636.0000
-order_value: 142.82
+price: 0.0874
+quantity: 1634.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787976016430"
+order_id: "CRYPTO-1787976382705"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:00:16 UTC`
+> - **Date & Time:** `2026-08-29 04:06:22 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0873`
-> - **Quantity:** `1636.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0874`
+> - **Quantity:** `1634.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0873) vs 20-SMA ($0.0854) Deviation +2.22% [SL: $0.0842 | TP: $0.0917 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0854) Deviation +2.34% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is trading above the 20‑SMA with a modest upside to the resistance level, while the stop‑loss sits near the support, indicating a controlled risk/reward profile.
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0854) Deviation +2.34% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price above 20‑SMA and momentum entry*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
