@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:18:38 UTC"
+timestamp: "2026-08-29 09:24:35 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3660
+price: 4.3580
 quantity: 32.7000
-order_value: 142.77
+order_value: 142.51
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787995118179"
+order_id: "CRYPTO-1787995475075"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:18:38 UTC`
+> - **Date & Time:** `2026-08-29 09:24:35 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3660`
+> - **Action:** `BUY` @ `$4.3580`
 > - **Quantity:** `32.7000` shares/units
-> - **Total Value:** `$142.77`
+> - **Total Value:** `$142.51`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3660) vs 20-SMA ($3.8915) Deviation +12.19% [SL: $4.2132 | TP: $4.5843 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3580) vs 20-SMA ($3.8911) Deviation +12.00% [SL: $4.2055 | TP: $4.5759 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +12.19% and RSI of 59.12 indicate upward momentum. The support level of 3.17 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. The support level is strong at $3.17.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY): Price ($4.3660) vs 20-SMA ($3.8915) Deviation +12.19%*
+> **Key Catalysts:** *Price deviation, RSI above neutral threshold, strong support at $3.17*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.37`
-- **Actual Fill Price:** `$4.37`
+- **Expected Fill Price:** `$4.36`
+- **Actual Fill Price:** `$4.36`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
