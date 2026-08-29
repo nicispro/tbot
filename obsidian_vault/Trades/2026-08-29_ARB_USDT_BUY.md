@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 01:24:50 UTC"
+timestamp: "2026-08-29 01:36:51 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0884
-quantity: 1616.0000
-order_value: 142.85
+price: 0.0883
+quantity: 1618.0000
+order_value: 142.87
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787966690624"
+order_id: "CRYPTO-1787967410933"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 01:24:50 UTC`
+> - **Date & Time:** `2026-08-29 01:36:51 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0884`
-> - **Quantity:** `1616.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0883`
+> - **Quantity:** `1618.0000` shares/units
+> - **Total Value:** `$142.87`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0884) vs 20-SMA ($0.0855) Deviation +3.39% [SL: $0.0853 | TP: $0.0928 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0883) vs 20-SMA ($0.0855) Deviation +3.27% [SL: $0.0852 | TP: $0.0927 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest momentum entry and a tight stop below support, offering a favorable risk‑reward profile with a TP near resistance.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive as RSI is above 50 and the price deviation from the 20-SMA is favorable. The support level is at 0.0722, providing a protective stop-loss.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.39% deviation) and momentum entry signal*
+> **Key Catalysts:** *Trend momentum entry, RSI above 50, and support level at 0.0722*
 
 ---
 
