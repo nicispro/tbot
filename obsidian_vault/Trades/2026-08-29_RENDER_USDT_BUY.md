@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 01:48:50 UTC"
+timestamp: "2026-08-29 01:54:47 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4340
-quantity: 99.6000
-order_value: 142.83
+price: 1.4300
+quantity: 99.9000
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787968130182"
+order_id: "CRYPTO-1787968487487"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 01:48:50 UTC`
+> - **Date & Time:** `2026-08-29 01:54:47 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4340`
-> - **Quantity:** `99.6000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$1.4300`
+> - **Quantity:** `99.9000` shares/units
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4340) vs 20-SMA ($1.3779) Deviation +4.07% [SL: $1.3838 | TP: $1.5057 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4300) vs 20-SMA ($1.3777) Deviation +3.80% [SL: $1.3800 | TP: $1.5015 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 4.07% deviation from the 20-SMA and an RSI of 52.38, indicating a possible price increase.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 3.80% deviation from the 20-SMA and an RSI of 51.93, indicating a balanced momentum. However, certain metrics are missing or unavailable, so the analysis relies heavily on the provided data.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and RSI above 50 suggest bullish momentum.*
+> **Key Catalysts:** *Trend momentum entry (deviation from 20-SMA), RSI (51.93)*
 
 ---
 
