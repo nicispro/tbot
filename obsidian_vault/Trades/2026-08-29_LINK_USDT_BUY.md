@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 19:05:41 UTC"
+timestamp: "2026-08-29 19:11:40 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4240
+price: 11.4260
 quantity: 12.5000
-order_value: 142.80
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788030341279"
+order_id: "CRYPTO-1788030700563"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 19:05:41 UTC`
+> - **Date & Time:** `2026-08-29 19:11:40 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4240`
+> - **Action:** `BUY` @ `$11.4260`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$142.80`
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4240) vs 20-SMA ($10.3601) Deviation +10.27% [SL: $11.0242 | TP: $11.9952 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4260) vs 20-SMA ($10.3602) Deviation +10.29% [SL: $11.0261 | TP: $11.9973 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 75% confidence score. The price deviates positively by 10.27% from the 20-SMA and RSI is at a healthy level of 66.92. However, the lack of short and long SMA data limits the analysis.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviates positively by 10.29% from the 20-SMA, RSI is at a healthy level (66.98), and the support level is quite low (8.167), suggesting potential for price appreciation. The trade rationale is supported by the positive momentum.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA and healthy RSI indicate potential bullish momentum; trade is triggered at $11.42.*
+> **Key Catalysts:** *Positive price deviation from 20-SMA, healthy RSI, and strong support level*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.42`
-- **Actual Fill Price:** `$11.42`
+- **Expected Fill Price:** `$11.43`
+- **Actual Fill Price:** `$11.43`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
