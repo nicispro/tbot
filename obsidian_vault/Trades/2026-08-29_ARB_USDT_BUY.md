@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 15:57:44 UTC"
+timestamp: "2026-08-29 16:03:53 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0877
-quantity: 1628.0000
-order_value: 142.78
+price: 0.0878
+quantity: 1627.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788019064261"
+order_id: "CRYPTO-1788019433179"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 15:57:44 UTC`
+> - **Date & Time:** `2026-08-29 16:03:53 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0877`
-> - **Quantity:** `1628.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0878`
+> - **Quantity:** `1627.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0854) Deviation +2.69% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0854) Deviation +2.81% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The deviation of price from 20-SMA is 2.69%, RSI is at a neutral level (50.59), and the support level is lower than the trigger price, indicating potential for growth.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a modest upside to the TP and a tight stop‑loss provides a favorable risk/reward profile. The RSI is neutral, supporting a continuation of the current trend.
 > 
-> **Key Catalysts:** *Positive RSI, support level below trigger price, and a deviation from 20-SMA of 2.69%*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
