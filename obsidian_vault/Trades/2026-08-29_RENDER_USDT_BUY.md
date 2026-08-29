@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 02:12:40 UTC"
+timestamp: "2026-08-29 02:18:40 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4320
-quantity: 99.7000
-order_value: 142.77
+price: 1.4290
+quantity: 99.9000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787969560386"
+order_id: "CRYPTO-1787969920327"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 02:12:40 UTC`
+> - **Date & Time:** `2026-08-29 02:18:40 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4320`
-> - **Quantity:** `99.7000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$1.4290`
+> - **Quantity:** `99.9000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4320) vs 20-SMA ($1.3778) Deviation +3.93% [SL: $1.3819 | TP: $1.5036 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4290) vs 20-SMA ($1.3776) Deviation +3.73% [SL: $1.3790 | TP: $1.5005 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.93% surpasses the recommended threshold, RSI (52.15) indicates mild oversold conditions, and the price is above both short-term (1.152) and long-term (1.637) support/resistance levels. The trade is recommended.
+> Based on the given metrics, the trade rationale is positive as RSI (51.82) and ATR (0.0987) indicate positive momentum and low volatility. The price deviates 3.73% above the 20-SMA, supporting the entry.
 > 
-> **Key Catalysts:** *Positive price deviation, oversold RSI, and strong support/resistance levels*
+> **Key Catalysts:** *Positive momentum, low volatility, and price deviation above 20-SMA*
 
 ---
 
