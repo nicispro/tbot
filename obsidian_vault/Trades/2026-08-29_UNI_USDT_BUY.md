@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 02:06:49 UTC"
+timestamp: "2026-08-29 02:12:47 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4300
+price: 4.4260
 quantity: 32.2000
-order_value: 142.65
+order_value: 142.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787969208976"
+order_id: "CRYPTO-1787969567708"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 02:06:49 UTC`
+> - **Date & Time:** `2026-08-29 02:12:47 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4300`
+> - **Action:** `BUY` @ `$4.4260`
 > - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.65`
+> - **Total Value:** `$142.52`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4300) vs 20-SMA ($3.8947) Deviation +13.74% [SL: $4.2749 | TP: $4.6515 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4260) vs 20-SMA ($3.8944) Deviation +13.65% [SL: $4.2711 | TP: $4.6473 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 13.74% deviation and a moderate reward/risk ratio of ~1.4:1. RSI at 60.96 suggests slight overbought but still within a bullish trend.
+> Price is well above the 20‑SMA with a 13.65% deviation, indicating upward momentum; the RSI is moderate (60.84) and ATR (0.3285) suggests sufficient volatility for the target. The TP lies below the resistance level, offering a favorable risk‑reward profile.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+13.74%), RSI 60.96, ATR 0.3285, support at 3.17 and resistance at 4.836*
+> **Key Catalysts:** *Price above 20‑SMA trend momentum, moderate RSI, and ATR‑based volatility*
 
 ---
 
