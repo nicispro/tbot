@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 00:19:00 UTC"
+timestamp: "2026-08-29 00:25:00 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4530
-quantity: 32.0000
-order_value: 142.50
+price: 4.4470
+quantity: 32.1000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787962740447"
+order_id: "CRYPTO-1787963100664"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 00:19:00 UTC`
+> - **Date & Time:** `2026-08-29 00:25:00 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4530`
-> - **Quantity:** `32.0000` shares/units
-> - **Total Value:** `$142.50`
+> - **Action:** `BUY` @ `$4.4470`
+> - **Quantity:** `32.1000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4530) vs 20-SMA ($3.8959) Deviation +14.30% [SL: $4.2971 | TP: $4.6757 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4470) vs 20-SMA ($3.8956) Deviation +14.15% [SL: $4.2914 | TP: $4.6693 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is trading well above the 20‑SMA with a moderate RSI, offering a 1.5:1 reward‑to‑risk profile (TP $4.6757 vs SL $4.2971).
+> Price is above the 20‑SMA with a +14% deviation and a moderately bullish RSI, offering a 5.5% upside to 4.6693 against a 3.5% downside stop at 4.2914.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend‑momentum entry signal*
+> **Key Catalysts:** *Price above 20‑SMA (+14.15%), RSI 61.29, ATR 0.3276*
 
 ---
 
