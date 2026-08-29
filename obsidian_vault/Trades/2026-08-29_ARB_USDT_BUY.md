@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:09:56 UTC"
+timestamp: "2026-08-29 16:28:14 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0879
-quantity: 1624.0000
-order_value: 142.75
+price: 0.0877
+quantity: 1628.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788019795965"
+order_id: "CRYPTO-1788020893920"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:09:56 UTC`
+> - **Date & Time:** `2026-08-29 16:28:14 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0879`
-> - **Quantity:** `1624.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.0877`
+> - **Quantity:** `1628.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0854) Deviation +2.93% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0877) vs 20-SMA ($0.0854) Deviation +2.69% [SL: $0.0846 | TP: $0.0921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a tight stop‑loss at $0.0848 and a target at $0.0923 provides a favorable risk‑reward profile, while the ATR of $0.0067 indicates moderate volatility.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price trading above the 20-SMA with a neutral RSI (50.59) supports short-term upward momentum, offering a favorable 1.42:1 risk-to-reward ratio within current ATR volatility bounds.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+2.93%) and RSI near 51 indicating balanced momentum*
+> **Key Catalysts:** *Price deviation +2.69% above 20-SMA confirms trend momentum entry, supported by clear resistance overhead at $0.1094 and manageable volatility (ATR 0.0067).*
 
 ---
 
