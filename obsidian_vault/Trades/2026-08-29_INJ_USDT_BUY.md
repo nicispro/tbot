@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:46:15 UTC"
+timestamp: "2026-08-29 22:52:20 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1620
+price: 5.1580
 quantity: 27.6000
-order_value: 142.47
+order_value: 142.36
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788043575202"
+order_id: "CRYPTO-1788043939896"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:46:15 UTC`
+> - **Date & Time:** `2026-08-29 22:52:20 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1620`
+> - **Action:** `BUY` @ `$5.1580`
 > - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.47`
+> - **Total Value:** `$142.36`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1620) vs 20-SMA ($4.8132) Deviation +7.25% [SL: $4.9813 | TP: $5.4201 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1580) vs 20-SMA ($4.8130) Deviation +7.17% [SL: $4.9775 | TP: $5.4159 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a positive sentiment as the RSI (54.73) is in the neutral to bullish zone, and the price deviation from the 20-SMA is 7.25%. The buy trigger is supported by the trend momentum entry.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 7.17% deviation and RSI at 54.65. The support level is at $3.78 and resistance at $5.99.
 > 
-> **Key Catalysts:** *RSI (54.73) in the neutral to bullish zone and price deviation from 20-SMA (7.25%) trigger the trade.*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages indicate potential bullish momentum in INJ/USDT.*
 
 ---
 
