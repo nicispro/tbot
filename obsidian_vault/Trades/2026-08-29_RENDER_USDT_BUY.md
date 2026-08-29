@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 06:30:34 UTC"
+timestamp: "2026-08-29 06:36:29 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4150
-quantity: 100.9000
-order_value: 142.77
+price: 1.4180
+quantity: 100.7000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787985034347"
+order_id: "CRYPTO-1787985389443"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 06:30:34 UTC`
+> - **Date & Time:** `2026-08-29 06:36:29 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4150`
-> - **Quantity:** `100.9000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$1.4180`
+> - **Quantity:** `100.7000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4150) vs 20-SMA ($1.3769) Deviation +2.77% [SL: $1.3655 | TP: $1.4857 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4180) vs 20-SMA ($1.3771) Deviation +2.97% [SL: $1.3684 | TP: $1.4889 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.4150) vs 20-SMA ($1.3769) Deviation +2.77% [SL: $1.3655 | TP: $1.4857 | Risk: $5.00]
+> Price is above the 20‑SMA with a 2.97% deviation, indicating upward momentum; the ATR suggests moderate volatility and the SL/TP spread offers a favorable risk‑reward ratio.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Price above 20‑SMA and trend‑momentum entry*
 
 ---
 
