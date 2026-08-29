@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 21:20:08 UTC"
+timestamp: "2026-08-29 21:26:23 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0880
-quantity: 1623.0000
-order_value: 142.82
+price: 0.0879
+quantity: 1624.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788038408258"
+order_id: "CRYPTO-1788038783374"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 21:20:08 UTC`
+> - **Date & Time:** `2026-08-29 21:26:23 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0880`
-> - **Quantity:** `1623.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0879`
+> - **Quantity:** `1624.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0880) vs 20-SMA ($0.0854) Deviation +3.04% [SL: $0.0849 | TP: $0.0924 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0854) Deviation +2.93% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.04% and RSI of 51.01 indicate bullish momentum. The support level of 0.0722 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The setup offers a positive 1:1.4 risk/reward ratio, leveraging short-term upward momentum while maintaining a neutral RSI that leaves room for price expansion before overbought conditions.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.0722*
+> **Key Catalysts:** *Price trading +2.93% above the 20-SMA confirms short-term trend momentum, supported by a neutral RSI (50.87) and clear technical boundaries defined by the ATR and nearby support/resistance levels.*
 
 ---
 
