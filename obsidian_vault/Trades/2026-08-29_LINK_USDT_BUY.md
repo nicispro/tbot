@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 13:13:32 UTC"
+timestamp: "2026-08-29 13:19:36 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -14,11 +14,11 @@ quantity: 12.6000
 order_value: 142.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788009211915"
+order_id: "CRYPTO-1788009576179"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 13:13:32 UTC`
+> - **Date & Time:** `2026-08-29 13:19:36 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$11.3110`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3110) vs 20-SMA ($10.3544) Deviation +9.24% [SL: $10.9151 | TP: $11.8765 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3110) vs 20-SMA ($10.3545) Deviation +9.24% [SL: $10.9151 | TP: $11.8765 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 9.24% deviation from the 20-SMA and an RSI of 64.99, indicating an overbought condition. The validated price is $11.31.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of price ($11.3110) from the 20-SMA ($10.3545) at 9.24%, and RSI (65.03) above the overbought threshold, we have a strong bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum and overbought RSI conditions trigger the buy signal.*
+> **Key Catalysts:** *Positive price deviation and RSI reading indicate potential for price appreciation.*
 
 ---
 
