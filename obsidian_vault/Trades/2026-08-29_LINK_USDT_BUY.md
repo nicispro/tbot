@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 23:53:18 UTC"
+timestamp: "2026-08-29 23:59:25 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -14,11 +14,11 @@ quantity: 12.5000
 order_value: 143.19
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788047598281"
+order_id: "CRYPTO-1788047965527"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 23:53:18 UTC`
+> - **Date & Time:** `2026-08-29 23:59:25 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$11.4550`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.55% deviation from the 20-SMA and an RSI of 67.23. The support level is at $8.167 and resistance at $12.594.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 75% confidence score. The RSI (67.23) and trend momentum entry criteria are positive, indicating a strong buying signal. The support level (8.167) is not crossed, and the resistance level (12.594) is within reach.
 > 
-> **Key Catalysts:** *Positive RSI (67.23), deviation from 20-SMA, and support level ($8.167) meeting the buy criteria.*
+> **Key Catalysts:** *Positive RSI (67.23), trend momentum entry, and resistance level close*
 
 ---
 
