@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 17:04:34 UTC"
+timestamp: "2026-08-29 17:10:52 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1505
-quantity: 949.0000
-order_value: 142.82
+price: 0.1502
+quantity: 951.0000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788023073722"
+order_id: "CRYPTO-1788023452690"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 17:04:34 UTC`
+> - **Date & Time:** `2026-08-29 17:10:52 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1505`
-> - **Quantity:** `949.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.1502`
+> - **Quantity:** `951.0000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1505) vs 20-SMA ($0.1455) Deviation +3.44% [SL: $0.1452 | TP: $0.1580 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1502) vs 20-SMA ($0.1455) Deviation +3.23% [SL: $0.1449 | TP: $0.1577 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale is positive with a 75% confidence score. The price deviation of +3.44% and RSI of 50.18 indicate potential growth. The support level at 0.1193 and resistance at 0.1843 provide key technical catalysts.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.1502) vs 20-SMA ($0.1455) Deviation +3.23% [SL: $0.1449 | TP: $0.1577 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive price deviation, RSI, and key technical catalysts*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
