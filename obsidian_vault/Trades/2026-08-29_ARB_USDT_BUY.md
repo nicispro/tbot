@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 18:23:25 UTC"
+timestamp: "2026-08-29 18:29:21 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0878
-quantity: 1627.0000
-order_value: 142.85
+price: 0.0880
+quantity: 1623.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788027804889"
+order_id: "CRYPTO-1788028161355"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 18:23:25 UTC`
+> - **Date & Time:** `2026-08-29 18:29:21 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0878`
-> - **Quantity:** `1627.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0880`
+> - **Quantity:** `1623.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0854) Deviation +2.81% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0880) vs 20-SMA ($0.0854) Deviation +3.04% [SL: $0.0849 | TP: $0.0924 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a moderate RSI suggests upward momentum; the trade offers a tight stop at $0.0847 and a modest upside to $0.0922.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 3.04% deviation and RSI at 51.01. The support level is at 0.0722, and the target TP (Take Profit) is set at 0.0924.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, RSI 50.73, ATR 0.0067, support at $0.0722 and resistance at $0.1094*
+> **Key Catalysts:** *Deviation from the 20-SMA and RSI above 50 indicate potential bullish momentum.*
 
 ---
 
