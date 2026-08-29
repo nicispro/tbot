@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:18:26 UTC"
+timestamp: "2026-08-29 03:42:23 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.0960
-quantity: 28.0000
-order_value: 142.69
+price: 5.0520
+quantity: 28.2000
+order_value: 142.47
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787973506549"
+order_id: "CRYPTO-1787974943234"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 74
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:18:26 UTC`
+> - **Date & Time:** `2026-08-29 03:42:23 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.0960`
-> - **Quantity:** `28.0000` shares/units
-> - **Total Value:** `$142.69`
+> - **Action:** `BUY` @ `$5.0520`
+> - **Quantity:** `28.2000` shares/units
+> - **Total Value:** `$142.47`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0960) vs 20-SMA ($4.8099) Deviation +5.95% [SL: $4.9176 | TP: $5.3508 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0520) vs 20-SMA ($4.8077) Deviation +5.08% [SL: $4.8752 | TP: $5.3046 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.95% and RSI of 53.2 indicate bullish momentum. The support level of 3.779 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 74% Confidence)**
+> The trade captures short-term upward momentum as price trades 5.08% above the 20-SMA with a neutral RSI of 52.19, offering a favorable 1.45:1 risk-to-reward ratio toward the $5.30 target.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level met*
+> **Key Catalysts:** *Price breakout above 20-SMA combined with neutral RSI indicating room for further upside before overbought conditions.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.10`
-- **Actual Fill Price:** `$5.10`
+- **Expected Fill Price:** `$5.05`
+- **Actual Fill Price:** `$5.05`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
