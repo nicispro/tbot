@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:30:38 UTC"
+timestamp: "2026-08-29 04:36:37 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77567.9000
+price: 77559.7000
 quantity: 0.0010
-order_value: 77.57
+order_value: 77.56
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787977838110"
+order_id: "CRYPTO-1787978197037"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:30:38 UTC`
+> - **Date & Time:** `2026-08-29 04:36:37 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,567.9000`
+> - **Action:** `BUY` @ `$77,559.7000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.57`
+> - **Total Value:** `$77.56`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,567.9000) vs 20-SMA ($70,981.9700) Deviation +9.28% [SL: $74,853.0235 | TP: $81,446.2950 | Risk: $2.71]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,559.7000) vs 20-SMA ($70,981.5600) Deviation +9.27% [SL: $74,845.1105 | TP: $81,437.6850 | Risk: $2.71]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, this trade proposal exhibits a strong bullish sentiment with a high confidence score. The deviation of price from 20-SMA is positive (+9.28%), RSI is at a healthy level (70.21), and the trigger price has a favorable risk-reward ratio. The support level is close to the trigger price, adding to the bullish rationale.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI is above 50, indicating overbought conditions, and the price deviates positively from the 20-SMA. The trigger price is within a strong support level.
 > 
-> **Key Catalysts:** *Positive price deviation, healthy RSI, and support level proximity*
+> **Key Catalysts:** *RSI overbought, positive price deviation from 20-SMA, trading within a strong support level*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,567.90`
-- **Actual Fill Price:** `$77,567.90`
+- **Expected Fill Price:** `$77,559.70`
+- **Actual Fill Price:** `$77,559.70`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
