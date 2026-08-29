@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 05:06:25 UTC"
+timestamp: "2026-08-29 05:12:33 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4040
+price: 4.4060
 quantity: 32.4000
-order_value: 142.69
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787979985192"
+order_id: "CRYPTO-1787980352966"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 05:06:25 UTC`
+> - **Date & Time:** `2026-08-29 05:12:33 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4040`
+> - **Action:** `BUY` @ `$4.4060`
 > - **Quantity:** `32.4000` shares/units
-> - **Total Value:** `$142.69`
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4040) vs 20-SMA ($3.8934) Deviation +13.11% [SL: $4.2499 | TP: $4.6242 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4060) vs 20-SMA ($3.8935) Deviation +13.16% [SL: $4.2518 | TP: $4.6263 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio. The deviation of +13.11% surpasses the recommended threshold, and the RSI of 60.2 indicates a potential entry point. However, the missing short_sma and long_sma metrics impact the accuracy of the analysis.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> The trade targets a modest 1.37:1 reward-to-risk ratio with price already 13% above the 20‑SMA and RSI indicating bullish momentum, while the stop is comfortably within the ATR range.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by a deviation of +13.11% and RSI of 60.2*
+> **Key Catalysts:** *Price breaking above the 20‑SMA with a +13.16% deviation and RSI at 60.26 signal strong upward momentum.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.40`
-- **Actual Fill Price:** `$4.40`
+- **Expected Fill Price:** `$4.41`
+- **Actual Fill Price:** `$4.41`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
