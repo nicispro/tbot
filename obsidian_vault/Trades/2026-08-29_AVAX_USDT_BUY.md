@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 12:25:20 UTC"
+timestamp: "2026-08-29 12:37:26 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2670
+price: 7.2660
 quantity: 19.6000
-order_value: 142.43
+order_value: 142.41
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788006319881"
+order_id: "CRYPTO-1788007046137"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 12:25:20 UTC`
+> - **Date & Time:** `2026-08-29 12:37:26 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2670`
+> - **Action:** `BUY` @ `$7.2660`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.43`
+> - **Total Value:** `$142.41`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2670) vs 20-SMA ($6.9365) Deviation +4.76% [SL: $7.0127 | TP: $7.6303 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2660) vs 20-SMA ($6.9365) Deviation +4.75% [SL: $7.0117 | TP: $7.6293 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 4.76% deviation and RSI at 56.93, indicating an entry signal. The risk is calculated at $4.99.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviation is above the 20-SMA and RSI is above the neutral threshold. TP: $7.63 (14.5% potential gain)
 > 
-> **Key Catalysts:** *Trend Momentum Entry (BUY): Price ($7.2670) vs 20-SMA ($6.9365) Deviation +4.76%*
+> **Key Catalysts:** *Price deviation (+4.75%) and RSI (56.91) indicate potential bullish momentum.*
 
 ---
 
