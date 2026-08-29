@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 05:30:30 UTC"
+timestamp: "2026-08-29 05:36:27 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,7 +14,7 @@ quantity: 0.0010
 order_value: 77.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787981429867"
+order_id: "CRYPTO-1787981787741"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 05:30:30 UTC`
+> - **Date & Time:** `2026-08-29 05:36:27 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$77,629.5000`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,629.5000) vs 20-SMA ($70,984.3850) Deviation +9.36% [SL: $74,912.4675 | TP: $81,510.9750 | Risk: $2.72]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,629.5000) vs 20-SMA ($70,985.0500) Deviation +9.36% [SL: $74,912.4675 | TP: $81,510.9750 | Risk: $2.72]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the trade rationale is bullish with a 85% confidence score. The price deviates positively by 9.36% from the 20-SMA and RSI is at a healthy level of 70.41. The support level is at $62,584.0 and resistance at $81,085.5.
+> Based on the given data, the proposed trade has a bullish sentiment with a high confidence score of 85%. The rationale includes a positive deviation of price ($77,629.50) from the 20-SMA ($70,985.05) at 9.36%, RSI (70.47) above the overbought threshold, and potential support at $62,584.00 and resistance at $81,085.50.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA, healthy RSI, and strong resistance level at $81,085.5*
+> **Key Catalysts:** *Positive price deviation, RSI above overbought threshold, and potential support/resistance levels*
 
 ---
 
