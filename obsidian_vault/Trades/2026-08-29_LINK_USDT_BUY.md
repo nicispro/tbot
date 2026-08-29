@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:21:58 UTC"
+timestamp: "2026-08-29 16:28:00 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -14,11 +14,11 @@ quantity: 12.5000
 order_value: 143.03
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788020518515"
+order_id: "CRYPTO-1788020880354"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:21:58 UTC`
+> - **Date & Time:** `2026-08-29 16:28:00 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$11.4420`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 72% confidence score. The price deviates positively by 10.43% from the 20-SMA and RSI is at a healthy level of 67.11. However, the lack of short and long SMA data reduces the confidence.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 10.43% deviation from the 20-SMA and an RSI of 67.11, indicating an overbought condition. The support level is at $8.167 and resistance at $12.594.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA and healthy RSI indicate a potential bullish catalyst.*
+> **Key Catalysts:** *Positive momentum and overbought condition drive the bullish sentiment.*
 
 ---
 
