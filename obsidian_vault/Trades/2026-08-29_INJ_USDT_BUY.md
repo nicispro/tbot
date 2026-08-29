@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:14:17 UTC"
+timestamp: "2026-08-29 14:20:30 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.0200
+price: 5.0220
 quantity: 28.4000
-order_value: 142.57
+order_value: 142.62
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788012857172"
+order_id: "CRYPTO-1788013230518"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:14:17 UTC`
+> - **Date & Time:** `2026-08-29 14:20:30 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.0200`
+> - **Action:** `BUY` @ `$5.0220`
 > - **Quantity:** `28.4000` shares/units
-> - **Total Value:** `$142.57`
+> - **Total Value:** `$142.62`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,13 +43,13 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0200) vs 20-SMA ($4.8060) Deviation +4.45% [SL: $4.8443 | TP: $5.2710 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0220) vs 20-SMA ($4.8063) Deviation +4.49% [SL: $4.8462 | TP: $5.2731 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($5.0200) vs 20-SMA ($4.8060) Deviation +4.45% [SL: $4.8443 | TP: $5.2710 | Risk: $4.99]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($5.0220) vs 20-SMA ($4.8063) Deviation +4.49% [SL: $4.8462 | TP: $5.2731 | Risk: $4.99]
 > 
 > **Key Catalysts:** *Technical indicator threshold.*
 
