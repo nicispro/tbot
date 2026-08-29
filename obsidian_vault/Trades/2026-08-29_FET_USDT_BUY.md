@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 00:37:07 UTC"
+timestamp: "2026-08-29 00:43:07 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1506
-quantity: 948.0000
-order_value: 142.77
+price: 0.1505
+quantity: 949.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787963827333"
+order_id: "CRYPTO-1787964187128"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 00:37:07 UTC`
+> - **Date & Time:** `2026-08-29 00:43:07 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1506`
-> - **Quantity:** `948.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1505`
+> - **Quantity:** `949.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1506) vs 20-SMA ($0.1455) Deviation +3.51% [SL: $0.1453 | TP: $0.1581 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1505) vs 20-SMA ($0.1455) Deviation +3.44% [SL: $0.1452 | TP: $0.1580 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($0.1506) vs 20-SMA ($0.1455) Deviation +3.51% [SL: $0.1453 | TP: $0.1581 | Risk: $5.00]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.1505) vs 20-SMA ($0.1455) Deviation +3.44% [SL: $0.1452 | TP: $0.1580 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
