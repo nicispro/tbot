@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 12:31:27 UTC"
+timestamp: "2026-08-29 12:37:31 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3840
-quantity: 32.5000
-order_value: 142.48
+price: 4.3810
+quantity: 32.6000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788006686943"
+order_id: "CRYPTO-1788007051516"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 12:31:27 UTC`
+> - **Date & Time:** `2026-08-29 12:37:31 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3840`
-> - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.48`
+> - **Action:** `BUY` @ `$4.3810`
+> - **Quantity:** `32.6000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3840) vs 20-SMA ($3.8924) Deviation +12.63% [SL: $4.2306 | TP: $4.6032 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3810) vs 20-SMA ($3.8922) Deviation +12.56% [SL: $4.2277 | TP: $4.6001 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +12.63% from the 20-SMA and RSI value of 59.6 indicate positive momentum. The support level of 3.17 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is 12.5% above the 20‑SMA with RSI near 60, offering a modest upside to $4.60 against a stop at $4.23, yielding a favorable risk/reward.
 > 
-> **Key Catalysts:** *Positive momentum, support level trigger*
+> **Key Catalysts:** *Trend momentum entry: price above 20‑SMA and positive deviation, supported by neutral‑bullish RSI.*
 
 ---
 
