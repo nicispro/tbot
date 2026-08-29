@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:08:59 UTC"
+timestamp: "2026-08-29 22:40:18 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 78162.8000
+price: 78126.0000
 quantity: 0.0010
-order_value: 78.16
+order_value: 78.13
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788041339143"
+order_id: "CRYPTO-1788043217762"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:08:59 UTC`
+> - **Date & Time:** `2026-08-29 22:40:18 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$78,162.8000`
+> - **Action:** `BUY` @ `$78,126.0000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$78.16`
+> - **Total Value:** `$78.13`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,162.8000) vs 20-SMA ($71,011.7000) Deviation +10.07% [SL: $75,427.1020 | TP: $82,070.9400 | Risk: $2.74]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,126.0000) vs 20-SMA ($71,009.8750) Deviation +10.02% [SL: $75,391.5900 | TP: $82,032.3000 | Risk: $2.73]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with strong trend momentum, but RSI at 71.65 signals overbought conditions; TP near resistance and SL below support provide a modest risk/reward profile.
+> Trend Momentum Entry (BUY): Price ($78,126.0000) vs 20-SMA ($71,009.8750) Deviation +10.02% [SL: $75,391.5900 | TP: $82,032.3000 | Risk: $2.73]
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+10.07%) and trend momentum entry*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$78,162.80`
-- **Actual Fill Price:** `$78,162.80`
+- **Expected Fill Price:** `$78,126.00`
+- **Actual Fill Price:** `$78,126.00`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
