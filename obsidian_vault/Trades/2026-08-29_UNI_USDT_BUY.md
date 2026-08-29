@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 02:48:28 UTC"
+timestamp: "2026-08-29 02:54:31 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3990
+price: 4.4010
 quantity: 32.4000
-order_value: 142.53
+order_value: 142.59
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787971708397"
+order_id: "CRYPTO-1787972070842"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 02:48:28 UTC`
+> - **Date & Time:** `2026-08-29 02:54:31 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3990`
+> - **Action:** `BUY` @ `$4.4010`
 > - **Quantity:** `32.4000` shares/units
-> - **Total Value:** `$142.53`
+> - **Total Value:** `$142.59`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3990) vs 20-SMA ($3.8931) Deviation +12.99% [SL: $4.2450 | TP: $4.6189 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4010) vs 20-SMA ($3.8932) Deviation +13.04% [SL: $4.2470 | TP: $4.6211 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 12.99% deviation and RSI at 60.05, indicating potential bullish momentum. The validated price is $4.40 and the risk is calculated as $4.99.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of +13.04% from the 20-SMA and RSI value of 60.11 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 provide potential profit targets.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish sentiment.*
+> **Key Catalysts:** *Positive momentum, price deviation, and support/resistance levels*
 
 ---
 
