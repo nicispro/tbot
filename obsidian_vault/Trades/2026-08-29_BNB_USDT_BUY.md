@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:24:30 UTC"
+timestamp: "2026-08-29 03:30:28 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,7 +14,7 @@ quantity: 0.2000
 order_value: 138.14
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787973870520"
+order_id: "CRYPTO-1787974228212"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:24:30 UTC`
+> - **Date & Time:** `2026-08-29 03:30:28 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$690.7100`
