@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 23:53:38 UTC"
+timestamp: "2026-08-29 23:59:45 UTC"
 ticker: "ETH/USDT"
 canonical_symbol: "ETH/USDT"
 base_symbol: "ETH"
@@ -14,7 +14,7 @@ quantity: 0.0500
 order_value: 122.90
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788047618580"
+order_id: "CRYPTO-1788047985649"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ETH/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 23:53:38 UTC`
+> - **Date & Time:** `2026-08-29 23:59:45 UTC`
 > - **Canonical Instrument:** `ETH/USDT` (ETH/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$2,458.0300`
