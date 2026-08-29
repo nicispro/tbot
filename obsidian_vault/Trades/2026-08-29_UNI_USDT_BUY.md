@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 11:19:20 UTC"
+timestamp: "2026-08-29 11:25:20 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3890
-quantity: 32.5000
-order_value: 142.64
+price: 4.3820
+quantity: 32.6000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788002359754"
+order_id: "CRYPTO-1788002720657"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 11:19:20 UTC`
+> - **Date & Time:** `2026-08-29 11:25:20 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3890`
-> - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.64`
+> - **Action:** `BUY` @ `$4.3820`
+> - **Quantity:** `32.6000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3890) vs 20-SMA ($3.8926) Deviation +12.75% [SL: $4.2354 | TP: $4.6085 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3820) vs 20-SMA ($3.8923) Deviation +12.58% [SL: $4.2286 | TP: $4.6011 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +12.75% and RSI of 59.77 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 suggest potential growth.
+> Based on the positive deviation (12.58%) from the trend momentum entry and RSI value (59.57), we have a strong bullish signal for UNI/USDT. The validated price of $4.38 and calculated target price of $4.6011 indicate potential profit.
 > 
-> **Key Catalysts:** *Positive momentum and price deviation contribute to the bullish trade catalyst.*
+> **Key Catalysts:** *Trend momentum entry with positive deviation and positive RSI value drive the bullish sentiment.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.39`
-- **Actual Fill Price:** `$4.39`
+- **Expected Fill Price:** `$4.38`
+- **Actual Fill Price:** `$4.38`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
