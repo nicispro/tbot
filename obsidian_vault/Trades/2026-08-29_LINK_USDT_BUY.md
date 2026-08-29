@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 00:24:55 UTC"
+timestamp: "2026-08-29 00:30:58 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4550
+price: 11.4560
 quantity: 12.5000
-order_value: 143.19
+order_value: 143.20
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787963095118"
+order_id: "CRYPTO-1787963458047"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 00:24:55 UTC`
+> - **Date & Time:** `2026-08-29 00:30:58 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4550`
+> - **Action:** `BUY` @ `$11.4560`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$143.19`
+> - **Total Value:** `$143.20`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4550) vs 20-SMA ($10.3617) Deviation +10.55% [SL: $11.0541 | TP: $12.0277 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4560) vs 20-SMA ($10.3617) Deviation +10.56% [SL: $11.0550 | TP: $12.0288 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.55% deviation from the 20-SMA and an RSI of 67.23. The support level is at 8.167, and the resistance level is at 12.594.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is above the 20‑SMA with a +10.56% deviation, offering a bullish entry with a 1.43:1 reward‑to‑risk ratio, though the high RSI (67.23) signals potential overbought conditions.
 > 
-> **Key Catalysts:** *Positive RSI (67.23), deviation from 20-SMA, and support level at 8.167*
+> **Key Catalysts:** *Price above 20‑SMA and significant deviation from the SMA*
 
 ---
 
