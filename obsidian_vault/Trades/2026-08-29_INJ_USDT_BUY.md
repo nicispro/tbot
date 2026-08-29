@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 19:42:15 UTC"
+timestamp: "2026-08-29 19:48:23 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1050
+price: 5.1100
 quantity: 27.9000
-order_value: 142.43
+order_value: 142.57
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788032535593"
+order_id: "CRYPTO-1788032902970"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 19:42:15 UTC`
+> - **Date & Time:** `2026-08-29 19:48:23 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1050`
+> - **Action:** `BUY` @ `$5.1100`
 > - **Quantity:** `27.9000` shares/units
-> - **Total Value:** `$142.43`
+> - **Total Value:** `$142.57`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1050) vs 20-SMA ($4.8104) Deviation +6.12% [SL: $4.9263 | TP: $5.3602 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1100) vs 20-SMA ($4.8106) Deviation +6.22% [SL: $4.9311 | TP: $5.3655 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the trade rationale for buying INJ/USDT at $5.11 is supported by a 6.12% deviation from the 20-SMA, an RSI of 53.43 indicating a potential bullish trend, and the price above the support level of $3.779.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 6.22% deviation and RSI of 53.55, indicating an upward momentum. However, please note that some key metrics are missing.
 > 
-> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and support level breach*
+> **Key Catalysts:** *Trend Momentum Entry (BUY): Price ($5.1100) vs 20-SMA ($4.8106) Deviation +6.22%*
 
 ---
 
