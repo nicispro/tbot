@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:55:03 UTC"
+timestamp: "2026-08-29 10:01:08 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,7 +14,7 @@ quantity: 101.3000
 order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787997303194"
+order_id: "CRYPTO-1787997668264"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:55:03 UTC`
+> - **Date & Time:** `2026-08-29 10:01:08 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4100`
