@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 14:32:25 UTC"
+timestamp: "2026-08-29 14:38:32 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3930
+price: 11.4040
 quantity: 12.5000
-order_value: 142.41
+order_value: 142.55
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788013944841"
+order_id: "CRYPTO-1788014312728"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 14:32:25 UTC`
+> - **Date & Time:** `2026-08-29 14:38:32 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3930`
+> - **Action:** `BUY` @ `$11.4040`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$142.41`
+> - **Total Value:** `$142.55`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3930) vs 20-SMA ($10.3585) Deviation +9.99% [SL: $10.9942 | TP: $11.9627 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4040) vs 20-SMA ($10.3591) Deviation +10.09% [SL: $11.0049 | TP: $11.9742 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (66.4) and trend momentum entry at $11.3930 indicate a positive sentiment. However, the missing short_sma and long_sma values might impact the analysis's accuracy.
+> Based on the positive deviation (+10.09%) from the trend momentum entry and RSI reading (66.59), we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive RSI (66.4), trend momentum entry at $11.3930*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI reading above 50 indicate potential for price increase.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.39`
-- **Actual Fill Price:** `$11.39`
+- **Expected Fill Price:** `$11.40`
+- **Actual Fill Price:** `$11.40`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
