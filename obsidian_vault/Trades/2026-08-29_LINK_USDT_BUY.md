@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:30:13 UTC"
+timestamp: "2026-08-29 07:36:11 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3180
+price: 11.3200
 quantity: 12.6000
-order_value: 142.61
+order_value: 142.63
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787988612777"
+order_id: "CRYPTO-1787988971536"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:30:13 UTC`
+> - **Date & Time:** `2026-08-29 07:36:11 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3180`
+> - **Action:** `BUY` @ `$11.3200`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.61`
+> - **Total Value:** `$142.63`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3180) vs 20-SMA ($10.3548) Deviation +9.30% [SL: $10.9219 | TP: $11.8839 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3200) vs 20-SMA ($10.3549) Deviation +9.32% [SL: $10.9238 | TP: $11.8860 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 9.30% deviation from the 20-SMA and an RSI of 65.13, indicating strong momentum. The price is near the resistance level at $12.594.
+> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk/reward rationale. The RSI (65.14) and positive deviation (+9.32%) from the 20-SMA support the entry signal. However, the lack of short and long SMA values and dip percentage make the analysis less comprehensive.
 > 
-> **Key Catalysts:** *Positive RSI (65.13), deviation from 20-SMA, and proximity to resistance level*
+> **Key Catalysts:** *Positive RSI (65.14) and deviation (+9.32%) from the 20-SMA support the entry signal.*
 
 ---
 
