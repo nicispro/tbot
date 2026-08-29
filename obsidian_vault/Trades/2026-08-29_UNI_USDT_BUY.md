@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 10:19:28 UTC"
+timestamp: "2026-08-29 10:25:29 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3820
+price: 4.3800
 quantity: 32.6000
-order_value: 142.85
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787998768274"
+order_id: "CRYPTO-1787999128954"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 10:19:28 UTC`
+> - **Date & Time:** `2026-08-29 10:25:29 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3820`
+> - **Action:** `BUY` @ `$4.3800`
 > - **Quantity:** `32.6000` shares/units
-> - **Total Value:** `$142.85`
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3820) vs 20-SMA ($3.8922) Deviation +12.58% [SL: $4.2286 | TP: $4.6011 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3800) vs 20-SMA ($3.8922) Deviation +12.53% [SL: $4.2267 | TP: $4.5990 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 12.58% deviation from the 20-SMA and an RSI of 59.54, indicating potential for price growth. The support level at $3.17 and resistance level at $4.836 also support the bullish sentiment.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this BUY trade proposal exhibits potential for growth.
 > 
-> **Key Catalysts:** *Deviation from 20-SMA, RSI above 50, and support/resistance levels*
+> **Key Catalysts:** *Price deviation (+12.53%) and RSI (59.51) indicate potential bullish momentum.*
 
 ---
 
