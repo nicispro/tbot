@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 00:24:51 UTC"
+timestamp: "2026-08-29 00:30:52 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1710
-quantity: 27.6000
-order_value: 142.72
+price: 5.1760
+quantity: 27.5000
+order_value: 142.34
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787963090896"
+order_id: "CRYPTO-1787963452178"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 00:24:51 UTC`
+> - **Date & Time:** `2026-08-29 00:30:52 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1710`
-> - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.72`
+> - **Action:** `BUY` @ `$5.1760`
+> - **Quantity:** `27.5000` shares/units
+> - **Total Value:** `$142.34`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1710) vs 20-SMA ($4.8136) Deviation +7.42% [SL: $4.9900 | TP: $5.4295 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1760) vs 20-SMA ($4.8138) Deviation +7.52% [SL: $4.9948 | TP: $5.4348 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +7.42% from the 20-SMA and RSI value of 54.91 indicate bullish momentum. However, the lack of short and long SMA data limits the analysis.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +7.52% and RSI value of 54.97 indicate potential growth. The support level of 3.779 suggests a risk level, while the resistance level of 5.991 indicates a potential target price of $5.4348.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI value drive the bullish sentiment, but missing SMA data restricts comprehensive analysis.*
+> **Key Catalysts:** *Positive price deviation, RSI value, and support/resistance levels suggest a potential for growth and a targeted price of $5.4348.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.17`
-- **Actual Fill Price:** `$5.17`
+- **Expected Fill Price:** `$5.18`
+- **Actual Fill Price:** `$5.18`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
