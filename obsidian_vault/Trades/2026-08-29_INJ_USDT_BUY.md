@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:58:25 UTC"
+timestamp: "2026-08-29 23:04:28 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1540
+price: 5.1520
 quantity: 27.7000
-order_value: 142.77
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788044305430"
+order_id: "CRYPTO-1788044668414"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:58:25 UTC`
+> - **Date & Time:** `2026-08-29 23:04:28 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1540`
+> - **Action:** `BUY` @ `$5.1520`
 > - **Quantity:** `27.7000` shares/units
-> - **Total Value:** `$142.77`
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1540) vs 20-SMA ($4.8127) Deviation +7.09% [SL: $4.9736 | TP: $5.4117 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1520) vs 20-SMA ($4.8127) Deviation +7.05% [SL: $4.9717 | TP: $5.4096 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 80%. The price deviation of 7.09% above the 20-SMA and RSI value of 54.54 indicate potential growth. The support level of 3.779 suggests a risk level, while the resistance level of 5.991 indicates a potential target price.
+> Based on the given metrics, the trade rationale is positive with a 7.05% deviation and RSI at 54.52, indicating potential for growth. The validated price is $5.15 and the risk is calculated as $4.99.
 > 
-> **Key Catalysts:** *Trend momentum entry (BUY) triggered by the price deviation and RSI value.*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish sentiment.*
 
 ---
 
