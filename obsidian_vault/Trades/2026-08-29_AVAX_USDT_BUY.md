@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 05:18:27 UTC"
+timestamp: "2026-08-29 06:12:13 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3040
-quantity: 19.5000
-order_value: 142.43
+price: 7.2810
+quantity: 19.6000
+order_value: 142.71
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787980707598"
+order_id: "CRYPTO-1787983933355"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 05:18:27 UTC`
+> - **Date & Time:** `2026-08-29 06:12:13 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3040`
-> - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.43`
+> - **Action:** `BUY` @ `$7.2810`
+> - **Quantity:** `19.6000` shares/units
+> - **Total Value:** `$142.71`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3040) vs 20-SMA ($6.9383) Deviation +5.27% [SL: $7.0484 | TP: $7.6692 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2810) vs 20-SMA ($6.9372) Deviation +4.96% [SL: $7.0262 | TP: $7.6451 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the positive deviation of 5.27% from the trend momentum entry, along with an RSI of 57.9, we enter a bullish sentiment.
+> Based on the positive deviation of 4.96% from the trend momentum entry and RSI value of 57.3, we have a strong bullish signal for AVAX/USDT.
 > 
-> **Key Catalysts:** *Price deviating positively from the 20-SMA and RSI above 50 indicate potential for price increase.*
+> **Key Catalysts:** *Trend momentum entry and RSI indicate potential price appreciation.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.30`
-- **Actual Fill Price:** `$7.30`
+- **Expected Fill Price:** `$7.28`
+- **Actual Fill Price:** `$7.28`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
