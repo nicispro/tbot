@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:54:04 UTC"
+timestamp: "2026-08-29 08:12:11 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.3880
-quantity: 32.5000
-order_value: 142.61
+price: 4.3630
+quantity: 32.7000
+order_value: 142.67
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787990043905"
+order_id: "CRYPTO-1787991131409"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:54:04 UTC`
+> - **Date & Time:** `2026-08-29 08:12:11 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.3880`
-> - **Quantity:** `32.5000` shares/units
-> - **Total Value:** `$142.61`
+> - **Action:** `BUY` @ `$4.3630`
+> - **Quantity:** `32.7000` shares/units
+> - **Total Value:** `$142.67`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3880) vs 20-SMA ($3.8926) Deviation +12.73% [SL: $4.2344 | TP: $4.6074 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.3630) vs 20-SMA ($3.8914) Deviation +12.12% [SL: $4.2103 | TP: $4.5812 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The price deviation of +12.73% from the 20-SMA and RSI value of 59.74 indicate positive momentum. The support level of 3.17 and resistance level of 4.836 provide potential profit targets.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum and price deviation from 20-SMA*
+> **Key Catalysts:** *Price deviation (+12.12%) and RSI (59.07) support the bullish rationale.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$4.39`
-- **Actual Fill Price:** `$4.39`
+- **Expected Fill Price:** `$4.36`
+- **Actual Fill Price:** `$4.36`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
