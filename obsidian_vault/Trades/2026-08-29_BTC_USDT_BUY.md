@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:15:55 UTC"
+timestamp: "2026-08-29 16:22:00 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77906.4000
+price: 78000.0000
 quantity: 0.0010
-order_value: 77.91
+order_value: 78.00
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788020155211"
+order_id: "CRYPTO-1788020520600"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:15:55 UTC`
+> - **Date & Time:** `2026-08-29 16:22:00 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,906.4000`
+> - **Action:** `BUY` @ `$78,000.0000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.91`
+> - **Total Value:** `$78.00`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,906.4000) vs 20-SMA ($70,998.9600) Deviation +9.73% [SL: $75,179.6760 | TP: $81,801.7200 | Risk: $2.73]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,000.0000) vs 20-SMA ($71,000.6450) Deviation +9.86% [SL: $75,270.0000 | TP: $81,900.0000 | Risk: $2.73]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk and a potential for a significant reward. The RSI (71.21) and the deviation from the 20-SMA (+9.73%) indicate strong momentum in the market.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a high confidence score of 80. The trigger reason highlights a positive deviation of 9.86% from the 20-SMA, indicating a potential entry point. The RSI value of 71.27 also supports a bullish sentiment.
 > 
-> **Key Catalysts:** *The strong RSI value and positive deviation from the 20-SMA suggest a potential catalyst for this trade.*
+> **Key Catalysts:** *Positive deviation from 20-SMA, RSI value above 50*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,906.40`
-- **Actual Fill Price:** `$77,906.40`
+- **Expected Fill Price:** `$78,000.00`
+- **Actual Fill Price:** `$78,000.00`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
