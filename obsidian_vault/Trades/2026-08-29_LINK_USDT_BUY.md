@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 04:06:08 UTC"
+timestamp: "2026-08-29 04:12:22 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3390
+price: 11.3440
 quantity: 12.6000
-order_value: 142.87
+order_value: 142.93
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787976368545"
+order_id: "CRYPTO-1787976741896"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 04:06:08 UTC`
+> - **Date & Time:** `2026-08-29 04:12:22 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3390`
+> - **Action:** `BUY` @ `$11.3440`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$142.87`
+> - **Total Value:** `$142.93`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3390) vs 20-SMA ($10.3559) Deviation +9.49% [SL: $10.9421 | TP: $11.9060 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3440) vs 20-SMA ($10.3561) Deviation +9.54% [SL: $10.9470 | TP: $11.9112 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (65.48) and trend momentum entry support a positive sentiment. However, the missing short_sma and long_sma values impact the confidence score.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 9.54% deviation from the 20-SMA and RSI at 65.56, indicating strong momentum. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Technical indicators: RSI (65.48), trend momentum entry*
+> **Key Catalysts:** *Strong momentum (RSI 65.56) and deviation from 20-SMA (9.54%) drive the buy trigger, but missing SMA data affects the analysis.*
 
 ---
 
