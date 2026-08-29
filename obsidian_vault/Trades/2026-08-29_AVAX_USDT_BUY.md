@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 19:36:07 UTC"
+timestamp: "2026-08-29 19:48:20 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3160
+price: 7.3180
 quantity: 19.5000
-order_value: 142.66
+order_value: 142.70
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788032167194"
+order_id: "CRYPTO-1788032900650"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 19:36:07 UTC`
+> - **Date & Time:** `2026-08-29 19:48:20 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3160`
+> - **Action:** `BUY` @ `$7.3180`
 > - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.66`
+> - **Total Value:** `$142.70`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3160) vs 20-SMA ($6.9390) Deviation +5.43% [SL: $7.0599 | TP: $7.6818 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3180) vs 20-SMA ($6.9390) Deviation +5.46% [SL: $7.0619 | TP: $7.6839 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The trade entry point is triggered by the price deviating 5.43% above the 20-SMA, indicating potential price appreciation. The RSI value of 58.14 suggests the asset is not overbought or oversold, indicating a stable market.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.46% and RSI of 58.17 indicate bullish momentum. The support level at $5.69 and resistance at $8.318 suggest potential price appreciation.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA (5.43%) and RSI value (58.14) support the bullish sentiment.*
+> **Key Catalysts:** *Positive momentum, price deviation, and key support/resistance levels*
 
 ---
 
