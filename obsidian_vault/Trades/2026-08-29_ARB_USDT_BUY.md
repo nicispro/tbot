@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:42:25 UTC"
+timestamp: "2026-08-29 03:48:24 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1634.0000
 order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787974945264"
+order_id: "CRYPTO-1787975304742"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:42:25 UTC`
+> - **Date & Time:** `2026-08-29 03:48:24 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0874`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying ARB/USDT at $0.09 is driven by a 2.34% deviation from the 20-SMA, an RSI of 50.15, and the support level at $0.0722. The target price is set at $0.0918.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0874) vs 20-SMA ($0.0854) Deviation +2.34% [SL: $0.0843 | TP: $0.0918 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA, RSI near the midpoint, and support level*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
