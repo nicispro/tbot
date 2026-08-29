@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:06:33 UTC"
+timestamp: "2026-08-29 03:18:30 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0875
+quantity: 1632.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787972793710"
+order_id: "CRYPTO-1787973510007"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:06:33 UTC`
+> - **Date & Time:** `2026-08-29 03:18:30 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0875`
+> - **Quantity:** `1632.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0854) Deviation +2.58% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0875) vs 20-SMA ($0.0854) Deviation +2.46% [SL: $0.0844 | TP: $0.0919 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0854) Deviation +2.58% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+> Price is above the 20‑SMA with a modest 2.46% deviation, indicating upward momentum; the TP at $0.0919 offers a 5.5% upside against a 4.5% downside risk.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Price above 20‑SMA, RSI near 50, ATR 0.0067 indicating manageable volatility*
 
 ---
 
