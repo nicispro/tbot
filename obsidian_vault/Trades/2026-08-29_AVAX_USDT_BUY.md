@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 09:24:37 UTC"
+timestamp: "2026-08-29 09:30:34 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -14,11 +14,11 @@ quantity: 19.6000
 order_value: 142.37
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787995477087"
+order_id: "CRYPTO-1787995834568"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 09:24:37 UTC`
+> - **Date & Time:** `2026-08-29 09:30:34 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$7.2640`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation (+4.72%) between the entry price and 20-SMA, along with an RSI of 56.85, we have a strong buy signal for AVAX/USDT.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of 4.72% from the trend momentum entry, along with an RSI of 56.85, we have a strong bullish sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI indicate bullish momentum.*
+> **Key Catalysts:** *Price ($7.26) vs 20-SMA ($6.9364) Deviation and RSI (56.85) exceeding the threshold for a buy signal*
 
 ---
 
