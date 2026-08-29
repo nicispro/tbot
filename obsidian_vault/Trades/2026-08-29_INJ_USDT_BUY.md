@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 23:10:35 UTC"
+timestamp: "2026-08-29 23:16:38 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1520
+price: 5.1460
 quantity: 27.7000
-order_value: 142.71
+order_value: 142.54
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788045035097"
+order_id: "CRYPTO-1788045398657"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 23:10:35 UTC`
+> - **Date & Time:** `2026-08-29 23:16:38 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1520`
+> - **Action:** `BUY` @ `$5.1460`
 > - **Quantity:** `27.7000` shares/units
-> - **Total Value:** `$142.71`
+> - **Total Value:** `$142.54`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1520) vs 20-SMA ($4.8127) Deviation +7.05% [SL: $4.9717 | TP: $5.4096 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1460) vs 20-SMA ($4.8124) Deviation +6.93% [SL: $4.9659 | TP: $5.4033 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 70. The price deviation of +7.05% from the 20-SMA and RSI value of 54.52 indicate positive momentum. However, the missing short_sma and long_sma values affect the overall analysis.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 6.93% deviation and RSI at 54.37. The support level is at 3.779, and the resistance level is at 5.991.
 > 
-> **Key Catalysts:** *Positive momentum (RSI 54.52, price deviation +7.05%) and trend following strategy*
+> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
 
 ---
 
