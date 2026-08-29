@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:02:50 UTC"
+timestamp: "2026-08-29 22:08:54 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4350
+price: 11.4360
 quantity: 12.5000
-order_value: 142.94
+order_value: 142.95
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788040970244"
+order_id: "CRYPTO-1788041333849"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:02:50 UTC`
+> - **Date & Time:** `2026-08-29 22:08:54 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4350`
+> - **Action:** `BUY` @ `$11.4360`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$142.94`
+> - **Total Value:** `$142.95`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4350) vs 20-SMA ($10.3606) Deviation +10.37% [SL: $11.0348 | TP: $12.0068 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4360) vs 20-SMA ($10.3607) Deviation +10.38% [SL: $11.0357 | TP: $12.0078 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 10.37% deviation from the 20-SMA and an RSI of 67.05, indicating an overbought condition. The support level at $8.167 and resistance level at $12.594 provide further support for the trade.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 10.38% deviation from the 20-SMA and an RSI of 67.06, indicating strong momentum. The support level at $8.167 suggests a low risk.
 > 
-> **Key Catalysts:** *Deviation from 20-SMA, overbought RSI, and identified support/resistance levels*
+> **Key Catalysts:** *Trend momentum entry (10.38% deviation), strong RSI (67.06), and support level ($8.167)*
 
 ---
 
