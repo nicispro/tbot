@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 17:34:53 UTC"
+timestamp: "2026-08-29 17:40:58 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3770
+price: 11.3800
 quantity: 12.6000
-order_value: 143.35
+order_value: 143.39
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788024892917"
+order_id: "CRYPTO-1788025258268"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 17:34:53 UTC`
+> - **Date & Time:** `2026-08-29 17:40:58 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3770`
+> - **Action:** `BUY` @ `$11.3800`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.35`
+> - **Total Value:** `$143.39`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3770) vs 20-SMA ($10.3577) Deviation +9.84% [SL: $10.9788 | TP: $11.9459 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3800) vs 20-SMA ($10.3579) Deviation +9.87% [SL: $10.9817 | TP: $11.9490 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale for buying LINK/USDT at $11.38 is supported by a positive RSI (66.12) and a significant price deviation (9.84%) from the 20-SMA. The support level of $8.167 adds further validation to the bullish case.
+> Based on the given data, this trade proposal exhibits a favorable risk/reward ratio with a 9.87% deviation from the 20-SMA and an RSI of 66.18, indicating a potential bullish momentum. However, the lack of short and long SMA data makes the analysis less comprehensive.
 > 
-> **Key Catalysts:** *Positive RSI (66.12), significant price deviation (9.84% from 20-SMA), and support level of $8.167*
+> **Key Catalysts:** *Positive RSI (66.18) and deviation from 20-SMA support the bullish sentiment, but missing SMA data limits the analysis.*
 
 ---
 
