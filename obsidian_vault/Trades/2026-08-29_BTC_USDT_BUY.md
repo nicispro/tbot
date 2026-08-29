@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 13:19:40 UTC"
+timestamp: "2026-08-29 13:25:48 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77650.3000
+price: 77657.7000
 quantity: 0.0010
-order_value: 77.65
+order_value: 77.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788009580270"
+order_id: "CRYPTO-1788009947920"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 13:19:40 UTC`
+> - **Date & Time:** `2026-08-29 13:25:48 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,650.3000`
+> - **Action:** `BUY` @ `$77,657.7000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.65`
+> - **Total Value:** `$77.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,650.3000) vs 20-SMA ($70,987.8600) Deviation +9.39% [SL: $74,932.5395 | TP: $81,532.8150 | Risk: $2.72]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,657.7000) vs 20-SMA ($70,986.4600) Deviation +9.40% [SL: $74,939.6805 | TP: $81,540.5850 | Risk: $2.72]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given parameters, the proposed trade has a bullish sentiment with a high confidence score of 85%. The rationale includes a positive deviation of price ($77,650.30) from the 20-SMA ($70,987.86) at 9.39%, RSI (70.72) above the overbought threshold, and potential support at $62,584.0 and resistance at $81,085.5.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Trend Momentum Entry (BUY): Price ($77,657.7000) vs 20-SMA ($70,986.4600) Deviation +9.40% [SL: $74,939.6805 | TP: $81,540.5850 | Risk: $2.72]
 > 
-> **Key Catalysts:** *Positive price deviation, high RSI, and potential support/resistance levels*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,650.30`
-- **Actual Fill Price:** `$77,650.30`
+- **Expected Fill Price:** `$77,657.70`
+- **Actual Fill Price:** `$77,657.70`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
