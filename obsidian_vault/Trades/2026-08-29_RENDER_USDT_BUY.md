@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:48:12 UTC"
+timestamp: "2026-08-29 07:54:10 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4190
-quantity: 100.6000
-order_value: 142.75
+price: 1.4170
+quantity: 100.8000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787989692063"
+order_id: "CRYPTO-1787990050221"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:48:12 UTC`
+> - **Date & Time:** `2026-08-29 07:54:10 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4190`
-> - **Quantity:** `100.6000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$1.4170`
+> - **Quantity:** `100.8000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4190) vs 20-SMA ($1.3771) Deviation +3.04% [SL: $1.3693 | TP: $1.4900 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4170) vs 20-SMA ($1.3770) Deviation +2.90% [SL: $1.3674 | TP: $1.4878 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a favorable risk/reward (≈1.4:1) supports a bullish stance, though limited data tempers confidence.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive deviation of 2.90% and RSI value of 50.53, this trade proposal indicates a potential for growth. The validated price is $1.42 and the risk is $5.00.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.04% deviation) indicating upward momentum*
+> **Key Catalysts:** *Trend Momentum Entry (BUY): Price ($1.4170) vs 20-SMA ($1.3770) and RSI value of 50.53*
 
 ---
 
