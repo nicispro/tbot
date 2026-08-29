@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:06:28 UTC"
+timestamp: "2026-08-29 07:12:23 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 4.4250
-quantity: 32.2000
-order_value: 142.49
+price: 4.4160
+quantity: 32.3000
+order_value: 142.64
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787987188197"
+order_id: "CRYPTO-1787987543066"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:06:28 UTC`
+> - **Date & Time:** `2026-08-29 07:12:23 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$4.4250`
-> - **Quantity:** `32.2000` shares/units
-> - **Total Value:** `$142.49`
+> - **Action:** `BUY` @ `$4.4160`
+> - **Quantity:** `32.3000` shares/units
+> - **Total Value:** `$142.64`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4250) vs 20-SMA ($3.8944) Deviation +13.62% [SL: $4.2701 | TP: $4.6463 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($4.4160) vs 20-SMA ($3.8940) Deviation +13.41% [SL: $4.2614 | TP: $4.6368 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is significantly above the 20‑SMA with a 13.6% premium and RSI at 60.8, offering a modest upside to $4.6463 versus a tighter stop at $4.2701.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 13.41% deviation and RSI at 60.55. The support level is at $3.17 and resistance at $4.836. The risk-to-reward ratio is favorable.
 > 
-> **Key Catalysts:** *Momentum breakout above 20‑SMA combined with bullish RSI reading*
+> **Key Catalysts:** *Positive technical indicators and deviation from short-term moving averages support a bullish trade.*
 
 ---
 
