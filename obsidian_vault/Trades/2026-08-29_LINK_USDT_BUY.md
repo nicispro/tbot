@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 16:40:13 UTC"
+timestamp: "2026-08-29 16:46:13 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -14,7 +14,7 @@ quantity: 12.5000
 order_value: 143.03
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788021613309"
+order_id: "CRYPTO-1788021973703"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 16:40:13 UTC`
+> - **Date & Time:** `2026-08-29 16:46:13 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$11.4420`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation (+10.43%) from the trend momentum entry and RSI reading (67.11), we enter a bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 10.43% deviation from the 20-SMA, RSI of 67.11, and support at 8.167. However, without complete technical data, the analysis is limited.
 > 
-> **Key Catalysts:** *Trend momentum entry and RSI indicate potential price appreciation.*
+> **Key Catalysts:** *Positive RSI, deviation from 20-SMA, and support level*
 
 ---
 
