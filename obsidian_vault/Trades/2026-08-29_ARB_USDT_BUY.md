@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 07:06:30 UTC"
+timestamp: "2026-08-29 07:12:33 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0880
-quantity: 1623.0000
-order_value: 142.82
+price: 0.0878
+quantity: 1627.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787987190540"
+order_id: "CRYPTO-1787987552851"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 07:06:30 UTC`
+> - **Date & Time:** `2026-08-29 07:12:33 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0880`
-> - **Quantity:** `1623.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0878`
+> - **Quantity:** `1627.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0880) vs 20-SMA ($0.0854) Deviation +3.04% [SL: $0.0849 | TP: $0.0924 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0878) vs 20-SMA ($0.0854) Deviation +2.81% [SL: $0.0847 | TP: $0.0922 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest upward deviation and a neutral RSI, indicating a potential short‑term bullish move. The TP is only slightly above resistance, offering a favorable risk‑reward ratio.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The setup offers a 1.42:1 risk/reward ratio targeting the $0.0922 level, with a tight stop below the 20-SMA to limit downside exposure while capitalizing on short-term trend continuation.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
+> **Key Catalysts:** *Price trading 2.81% above the 20-SMA confirms short-term momentum, supported by a neutral RSI of 50.73 that leaves room for upward expansion without overextension.*
 
 ---
 
