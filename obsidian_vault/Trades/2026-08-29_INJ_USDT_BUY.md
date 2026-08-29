@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 00:30:52 UTC"
+timestamp: "2026-08-29 00:42:47 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1760
+price: 5.1840
 quantity: 27.5000
-order_value: 142.34
+order_value: 142.56
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787963452178"
+order_id: "CRYPTO-1787964167155"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 00:30:52 UTC`
+> - **Date & Time:** `2026-08-29 00:42:47 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1760`
+> - **Action:** `BUY` @ `$5.1840`
 > - **Quantity:** `27.5000` shares/units
-> - **Total Value:** `$142.34`
+> - **Total Value:** `$142.56`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1760) vs 20-SMA ($4.8138) Deviation +7.52% [SL: $4.9948 | TP: $5.4348 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1840) vs 20-SMA ($4.8143) Deviation +7.68% [SL: $5.0026 | TP: $5.4432 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +7.52% and RSI value of 54.97 indicate potential growth. The support level of 3.779 suggests a risk level, while the resistance level of 5.991 indicates a potential target price of $5.4348.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +7.68% and RSI of 55.17 indicate potential growth. The support level of 3.779 suggests a low risk.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI value, and support/resistance levels suggest a potential for growth and a targeted price of $5.4348.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level support the bullish trade rationale.*
 
 ---
 
