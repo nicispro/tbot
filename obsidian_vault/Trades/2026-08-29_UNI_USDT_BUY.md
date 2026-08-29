@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 08:12:11 UTC"
+timestamp: "2026-08-29 08:18:11 UTC"
 ticker: "UNI/USDT"
 canonical_symbol: "UNI/USDT"
 base_symbol: "UNI"
@@ -14,11 +14,11 @@ quantity: 32.7000
 order_value: 142.67
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787991131409"
+order_id: "CRYPTO-1787991490795"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `UNI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 08:12:11 UTC`
+> - **Date & Time:** `2026-08-29 08:18:11 UTC`
 > - **Canonical Instrument:** `UNI/USDT` (UNI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$4.3630`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 12.12% deviation from the 20-SMA, RSI of 59.04 indicating a potential buying opportunity, and the support level at $3.17.
 > 
-> **Key Catalysts:** *Price deviation (+12.12%) and RSI (59.07) support the bullish rationale.*
+> **Key Catalysts:** *Trend Momentum Entry (BUY), RSI 59.04, Support Level $3.17*
 
 ---
 
