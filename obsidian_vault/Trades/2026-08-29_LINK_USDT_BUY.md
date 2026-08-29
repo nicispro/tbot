@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 15:45:41 UTC"
+timestamp: "2026-08-29 15:51:42 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4430
+price: 11.4420
 quantity: 12.5000
-order_value: 143.04
+order_value: 143.03
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788018341158"
+order_id: "CRYPTO-1788018701807"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 15:45:41 UTC`
+> - **Date & Time:** `2026-08-29 15:51:42 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4430`
+> - **Action:** `BUY` @ `$11.4420`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$143.04`
+> - **Total Value:** `$143.03`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4430) vs 20-SMA ($10.3611) Deviation +10.44% [SL: $11.0425 | TP: $12.0152 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4420) vs 20-SMA ($10.3610) Deviation +10.43% [SL: $11.0415 | TP: $12.0141 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation (+10.44%) from the trend momentum entry and RSI reading (67.12), we enter a bullish sentiment.
+> Based on the positive deviation of price from 20-SMA, RSI above 50, and strong support at $8.167, we have a high-confidence bullish sentiment.
 > 
-> **Key Catalysts:** *Price deviating positively from the 20-SMA and RSI above 50 indicate potential for price increase.*
+> **Key Catalysts:** *Price deviating positively from 20-SMA, RSI above 50, and strong support*
 
 ---
 
