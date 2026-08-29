@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 15:09:04 UTC"
+timestamp: "2026-08-29 15:15:13 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -14,7 +14,7 @@ quantity: 12.5000
 order_value: 143.14
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788016144000"
+order_id: "CRYPTO-1788016512910"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 15:09:04 UTC`
+> - **Date & Time:** `2026-08-29 15:15:13 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$11.4510`
