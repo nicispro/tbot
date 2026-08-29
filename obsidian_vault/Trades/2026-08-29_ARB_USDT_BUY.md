@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 20:55:22 UTC"
+timestamp: "2026-08-29 21:13:58 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0883
-quantity: 1618.0000
-order_value: 142.87
+price: 0.0882
+quantity: 1619.0000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788036922290"
+order_id: "CRYPTO-1788038038422"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 20:55:22 UTC`
+> - **Date & Time:** `2026-08-29 21:13:58 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0883`
-> - **Quantity:** `1618.0000` shares/units
-> - **Total Value:** `$142.87`
+> - **Action:** `BUY` @ `$0.0882`
+> - **Quantity:** `1619.0000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0883) vs 20-SMA ($0.0855) Deviation +3.27% [SL: $0.0852 | TP: $0.0927 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0882) vs 20-SMA ($0.0855) Deviation +3.16% [SL: $0.0851 | TP: $0.0926 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a potential price surge from the current level, with RSI (51.43) indicating a moderate level of overbought conditions. The price deviation from the 20-SMA ($0.0855) and the 3.27% positive deviation support the bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.16% and RSI of 51.29 indicate bullish momentum. The support level of 0.0722 suggests a potential entry point.
 > 
-> **Key Catalysts:** *Positive RSI, price deviation from 20-SMA, and positive price deviation from the 20-SMA*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.0722*
 
 ---
 
