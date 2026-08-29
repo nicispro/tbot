@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 05:12:43 UTC"
+timestamp: "2026-08-29 05:24:38 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1630.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787980363355"
+order_id: "CRYPTO-1787981077959"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 05:12:43 UTC`
+> - **Date & Time:** `2026-08-29 05:24:38 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0876`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0854) Deviation +2.58% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> The price is above the 20‑SMA with a modest 2.58% deviation, indicating upward momentum, and the RSI is neutral, suggesting no immediate overbought pressure. The trade offers a 3.5% upside (TP 0.0920) against a 4.5% downside (SL 0.0845), providing a favorable risk‑reward profile.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Price above 20‑SMA, trend momentum entry, neutral RSI*
 
 ---
 
