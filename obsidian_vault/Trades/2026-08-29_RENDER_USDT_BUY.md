@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 17:22:42 UTC"
+timestamp: "2026-08-29 17:28:47 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4440
-quantity: 98.9000
-order_value: 142.81
+price: 1.4410
+quantity: 99.1000
+order_value: 142.80
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788024161855"
+order_id: "CRYPTO-1788024527424"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 17:22:42 UTC`
+> - **Date & Time:** `2026-08-29 17:28:47 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4440`
-> - **Quantity:** `98.9000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$1.4410`
+> - **Quantity:** `99.1000` shares/units
+> - **Total Value:** `$142.80`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4440) vs 20-SMA ($1.3783) Deviation +4.77% [SL: $1.3935 | TP: $1.5162 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4410) vs 20-SMA ($1.3782) Deviation +4.56% [SL: $1.3906 | TP: $1.5131 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.77% from the 20-SMA and RSI value of 53.53 indicate bullish momentum. However, the lack of short and long SMA data limits the analysis.
+> Based on the positive deviation of 4.56% from the price to 20-SMA and RSI value of 53.18, we have a BULLISH sentiment.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI value drive the bullish sentiment, but missing SMA data affects the confidence.*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI crossing above 50 indicate potential bullish momentum.*
 
 ---
 
