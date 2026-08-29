@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 03:12:26 UTC"
+timestamp: "2026-08-29 03:30:17 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 77672.3000
+price: 77657.2000
 quantity: 0.0010
-order_value: 77.67
+order_value: 77.66
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787973146679"
+order_id: "CRYPTO-1787974217179"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 03:12:26 UTC`
+> - **Date & Time:** `2026-08-29 03:30:17 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$77,672.3000`
+> - **Action:** `BUY` @ `$77,657.2000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$77.67`
+> - **Total Value:** `$77.66`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,672.3000) vs 20-SMA ($70,987.1950) Deviation +9.42% [SL: $74,953.7695 | TP: $81,555.9150 | Risk: $2.72]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($77,657.2000) vs 20-SMA ($70,986.4350) Deviation +9.40% [SL: $74,939.1980 | TP: $81,540.0600 | Risk: $2.72]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a high confidence score of 85%. The rationale includes a positive deviation of price ($77,672.30) from the 20-SMA ($70,987.19) by 9.42%, RSI (70.66) above the overbought threshold, and potential support at $62,584.00 and resistance at $81,085.50.
+> Based on the provided data, the proposed trade has a bullish sentiment with a confidence score of 85%. The rationale includes a positive deviation of price from 20-SMA by 9.40%, RSI at 70.59, and support level at $62,584.00. The trigger price of $77,657.20 falls within the resistance level of $81,085.50.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above overbought threshold, and potential support/resistance levels*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and resistance level alignment*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$77,672.30`
-- **Actual Fill Price:** `$77,672.30`
+- **Expected Fill Price:** `$77,657.20`
+- **Actual Fill Price:** `$77,657.20`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
