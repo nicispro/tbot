@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 08:24:23 UTC"
+timestamp: "2026-08-29 08:30:21 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.0280
-quantity: 28.4000
-order_value: 142.80
+price: 5.0360
+quantity: 28.3000
+order_value: 142.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1787991862969"
+order_id: "CRYPTO-1787992221419"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 08:24:23 UTC`
+> - **Date & Time:** `2026-08-29 08:30:21 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.0280`
-> - **Quantity:** `28.4000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$5.0360`
+> - **Quantity:** `28.3000` shares/units
+> - **Total Value:** `$142.52`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0280) vs 20-SMA ($4.8065) Deviation +4.61% [SL: $4.8520 | TP: $5.2794 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0360) vs 20-SMA ($4.8068) Deviation +4.77% [SL: $4.8597 | TP: $5.2878 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($5.0280) vs 20-SMA ($4.8065) Deviation +4.61% [SL: $4.8520 | TP: $5.2794 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive price deviation from 20-SMA and RSI value above 50, this BUY trade proposal presents a moderate to high potential for profit with a risk of $4.99.
 > 
-> **Key Catalysts:** *Technical indicator threshold.*
+> **Key Catalysts:** *Price deviation (+4.77%) and RSI (51.76) indicate potential bullish momentum.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.03`
-- **Actual Fill Price:** `$5.03`
+- **Expected Fill Price:** `$5.04`
+- **Actual Fill Price:** `$5.04`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
