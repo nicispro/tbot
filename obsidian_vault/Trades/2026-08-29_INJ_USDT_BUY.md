@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 15:09:08 UTC"
+timestamp: "2026-08-29 15:15:18 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.0650
-quantity: 28.2000
-order_value: 142.83
+price: 5.0680
+quantity: 28.1000
+order_value: 142.41
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788016148504"
+order_id: "CRYPTO-1788016518002"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 15:09:08 UTC`
+> - **Date & Time:** `2026-08-29 15:15:18 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.0650`
-> - **Quantity:** `28.2000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$5.0680`
+> - **Quantity:** `28.1000` shares/units
+> - **Total Value:** `$142.41`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0650) vs 20-SMA ($4.8083) Deviation +5.34% [SL: $4.8877 | TP: $5.3182 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.0680) vs 20-SMA ($4.8086) Deviation +5.39% [SL: $4.8906 | TP: $5.3214 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a 5.34% deviation, indicating upward momentum; RSI is neutral and ATR suggests moderate volatility, providing a modest reward‑to‑risk profile.
+> Price is above the 20‑SMA with a +5.39% deviation, indicating upward momentum; the RSI is neutral at 52.57 and the ATR suggests moderate volatility. The stop‑loss at $4.8906 limits risk to about 4.98%, while the target at $5.3214 offers a reward roughly 5.3% above entry.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and 5.34% deviation from SMA*
+> **Key Catalysts:** *Price above 20‑SMA (+5.39% deviation) and trend momentum entry*
 
 ---
 
