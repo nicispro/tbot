@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 17:40:56 UTC"
+timestamp: "2026-08-29 17:46:56 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4380
-quantity: 99.3000
-order_value: 142.79
+price: 1.4390
+quantity: 99.2000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788025256179"
+order_id: "CRYPTO-1788025615880"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 17:40:56 UTC`
+> - **Date & Time:** `2026-08-29 17:46:56 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4380`
-> - **Quantity:** `99.3000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$1.4390`
+> - **Quantity:** `99.2000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4380) vs 20-SMA ($1.3780) Deviation +4.35% [SL: $1.3877 | TP: $1.5099 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4390) vs 20-SMA ($1.3781) Deviation +4.42% [SL: $1.3886 | TP: $1.5110 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive as RSI (52.83) is within the neutral zone, indicating a sideways trend. The price deviation from the 20-SMA is 4.35%, suggesting potential upside. The support level (1.152) is close to the current price, providing a strong base. The resistance level (1.637) is farther away, indicating potential for growth.
+> Based on the positive price deviation (+4.42%) and RSI value (52.95) indicating a potential bullish trend, we proceed with a buy trade.
 > 
-> **Key Catalysts:** *Positive RSI, price deviation, and support level support the bullish sentiment.*
+> **Key Catalysts:** *Price deviation and RSI indicate a potential bullish trend*
 
 ---
 
