@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 17:22:57 UTC"
+timestamp: "2026-08-29 17:29:02 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,11 +14,11 @@ quantity: 1627.0000
 order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788024177548"
+order_id: "CRYPTO-1788024541867"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 74
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 17:22:57 UTC`
+> - **Date & Time:** `2026-08-29 17:29:02 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0878`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 74% Confidence)**
-> The setup offers a positive risk/reward ratio with price trading above the 20-SMA and RSI at 50.73 indicating healthy upward momentum without overextension. The stop loss is logically placed below the moving average, while the target aligns with near-term volatility bands.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The setup shows bullish momentum with price trading 2.81% above the 20-SMA and RSI at 50.73, indicating room for upside without overextension. The defined stop-loss at $0.0847 and take-profit at $0.0922 provide a structured risk/reward profile aligned with current ATR volatility.
 > 
-> **Key Catalysts:** *Price deviation of +2.81% above the 20-SMA combined with a neutral RSI (50.73) confirms short-term trend continuation, supported by a volatility-adjusted stop loss and clear profit target.*
+> **Key Catalysts:** *Price breakout above the 20-SMA combined with neutral-to-bullish RSI supports continued upward momentum toward the $0.0922 target.*
 
 ---
 
