@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 23:47:21 UTC"
+timestamp: "2026-08-29 23:59:37 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,11 +14,11 @@ quantity: 0.2000
 order_value: 138.52
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788047240772"
+order_id: "CRYPTO-1788047976894"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 23:47:21 UTC`
+> - **Date & Time:** `2026-08-29 23:59:37 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$692.5900`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with upside to resistance and a reward‑to‑risk ratio >1.5, but RSI near overbought suggests caution.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> The setup leverages strong short-term momentum with price trading 6.22% above the 20-SMA, targeting the $726.93 resistance for a 1:1.43 risk/reward ratio. Caution is advised as the RSI approaches overbought levels at 69.64, which may cap immediate upside.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and momentum push toward resistance*
+> **Key Catalysts:** *Positive deviation above 20-SMA (+6.22%) and take-profit alignment with verified resistance ($726.93)*
 
 ---
 
