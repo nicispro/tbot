@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-29
-timestamp: "2026-08-29 22:15:27 UTC"
+timestamp: "2026-08-29 22:21:38 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 692.5600
+price: 692.4800
 quantity: 0.2000
-order_value: 138.51
+order_value: 138.50
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788041726982"
+order_id: "CRYPTO-1788042097876"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-29 22:15:27 UTC`
+> - **Date & Time:** `2026-08-29 22:21:38 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$692.5600`
+> - **Action:** `BUY` @ `$692.4800`
 > - **Quantity:** `0.2000` shares/units
-> - **Total Value:** `$138.51`
+> - **Total Value:** `$138.50`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($692.5600) vs 20-SMA ($652.0130) Deviation +6.22% [SL: $668.3204 | TP: $727.1880 | Risk: $4.85]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($692.4800) vs 20-SMA ($652.0085) Deviation +6.21% [SL: $668.2432 | TP: $727.1040 | Risk: $4.85]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($692.5600) vs 20-SMA ($652.0130) Deviation +6.22% [SL: $668.3204 | TP: $727.1880 | Risk: $4.85]
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade leverages strong upward momentum with price extended 6.21% above the 20-SMA, targeting the $726.93 resistance level for a positive risk/reward ratio. Elevated RSI (69.61) suggests near-term overextension, requiring strict adherence to the stop-loss.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Price deviation above 20-SMA (+6.21%) and take-profit alignment with immediate resistance ($726.93)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$692.56`
-- **Actual Fill Price:** `$692.56`
+- **Expected Fill Price:** `$692.48`
+- **Actual Fill Price:** `$692.48`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
