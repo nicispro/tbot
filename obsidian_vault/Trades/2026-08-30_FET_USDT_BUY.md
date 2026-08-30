@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:49:20 UTC"
+timestamp: "2026-08-30 14:55:31 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1547
-quantity: 923.0000
-order_value: 142.79
+price: 0.1549
+quantity: 922.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788101360250"
+order_id: "CRYPTO-1788101730821"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:49:20 UTC`
+> - **Date & Time:** `2026-08-30 14:55:31 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1547`
-> - **Quantity:** `923.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.1549`
+> - **Quantity:** `922.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1547) vs 20-SMA ($0.1464) Deviation +5.67% [SL: $0.1493 | TP: $0.1624 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1549) vs 20-SMA ($0.1465) Deviation +5.73% [SL: $0.1495 | TP: $0.1626 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 5.67% deviation from the 20-SMA and an RSI of 52.58, indicating a neutral to bullish market sentiment. The support level at $0.1193 and resistance at $0.1843 provide risk management parameters.
+> Based on the given data, the trade rationale for buying FET/USDT at $0.15 is driven by a 5.73% deviation from the 20-SMA, an RSI of 52.68 indicating a potential bottom, and a support level of $0.1193. The risk is set at $5.00 and the target is set at $0.1626.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA, RSI within neutral to bullish range, and support/resistance levels defined*
+> **Key Catalysts:** *Positive technical indicators and potential support level trigger*
 
 ---
 
