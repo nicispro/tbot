@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 02:26:07 UTC"
+timestamp: "2026-08-30 02:32:07 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1230
-quantity: 27.8000
-order_value: 142.42
+price: 5.1190
+quantity: 27.9000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788056767253"
+order_id: "CRYPTO-1788057127079"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 02:26:07 UTC`
+> - **Date & Time:** `2026-08-30 02:32:07 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1230`
-> - **Quantity:** `27.8000` shares/units
-> - **Total Value:** `$142.42`
+> - **Action:** `BUY` @ `$5.1190`
+> - **Quantity:** `27.9000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1230) vs 20-SMA ($4.8504) Deviation +5.62% [SL: $4.9437 | TP: $5.3792 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1190) vs 20-SMA ($4.8502) Deviation +5.54% [SL: $4.9398 | TP: $5.3750 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Buy at $5.12 with SL $4.94 and TP $5.38 gives a ~1.4:1 reward‑to‑risk ratio; price sits 5.6% above the 20‑SMA and RSI is neutral‑bullish, supporting the upside view.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a modest upside to the target and a tight stop‑loss provides a favorable risk‑reward profile.
 > 
-> **Key Catalysts:** *Price crossing and staying above the 20‑SMA (+5.62% deviation) indicating strong trend momentum*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
