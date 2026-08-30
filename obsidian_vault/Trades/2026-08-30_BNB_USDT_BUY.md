@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:01:40 UTC"
+timestamp: "2026-08-30 14:01:47 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,7 +14,7 @@ quantity: 0.2000
 order_value: 139.90
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098500153"
+order_id: "CRYPTO-1788098507296"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:01:40 UTC`
+> - **Date & Time:** `2026-08-30 14:01:47 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$699.5200`
@@ -43,13 +43,13 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($699.5200) vs 20-SMA ($657.0210) Deviation +6.47% [SL: $675.0368 | TP: $734.4960 | Risk: $4.90]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($699.5200) vs 20-SMA ($657.0155) Deviation +6.47% [SL: $675.0368 | TP: $734.4960 | Risk: $4.90]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($699.5200) vs 20-SMA ($657.0210) Deviation +6.47% [SL: $675.0368 | TP: $734.4960 | Risk: $4.90]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($699.5200) vs 20-SMA ($657.0155) Deviation +6.47% [SL: $675.0368 | TP: $734.4960 | Risk: $4.90]
 > 
 > **Key Catalysts:** *Technical indicator threshold.*
 
