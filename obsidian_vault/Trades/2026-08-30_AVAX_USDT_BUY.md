@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 08:16:04 UTC"
+timestamp: "2026-08-30 08:21:59 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3270
+price: 7.3340
 quantity: 19.4000
-order_value: 142.14
+order_value: 142.28
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788077764555"
+order_id: "CRYPTO-1788078119263"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 08:16:04 UTC`
+> - **Date & Time:** `2026-08-30 08:21:59 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3270`
+> - **Action:** `BUY` @ `$7.3340`
 > - **Quantity:** `19.4000` shares/units
-> - **Total Value:** `$142.14`
+> - **Total Value:** `$142.28`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3270) vs 20-SMA ($6.9842) Deviation +4.91% [SL: $7.0706 | TP: $7.6933 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3340) vs 20-SMA ($6.9846) Deviation +5.00% [SL: $7.0773 | TP: $7.7007 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The RSI (58.31) and trend momentum entry indicate bullish sentiment. The risk is calculated at $4.98.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the proposed trade has a positive sentiment as RSI (58.45) and ATR (0.4814) indicate bullish momentum and stability. The deviation (+5.00%) from the 20-SMA entry point supports the bullish case.
 > 
-> **Key Catalysts:** *RSI (58.31) and trend momentum entry point support the bullish sentiment.*
+> **Key Catalysts:** *Technical indicators point to a bullish momentum and the deviation from the 20-SMA provides a strong entry point.*
 
 ---
 
