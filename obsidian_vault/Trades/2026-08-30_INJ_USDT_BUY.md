@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:22:30 UTC"
+timestamp: "2026-08-30 05:28:22 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1260
+price: 5.1310
 quantity: 27.8000
-order_value: 142.50
+order_value: 142.64
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788067350517"
+order_id: "CRYPTO-1788067702606"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:22:30 UTC`
+> - **Date & Time:** `2026-08-30 05:28:22 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1260`
+> - **Action:** `BUY` @ `$5.1310`
 > - **Quantity:** `27.8000` shares/units
-> - **Total Value:** `$142.50`
+> - **Total Value:** `$142.64`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1260) vs 20-SMA ($4.8506) Deviation +5.68% [SL: $4.9466 | TP: $5.3823 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1310) vs 20-SMA ($4.8508) Deviation +5.78% [SL: $4.9514 | TP: $5.3876 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The trade leverages short-term bullish momentum with price trading 5.68% above the 20-SMA and a neutral RSI of 53.65, offering a favorable risk-to-reward ratio targeting the $5.99 resistance level.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry above the 20‑SMA with a moderate upside target and a tight stop‑loss suggests a bullish bias, while the RSI remains in a neutral zone.
 > 
-> **Key Catalysts:** *Price deviation above the 20-SMA combined with neutral RSI confirms upward momentum without overextension.*
+> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
 
 ---
 
