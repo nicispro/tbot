@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 15:43:36 UTC"
+timestamp: "2026-08-30 15:49:38 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -14,11 +14,11 @@ quantity: 925.0000
 order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788104616237"
+order_id: "CRYPTO-1788104978669"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 15:43:36 UTC`
+> - **Date & Time:** `2026-08-30 15:49:38 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.1543`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.40% deviation, RSI of 52.36, and support at 0.1193. The validated price is $0.15, with a target of $0.1620.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.1543) vs 20-SMA ($0.1464) Deviation +5.40% [SL: $0.1489 | TP: $0.1620 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish catalyst.*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
