@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:40:11 UTC"
+timestamp: "2026-08-30 05:46:05 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -14,7 +14,7 @@ quantity: 19.5000
 order_value: 142.27
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788068410866"
+order_id: "CRYPTO-1788068765701"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:40:11 UTC`
+> - **Date & Time:** `2026-08-30 05:46:05 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$7.2960`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The RSI (57.45) and ATR (0.4814) indicate positive momentum, and the price deviation from the 20-SMA is within acceptable limits. The support level (5.69) is close to the trigger price, providing a strong base for potential growth.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates upside potential with a risk of $4.98. The validated price is $7.30.
 > 
-> **Key Catalysts:** *Positive RSI, ATR, and support level near trigger price*
+> **Key Catalysts:** *Price deviation (+4.49%) and RSI (57.42) support a bullish trade in AVAX/USDT.*
 
 ---
 
