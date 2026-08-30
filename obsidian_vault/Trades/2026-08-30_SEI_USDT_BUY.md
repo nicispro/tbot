@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 11:38:40 UTC"
+timestamp: "2026-08-30 11:44:32 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0454
-quantity: 3146.0000
-order_value: 142.83
+price: 0.0455
+quantity: 3138.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788089920141"
+order_id: "CRYPTO-1788090272635"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 11:38:40 UTC`
+> - **Date & Time:** `2026-08-30 11:44:32 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0454`
-> - **Quantity:** `3146.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.0455`
+> - **Quantity:** `3138.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0454) vs 20-SMA ($0.0436) Deviation +4.13% [SL: $0.0438 | TP: $0.0477 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0455) vs 20-SMA ($0.0436) Deviation +4.36% [SL: $0.0439 | TP: $0.0478 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation (+4.13%) and RSI value (53.21) indicating bullish momentum, we enter a BUY trade.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation (+4.36%) from the trend momentum entry and RSI value (53.57), we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Price deviating above 20-SMA and RSI crossing above 50, suggesting market sentiment shift towards bullish.*
+> **Key Catalysts:** *Trend momentum entry and RSI indicate potential for price appreciation.*
 
 ---
 
