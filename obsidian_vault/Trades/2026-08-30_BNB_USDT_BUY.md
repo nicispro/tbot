@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:46:19 UTC"
+timestamp: "2026-08-30 05:52:21 UTC"
 ticker: "BNB/USDT"
 canonical_symbol: "BNB/USDT"
 base_symbol: "BNB"
@@ -14,11 +14,11 @@ quantity: 0.2000
 order_value: 138.90
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788068779308"
+order_id: "CRYPTO-1788069140872"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 74
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BNB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:46:19 UTC`
+> - **Date & Time:** `2026-08-30 05:52:21 UTC`
 > - **Canonical Instrument:** `BNB/USDT` (BNB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$694.5000`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($694.5000) vs 20-SMA ($656.7645) Deviation +5.75% [SL: $670.1925 | TP: $729.2250 | Risk: $4.86]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($694.5000) vs 20-SMA ($656.7675) Deviation +5.75% [SL: $670.1925 | TP: $729.2250 | Risk: $4.86]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 74% Confidence)**
-> The setup captures strong upward momentum with price trading 5.75% above the 20-SMA, targeting resistance near $727. An RSI of 70.05 indicates overbought conditions, requiring strict risk management at the $670.19 stop-loss to protect against a potential mean reversion.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($694.5000) vs 20-SMA ($656.7675) Deviation +5.75% [SL: $670.1925 | TP: $729.2250 | Risk: $4.86]
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA (+5.75%) and elevated RSI momentum confirming trend strength*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
