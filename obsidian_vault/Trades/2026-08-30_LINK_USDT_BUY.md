@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:28:15 UTC"
+timestamp: "2026-08-30 05:34:11 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3790
+price: 11.3770
 quantity: 12.6000
-order_value: 143.38
+order_value: 143.35
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788067695015"
+order_id: "CRYPTO-1788068050841"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:28:15 UTC`
+> - **Date & Time:** `2026-08-30 05:34:11 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3790`
+> - **Action:** `BUY` @ `$11.3770`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.38`
+> - **Total Value:** `$143.35`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3790) vs 20-SMA ($10.5158) Deviation +8.21% [SL: $10.9807 | TP: $11.9480 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3770) vs 20-SMA ($10.5157) Deviation +8.19% [SL: $10.9788 | TP: $11.9459 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 80% confidence score. The RSI (65.65) and ATR (0.7452) indicate strong momentum and volatility, respectively. The price deviates 8.21% above the 20-day SMA ($10.5158), suggesting a potential bullish breakout.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given data, this trade proposal indicates a strong bullish sentiment with a high confidence score. The RSI (65.62) and positive deviation (+8.19%) from the 20-SMA support the entry decision. The support level (8.282) is close to the validated price, reducing risk.
 > 
-> **Key Catalysts:** *Positive RSI (65.65), high ATR (0.7452), and 8.21% deviation above the 20-day SMA ($10.5158)*
+> **Key Catalysts:** *Positive RSI (65.62), deviation (+8.19% from 20-SMA), and support level (8.282) near validated price*
 
 ---
 
