@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 00:11:39 UTC"
+timestamp: "2026-08-30 00:17:54 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4540
-quantity: 98.2000
-order_value: 142.78
+price: 1.4560
+quantity: 98.1000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788048698961"
+order_id: "CRYPTO-1788049074493"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 00:11:39 UTC`
+> - **Date & Time:** `2026-08-30 00:17:54 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4540`
-> - **Quantity:** `98.2000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$1.4560`
+> - **Quantity:** `98.1000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4540) vs 20-SMA ($1.3887) Deviation +4.70% [SL: $1.4031 | TP: $1.5267 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4560) vs 20-SMA ($1.3888) Deviation +4.84% [SL: $1.4050 | TP: $1.5288 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.70% and RSI of 54.35 indicate potential growth. A support level of 1.152 and resistance level of 1.637 are present.
+> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The RSI (54.58) and positive deviation (+4.84%) from the 20-SMA support the entry decision. The support level (1.152) is close to the validated price ($1.46), indicating potential for growth.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI, and defined support/resistance levels*
+> **Key Catalysts:** *Positive RSI (54.58), deviation (+4.84%) from 20-SMA, and support level (1.152) near validated price ($1.46)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$1.45`
-- **Actual Fill Price:** `$1.45`
+- **Expected Fill Price:** `$1.46`
+- **Actual Fill Price:** `$1.46`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
