@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 01:12:30 UTC"
+timestamp: "2026-08-30 01:18:43 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0454
-quantity: 3146.0000
-order_value: 142.83
+price: 0.0453
+quantity: 3152.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788052350118"
+order_id: "CRYPTO-1788052722971"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 01:12:30 UTC`
+> - **Date & Time:** `2026-08-30 01:18:43 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0454`
-> - **Quantity:** `3146.0000` shares/units
-> - **Total Value:** `$142.83`
+> - **Action:** `BUY` @ `$0.0453`
+> - **Quantity:** `3152.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0454) vs 20-SMA ($0.0436) Deviation +4.13% [SL: $0.0438 | TP: $0.0477 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0453) vs 20-SMA ($0.0436) Deviation +3.90% [SL: $0.0437 | TP: $0.0476 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the trade rationale for buying SEI/USDT at $0.05 with a stop-loss at $0.0438 and take-profit at $0.0477 indicates a potential for growth. The RSI value of 53.21 and the deviation of +4.13% from the 20-SMA support the bullish sentiment.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of 3.90% above the 20-SMA and RSI value of 52.85 indicate potential for price growth. However, the lack of short and long SMA data and dip percentage data raises concerns.
 > 
-> **Key Catalysts:** *Positive RSI (53.21), +4.13% deviation from 20-SMA, and strong trend momentum support the bullish catalyst for this trade.*
+> **Key Catalysts:** *Price deviating above 20-SMA and RSI crossing above neutral levels*
 
 ---
 
