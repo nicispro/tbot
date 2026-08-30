@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:22:07 UTC"
+timestamp: "2026-08-30 04:28:16 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,11 +14,11 @@ quantity: 27.9000
 order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788063727370"
+order_id: "CRYPTO-1788064096358"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:22:07 UTC`
+> - **Date & Time:** `2026-08-30 04:28:16 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.1160`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> The entry is justified by a price above the 20‑SMA with a modest 5.48% deviation, offering a reward-to-risk ratio of roughly 1.4:1 (TP $5.3718 vs SL $4.9369).
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade presents a favorable risk/reward setup with price trading 5.48% above the 20-SMA, supported by a neutral RSI of 53.4 that leaves room for upward expansion before overbought conditions. The defined stop loss below the moving average and target near the upper volatility band aligns with a disciplined momentum strategy.
 > 
-> **Key Catalysts:** *Price crossing above the 20‑SMA with upward momentum and a neutral RSI (53.4) indicating no immediate overbought pressure.*
+> **Key Catalysts:** *Price deviation above 20-SMA combined with healthy mid-range RSI momentum*
 
 ---
 
