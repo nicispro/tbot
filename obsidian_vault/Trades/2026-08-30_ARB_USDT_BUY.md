@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:07:30 UTC"
+timestamp: "2026-08-30 14:13:25 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0892
-quantity: 1601.0000
-order_value: 142.81
+price: 0.0894
+quantity: 1597.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098850302"
+order_id: "CRYPTO-1788099204892"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:07:30 UTC`
+> - **Date & Time:** `2026-08-30 14:13:25 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0892`
-> - **Quantity:** `1601.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.0894`
+> - **Quantity:** `1597.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0892) vs 20-SMA ($0.0859) Deviation +3.84% [SL: $0.0861 | TP: $0.0937 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0894) vs 20-SMA ($0.0859) Deviation +4.07% [SL: $0.0863 | TP: $0.0939 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviates 3.84% above the 20-SMA, RSI is at a healthy level (53.02), and the support level (0.0722) is not significantly low. However, the lack of long-term SMA data and ATR data reduces the overall analysis reliability.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 4.07% deviation and RSI at 53.3. The support level is at 0.0722, and the buy trigger occurs at a deviation above the 20-SMA. The risk is set at $5.00.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA and healthy RSI indicate potential bullish momentum, but missing long-term SMA and ATR data limit the analysis.*
+> **Key Catalysts:** *Positive deviation, RSI above average, and support level met*
 
 ---
 
