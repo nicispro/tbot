@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 01:18:37 UTC"
+timestamp: "2026-08-30 01:24:51 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,7 +14,7 @@ quantity: 0.0010
 order_value: 78.03
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788052717469"
+order_id: "CRYPTO-1788053090977"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 01:18:37 UTC`
+> - **Date & Time:** `2026-08-30 01:24:51 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$78,033.9000`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,033.9000) vs 20-SMA ($71,719.4850) Deviation +8.80% [SL: $75,302.7135 | TP: $81,935.5950 | Risk: $2.73]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,033.9000) vs 20-SMA ($71,719.4900) Deviation +8.80% [SL: $75,302.7135 | TP: $81,935.5950 | Risk: $2.73]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the provided data, the sentiment indicates a bullish trend with a high confidence score of 85%. The trigger price of $78,033.90 is above both the 20-SMA ($71,719.4850) and the verified support level of 62584.0. RSI (70.59) and ATR (2692.4714) also support a bullish sentiment.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk and potential for high reward. The RSI (70.59) and trend momentum entry at a 8.80% deviation support a bullish sentiment. However, the lack of short and long SMA data limits the analysis's depth.
 > 
-> **Key Catalysts:** *Price surpassing the 20-SMA and support level, along with positive RSI and ATR values.*
+> **Key Catalysts:** *RSI (70.59) and trend momentum entry*
 
 ---
 
