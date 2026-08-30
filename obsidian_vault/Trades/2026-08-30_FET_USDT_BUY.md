@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 01:25:19 UTC"
+timestamp: "2026-08-30 01:31:28 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -14,7 +14,7 @@ quantity: 964.0000
 order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788053119433"
+order_id: "CRYPTO-1788053488329"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 01:25:19 UTC`
+> - **Date & Time:** `2026-08-30 01:31:28 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.1481`
