@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:52:41 UTC"
+timestamp: "2026-08-30 13:58:36 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4055
-quantity: 101.6000
-order_value: 142.80
+price: 1.4085
+quantity: 101.4000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788097961479"
+order_id: "CRYPTO-1788098316120"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:52:41 UTC`
+> - **Date & Time:** `2026-08-30 13:58:36 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4055`
-> - **Quantity:** `101.6000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$1.4085`
+> - **Quantity:** `101.4000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,13 +43,13 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4055) vs 20-SMA ($1.2406) Deviation +13.29% [SL: $1.3563 | TP: $1.4758 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4085) vs 20-SMA ($1.2407) Deviation +13.52% [SL: $1.3592 | TP: $1.4789 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.4055) vs 20-SMA ($1.2406) Deviation +13.29% [SL: $1.3563 | TP: $1.4758 | Risk: $5.00]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.4085) vs 20-SMA ($1.2407) Deviation +13.52% [SL: $1.3592 | TP: $1.4789 | Risk: $5.00]
 > 
 > **Key Catalysts:** *Technical indicator threshold.*
 
