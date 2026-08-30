@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 08:16:11 UTC"
+timestamp: "2026-08-30 08:22:09 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1530
-quantity: 933.0000
-order_value: 142.75
+price: 0.1532
+quantity: 932.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788077771361"
+order_id: "CRYPTO-1788078129038"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 08:16:11 UTC`
+> - **Date & Time:** `2026-08-30 08:22:09 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1530`
-> - **Quantity:** `933.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.1532`
+> - **Quantity:** `932.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1530) vs 20-SMA ($0.1464) Deviation +4.51% [SL: $0.1476 | TP: $0.1606 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1532) vs 20-SMA ($0.1464) Deviation +4.64% [SL: $0.1478 | TP: $0.1609 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is trading above the 20‑SMA with a +4.51% deviation, indicating upward momentum, while the ATR suggests moderate volatility and the support/resistance levels provide a clear risk/reward framework.
+> Entry above 20‑SMA with a 1.42 reward‑to‑risk ratio; moderate upside potential against a tight stop near the 20‑SMA.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+4.51% deviation) and ATR of 0.0148 indicating manageable volatility*
+> **Key Catalysts:** *Price above 20‑SMA and momentum trigger, supported by ATR‑based risk sizing*
 
 ---
 
