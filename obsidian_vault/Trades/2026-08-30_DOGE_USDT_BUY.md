@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 15:25:19 UTC"
+timestamp: "2026-08-30 15:31:20 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0853
-quantity: 1674.0000
+price: 0.0854
+quantity: 1672.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788103519033"
+order_id: "CRYPTO-1788103880629"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,11 +30,11 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 15:25:19 UTC`
+> - **Date & Time:** `2026-08-30 15:31:20 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0853`
-> - **Quantity:** `1674.0000` shares/units
+> - **Action:** `BUY` @ `$0.0854`
+> - **Quantity:** `1672.0000` shares/units
 > - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0853) vs 20-SMA ($0.0801) Deviation +6.49% [SL: $0.0823 | TP: $0.0896 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0854) vs 20-SMA ($0.0801) Deviation +6.62% [SL: $0.0824 | TP: $0.0897 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup capitalizes on short-term momentum with price trading 6.49% above the 20-SMA, supported by a constructive RSI of 60.06. Risk is well-defined with a stop below the moving average and a target placed conservatively ahead of the $0.1002 resistance level.
+> The setup aligns with short-term bullish momentum as price trades above the 20-SMA with a healthy RSI of 60.14, offering a logical risk/reward structure targeting $0.0897 before key resistance at $0.1002.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA (+6.49%) combined with RSI momentum (60.06) and ATR-defined volatility (0.0056) supporting a measured advance toward near-term resistance.*
+> **Key Catalysts:** *Positive price deviation above the 20-SMA combined with neutral-to-bullish RSI momentum supports continued upward movement toward the predefined take-profit level.*
 
 ---
 
