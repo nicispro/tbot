@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:38:08 UTC"
+timestamp: "2026-08-30 13:44:05 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0458
-quantity: 3119.0000
-order_value: 142.85
+price: 0.0459
+quantity: 3111.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788097088169"
+order_id: "CRYPTO-1788097445177"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:38:08 UTC`
+> - **Date & Time:** `2026-08-30 13:44:05 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0458`
-> - **Quantity:** `3119.0000` shares/units
-> - **Total Value:** `$142.85`
+> - **Action:** `BUY` @ `$0.0459`
+> - **Quantity:** `3111.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0458) vs 20-SMA ($0.0437) Deviation +4.81% [SL: $0.0442 | TP: $0.0481 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0459) vs 20-SMA ($0.0437) Deviation +5.03% [SL: $0.0443 | TP: $0.0482 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and shows potential for growth. The RSI is within a neutral zone, indicating positive momentum.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.03% deviation and RSI at 54.88. The validated price is $0.05, and the risk is calculated at $5.00.
 > 
-> **Key Catalysts:** *Price deviation above 20-SMA and positive RSI momentum*
+> **Key Catalysts:** *Strong RSI and price deviation from short and long SMAs support the bullish catalyst.*
 
 ---
 
