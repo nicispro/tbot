@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:46:31 UTC"
+timestamp: "2026-08-30 07:52:25 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1700
+price: 5.1750
 quantity: 27.6000
-order_value: 142.69
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788075991562"
+order_id: "CRYPTO-1788076345396"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:46:31 UTC`
+> - **Date & Time:** `2026-08-30 07:52:25 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1700`
+> - **Action:** `BUY` @ `$5.1750`
 > - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.69`
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1700) vs 20-SMA ($4.8529) Deviation +6.53% [SL: $4.9890 | TP: $5.4285 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1750) vs 20-SMA ($4.8530) Deviation +6.64% [SL: $4.9939 | TP: $5.4337 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +6.53% against the 20-SMA and RSI value of 54.8 indicate bullish momentum. However, the missing short_sma and long_sma values impact the overall analysis.
+> Based on the positive deviation of 6.64% from the trend momentum entry and RSI value above 50, we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Price deviation from 20-SMA and RSI value drive the bullish sentiment, but missing SMAs hinder the confidence.*
+> **Key Catalysts:** *Trend momentum entry (BUY) triggered at $5.17 with a target price of $5.43 and stop-loss of $4.99.*
 
 ---
 
