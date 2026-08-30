@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:03:41 UTC"
+timestamp: "2026-08-30 04:09:46 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 78149.6000
+price: 78155.0000
 quantity: 0.0010
-order_value: 78.15
+order_value: 78.16
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788062621383"
+order_id: "CRYPTO-1788062985805"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:03:41 UTC`
+> - **Date & Time:** `2026-08-30 04:09:46 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$78,149.6000`
+> - **Action:** `BUY` @ `$78,155.0000`
 > - **Quantity:** `0.0010` shares/units
-> - **Total Value:** `$78.15`
+> - **Total Value:** `$78.16`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,149.6000) vs 20-SMA ($71,724.2900) Deviation +8.96% [SL: $75,414.3640 | TP: $82,057.0800 | Risk: $2.74]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,155.0000) vs 20-SMA ($71,725.5400) Deviation +8.96% [SL: $75,419.5750 | TP: $82,062.7500 | Risk: $2.74]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a confidence score of 85%. The rationale includes a positive deviation of price from 20-SMA by 8.96%, RSI at 71.12, and support at 62584.0. The target price is set at $82,057.08 and stop-loss at $75,414.36.
+> Based on the provided data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (71.14) and dip percentage (DATA_UNAVAILABLE) indicate strong momentum, while the deviation of 8.96% from the 20-SMA supports the entry. The validated price of $78,155.00 falls within the resistance level of $62,584.00 to $81,085.50.
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA, high RSI value, and strong support levels indicate potential bullish momentum.*
+> **Key Catalysts:** *Positive RSI, momentum, and price within resistance range*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$78,149.60`
-- **Actual Fill Price:** `$78,149.60`
+- **Expected Fill Price:** `$78,155.00`
+- **Actual Fill Price:** `$78,155.00`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
