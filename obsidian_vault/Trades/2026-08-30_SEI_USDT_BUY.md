@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 12:02:17 UTC"
+timestamp: "2026-08-30 12:14:20 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0455
-quantity: 3138.0000
-order_value: 142.78
+price: 0.0459
+quantity: 3111.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788091337262"
+order_id: "CRYPTO-1788092059847"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 12:02:17 UTC`
+> - **Date & Time:** `2026-08-30 12:14:20 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0455`
-> - **Quantity:** `3138.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0459`
+> - **Quantity:** `3111.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0455) vs 20-SMA ($0.0436) Deviation +4.36% [SL: $0.0439 | TP: $0.0478 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0459) vs 20-SMA ($0.0437) Deviation +5.03% [SL: $0.0443 | TP: $0.0482 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for SEI/USDT is a potential buy opportunity with a 4.36% deviation from the 20-SMA and an RSI of 53.57, indicating a balanced momentum. However, the lack of short and long SMA data limits the analysis's depth.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the positive deviation of 5.03% and RSI value of 54.88, this trade proposal indicates bullish sentiment with a high potential for profit.
 > 
-> **Key Catalysts:** *Positive momentum and deviation from 20-SMA trigger the buy signal.*
+> **Key Catalysts:** *Price deviation from 20-SMA and RSI values suggest a potential buying opportunity driven by momentum.*
 
 ---
 
