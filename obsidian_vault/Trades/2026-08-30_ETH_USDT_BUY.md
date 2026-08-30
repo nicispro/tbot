@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:01:44 UTC"
+timestamp: "2026-08-30 14:01:52 UTC"
 ticker: "ETH/USDT"
 canonical_symbol: "ETH/USDT"
 base_symbol: "ETH"
@@ -14,7 +14,7 @@ quantity: 0.0500
 order_value: 123.62
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098504356"
+order_id: "CRYPTO-1788098511980"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ETH/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:01:44 UTC`
+> - **Date & Time:** `2026-08-30 14:01:52 UTC`
 > - **Canonical Instrument:** `ETH/USDT` (ETH/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$2,472.3800`
@@ -43,13 +43,13 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,472.3800) vs 20-SMA ($2,219.8895) Deviation +11.37% [SL: $2,385.8467 | TP: $2,595.9990 | Risk: $4.33]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,472.3800) vs 20-SMA ($2,219.8900) Deviation +11.37% [SL: $2,385.8467 | TP: $2,595.9990 | Risk: $4.33]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($2,472.3800) vs 20-SMA ($2,219.8895) Deviation +11.37% [SL: $2,385.8467 | TP: $2,595.9990 | Risk: $4.33]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($2,472.3800) vs 20-SMA ($2,219.8900) Deviation +11.37% [SL: $2,385.8467 | TP: $2,595.9990 | Risk: $4.33]
 > 
 > **Key Catalysts:** *Technical indicator threshold.*
 
