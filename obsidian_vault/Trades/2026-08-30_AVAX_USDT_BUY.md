@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:46:26 UTC"
+timestamp: "2026-08-30 04:52:30 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2730
+price: 7.2720
 quantity: 19.6000
-order_value: 142.55
+order_value: 142.53
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788065186581"
+order_id: "CRYPTO-1788065550616"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:46:26 UTC`
+> - **Date & Time:** `2026-08-30 04:52:30 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2730`
+> - **Action:** `BUY` @ `$7.2720`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.55`
+> - **Total Value:** `$142.53`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2730) vs 20-SMA ($6.9816) Deviation +4.17% [SL: $7.0184 | TP: $7.6367 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2720) vs 20-SMA ($6.9816) Deviation +4.16% [SL: $7.0175 | TP: $7.6356 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.17% from the 20-SMA and RSI value of 56.84 indicate bullish momentum. The support level of $5.69 and resistance level of $8.318 suggest potential profit opportunities.
+> Based on the given metrics, the trade rationale is positive as RSI (56.84) and ATR (0.4814) indicate strength and volatility, respectively. The price deviation (+4.16%) from the 20-SMA supports the entry.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and key support/resistance levels*
+> **Key Catalysts:** *Positive technical indicators and price deviation from 20-SMA*
 
 ---
 
