@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:52:21 UTC"
+timestamp: "2026-08-30 07:58:13 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -14,11 +14,11 @@ quantity: 98.1000
 order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788076341575"
+order_id: "CRYPTO-1788076693752"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:52:21 UTC`
+> - **Date & Time:** `2026-08-30 07:58:13 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.4550`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The RSI (54.48) and ATR (0.1014) indicate positive momentum, and the deviation of +4.77% from the 20-SMA supports the entry. The support level (1.152) is close to the current price, providing a strong base for potential growth.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive as RSI (54.48) and ATR (0.1014) indicate positive momentum and low volatility. The price deviation from 20-SMA (+4.77%) justifies the entry.
 > 
-> **Key Catalysts:** *Positive momentum indicators and deviation from 20-SMA support a bullish catalyst.*
+> **Key Catalysts:** *Positive RSI, ATR, and price deviation from 20-SMA*
 
 ---
 
