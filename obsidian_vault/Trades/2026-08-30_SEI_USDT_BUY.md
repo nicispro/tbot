@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:08:15 UTC"
+timestamp: "2026-08-30 13:14:15 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0459
-quantity: 3111.0000
-order_value: 142.79
+price: 0.0458
+quantity: 3119.0000
+order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788095295707"
+order_id: "CRYPTO-1788095655336"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:08:15 UTC`
+> - **Date & Time:** `2026-08-30 13:14:15 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0459`
-> - **Quantity:** `3111.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0458`
+> - **Quantity:** `3119.0000` shares/units
+> - **Total Value:** `$142.85`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0459) vs 20-SMA ($0.0437) Deviation +5.03% [SL: $0.0443 | TP: $0.0482 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0458) vs 20-SMA ($0.0437) Deviation +4.81% [SL: $0.0442 | TP: $0.0481 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. The support level is strong at $0.035.
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from 20-SMA is 4.81%, RSI is at 54.57, and the support level is at 0.035, indicating potential for growth. However, the 'DATA_UNAVAILABLE' values for short_sma and dip_percentage should be considered carefully.
 > 
-> **Key Catalysts:** *Price deviation, RSI above neutral threshold, strong support at $0.035*
+> **Key Catalysts:** *Positive momentum and support level at 0.035 contribute to the bullish sentiment, but missing data on short_sma and dip_percentage should be cautiously evaluated.*
 
 ---
 
