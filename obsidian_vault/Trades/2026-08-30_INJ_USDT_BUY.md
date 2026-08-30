@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 12:08:16 UTC"
+timestamp: "2026-08-30 12:14:18 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.2750
+price: 5.2770
 quantity: 27.0000
-order_value: 142.43
+order_value: 142.48
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788091696629"
+order_id: "CRYPTO-1788092057971"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 12:08:16 UTC`
+> - **Date & Time:** `2026-08-30 12:14:18 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.2750`
+> - **Action:** `BUY` @ `$5.2770`
 > - **Quantity:** `27.0000` shares/units
-> - **Total Value:** `$142.43`
+> - **Total Value:** `$142.48`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2750) vs 20-SMA ($4.8579) Deviation +8.59% [SL: $5.0904 | TP: $5.5388 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2770) vs 20-SMA ($4.8581) Deviation +8.62% [SL: $5.0923 | TP: $5.5408 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75. The trend momentum entry triggers a BUY signal with a validated price of $5.28. The RSI (56.86) and ATR (0.4326) indicate positive momentum and stability. The support level (3.779) is below the validated price, suggesting potential upside. The resistance level (5.991) is above the validated price, indicating potential for further growth.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal shows potential for growth. However, the missing short_sma and dip_percentage metrics impact the confidence score.
 > 
-> **Key Catalysts:** *Positive RSI, ATR, and support level below validated price, while resistance level above validated price.*
+> **Key Catalysts:** *Price deviation (+8.62%) and RSI (56.94) indicate a potential catalyst for growth.*
 
 ---
 
