@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 09:03:44 UTC"
+timestamp: "2026-08-30 09:09:38 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3250
-quantity: 19.5000
-order_value: 142.84
+price: 7.3270
+quantity: 19.4000
+order_value: 142.14
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788080624612"
+order_id: "CRYPTO-1788080978480"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 09:03:44 UTC`
+> - **Date & Time:** `2026-08-30 09:09:38 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3250`
-> - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.84`
+> - **Action:** `BUY` @ `$7.3270`
+> - **Quantity:** `19.4000` shares/units
+> - **Total Value:** `$142.14`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3250) vs 20-SMA ($6.9841) Deviation +4.88% [SL: $7.0686 | TP: $7.6913 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3270) vs 20-SMA ($6.9841) Deviation +4.91% [SL: $7.0706 | TP: $7.6933 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The price deviation of +4.88% from the 20-SMA and RSI value of 58.26 indicate positive momentum. However, the missing short_sma and long_sma values impact the accuracy of the analysis.
+> Based on the positive deviation of price from 20-SMA and RSI above 50, this BUY trade proposal aligns with a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive momentum and price deviation from 20-SMA*
+> **Key Catalysts:** *Price deviation (+4.91%) and RSI (58.29) indicate potential for price appreciation.*
 
 ---
 
