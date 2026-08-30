@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:46:34 UTC"
+timestamp: "2026-08-30 07:52:35 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1527
-quantity: 935.0000
-order_value: 142.77
+price: 0.1521
+quantity: 939.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788075994727"
+order_id: "CRYPTO-1788076355320"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:46:34 UTC`
+> - **Date & Time:** `2026-08-30 07:52:35 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1527`
-> - **Quantity:** `935.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1521`
+> - **Quantity:** `939.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1527) vs 20-SMA ($0.1463) Deviation +4.37% [SL: $0.1474 | TP: $0.1603 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1521) vs 20-SMA ($0.1463) Deviation +3.96% [SL: $0.1468 | TP: $0.1597 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest 4.37% deviation, indicating upward momentum and a potential upside to the TP of $0.1603 while the SL at $0.1474 keeps risk limited.
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.1521) vs 20-SMA ($0.1463) Deviation +3.96% [SL: $0.1468 | TP: $0.1597 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price above 20‑SMA trend momentum and ATR‑based volatility*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
