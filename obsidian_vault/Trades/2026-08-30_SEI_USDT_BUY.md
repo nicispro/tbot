@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 02:32:03 UTC"
+timestamp: "2026-08-30 02:38:07 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3152.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788057123736"
+order_id: "CRYPTO-1788057487439"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 02:32:03 UTC`
+> - **Date & Time:** `2026-08-30 02:38:07 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0453`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the trade rationale for buying SEI/USDT at $0.05 with a stop-loss at $0.0437 and take-profit at $0.0476 is supported by the positive deviation of 3.90% from the 20-SMA and RSI value of 52.49, indicating a potential bullish trend.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the trade rationale is positive as the price deviates 3.90% above the 20-SMA and RSI is above 50, indicating potential bullish momentum. The support level is at 0.035 and resistance at 0.051.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and RSI value above 50 suggest a potential bullish catalyst.*
+> **Key Catalysts:** *Positive RSI, price deviation, and key support/resistance levels*
 
 ---
 
