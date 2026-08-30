@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:31:10 UTC"
+timestamp: "2026-08-30 14:43:09 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0856
-quantity: 1668.0000
-order_value: 142.78
+price: 0.0855
+quantity: 1670.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788100270713"
+order_id: "CRYPTO-1788100989653"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:31:10 UTC`
+> - **Date & Time:** `2026-08-30 14:43:09 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0856`
-> - **Quantity:** `1668.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0855`
+> - **Quantity:** `1670.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0856) vs 20-SMA ($0.0801) Deviation +6.87% [SL: $0.0826 | TP: $0.0899 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0855) vs 20-SMA ($0.0801) Deviation +6.74% [SL: $0.0825 | TP: $0.0898 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Buying on a bullish momentum signal with price above the 20‑SMA and a moderate RSI, targeting a modest 1.4:1 reward while protecting downside at 0.0826.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The setup captures short-term bullish momentum with price trading 6.74% above the 20-SMA and RSI at 60.35, offering a defined risk/reward profile with a stop below the moving average and a target approaching $0.1002 resistance.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+6.87%) and RSI 60.41 indicating upward momentum*
+> **Key Catalysts:** *Positive price deviation from the 20-SMA combined with healthy RSI momentum indicates sustained upward pressure, while ATR volatility validates the defined stop and target levels.*
 
 ---
 
