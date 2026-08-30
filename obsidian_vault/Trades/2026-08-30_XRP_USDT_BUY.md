@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 00:54:39 UTC"
+timestamp: "2026-08-30 01:00:43 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.3959
-quantity: 102.3000
-order_value: 142.80
+price: 1.3947
+quantity: 102.4000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788051278798"
+order_id: "CRYPTO-1788051643198"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 00:54:39 UTC`
+> - **Date & Time:** `2026-08-30 01:00:43 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.3959`
-> - **Quantity:** `102.3000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$1.3947`
+> - **Quantity:** `102.4000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3959) vs 20-SMA ($1.2401) Deviation +12.56% [SL: $1.3470 | TP: $1.4657 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3947) vs 20-SMA ($1.2401) Deviation +12.47% [SL: $1.3459 | TP: $1.4644 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with strong momentum, but RSI at 65.61 signals potential overbought conditions; risk is capped at $5 with a TP of $1.4657.
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.3947) vs 20-SMA ($1.2401) Deviation +12.47% [SL: $1.3459 | TP: $1.4644 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+12.56% deviation) and trend momentum entry*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$1.40`
-- **Actual Fill Price:** `$1.40`
+- **Expected Fill Price:** `$1.39`
+- **Actual Fill Price:** `$1.39`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
