@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 01:49:30 UTC"
+timestamp: "2026-08-30 01:55:40 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0453
-quantity: 3152.0000
-order_value: 142.79
+price: 0.0452
+quantity: 3160.0000
+order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788054569815"
+order_id: "CRYPTO-1788054939789"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 01:49:30 UTC`
+> - **Date & Time:** `2026-08-30 01:55:40 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0453`
-> - **Quantity:** `3152.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0452`
+> - **Quantity:** `3160.0000` shares/units
+> - **Total Value:** `$142.83`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0453) vs 20-SMA ($0.0436) Deviation +3.90% [SL: $0.0437 | TP: $0.0476 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0452) vs 20-SMA ($0.0436) Deviation +3.67% [SL: $0.0436 | TP: $0.0475 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 3.90% deviation between the short-term moving average and the entry price, an RSI of 52.85 indicating a potential buying opportunity, and a support level of 0.035, which is close to the entry price.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +3.67% and RSI of 52.49 indicate potential bullish momentum. The support level of 0.035 supports this bullish sentiment.
 > 
-> **Key Catalysts:** *Strong technical indicators point to a potential bullish move.*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 0.035*
 
 ---
 
