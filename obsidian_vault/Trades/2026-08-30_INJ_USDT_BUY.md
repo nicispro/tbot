@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:04:39 UTC"
+timestamp: "2026-08-30 07:10:37 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,7 +14,7 @@ quantity: 27.6000
 order_value: 142.53
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788073479129"
+order_id: "CRYPTO-1788073836918"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:04:39 UTC`
+> - **Date & Time:** `2026-08-30 07:10:37 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.1640`
@@ -49,9 +49,9 @@ tags:
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 6.42% deviation signals upward momentum; the reward (≈$0.258) exceeds the risk (≈$0.181) for a 1.4:1 risk‑reward ratio.
+> Price is above the 20‑SMA with a moderate RSI, indicating upward momentum; the target offers roughly 1.5× the risk with the stop well above support.
 > 
-> **Key Catalysts:** *Price above 20‑SMA, moderate RSI (54.63), and ATR of 0.4214 support a bullish momentum entry.*
+> **Key Catalysts:** *Price crossing above the 20‑SMA and RSI in a neutral zone*
 
 ---
 
