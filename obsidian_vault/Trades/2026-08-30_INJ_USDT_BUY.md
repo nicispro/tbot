@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 08:16:06 UTC"
+timestamp: "2026-08-30 08:22:03 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.2140
-quantity: 27.3000
-order_value: 142.34
+price: 5.2100
+quantity: 27.4000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788077766481"
+order_id: "CRYPTO-1788078123457"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 08:16:06 UTC`
+> - **Date & Time:** `2026-08-30 08:22:03 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.2140`
-> - **Quantity:** `27.3000` shares/units
-> - **Total Value:** `$142.34`
+> - **Action:** `BUY` @ `$5.2100`
+> - **Quantity:** `27.4000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2140) vs 20-SMA ($4.8549) Deviation +7.40% [SL: $5.0315 | TP: $5.4747 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2100) vs 20-SMA ($4.8547) Deviation +7.32% [SL: $5.0277 | TP: $5.4705 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 7.40% deviation from the 20-SMA and an RSI of 55.67, indicating a balanced market sentiment.
+> Based on the given data, the proposed trade has a positive risk/reward ratio with a 7.32% deviation and RSI at 55.58, indicating a potential bullish momentum. The validated price of $5.21 and the calculated Take Profit of $5.47 suggest a potential gain.
 > 
-> **Key Catalysts:** *Trend Momentum Entry (BUY): Price ($5.2140) vs 20-SMA ($4.8549) Deviation +7.40%*
+> **Key Catalysts:** *Positive RSI (55.58), deviation (7.32%), and trend momentum entry*
 
 ---
 
