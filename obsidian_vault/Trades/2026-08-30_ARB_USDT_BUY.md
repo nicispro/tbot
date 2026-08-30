@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:19:26 UTC"
+timestamp: "2026-08-30 14:31:20 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0895
-quantity: 1595.0000
-order_value: 142.75
+price: 0.0896
+quantity: 1594.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788099566719"
+order_id: "CRYPTO-1788100280570"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:19:26 UTC`
+> - **Date & Time:** `2026-08-30 14:31:20 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0895`
-> - **Quantity:** `1595.0000` shares/units
-> - **Total Value:** `$142.75`
+> - **Action:** `BUY` @ `$0.0896`
+> - **Quantity:** `1594.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0895) vs 20-SMA ($0.0859) Deviation +4.19% [SL: $0.0864 | TP: $0.0940 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0896) vs 20-SMA ($0.0859) Deviation +4.31% [SL: $0.0865 | TP: $0.0941 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.19% and RSI of 53.43 indicate bullish momentum. The support level of 0.0722 and resistance level of 0.1094 provide potential profit targets.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Entry at $0.0896 is 4.31% above the 20‑SMA with a 1.45:1 reward‑to‑risk profile (TP $0.0941, SL $0.0865); RSI is neutral and support is comfortably lower.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and strong support and resistance levels*
+> **Key Catalysts:** *Price breaking above the 20‑SMA signaling momentum continuation*
 
 ---
 
