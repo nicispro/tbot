@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 09:57:27 UTC"
+timestamp: "2026-08-30 10:03:27 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -14,7 +14,7 @@ quantity: 1651.0000
 order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788083847507"
+order_id: "CRYPTO-1788084207189"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 09:57:27 UTC`
+> - **Date & Time:** `2026-08-30 10:03:27 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0865`
