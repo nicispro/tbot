@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:58:22 UTC"
+timestamp: "2026-08-30 14:01:28 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3111.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098302105"
+order_id: "CRYPTO-1788098488074"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:58:22 UTC`
+> - **Date & Time:** `2026-08-30 14:01:28 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0459`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral mark of 50. The dip percentage and ATR also indicate potential for growth.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above 50, indicating potential bullish momentum. However, some metrics are missing or unavailable.
 > 
-> **Key Catalysts:** *Price deviation, RSI above 50, and positive technical metrics*
+> **Key Catalysts:** *Price deviation above 20-SMA, RSI above 50, and trend momentum entry*
 
 ---
 
