@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:01:36 UTC"
+timestamp: "2026-08-30 14:01:43 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,7 +14,7 @@ quantity: 0.0010
 order_value: 78.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098495929"
+order_id: "CRYPTO-1788098503059"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:01:36 UTC`
+> - **Date & Time:** `2026-08-30 14:01:43 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$78,808.1000`
@@ -43,13 +43,13 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,808.1000) vs 20-SMA ($71,759.7900) Deviation +9.82% [SL: $76,049.8165 | TP: $82,748.5050 | Risk: $2.76]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,808.1000) vs 20-SMA ($71,758.1950) Deviation +9.82% [SL: $76,049.8165 | TP: $82,748.5050 | Risk: $2.76]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($78,808.1000) vs 20-SMA ($71,759.7900) Deviation +9.82% [SL: $76,049.8165 | TP: $82,748.5050 | Risk: $2.76]
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($78,808.1000) vs 20-SMA ($71,758.1950) Deviation +9.82% [SL: $76,049.8165 | TP: $82,748.5050 | Risk: $2.76]
 > 
 > **Key Catalysts:** *Technical indicator threshold.*
 
