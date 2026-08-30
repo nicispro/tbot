@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 14:01:30 UTC"
+timestamp: "2026-08-30 14:01:36 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,7 +14,7 @@ quantity: 26.8000
 order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098490027"
+order_id: "CRYPTO-1788098496481"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 14:01:30 UTC`
+> - **Date & Time:** `2026-08-30 14:01:36 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.3300`
