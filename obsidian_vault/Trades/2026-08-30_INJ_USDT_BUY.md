@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 11:44:29 UTC"
+timestamp: "2026-08-30 11:50:28 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.2190
+price: 5.2310
 quantity: 27.3000
-order_value: 142.48
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788090268810"
+order_id: "CRYPTO-1788090628562"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 11:44:29 UTC`
+> - **Date & Time:** `2026-08-30 11:50:28 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.2190`
+> - **Action:** `BUY` @ `$5.2310`
 > - **Quantity:** `27.3000` shares/units
-> - **Total Value:** `$142.48`
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2190) vs 20-SMA ($4.8552) Deviation +7.49% [SL: $5.0363 | TP: $5.4799 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2310) vs 20-SMA ($4.8559) Deviation +7.72% [SL: $5.0479 | TP: $5.4925 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the provided metrics, the trade rationale is positive with a 7.49% deviation and RSI at 55.79. The sentiment is bullish.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive trend momentum entry with a 7.72% deviation and RSI at 56.06, we enter a bullish sentiment.
 > 
-> **Key Catalysts:** *Positive technical indicators and momentum suggest a potential for growth.*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI above 50 indicate potential for price growth.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.22`
-- **Actual Fill Price:** `$5.22`
+- **Expected Fill Price:** `$5.23`
+- **Actual Fill Price:** `$5.23`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
