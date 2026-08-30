@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:10:37 UTC"
+timestamp: "2026-08-30 07:22:35 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1640
+price: 5.1660
 quantity: 27.6000
-order_value: 142.53
+order_value: 142.58
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788073836918"
+order_id: "CRYPTO-1788074555177"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:10:37 UTC`
+> - **Date & Time:** `2026-08-30 07:22:35 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1640`
+> - **Action:** `BUY` @ `$5.1660`
 > - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.53`
+> - **Total Value:** `$142.58`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1640) vs 20-SMA ($4.8525) Deviation +6.42% [SL: $4.9833 | TP: $5.4222 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1660) vs 20-SMA ($4.8525) Deviation +6.46% [SL: $4.9852 | TP: $5.4243 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a moderate RSI, indicating upward momentum; the target offers roughly 1.5× the risk with the stop well above support.
+> The price is above the 20‑SMA with a +6.46% deviation, moderate RSI (54.67) and ATR (0.4214) indicating upward momentum; the TP at $5.4243 offers a ~5.5% upside versus a ~3.5% downside to the SL at $4.9852.
 > 
-> **Key Catalysts:** *Price crossing above the 20‑SMA and RSI in a neutral zone*
+> **Key Catalysts:** *Price above 20‑SMA (+6.46%) and trend momentum entry*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$5.16`
-- **Actual Fill Price:** `$5.16`
+- **Expected Fill Price:** `$5.17`
+- **Actual Fill Price:** `$5.17`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
