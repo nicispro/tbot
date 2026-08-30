@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 00:05:31 UTC"
+timestamp: "2026-08-30 00:11:41 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0456
-quantity: 3132.0000
-order_value: 142.82
+price: 0.0455
+quantity: 3138.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788048330843"
+order_id: "CRYPTO-1788048701084"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 00:05:31 UTC`
+> - **Date & Time:** `2026-08-30 00:11:41 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0456`
-> - **Quantity:** `3132.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0455`
+> - **Quantity:** `3138.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0456) vs 20-SMA ($0.0436) Deviation +4.59% [SL: $0.0440 | TP: $0.0479 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0455) vs 20-SMA ($0.0436) Deviation +4.36% [SL: $0.0439 | TP: $0.0478 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. However, the data for short_sma, long_sma, and dip_percentage are missing crucial information.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the trade rationale is positive as the price deviates 4.36% above the 20-SMA and RSI is at a healthy level (53.57). The support level (0.035) is also close, providing a strong foundation for the trade.
 > 
-> **Key Catalysts:** *Trend momentum entry, RSI above neutral threshold*
+> **Key Catalysts:** *Price deviation, RSI, and support level*
 
 ---
 
