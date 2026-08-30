@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:20:24 UTC"
+timestamp: "2026-08-30 13:26:23 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1545
-quantity: 924.0000
-order_value: 142.76
+price: 0.1547
+quantity: 923.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788096024315"
+order_id: "CRYPTO-1788096382780"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:20:24 UTC`
+> - **Date & Time:** `2026-08-30 13:26:23 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1545`
-> - **Quantity:** `924.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.1547`
+> - **Quantity:** `923.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1545) vs 20-SMA ($0.1464) Deviation +5.53% [SL: $0.1491 | TP: $0.1622 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1547) vs 20-SMA ($0.1464) Deviation +5.67% [SL: $0.1493 | TP: $0.1624 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($0.1545) vs 20-SMA ($0.1464) Deviation +5.53% [SL: $0.1491 | TP: $0.1622 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade leverages short-term momentum with price trading 5.67% above the 20-SMA and a neutral RSI of 52.52, offering a favorable 1:1.43 risk-to-reward ratio. Execution is supported by clear stop-loss and take-profit levels aligned with current volatility.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Price breakout above 20-SMA with neutral RSI indicating sustained upward momentum without immediate overbought conditions.*
 
 ---
 
