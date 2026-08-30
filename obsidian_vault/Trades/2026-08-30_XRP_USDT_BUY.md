@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:28:32 UTC"
+timestamp: "2026-08-30 05:34:29 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -14,7 +14,7 @@ quantity: 102.5000
 order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788067712556"
+order_id: "CRYPTO-1788068069742"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:28:32 UTC`
+> - **Date & Time:** `2026-08-30 05:34:29 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$1.3936`
