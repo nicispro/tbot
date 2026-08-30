@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 12:20:41 UTC"
+timestamp: "2026-08-30 12:26:39 UTC"
 ticker: "ETH/USDT"
 canonical_symbol: "ETH/USDT"
 base_symbol: "ETH"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 2466.0500
+price: 2463.5700
 quantity: 0.0500
-order_value: 123.30
+order_value: 123.18
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788092441014"
+order_id: "CRYPTO-1788092799244"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ETH/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 12:20:41 UTC`
+> - **Date & Time:** `2026-08-30 12:26:39 UTC`
 > - **Canonical Instrument:** `ETH/USDT` (ETH/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$2,466.0500`
+> - **Action:** `BUY` @ `$2,463.5700`
 > - **Quantity:** `0.0500` shares/units
-> - **Total Value:** `$123.30`
+> - **Total Value:** `$123.18`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,466.0500) vs 20-SMA ($2,219.5735) Deviation +11.10% [SL: $2,379.7382 | TP: $2,589.3525 | Risk: $4.32]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($2,463.5700) vs 20-SMA ($2,219.4535) Deviation +11.00% [SL: $2,377.3450 | TP: $2,586.7485 | Risk: $4.31]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 70% confidence score. The RSI (71.33) and positive deviation (+11.10%) from the 20-day SMA support the bullish sentiment.
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($2,463.5700) vs 20-SMA ($2,219.4535) Deviation +11.00% [SL: $2,377.3450 | TP: $2,586.7485 | Risk: $4.31]
 > 
-> **Key Catalysts:** *RSI (71.33), positive deviation (+11.10%) from the 20-day SMA*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$2,466.05`
-- **Actual Fill Price:** `$2,466.05`
+- **Expected Fill Price:** `$2,463.57`
+- **Actual Fill Price:** `$2,463.57`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
