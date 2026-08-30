@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 03:14:33 UTC"
+timestamp: "2026-08-30 03:20:45 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4570
-quantity: 98.0000
+price: 1.4600
+quantity: 97.8000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788059673503"
+order_id: "CRYPTO-1788060045019"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,11 +30,11 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 03:14:33 UTC`
+> - **Date & Time:** `2026-08-30 03:20:45 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4570`
-> - **Quantity:** `98.0000` shares/units
+> - **Action:** `BUY` @ `$1.4600`
+> - **Quantity:** `97.8000` shares/units
 > - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4570) vs 20-SMA ($1.3889) Deviation +4.90% [SL: $1.4060 | TP: $1.5298 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4600) vs 20-SMA ($1.3890) Deviation +5.11% [SL: $1.4089 | TP: $1.5330 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 75%. The RSI (54.69) and positive deviation (+4.90%) from the 20-SMA support the entry. However, the lack of short and long SMA values and the missing dip percentage and ATR limit the analysis.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive as RSI (55.0) and ATR (0.1009) indicate strength and volatility, respectively. The price deviates positively by 5.11% from the 20-SMA, suggesting potential growth. The support level (1.152) is close to the validated price, adding to the confidence.
 > 
-> **Key Catalysts:** *Positive RSI and deviation from 20-SMA support the entry.*
+> **Key Catalysts:** *Positive RSI, ATR, and price deviation from 20-SMA support the bullish trade catalyst.*
 
 ---
 
