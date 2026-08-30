@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 02:07:57 UTC"
+timestamp: "2026-08-30 02:14:06 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1170
-quantity: 27.9000
-order_value: 142.76
+price: 5.1230
+quantity: 27.8000
+order_value: 142.42
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788055677497"
+order_id: "CRYPTO-1788056045799"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 02:07:57 UTC`
+> - **Date & Time:** `2026-08-30 02:14:06 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1170`
-> - **Quantity:** `27.9000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$5.1230`
+> - **Quantity:** `27.8000` shares/units
+> - **Total Value:** `$142.42`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1170) vs 20-SMA ($4.8502) Deviation +5.50% [SL: $4.9379 | TP: $5.3728 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1230) vs 20-SMA ($4.8504) Deviation +5.62% [SL: $4.9437 | TP: $5.3792 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 5.5% deviation signals upward momentum; the TP at $5.3728 offers a ~5.2% upside while the SL at $4.9379 limits downside to ~3.8%.
+> Trend Momentum Entry (BUY): Price ($5.1230) vs 20-SMA ($4.8504) Deviation +5.62% [SL: $4.9437 | TP: $5.3792 | Risk: $4.98]
 > 
-> **Key Catalysts:** *Price above 20‑SMA, trend‑momentum entry, moderate ATR and neutral RSI support a bullish stance.*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
