@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:04:51 UTC"
+timestamp: "2026-08-30 07:10:46 UTC"
 ticker: "XRP/USDT"
 canonical_symbol: "XRP/USDT"
 base_symbol: "XRP"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.3994
+price: 1.3993
 quantity: 102.0000
-order_value: 142.74
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788073491516"
+order_id: "CRYPTO-1788073845994"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `XRP/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:04:51 UTC`
+> - **Date & Time:** `2026-08-30 07:10:46 UTC`
 > - **Canonical Instrument:** `XRP/USDT` (XRP/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.3994`
+> - **Action:** `BUY` @ `$1.3993`
 > - **Quantity:** `102.0000` shares/units
-> - **Total Value:** `$142.74`
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3994) vs 20-SMA ($1.2403) Deviation +12.83% [SL: $1.3504 | TP: $1.4694 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.3993) vs 20-SMA ($1.2403) Deviation +12.82% [SL: $1.3503 | TP: $1.4693 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given metrics, the trade rationale is a BULLISH sentiment with a confidence score of 85%. The XRP/USDT pair shows a 12.83% deviation in favor of the BUY action, RSI at 65.84, and a support level at 0.9884. The absence of critical 'DATA_UNAVAILABLE' values allows for a solid analysis.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($1.3993) vs 20-SMA ($1.2403) Deviation +12.82% [SL: $1.3503 | TP: $1.4693 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive technical indicators and deviation from the 20-SMA support the momentum-based entry trigger.*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
