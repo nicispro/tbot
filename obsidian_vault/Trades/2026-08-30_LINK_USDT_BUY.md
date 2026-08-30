@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 05:16:13 UTC"
+timestamp: "2026-08-30 05:28:15 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3830
+price: 11.3790
 quantity: 12.6000
-order_value: 143.43
+order_value: 143.38
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788066973365"
+order_id: "CRYPTO-1788067695015"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 05:16:13 UTC`
+> - **Date & Time:** `2026-08-30 05:28:15 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3830`
+> - **Action:** `BUY` @ `$11.3790`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.43`
+> - **Total Value:** `$143.38`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3830) vs 20-SMA ($10.5160) Deviation +8.24% [SL: $10.9846 | TP: $11.9521 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3790) vs 20-SMA ($10.5158) Deviation +8.21% [SL: $10.9807 | TP: $11.9480 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> Price is trading 8.24% above the 20-SMA with RSI at 65.74, indicating strong upward momentum without yet reaching overbought extremes. The setup offers a favorable risk-reward ratio with a stop loss at $10.98 and target at $11.95.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 80% confidence score. The RSI (65.65) and ATR (0.7452) indicate strong momentum and volatility, respectively. The price deviates 8.21% above the 20-day SMA ($10.5158), suggesting a potential bullish breakout.
 > 
-> **Key Catalysts:** *Positive deviation from 20-SMA and sustained RSI momentum above 60.*
+> **Key Catalysts:** *Positive RSI (65.65), high ATR (0.7452), and 8.21% deviation above the 20-day SMA ($10.5158)*
 
 ---
 
