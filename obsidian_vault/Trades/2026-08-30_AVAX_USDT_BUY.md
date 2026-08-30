@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 07:22:27 UTC"
+timestamp: "2026-08-30 07:28:30 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3270
-quantity: 19.4000
-order_value: 142.14
+price: 7.3250
+quantity: 19.5000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788074547568"
+order_id: "CRYPTO-1788074910687"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 07:22:27 UTC`
+> - **Date & Time:** `2026-08-30 07:28:30 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3270`
-> - **Quantity:** `19.4000` shares/units
-> - **Total Value:** `$142.14`
+> - **Action:** `BUY` @ `$7.3250`
+> - **Quantity:** `19.5000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3270) vs 20-SMA ($6.9842) Deviation +4.91% [SL: $7.0706 | TP: $7.6933 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3250) vs 20-SMA ($6.9841) Deviation +4.88% [SL: $7.0686 | TP: $7.6913 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.91% and RSI of 58.31 indicate bullish momentum. The support level of $5.69 and resistance level of $8.318 suggest potential profit opportunities.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The RSI (58.23) is within the optimal range, indicating a strong upward momentum. The deviation from the 20-SMA (4.88%) supports the bullish case. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and strong support/resistance levels*
+> **Key Catalysts:** *Positive RSI and deviation from 20-SMA*
 
 ---
 
