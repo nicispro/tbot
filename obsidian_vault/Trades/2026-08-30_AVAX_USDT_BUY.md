@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:58:18 UTC"
+timestamp: "2026-08-30 14:01:29 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4250
+price: 7.4200
 quantity: 19.2000
-order_value: 142.56
+order_value: 142.46
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098298106"
+order_id: "CRYPTO-1788098489632"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:58:18 UTC`
+> - **Date & Time:** `2026-08-30 14:01:29 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4250`
+> - **Action:** `BUY` @ `$7.4200`
 > - **Quantity:** `19.2000` shares/units
-> - **Total Value:** `$142.56`
+> - **Total Value:** `$142.46`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4250) vs 20-SMA ($6.9891) Deviation +6.24% [SL: $7.1651 | TP: $7.7962 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4200) vs 20-SMA ($6.9888) Deviation +6.17% [SL: $7.1603 | TP: $7.7910 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a positive risk/reward ratio with a 6.24% deviation and RSI at 60.21, indicating a potential bullish trend. The validated price is $7.42 and the TP is set at $7.7962.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($7.4200) vs 20-SMA ($6.9888) Deviation +6.17% [SL: $7.1603 | TP: $7.7910 | Risk: $4.99]
 > 
-> **Key Catalysts:** *Positive RSI (60.21), deviation (6.24%), and trend momentum entry*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
