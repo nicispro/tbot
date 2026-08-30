@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 00:17:56 UTC"
+timestamp: "2026-08-30 00:24:04 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0456
-quantity: 3132.0000
-order_value: 142.82
+price: 0.0455
+quantity: 3138.0000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788049076596"
+order_id: "CRYPTO-1788049444699"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 00:17:56 UTC`
+> - **Date & Time:** `2026-08-30 00:24:04 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0456`
-> - **Quantity:** `3132.0000` shares/units
-> - **Total Value:** `$142.82`
+> - **Action:** `BUY` @ `$0.0455`
+> - **Quantity:** `3138.0000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0456) vs 20-SMA ($0.0436) Deviation +4.59% [SL: $0.0440 | TP: $0.0479 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0455) vs 20-SMA ($0.0436) Deviation +4.36% [SL: $0.0439 | TP: $0.0478 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the trade rationale for buying SEI/USDT at $0.05 with a stop-loss at $0.0440 and take-profit at $0.0479 indicates a potential for profit. The RSI value of 53.94 indicates positive momentum.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from the 20-SMA is 4.36%, and the RSI is at 53.57, indicating positive momentum. The support level is at 0.035, and the resistance level is at 0.051.
 > 
-> **Key Catalysts:** *Positive RSI (53.94) and a 4.59% deviation from the 20-SMA ($0.0436) support the bullish sentiment.*
+> **Key Catalysts:** *Positive momentum (RSI 53.57), price deviation from 20-SMA (4.36%), and support level (0.035)*
 
 ---
 
