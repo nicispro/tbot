@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 01:43:26 UTC"
+timestamp: "2026-08-30 01:49:30 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3152.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788054206556"
+order_id: "CRYPTO-1788054569815"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 01:43:26 UTC`
+> - **Date & Time:** `2026-08-30 01:49:30 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0453`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The deviation of price from 20-SMA is 3.90%, RSI is at 52.85, indicating a potential buying opportunity. However, the data for short_sma, long_sma, dip_percentage, and ATR are missing, which weakens the analysis's reliability.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 3.90% deviation between the short-term moving average and the entry price, an RSI of 52.85 indicating a potential buying opportunity, and a support level of 0.035, which is close to the entry price.
 > 
-> **Key Catalysts:** *Price deviation from 20-SMA (3.90%) and RSI (52.85) suggest a potential buying opportunity.*
+> **Key Catalysts:** *Strong technical indicators point to a potential bullish move.*
 
 ---
 
