@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 03:02:17 UTC"
+timestamp: "2026-08-30 03:08:27 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2840
+price: 7.2790
 quantity: 19.6000
-order_value: 142.77
+order_value: 142.67
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788058937031"
+order_id: "CRYPTO-1788059307703"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 03:02:17 UTC`
+> - **Date & Time:** `2026-08-30 03:08:27 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2840`
+> - **Action:** `BUY` @ `$7.2790`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.77`
+> - **Total Value:** `$142.67`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2840) vs 20-SMA ($6.9820) Deviation +4.33% [SL: $7.0291 | TP: $7.6482 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2790) vs 20-SMA ($6.9818) Deviation +4.26% [SL: $7.0242 | TP: $7.6429 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive trend momentum entry (4.33% deviation) and RSI (57.09) value, we enter a bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a positive risk/reward rationale with AVAX/USDT. The RSI value (56.98) indicates a positive momentum, and the deviation from the 20-SMA (+4.26%) supports the entry signal. However, some metrics are marked as 'DATA_UNAVAILABLE', which should be considered in future analysis.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI value above 50 indicate potential for growth.*
+> **Key Catalysts:** *Positive RSI, deviation from 20-SMA*
 
 ---
 
