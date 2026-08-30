@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 12:56:25 UTC"
+timestamp: "2026-08-30 13:02:21 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0457
-quantity: 3125.0000
-order_value: 142.81
+price: 0.0459
+quantity: 3111.0000
+order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788094585009"
+order_id: "CRYPTO-1788094941306"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 12:56:25 UTC`
+> - **Date & Time:** `2026-08-30 13:02:21 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0457`
-> - **Quantity:** `3125.0000` shares/units
-> - **Total Value:** `$142.81`
+> - **Action:** `BUY` @ `$0.0459`
+> - **Quantity:** `3111.0000` shares/units
+> - **Total Value:** `$142.79`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0457) vs 20-SMA ($0.0437) Deviation +4.58% [SL: $0.0441 | TP: $0.0480 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0459) vs 20-SMA ($0.0437) Deviation +5.03% [SL: $0.0443 | TP: $0.0482 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the proposed trade exhibits a positive risk/reward ratio with a 4.58% deviation from the 20-SMA and RSI at 54.57, indicating potential for growth. The sentiment is bullish.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.03% surpasses the trigger reason, indicating potential growth. RSI (54.88) and ATR (0.003) suggest stable market conditions.
 > 
-> **Key Catalysts:** *Positive RSI (54.57), deviation from 20-SMA (4.58%), and historical price stability above $0.035 support level*
+> **Key Catalysts:** *Price deviation (+5.03%) and stable market conditions (RSI 54.88, ATR 0.003) support the bullish catalyst.*
 
 ---
 
