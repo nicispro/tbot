@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 06:28:03 UTC"
+timestamp: "2026-08-30 06:34:05 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3240
+price: 7.3260
 quantity: 19.5000
-order_value: 142.82
+order_value: 142.86
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788071283521"
+order_id: "CRYPTO-1788071645567"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 06:28:03 UTC`
+> - **Date & Time:** `2026-08-30 06:34:05 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3240`
+> - **Action:** `BUY` @ `$7.3260`
 > - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.82`
+> - **Total Value:** `$142.86`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3240) vs 20-SMA ($6.9841) Deviation +4.87% [SL: $7.0677 | TP: $7.6902 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3260) vs 20-SMA ($6.9841) Deviation +4.90% [SL: $7.0696 | TP: $7.6923 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the given data, the proposed trade has a positive sentiment as the RSI (58.23) and trend momentum entry deviate positively. The risk is calculated at $5.00 with a potential target of $7.69.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the proposed trade has a positive sentiment as the RSI is above 50 and the price deviation from the 20-SMA is favorable. The risk is well-defined with a stop-loss at $7.0696 and take-profit at $7.6923.
 > 
-> **Key Catalysts:** *Positive RSI (58.23) and trend momentum entry at deviation +4.87%*
+> **Key Catalysts:** *Price deviation (+4.90%) from the 20-SMA and RSI above 50 indicate potential bullish momentum.*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.32`
-- **Actual Fill Price:** `$7.32`
+- **Expected Fill Price:** `$7.33`
+- **Actual Fill Price:** `$7.33`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
