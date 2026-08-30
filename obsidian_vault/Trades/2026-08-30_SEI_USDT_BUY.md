@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:26:10 UTC"
+timestamp: "2026-08-30 13:32:05 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3119.0000
 order_value: 142.85
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788096370101"
+order_id: "CRYPTO-1788096725323"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:26:10 UTC`
+> - **Date & Time:** `2026-08-30 13:32:05 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0458`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given data, the trade rationale for buying SEI/USDT at $0.05 with a stop-loss at $0.0442 and take-profit at $0.0481 indicates a potential for capital appreciation. The RSI of 54.57 and the deviation of +4.81% against the 20-SMA support the bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The trade rationale includes a 4.81% deviation from the 20-SMA and an RSI of 54.88, indicating potential for price growth. The validated price is $0.05, with a stop-loss at $0.0442 and take-profit at $0.0481.
 > 
-> **Key Catalysts:** *Positive RSI (54.57), 20-SMA deviation (+4.81%)*
+> **Key Catalysts:** *Positive technical indicators and deviation from 20-SMA support the bullish sentiment.*
 
 ---
 
