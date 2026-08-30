@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:34:36 UTC"
+timestamp: "2026-08-30 05:40:27 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0866
-quantity: 1649.0000
-order_value: 142.80
+price: 0.0865
+quantity: 1651.0000
+order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788064476134"
+order_id: "CRYPTO-1788068427013"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:34:36 UTC`
+> - **Date & Time:** `2026-08-30 05:40:27 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0866`
-> - **Quantity:** `1649.0000` shares/units
-> - **Total Value:** `$142.80`
+> - **Action:** `BUY` @ `$0.0865`
+> - **Quantity:** `1651.0000` shares/units
+> - **Total Value:** `$142.81`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0866) vs 20-SMA ($0.0858) Deviation +0.93% [SL: $0.0836 | TP: $0.0909 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0865) vs 20-SMA ($0.0858) Deviation +0.82% [SL: $0.0835 | TP: $0.0908 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 75% confidence score. The price deviates 1.33% positively from the 20-SMA, RSI is at a neutral level, and the support level is strong at 0.0722.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($0.0865) vs 20-SMA ($0.0858) Deviation +0.82% [SL: $0.0835 | TP: $0.0908 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive price deviation from 20-SMA, strong support level, and neutral RSI indicate potential bullish momentum.*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
