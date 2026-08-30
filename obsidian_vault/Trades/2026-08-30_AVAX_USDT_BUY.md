@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 15:37:28 UTC"
+timestamp: "2026-08-30 15:55:39 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.4130
-quantity: 19.2000
-order_value: 142.33
+price: 7.4010
+quantity: 19.3000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788104247795"
+order_id: "CRYPTO-1788105339342"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 15:37:28 UTC`
+> - **Date & Time:** `2026-08-30 15:55:39 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.4130`
-> - **Quantity:** `19.2000` shares/units
-> - **Total Value:** `$142.33`
+> - **Action:** `BUY` @ `$7.4010`
+> - **Quantity:** `19.3000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4130) vs 20-SMA ($6.9885) Deviation +6.07% [SL: $7.1535 | TP: $7.7836 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.4010) vs 20-SMA ($6.9879) Deviation +5.91% [SL: $7.1420 | TP: $7.7710 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price trading above the 20-SMA with RSI at 60 supports short-term bullish momentum, though the 1:1.4 risk-reward ratio and missing longer-term trend data warrant cautious execution.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price trading 5.91% above the 20-SMA with a healthy RSI of 59.76 supports short-term upside momentum toward the $8.318 resistance level. The setup offers a positive risk/reward ratio with a stop loss tightly aligned to current volatility, though absent longer-term trend metrics slightly temper conviction.
 > 
-> **Key Catalysts:** *Price deviation +6.07% above 20-SMA combined with neutral-to-bullish RSI (59.99) and defined resistance at $8.32.*
+> **Key Catalysts:** *Positive price deviation above 20-SMA combined with non-overbought RSI momentum and clear upside target near resistance*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.41`
-- **Actual Fill Price:** `$7.41`
+- **Expected Fill Price:** `$7.40`
+- **Actual Fill Price:** `$7.40`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
