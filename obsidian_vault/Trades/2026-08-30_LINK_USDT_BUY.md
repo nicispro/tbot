@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 03:27:04 UTC"
+timestamp: "2026-08-30 03:39:21 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.3770
+price: 11.3820
 quantity: 12.6000
-order_value: 143.35
+order_value: 143.41
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788060424153"
+order_id: "CRYPTO-1788061161718"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 03:27:04 UTC`
+> - **Date & Time:** `2026-08-30 03:39:21 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.3770`
+> - **Action:** `BUY` @ `$11.3820`
 > - **Quantity:** `12.6000` shares/units
-> - **Total Value:** `$143.35`
+> - **Total Value:** `$143.41`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3770) vs 20-SMA ($10.5157) Deviation +8.19% [SL: $10.9788 | TP: $11.9459 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.3820) vs 20-SMA ($10.5160) Deviation +8.24% [SL: $10.9836 | TP: $11.9511 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The trade is supported by a strong positive deviation from the 20-SMA and an RSI of 65.62 indicating upward momentum without being overbought, though the lack of short-term SMA data limits trend confirmation precision.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 8.24% deviation from the 20-SMA and an RSI of 65.71, indicating strong momentum. The trigger price of $11.38 falls within the support level of $8.282.
 > 
-> **Key Catalysts:** *Price trading 8.19% above the 20-SMA with RSI at 65.62 and ATR at 0.7431 defining the volatility range for the stop-loss and take-profit levels.*
+> **Key Catalysts:** *Positive momentum and deviation from the 20-SMA support the bullish entry.*
 
 ---
 
