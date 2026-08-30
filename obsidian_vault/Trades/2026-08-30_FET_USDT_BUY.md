@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 15:37:36 UTC"
+timestamp: "2026-08-30 15:43:36 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1545
-quantity: 924.0000
-order_value: 142.76
+price: 0.1543
+quantity: 925.0000
+order_value: 142.73
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788104255988"
+order_id: "CRYPTO-1788104616237"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 15:37:36 UTC`
+> - **Date & Time:** `2026-08-30 15:43:36 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1545`
-> - **Quantity:** `924.0000` shares/units
-> - **Total Value:** `$142.76`
+> - **Action:** `BUY` @ `$0.1543`
+> - **Quantity:** `925.0000` shares/units
+> - **Total Value:** `$142.73`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1545) vs 20-SMA ($0.1464) Deviation +5.53% [SL: $0.1491 | TP: $0.1622 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1543) vs 20-SMA ($0.1464) Deviation +5.40% [SL: $0.1489 | TP: $0.1620 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 5.53% deviation between the short-term (20-SMA) and long-term SMA, RSI at 52.47, and support at 0.1193.
+> Based on the given metrics, the trade rationale is a potential bullish entry with a 5.40% deviation, RSI of 52.36, and support at 0.1193. The validated price is $0.15, with a target of $0.1620.
 > 
-> **Key Catalysts:** *Positive technical indicators and potential support level*
+> **Key Catalysts:** *Positive RSI and deviation from short-term moving averages support the bullish catalyst.*
 
 ---
 
