@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:28:04 UTC"
+timestamp: "2026-08-30 04:34:10 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2930
+price: 7.2890
 quantity: 19.5000
-order_value: 142.21
+order_value: 142.14
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788064084675"
+order_id: "CRYPTO-1788064450515"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:28:04 UTC`
+> - **Date & Time:** `2026-08-30 04:34:10 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2930`
+> - **Action:** `BUY` @ `$7.2890`
 > - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.21`
+> - **Total Value:** `$142.14`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2930) vs 20-SMA ($6.9825) Deviation +4.45% [SL: $7.0377 | TP: $7.6577 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2890) vs 20-SMA ($6.9823) Deviation +4.39% [SL: $7.0339 | TP: $7.6535 | Risk: $4.97]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates upside potential with a risk of $4.98.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is positive with a 4.39% deviation and RSI at 57.25. The support level is at $5.69 and resistance at $8.318.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA by 4.45% and RSI above 50 suggest bullish momentum.*
+> **Key Catalysts:** *Positive technical indicators and momentum support the trade.*
 
 ---
 
