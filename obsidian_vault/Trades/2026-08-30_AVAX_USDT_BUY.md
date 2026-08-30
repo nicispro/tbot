@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:15:49 UTC"
+timestamp: "2026-08-30 04:21:57 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2900
-quantity: 19.5000
-order_value: 142.16
+price: 7.2880
+quantity: 19.6000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788063349551"
+order_id: "CRYPTO-1788063717629"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:15:49 UTC`
+> - **Date & Time:** `2026-08-30 04:21:57 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2900`
-> - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.16`
+> - **Action:** `BUY` @ `$7.2880`
+> - **Quantity:** `19.6000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2900) vs 20-SMA ($6.9823) Deviation +4.41% [SL: $7.0348 | TP: $7.6545 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2880) vs 20-SMA ($6.9823) Deviation +4.38% [SL: $7.0329 | TP: $7.6524 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the proposed trade has a favorable risk/reward ratio with a 4.41% deviation and RSI at 57.28. The sentiment is bullish.
+> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal exhibits a favorable risk/reward ratio.
 > 
-> **Key Catalysts:** *Positive RSI (57.28) and deviation (+4.41%) from the 20-SMA support level (5.69) and resistance level (8.318).*
+> **Key Catalysts:** *Price deviation (+4.38%) and RSI (57.25) indicate potential bullish momentum in AVAX/USDT.*
 
 ---
 
