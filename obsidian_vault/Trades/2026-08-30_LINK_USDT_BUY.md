@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 12:38:24 UTC"
+timestamp: "2026-08-30 12:44:22 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4540
+price: 11.4210
 quantity: 12.5000
-order_value: 143.18
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788093504229"
+order_id: "CRYPTO-1788093862585"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 12:38:24 UTC`
+> - **Date & Time:** `2026-08-30 12:44:22 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4540`
+> - **Action:** `BUY` @ `$11.4210`
 > - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$143.18`
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4540) vs 20-SMA ($10.5183) Deviation +8.90% [SL: $11.0531 | TP: $12.0267 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4210) vs 20-SMA ($10.5178) Deviation +8.59% [SL: $11.0213 | TP: $11.9921 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is a potential buy opportunity with a 8.90% deviation from the 20-SMA and RSI at 66.55, indicating strong momentum. However, the lack of short and long SMA data limits the analysis.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 8.59% deviation from the 20-SMA, an RSI of 66.4, and a support level of 8.282. However, some metrics are missing or unavailable, which may impact the accuracy of the analysis.
 > 
-> **Key Catalysts:** *Strong momentum (RSI 66.55) and deviation from 20-SMA (8.90%) serve as the key technical catalysts for this trade.*
+> **Key Catalysts:** *Positive RSI (66.4), deviation from 20-SMA, and support level (8.282)*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.45`
-- **Actual Fill Price:** `$11.45`
+- **Expected Fill Price:** `$11.42`
+- **Actual Fill Price:** `$11.42`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
