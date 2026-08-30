@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:58:24 UTC"
+timestamp: "2026-08-30 14:01:30 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.3340
-quantity: 26.7000
-order_value: 142.42
+price: 5.3300
+quantity: 26.8000
+order_value: 142.84
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788098304642"
+order_id: "CRYPTO-1788098490027"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:58:24 UTC`
+> - **Date & Time:** `2026-08-30 14:01:30 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.3340`
-> - **Quantity:** `26.7000` shares/units
-> - **Total Value:** `$142.42`
+> - **Action:** `BUY` @ `$5.3300`
+> - **Quantity:** `26.8000` shares/units
+> - **Total Value:** `$142.84`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3340) vs 20-SMA ($4.8610) Deviation +9.73% [SL: $5.1473 | TP: $5.6007 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.3300) vs 20-SMA ($4.8608) Deviation +9.65% [SL: $5.1434 | TP: $5.5965 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a +9.73% deviation and a moderate RSI of 58.06, indicating upward momentum and a favorable risk‑reward profile (TP ≈ 0.27 vs SL ≈ 0.19).
+> Technical Rule Trigger: Trend Momentum Entry (BUY): Price ($5.3300) vs 20-SMA ($4.8608) Deviation +9.65% [SL: $5.1434 | TP: $5.5965 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Positive trend momentum (price > 20‑SMA) and moderate RSI support a bullish bias.*
+> **Key Catalysts:** *Technical indicator threshold.*
 
 ---
 
