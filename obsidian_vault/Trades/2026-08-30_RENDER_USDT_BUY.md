@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 06:34:03 UTC"
+timestamp: "2026-08-30 07:28:28 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4600
-quantity: 97.8000
-order_value: 142.79
+price: 1.4610
+quantity: 97.7000
+order_value: 142.74
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788071643016"
+order_id: "CRYPTO-1788074908721"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 06:34:03 UTC`
+> - **Date & Time:** `2026-08-30 07:28:28 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4600`
-> - **Quantity:** `97.8000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$1.4610`
+> - **Quantity:** `97.7000` shares/units
+> - **Total Value:** `$142.74`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4600) vs 20-SMA ($1.3890) Deviation +5.11% [SL: $1.4089 | TP: $1.5330 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4610) vs 20-SMA ($1.3890) Deviation +5.18% [SL: $1.4099 | TP: $1.5340 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive as RSI (55.0) and ATR (0.101) indicate a stable market with potential for growth. The price deviation of +5.11% from the 20-SMA supports the entry.
+> Based on the positive deviation of 5.18% from the price to 20-SMA and RSI value of 55.1, we have a BULLISH sentiment.
 > 
-> **Key Catalysts:** *Positive RSI (55.0), ATR (0.101), and price deviation (+5.11%) from the 20-SMA*
+> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI crossing above 50 indicate potential bullish momentum.*
 
 ---
 
