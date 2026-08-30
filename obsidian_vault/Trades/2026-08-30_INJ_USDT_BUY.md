@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 11:50:28 UTC"
+timestamp: "2026-08-30 11:56:22 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -14,7 +14,7 @@ quantity: 27.3000
 order_value: 142.81
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788090628562"
+order_id: "CRYPTO-1788090982587"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 11:50:28 UTC`
+> - **Date & Time:** `2026-08-30 11:56:22 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$5.2310`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2310) vs 20-SMA ($4.8559) Deviation +7.72% [SL: $5.0479 | TP: $5.4925 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.2310) vs 20-SMA ($4.8558) Deviation +7.73% [SL: $5.0479 | TP: $5.4925 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive trend momentum entry with a 7.72% deviation and RSI at 56.06, we enter a bullish sentiment.
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 7.73% deviation from the 20-SMA and an RSI of 56.04, indicating a strong but not overbought market condition.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI above 50 indicate potential for price growth.*
+> **Key Catalysts:** *Trend momentum entry (BUY): Price ($5.2310) vs 20-SMA ($4.8558) Deviation +7.73%*
 
 ---
 
