@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 11:50:38 UTC"
+timestamp: "2026-08-30 12:02:31 UTC"
 ticker: "ARB/USDT"
 canonical_symbol: "ARB/USDT"
 base_symbol: "ARB"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0876
-quantity: 1630.0000
-order_value: 142.79
+price: 0.0879
+quantity: 1624.0000
+order_value: 142.75
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788090637889"
+order_id: "CRYPTO-1788091351263"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `ARB/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 11:50:38 UTC`
+> - **Date & Time:** `2026-08-30 12:02:31 UTC`
 > - **Canonical Instrument:** `ARB/USDT` (ARB/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0876`
-> - **Quantity:** `1630.0000` shares/units
-> - **Total Value:** `$142.79`
+> - **Action:** `BUY` @ `$0.0879`
+> - **Quantity:** `1624.0000` shares/units
+> - **Total Value:** `$142.75`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0876) vs 20-SMA ($0.0858) Deviation +2.10% [SL: $0.0845 | TP: $0.0920 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0858) Deviation +2.45% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is slightly above the 20‑SMA with a 2.1% deviation, RSI is neutral, and ATR indicates moderate volatility; the TP at 0.0920 offers a modest upside while the SL at 0.0845 keeps risk contained.
+> Trend Momentum Entry (BUY): Price ($0.0879) vs 20-SMA ($0.0858) Deviation +2.45% [SL: $0.0848 | TP: $0.0923 | Risk: $5.00]
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
+> **Key Catalysts:** *Technical rule*
 
 ---
 
