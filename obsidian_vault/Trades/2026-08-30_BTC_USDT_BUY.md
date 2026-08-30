@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 06:04:06 UTC"
+timestamp: "2026-08-30 06:10:04 UTC"
 ticker: "BTC/USDT"
 canonical_symbol: "BTC/USDT"
 base_symbol: "BTC"
@@ -14,11 +14,11 @@ quantity: 0.0010
 order_value: 78.09
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788069846161"
+order_id: "CRYPTO-1788070204643"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `BTC/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 06:04:06 UTC`
+> - **Date & Time:** `2026-08-30 06:10:04 UTC`
 > - **Canonical Instrument:** `BTC/USDT` (BTC/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$78,093.5000`
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,093.5000) vs 20-SMA ($71,722.4700) Deviation +8.88% [SL: $75,360.2275 | TP: $81,998.1750 | Risk: $2.73]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($78,093.5000) vs 20-SMA ($71,722.4650) Deviation +8.88% [SL: $75,360.2275 | TP: $81,998.1750 | Risk: $2.73]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation of BTC/USDT price from 20-SMA (8.88%) and RSI (70.86) above 50, we have a strong bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate risk/reward ratio. The RSI (70.86) and the deviation from the 20-SMA (+8.88%) indicate strong momentum. However, the lack of short and long SMA data limits the analysis.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA and RSI crossing above 50*
+> **Key Catalysts:** *Positive RSI (70.86), deviation from 20-SMA (+8.88%)*
 
 ---
 
