@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 02:50:10 UTC"
+timestamp: "2026-08-30 02:56:15 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3146.0000
 order_value: 142.83
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788058210063"
+order_id: "CRYPTO-1788058575536"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 85
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 02:50:10 UTC`
+> - **Date & Time:** `2026-08-30 02:56:15 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0454`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 85% Confidence)**
-> Based on the positive deviation (+4.13%) from the trend momentum entry and RSI value (53.21), we enter a bullish sentiment.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the given data, the proposed trade has a bullish sentiment with a moderate confidence score of 75. The rationale includes a 4.13% deviation between the short-term moving average and the current price, an RSI of 53.21 indicating a potential buying opportunity, and a support level of 0.035, all pointing towards a potential price increase. The catalysts include the trend momentum entry and the dip percentage.
 > 
-> **Key Catalysts:** *Trend momentum entry and RSI indicate potential price appreciation.*
+> **Key Catalysts:** *Trend Momentum Entry, Dip Percentage, Support Level*
 
 ---
 
