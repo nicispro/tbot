@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 09:15:47 UTC"
+timestamp: "2026-08-30 09:21:46 UTC"
 ticker: "FET/USDT"
 canonical_symbol: "FET/USDT"
 base_symbol: "FET"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.1527
-quantity: 935.0000
-order_value: 142.77
+price: 0.1522
+quantity: 938.0000
+order_value: 142.76
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788081347400"
+order_id: "CRYPTO-1788081706664"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `FET/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 09:15:47 UTC`
+> - **Date & Time:** `2026-08-30 09:21:46 UTC`
 > - **Canonical Instrument:** `FET/USDT` (FET/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.1527`
-> - **Quantity:** `935.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.1522`
+> - **Quantity:** `938.0000` shares/units
+> - **Total Value:** `$142.76`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1527) vs 20-SMA ($0.1463) Deviation +4.37% [SL: $0.1474 | TP: $0.1603 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.1522) vs 20-SMA ($0.1463) Deviation +4.03% [SL: $0.1469 | TP: $0.1598 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Trend Momentum Entry (BUY): Price ($0.1527) vs 20-SMA ($0.1463) Deviation +4.37% [SL: $0.1474 | TP: $0.1603 | Risk: $5.00]
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> The trade leverages short-term bullish momentum as price trades 4.03% above the 20-SMA with a neutral RSI of 51.19, offering a favorable risk-to-reward ratio with a tight stop below the moving average.
 > 
-> **Key Catalysts:** *Technical rule*
+> **Key Catalysts:** *Price breakout above 20-SMA with +4.03% deviation and neutral RSI supporting upward continuation.*
 
 ---
 
