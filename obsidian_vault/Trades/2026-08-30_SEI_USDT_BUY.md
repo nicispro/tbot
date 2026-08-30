@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:02:21 UTC"
+timestamp: "2026-08-30 13:08:15 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -14,11 +14,11 @@ quantity: 3111.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788094941306"
+order_id: "CRYPTO-1788095295707"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:02:21 UTC`
+> - **Date & Time:** `2026-08-30 13:08:15 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0459`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +5.03% surpasses the trigger reason, indicating potential growth. RSI (54.88) and ATR (0.003) suggest stable market conditions.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given parameters, the trade rationale is positive as the price deviates significantly above the 20-SMA and RSI is above the neutral threshold. The support level is strong at $0.035.
 > 
-> **Key Catalysts:** *Price deviation (+5.03%) and stable market conditions (RSI 54.88, ATR 0.003) support the bullish catalyst.*
+> **Key Catalysts:** *Price deviation, RSI above neutral threshold, strong support at $0.035*
 
 ---
 
