@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 10:56:48 UTC"
+timestamp: "2026-08-30 11:02:44 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4520
-quantity: 98.3000
-order_value: 142.73
+price: 1.4540
+quantity: 98.2000
+order_value: 142.78
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788087407843"
+order_id: "CRYPTO-1788087764686"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 10:56:48 UTC`
+> - **Date & Time:** `2026-08-30 11:02:44 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4520`
-> - **Quantity:** `98.3000` shares/units
-> - **Total Value:** `$142.73`
+> - **Action:** `BUY` @ `$1.4540`
+> - **Quantity:** `98.2000` shares/units
+> - **Total Value:** `$142.78`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4520) vs 20-SMA ($1.3886) Deviation +4.57% [SL: $1.4012 | TP: $1.5246 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4540) vs 20-SMA ($1.3887) Deviation +4.70% [SL: $1.4031 | TP: $1.5267 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal shows potential for growth. Risk is managed with a stop-loss at $1.4012 and take-profit at $1.5246.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.70% and RSI of 54.35 indicate potential growth. A support level of 1.152 and resistance level of 1.637 provide boundaries for the trade.
 > 
-> **Key Catalysts:** *Price ($1.452) vs 20-SMA ($1.3886) Deviation +4.57% and RSI (54.1)*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and potential breakout due to support/resistance levels*
 
 ---
 
