@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 06:46:41 UTC"
+timestamp: "2026-08-30 06:52:41 UTC"
 ticker: "SEI/USDT"
 canonical_symbol: "SEI/USDT"
 base_symbol: "SEI"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0455
-quantity: 3138.0000
-order_value: 142.78
+price: 0.0456
+quantity: 3132.0000
+order_value: 142.82
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788072401095"
+order_id: "CRYPTO-1788072760758"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `SEI/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 06:46:41 UTC`
+> - **Date & Time:** `2026-08-30 06:52:41 UTC`
 > - **Canonical Instrument:** `SEI/USDT` (SEI/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0455`
-> - **Quantity:** `3138.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0456`
+> - **Quantity:** `3132.0000` shares/units
+> - **Total Value:** `$142.82`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0455) vs 20-SMA ($0.0436) Deviation +4.36% [SL: $0.0439 | TP: $0.0478 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0456) vs 20-SMA ($0.0436) Deviation +4.59% [SL: $0.0440 | TP: $0.0479 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation (+4.36%) between the price ($0.0455) and 20-SMA ($0.0436), along with an RSI of 53.57, we have a strong bullish signal for SEI/USDT.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> SEI/USDT trade proposal for a buy order with a validated price of $0.05. The sentiment is bullish due to a 4.59% deviation from the 20-SMA and an RSI of 53.94. The risk is defined at $5.00.
 > 
-> **Key Catalysts:** *Positive price deviation and RSI above 50 indicate potential for price appreciation.*
+> **Key Catalysts:** *Positive technical indicators and momentum support the trade proposal.*
 
 ---
 
