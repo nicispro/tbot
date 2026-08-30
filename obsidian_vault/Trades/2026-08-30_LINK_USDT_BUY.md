@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 13:20:11 UTC"
+timestamp: "2026-08-30 13:26:12 UTC"
 ticker: "LINK/USDT"
 canonical_symbol: "LINK/USDT"
 base_symbol: "LINK"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 11.4500
-quantity: 12.5000
-order_value: 143.12
+price: 11.4810
+quantity: 12.4000
+order_value: 142.36
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788096010866"
+order_id: "CRYPTO-1788096372001"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 80
+ai_confidence: 85
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `LINK/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 13:20:11 UTC`
+> - **Date & Time:** `2026-08-30 13:26:12 UTC`
 > - **Canonical Instrument:** `LINK/USDT` (LINK/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$11.4500`
-> - **Quantity:** `12.5000` shares/units
-> - **Total Value:** `$143.12`
+> - **Action:** `BUY` @ `$11.4810`
+> - **Quantity:** `12.4000` shares/units
+> - **Total Value:** `$142.36`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4500) vs 20-SMA ($10.5193) Deviation +8.85% [SL: $11.0493 | TP: $12.0225 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($11.4810) vs 20-SMA ($10.5209) Deviation +9.13% [SL: $11.0792 | TP: $12.0550 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 80% Confidence)**
-> Based on the given metrics, the trade rationale is a potential bullish entry with a 80% confidence score. The price is above both short and long SMAs, RSI is above 50, and the ATR indicates low volatility. The support level is strong at $8.282, and the resistance level is at $12.594.
+> [!info] **AI Thesis (BULLISH - 85% Confidence)**
+> Based on the given metrics, the trade rationale is a potential buy opportunity with a 9.13% deviation from the 20-SMA and an RSI of 67.27, indicating an overbought condition. The price is currently near the support level of 8.282.
 > 
-> **Key Catalysts:** *Positive RSI, strong support, and potential resistance breakout*
+> **Key Catalysts:** *Positive momentum and proximity to support level*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$11.45`
-- **Actual Fill Price:** `$11.45`
+- **Expected Fill Price:** `$11.48`
+- **Actual Fill Price:** `$11.48`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
