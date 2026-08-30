@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 00:05:29 UTC"
+timestamp: "2026-08-30 00:17:52 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.3260
-quantity: 19.5000
-order_value: 142.86
+price: 7.3300
+quantity: 19.4000
+order_value: 142.20
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788048328867"
+order_id: "CRYPTO-1788049072052"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 80
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 00:05:29 UTC`
+> - **Date & Time:** `2026-08-30 00:17:52 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.3260`
-> - **Quantity:** `19.5000` shares/units
-> - **Total Value:** `$142.86`
+> - **Action:** `BUY` @ `$7.3300`
+> - **Quantity:** `19.4000` shares/units
+> - **Total Value:** `$142.20`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3260) vs 20-SMA ($6.9841) Deviation +4.90% [SL: $7.0696 | TP: $7.6923 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.3300) vs 20-SMA ($6.9843) Deviation +4.95% [SL: $7.0735 | TP: $7.6965 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.90% and RSI of 58.29 indicate bullish momentum. The support level of 5.69 suggests a potential entry point.
+> [!info] **AI Thesis (BULLISH - 80% Confidence)**
+> Based on the given metrics, the proposed trade has a bullish sentiment with a moderate risk. The RSI (58.35) indicates a positive momentum, and the price deviation from the 20-SMA (+4.95%) suggests potential upside. TP: $7.6965 (16.2% potential gain) outweighs the SL: $7.0735 (10.1% potential loss).
 > 
-> **Key Catalysts:** *Positive price deviation, RSI above 50, and support level at 5.69*
+> **Key Catalysts:** *Positive momentum and price deviation from the 20-SMA trigger the bullish trade.*
 
 ---
 
