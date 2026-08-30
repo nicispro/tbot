@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 02:20:04 UTC"
+timestamp: "2026-08-30 02:26:07 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1220
+price: 5.1230
 quantity: 27.8000
-order_value: 142.39
+order_value: 142.42
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788056403832"
+order_id: "CRYPTO-1788056767253"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 02:20:04 UTC`
+> - **Date & Time:** `2026-08-30 02:26:07 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1220`
+> - **Action:** `BUY` @ `$5.1230`
 > - **Quantity:** `27.8000` shares/units
-> - **Total Value:** `$142.39`
+> - **Total Value:** `$142.42`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1220) vs 20-SMA ($4.8504) Deviation +5.60% [SL: $4.9427 | TP: $5.3781 | Risk: $4.98]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1230) vs 20-SMA ($4.8504) Deviation +5.62% [SL: $4.9437 | TP: $5.3792 | Risk: $4.98]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 1.46:1 risk‑reward ratio; RSI is neutral and ATR moderate, supporting a bullish momentum trade.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Buy at $5.12 with SL $4.94 and TP $5.38 gives a ~1.4:1 reward‑to‑risk ratio; price sits 5.6% above the 20‑SMA and RSI is neutral‑bullish, supporting the upside view.
 > 
-> **Key Catalysts:** *Price 5.1220 is 5.6% above the 20‑SMA, indicating upward trend momentum*
+> **Key Catalysts:** *Price crossing and staying above the 20‑SMA (+5.62% deviation) indicating strong trend momentum*
 
 ---
 
