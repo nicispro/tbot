@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 10:38:57 UTC"
+timestamp: "2026-08-30 10:44:54 UTC"
 ticker: "INJ/USDT"
 canonical_symbol: "INJ/USDT"
 base_symbol: "INJ"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 5.1690
+price: 5.1730
 quantity: 27.6000
-order_value: 142.66
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788086337473"
+order_id: "CRYPTO-1788086694529"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 75
+ai_confidence: 72
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `INJ/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 10:38:57 UTC`
+> - **Date & Time:** `2026-08-30 10:44:54 UTC`
 > - **Canonical Instrument:** `INJ/USDT` (INJ/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$5.1690`
+> - **Action:** `BUY` @ `$5.1730`
 > - **Quantity:** `27.6000` shares/units
-> - **Total Value:** `$142.66`
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1690) vs 20-SMA ($4.8528) Deviation +6.52% [SL: $4.9881 | TP: $5.4275 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($5.1730) vs 20-SMA ($4.8529) Deviation +6.60% [SL: $4.9919 | TP: $5.4317 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the given data, the trade rationale for buying INJ/USDT at $5.17 is fueled by a 6.52% deviation positive price movement and RSI of 54.78, indicating moderate bullish momentum. However, please note that some technical metrics are missing or unavailable.
+> [!info] **AI Thesis (BULLISH - 72% Confidence)**
+> Price is 6.6% above the 20‑SMA, indicating strong upward momentum; the stop loss is modestly below current price while the target offers a favorable risk/reward ratio.
 > 
-> **Key Catalysts:** *Price deviation and RSI indicate potential for growth; missing technical data should be considered when forming a complete risk/reward assessment.*
+> **Key Catalysts:** *Trend momentum entry confirmed by price > 20‑SMA with positive deviation*
 
 ---
 
