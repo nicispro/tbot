@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 15:31:20 UTC"
+timestamp: "2026-08-30 15:37:20 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,11 +14,11 @@ quantity: 1672.0000
 order_value: 142.79
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788103880629"
+order_id: "CRYPTO-1788104239971"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 72
+ai_confidence: 70
 tags:
   - trade
   - buy
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 15:31:20 UTC`
+> - **Date & Time:** `2026-08-30 15:37:20 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0854`
@@ -48,10 +48,10 @@ tags:
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 72% Confidence)**
-> The setup aligns with short-term bullish momentum as price trades above the 20-SMA with a healthy RSI of 60.14, offering a logical risk/reward structure targeting $0.0897 before key resistance at $0.1002.
+> [!info] **AI Thesis (BULLISH - 70% Confidence)**
+> Price is above the 20‑SMA with a 6.62% deviation and a moderately high RSI, indicating upward momentum; target near resistance and stop below support provide a favorable risk/reward.
 > 
-> **Key Catalysts:** *Positive price deviation above the 20-SMA combined with neutral-to-bullish RSI momentum supports continued upward movement toward the predefined take-profit level.*
+> **Key Catalysts:** *Price above 20‑SMA (+6.62%) and RSI 60.2*
 
 ---
 
