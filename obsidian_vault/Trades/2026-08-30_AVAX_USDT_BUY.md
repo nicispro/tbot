@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-30
-timestamp: "2026-08-30 04:40:22 UTC"
+timestamp: "2026-08-30 04:46:26 UTC"
 ticker: "AVAX/USDT"
 canonical_symbol: "AVAX/USDT"
 base_symbol: "AVAX"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 7.2770
+price: 7.2730
 quantity: 19.6000
-order_value: 142.63
+order_value: 142.55
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788064822435"
+order_id: "CRYPTO-1788065186581"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `AVAX/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-30 04:40:22 UTC`
+> - **Date & Time:** `2026-08-30 04:46:26 UTC`
 > - **Canonical Instrument:** `AVAX/USDT` (AVAX/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$7.2770`
+> - **Action:** `BUY` @ `$7.2730`
 > - **Quantity:** `19.6000` shares/units
-> - **Total Value:** `$142.63`
+> - **Total Value:** `$142.55`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,21 +43,21 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2770) vs 20-SMA ($6.9817) Deviation +4.23% [SL: $7.0223 | TP: $7.6409 | Risk: $4.99]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($7.2730) vs 20-SMA ($6.9816) Deviation +4.17% [SL: $7.0184 | TP: $7.6367 | Risk: $4.99]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 75% Confidence)**
-> Based on the positive deviation of price from 20-SMA and RSI value above 50, this trade proposal indicates upside potential with a risk of $4.99.
+> Based on the given metrics, the trade rationale is positive with a 75% confidence score. The price deviation of +4.17% from the 20-SMA and RSI value of 56.84 indicate bullish momentum. The support level of $5.69 and resistance level of $8.318 suggest potential profit opportunities.
 > 
-> **Key Catalysts:** *Price deviating positively from 20-SMA (+4.23%) and RSI above 50*
+> **Key Catalysts:** *Positive price deviation, RSI above 50, and key support/resistance levels*
 
 ---
 
 ## ⚡ Execution Quality & Broker Latency
-- **Expected Fill Price:** `$7.28`
-- **Actual Fill Price:** `$7.28`
+- **Expected Fill Price:** `$7.27`
+- **Actual Fill Price:** `$7.27`
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
