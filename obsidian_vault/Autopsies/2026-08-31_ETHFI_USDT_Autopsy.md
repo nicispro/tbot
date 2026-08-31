@@ -1,37 +1,37 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:25:37 UTC"
+timestamp: "2026-08-31 23:26:17 UTC"
 ticker: "ETHFI/USDT"
-outcome: "LOSS"
-quadrant: "GOOD_DECISION_LOSS"
-process_quality_score: 80.0
-pnl_percent: -0.34
+outcome: "WIN"
+quadrant: "GOOD_DECISION_WIN"
+process_quality_score: 90.0
+pnl_percent: 0.57
 tags:
   - autopsy
-  - loss
+  - win
   - ethfi
-  - good_decision_loss
+  - good_decision_win
 ---
 
 # 🔬 Trade Autopsy 2.0: `ETHFI/USDT`
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `ETHFI/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.34%`)
-> - **Process Quality Score:** `80/100`
-> - **Quadrant Classification:** `GOOD_DECISION_LOSS`
+> - **Realized Outcome:** `WIN` (`+0.57%`)
+> - **Process Quality Score:** `90/100`
+> - **Quadrant Classification:** `GOOD_DECISION_WIN`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Require volume confirmation multiplier >= 1.5x before validating breakout entries."*
+> *"High win rate achieved by trading strictly in direction of dominant moving average alignment."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *LOSS*
+  *WIN*
 - **Alternative 2 (Delayed Entry for Confirmation):**
   *WIN*
