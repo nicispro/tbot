@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:24:50 UTC"
+timestamp: "2026-08-31 23:25:30 UTC"
 ticker: "PYTH/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
