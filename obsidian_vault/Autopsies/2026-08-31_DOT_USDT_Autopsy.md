@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 20:57:06 UTC"
+timestamp: "2026-08-31 23:22:08 UTC"
 ticker: "DOT/USDT"
 outcome: "WIN"
 quadrant: "GOOD_DECISION_WIN"
 process_quality_score: 90.0
-pnl_percent: 5.06
+pnl_percent: 0.75
 tags:
   - autopsy
   - win
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `DOT/USDT`
-> - **Realized Outcome:** `WIN` (`+5.06%`)
+> - **Realized Outcome:** `WIN` (`+0.75%`)
 > - **Process Quality Score:** `90/100`
 > - **Quadrant Classification:** `GOOD_DECISION_WIN`
 
@@ -26,7 +26,7 @@ tags:
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Triple-timeframe alignment provides consistent directional edge."*
+> *"High win rate achieved by trading strictly in direction of dominant moving average alignment."*
 
 ---
 
