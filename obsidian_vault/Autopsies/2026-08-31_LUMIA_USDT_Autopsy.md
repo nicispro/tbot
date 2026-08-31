@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:26:22 UTC"
+timestamp: "2026-08-31 23:27:02 UTC"
 ticker: "LUMIA/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 65.0
-pnl_percent: 0.23
+pnl_percent: 0.00
 tags:
   - autopsy
   - neutral
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `LUMIA/USDT`
-> - **Realized Outcome:** `NEUTRAL` (`+0.23%`)
+> - **Realized Outcome:** `NEUTRAL` (`+0.00%`)
 > - **Process Quality Score:** `65/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
