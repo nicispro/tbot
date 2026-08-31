@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:24:14 UTC"
+timestamp: "2026-08-31 23:24:48 UTC"
 ticker: "FLUX/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
