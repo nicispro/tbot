@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-31
-timestamp: "2026-08-31 20:37:11 UTC"
+timestamp: "2026-08-31 20:39:44 UTC"
 ticker: "RENDER/USDT"
 canonical_symbol: "RENDER/USDT"
 base_symbol: "RENDER"
@@ -9,49 +9,49 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 1.4140
-quantity: 101.0000
-order_value: 142.81
-status: "FAILED"
+price: 1.4120
+quantity: 1011.7000
+order_value: 1428.52
+status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1788208631376"
+order_id: "263699323"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_confidence: 75
 tags:
   - trade
   - buy
   - render
   - crypto
-  - failed
+  - success
 ---
 
 # ⚡ Trade Execution: `RENDER/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-31 20:37:11 UTC`
+> - **Date & Time:** `2026-08-31 20:39:44 UTC`
 > - **Canonical Instrument:** `RENDER/USDT` (RENDER/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$1.4140`
-> - **Quantity:** `101.0000` shares/units
-> - **Total Value:** `$142.81`
-> - **Status:** `FAILED` (`FAILED`)
+> - **Action:** `BUY` @ `$1.4120`
+> - **Quantity:** `1011.7000` shares/units
+> - **Total Value:** `$1,428.52`
+> - **Status:** `SUCCESS` (`FILLED`)
 > - **Environment:** `DEMO`
 
 
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4140) vs 20-SMA ($1.3934) Deviation +1.48% [SL: $1.3645 | TP: $1.4847 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($1.4120) vs 20-SMA ($1.3933) Deviation +1.34% [SL: $1.3626 | TP: $1.4826 | Risk: $50.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a 1.48% deviation signals upward momentum; the target of 1.4847 offers roughly 7% upside versus a 3.5% downside risk at the stop.
+> [!info] **AI Thesis (BULLISH - 75% Confidence)**
+> Based on the positive price deviation (+1.34%) and RSI value (49.56), this trade proposal indicates bullish sentiment with a moderate confidence score.
 > 
-> **Key Catalysts:** *Price above 20‑SMA and trend momentum entry*
+> **Key Catalysts:** *Price deviation and RSI support the bullish rationale.*
 
 ---
 
@@ -61,9 +61,3 @@ tags:
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
-
----
-
-## ⚠️ Execution Errors
-> [!danger] **Error Details**
-> `binanceusdm {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}`
