@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-31
-timestamp: "2026-08-31 20:37:05 UTC"
+timestamp: "2026-08-31 21:00:45 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,16 +9,16 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0831
-quantity: 1718.0000
-order_value: 142.77
+price: 0.0832
+quantity: 50.0000
+order_value: 4.16
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788208624937"
+order_id: "CRYPTO-1788210045678"
 slippage_bps: 0.0
 fee_usd: 0.00
-ai_sentiment: "BULLISH"
-ai_confidence: 70
+ai_sentiment: "N/A"
+ai_confidence: 0
 tags:
   - trade
   - buy
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-31 20:37:05 UTC`
+> - **Date & Time:** `2026-08-31 21:00:45 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0831`
-> - **Quantity:** `1718.0000` shares/units
-> - **Total Value:** `$142.77`
+> - **Action:** `BUY` @ `$0.0832`
+> - **Quantity:** `50.0000` shares/units
+> - **Total Value:** `$4.16`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0831) vs 20-SMA ($0.0805) Deviation +3.23% [SL: $0.0802 | TP: $0.0873 | Risk: $5.00]
+[DEMO / FUTURE] Phase 7.1 Exchange-Side Protective Order Verification
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
-> [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Entry above the 20‑SMA with a modest upside to the 0.1002 resistance level, while the stop‑loss sits just below the 20‑SMA at 0.0802, limiting downside.
+> [!info] **AI Thesis (N/A - 0% Confidence)**
+> No AI thesis provided.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.23% deviation) indicating upward momentum*
+> **Key Catalysts:** *None*
 
 ---
 
@@ -66,4 +66,4 @@ tags:
 
 ## ⚠️ Execution Errors
 > [!danger] **Error Details**
-> `binanceusdm {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}`
+> `binanceusdm {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}`
