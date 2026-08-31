@@ -1,37 +1,37 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:23:51 UTC"
+timestamp: "2026-08-31 23:24:18 UTC"
 ticker: "BICO/USDT"
-outcome: "WIN"
-quadrant: "GOOD_DECISION_WIN"
-process_quality_score: 90.0
-pnl_percent: 0.43
+outcome: "NEUTRAL"
+quadrant: "GOOD_DECISION_LOSS"
+process_quality_score: 65.0
+pnl_percent: 0.00
 tags:
   - autopsy
-  - win
+  - neutral
   - bico
-  - good_decision_win
+  - good_decision_loss
 ---
 
 # 🔬 Trade Autopsy 2.0: `BICO/USDT`
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `BICO/USDT`
-> - **Realized Outcome:** `WIN` (`+0.43%`)
-> - **Process Quality Score:** `90/100`
-> - **Quadrant Classification:** `GOOD_DECISION_WIN`
+> - **Realized Outcome:** `NEUTRAL` (`+0.00%`)
+> - **Process Quality Score:** `65/100`
+> - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"High win rate achieved by trading strictly in direction of dominant moving average alignment."*
+> *"Avoid trading in low-volatility compression zones without clear catalyst."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *WIN*
+  *NEUTRAL*
 - **Alternative 2 (Delayed Entry for Confirmation):**
   *WIN*
