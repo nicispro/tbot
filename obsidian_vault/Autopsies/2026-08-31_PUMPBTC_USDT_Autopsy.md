@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:22:58 UTC"
+timestamp: "2026-08-31 23:23:30 UTC"
 ticker: "PUMPBTC/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
