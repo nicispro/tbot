@@ -1,37 +1,37 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:23:00 UTC"
+timestamp: "2026-08-31 23:23:32 UTC"
 ticker: "STX/USDT"
-outcome: "LOSS"
-quadrant: "BAD_DECISION_LOSS"
-process_quality_score: 25.0
-pnl_percent: -0.43
+outcome: "WIN"
+quadrant: "BAD_DECISION_WIN"
+process_quality_score: 45.0
+pnl_percent: 0.32
 tags:
   - autopsy
-  - loss
+  - win
   - stx
-  - bad_decision_loss
+  - bad_decision_win
 ---
 
 # 🔬 Trade Autopsy 2.0: `STX/USDT`
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `STX/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.43%`)
-> - **Process Quality Score:** `25/100`
-> - **Quadrant Classification:** `BAD_DECISION_LOSS`
+> - **Realized Outcome:** `WIN` (`+0.32%`)
+> - **Process Quality Score:** `45/100`
+> - **Quadrant Classification:** `BAD_DECISION_WIN`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Avoid entering long positions when RSI > 75 on STX/USDT; wait for consolidation pullback."*
+> *"Do not confuse luck with skill: Overbought chasing remains mathematically negative EV long term."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *LOSS*
+  *WIN*
 - **Alternative 2 (Delayed Entry for Confirmation):**
   *WIN*
