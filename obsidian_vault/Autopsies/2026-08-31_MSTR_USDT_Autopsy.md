@@ -1,37 +1,37 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:25:22 UTC"
+timestamp: "2026-08-31 23:26:05 UTC"
 ticker: "MSTR/USDT"
-outcome: "LOSS"
-quadrant: "BAD_DECISION_LOSS"
-process_quality_score: 25.0
-pnl_percent: -0.72
+outcome: "NEUTRAL"
+quadrant: "GOOD_DECISION_LOSS"
+process_quality_score: 65.0
+pnl_percent: -0.24
 tags:
   - autopsy
-  - loss
+  - neutral
   - mstr
-  - bad_decision_loss
+  - good_decision_loss
 ---
 
 # 🔬 Trade Autopsy 2.0: `MSTR/USDT`
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `MSTR/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.72%`)
-> - **Process Quality Score:** `25/100`
-> - **Quadrant Classification:** `BAD_DECISION_LOSS`
+> - **Realized Outcome:** `NEUTRAL` (`-0.24%`)
+> - **Process Quality Score:** `65/100`
+> - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
 ---
 
 ## 💡 Actionable Retrospective Lesson
 > [!tip] **Key Rule Learned**
-> *"Always ensure at least 2.0x ATR distance between entry price and overhead resistance."*
+> *"Avoid trading in low-volatility compression zones without clear catalyst."*
 
 ---
 
 ## 🔮 Counterfactual What-If Simulation
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
-  *LOSS*
+  *NEUTRAL*
 - **Alternative 2 (Delayed Entry for Confirmation):**
   *WIN*
