@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:24:05 UTC"
+timestamp: "2026-08-31 23:24:39 UTC"
 ticker: "MSTR/USDT"
 outcome: "LOSS"
 quadrant: "BAD_DECISION_LOSS"
 process_quality_score: 25.0
-pnl_percent: -1.03
+pnl_percent: -0.79
 tags:
   - autopsy
   - loss
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `MSTR/USDT`
-> - **Realized Outcome:** `LOSS` (`-1.03%`)
+> - **Realized Outcome:** `LOSS` (`-0.79%`)
 > - **Process Quality Score:** `25/100`
 > - **Quadrant Classification:** `BAD_DECISION_LOSS`
 
