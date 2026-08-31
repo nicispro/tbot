@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:22:10 UTC"
+timestamp: "2026-08-31 23:22:31 UTC"
 ticker: "ATOM/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 65.0
-pnl_percent: 0.20
+pnl_percent: 0.14
 tags:
   - autopsy
   - neutral
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `ATOM/USDT`
-> - **Realized Outcome:** `NEUTRAL` (`+0.20%`)
+> - **Realized Outcome:** `NEUTRAL` (`+0.14%`)
 > - **Process Quality Score:** `65/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
