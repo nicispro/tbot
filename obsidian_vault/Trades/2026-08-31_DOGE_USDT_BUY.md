@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-31
-timestamp: "2026-08-31 20:19:40 UTC"
+timestamp: "2026-08-31 20:37:05 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -9,12 +9,12 @@ asset_class: "CRYPTO"
 exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
-price: 0.0834
-quantity: 1712.0000
-order_value: 142.78
+price: 0.0831
+quantity: 1718.0000
+order_value: 142.77
 status: "FAILED"
 environment: "demo"
-order_id: "CRYPTO-1788207580524"
+order_id: "CRYPTO-1788208624937"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "BULLISH"
@@ -30,12 +30,12 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-31 20:19:40 UTC`
+> - **Date & Time:** `2026-08-31 20:37:05 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
-> - **Action:** `BUY` @ `$0.0834`
-> - **Quantity:** `1712.0000` shares/units
-> - **Total Value:** `$142.78`
+> - **Action:** `BUY` @ `$0.0831`
+> - **Quantity:** `1718.0000` shares/units
+> - **Total Value:** `$142.77`
 > - **Status:** `FAILED` (`FAILED`)
 > - **Environment:** `DEMO`
 
@@ -43,15 +43,15 @@ tags:
 ---
 
 ## 🎯 Strategy & Technical Context
-[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0834) vs 20-SMA ($0.0805) Deviation +3.60% [SL: $0.0805 | TP: $0.0876 | Risk: $5.00]
+[DEMO / FUTURE] Trend Momentum Entry (BUY): Price ($0.0831) vs 20-SMA ($0.0805) Deviation +3.23% [SL: $0.0802 | TP: $0.0873 | Risk: $5.00]
 
 ---
 
 ## 🤖 Groq AI Analysis & Reasoning
 > [!info] **AI Thesis (BULLISH - 70% Confidence)**
-> Price is above the 20‑SMA with a modest 3.6% deviation, RSI is neutral, and the stop is set at the SMA while the target lies near the next resistance level, offering a favorable risk‑reward profile.
+> Entry above the 20‑SMA with a modest upside to the 0.1002 resistance level, while the stop‑loss sits just below the 20‑SMA at 0.0802, limiting downside.
 > 
-> **Key Catalysts:** *Price above 20‑SMA (+3.6%) and trend momentum entry*
+> **Key Catalysts:** *Price above 20‑SMA (+3.23% deviation) indicating upward momentum*
 
 ---
 
@@ -66,4 +66,4 @@ tags:
 
 ## ⚠️ Execution Errors
 > [!danger] **Error Details**
-> `binanceusdm {"code":-1022,"msg":"Signature for this request is not valid."}`
+> `binanceusdm {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action"}`
