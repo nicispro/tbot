@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:22:12 UTC"
+timestamp: "2026-08-31 23:22:33 UTC"
 ticker: "LTC/USDT"
 outcome: "LOSS"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 80.0
-pnl_percent: -0.55
+pnl_percent: -0.39
 tags:
   - autopsy
   - loss
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `LTC/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.55%`)
+> - **Realized Outcome:** `LOSS` (`-0.39%`)
 > - **Process Quality Score:** `80/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
@@ -34,4 +34,4 @@ tags:
 - **Alternative 1 (Wider Stop Loss +0.5 ATR):**
   *LOSS*
 - **Alternative 2 (Delayed Entry for Confirmation):**
-  *LOSS*
+  *WIN*
