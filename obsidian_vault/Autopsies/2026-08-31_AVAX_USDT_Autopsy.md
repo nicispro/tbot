@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:22:06 UTC"
+timestamp: "2026-08-31 23:22:27 UTC"
 ticker: "AVAX/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
