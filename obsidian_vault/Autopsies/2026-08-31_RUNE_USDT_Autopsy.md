@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:26:07 UTC"
+timestamp: "2026-08-31 23:26:49 UTC"
 ticker: "RUNE/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
 process_quality_score: 65.0
-pnl_percent: 0.17
+pnl_percent: -0.04
 tags:
   - autopsy
   - neutral
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `RUNE/USDT`
-> - **Realized Outcome:** `NEUTRAL` (`+0.17%`)
+> - **Realized Outcome:** `NEUTRAL` (`-0.04%`)
 > - **Process Quality Score:** `65/100`
 > - **Quadrant Classification:** `GOOD_DECISION_LOSS`
 
