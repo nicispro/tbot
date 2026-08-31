@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-31
-timestamp: "2026-08-31 21:00:45 UTC"
+timestamp: "2026-08-31 21:01:05 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -10,11 +10,11 @@ exchange: "BINANCE"
 market_type: "USD_M_FUTURES"
 action: "BUY"
 price: 0.0832
-quantity: 50.0000
-order_value: 4.16
-status: "FAILED"
+quantity: 100.0000
+order_value: 8.32
+status: "SUCCESS"
 environment: "demo"
-order_id: "CRYPTO-1788210045678"
+order_id: "2332485730"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "N/A"
@@ -24,19 +24,19 @@ tags:
   - buy
   - doge
   - crypto
-  - failed
+  - success
 ---
 
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-31 21:00:45 UTC`
+> - **Date & Time:** `2026-08-31 21:01:05 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0832`
-> - **Quantity:** `50.0000` shares/units
-> - **Total Value:** `$4.16`
-> - **Status:** `FAILED` (`FAILED`)
+> - **Quantity:** `100.0000` shares/units
+> - **Total Value:** `$8.32`
+> - **Status:** `SUCCESS` (`FILLED`)
 > - **Environment:** `DEMO`
 
 
@@ -61,9 +61,3 @@ tags:
 - **Execution Slippage:** `+0.0 bps`
 - **Exchange/Broker Fee:** `$0.00`
 - **Execution Latency:** `0.0 ms`
-
----
-
-## ⚠️ Execution Errors
-> [!danger] **Error Details**
-> `binanceusdm {"code":-4164,"msg":"Order's notional must be no smaller than 5 (unless you choose reduce only)."}`
