@@ -1,7 +1,7 @@
 ---
 type: trade
 date: 2026-08-31
-timestamp: "2026-08-31 21:01:05 UTC"
+timestamp: "2026-08-31 21:05:38 UTC"
 ticker: "DOGE/USDT"
 canonical_symbol: "DOGE/USDT"
 base_symbol: "DOGE"
@@ -14,7 +14,7 @@ quantity: 100.0000
 order_value: 8.32
 status: "SUCCESS"
 environment: "demo"
-order_id: "2332485730"
+order_id: "2332489328"
 slippage_bps: 0.0
 fee_usd: 0.00
 ai_sentiment: "N/A"
@@ -30,7 +30,7 @@ tags:
 # ⚡ Trade Execution: `DOGE/USDT` (BUY)
 
 > [!summary] **Order Execution Summary**
-> - **Date & Time:** `2026-08-31 21:01:05 UTC`
+> - **Date & Time:** `2026-08-31 21:05:38 UTC`
 > - **Canonical Instrument:** `DOGE/USDT` (DOGE/USDT (Binance Futures))
 > - **Asset Class:** `CRYPTO` | **Exchange:** `BINANCE` (USD_M_FUTURES)
 > - **Action:** `BUY` @ `$0.0832`
