@@ -1,7 +1,7 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:26:33 UTC"
+timestamp: "2026-08-31 23:27:13 UTC"
 ticker: "SPK/USDT"
 outcome: "NEUTRAL"
 quadrant: "GOOD_DECISION_LOSS"
