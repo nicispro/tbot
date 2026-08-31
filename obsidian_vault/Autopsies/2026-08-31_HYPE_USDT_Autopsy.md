@@ -1,12 +1,12 @@
 ---
 type: autopsy
 date: 2026-08-31
-timestamp: "2026-08-31 23:23:34 UTC"
+timestamp: "2026-08-31 23:24:03 UTC"
 ticker: "HYPE/USDT"
 outcome: "LOSS"
 quadrant: "BAD_DECISION_LOSS"
 process_quality_score: 25.0
-pnl_percent: -0.70
+pnl_percent: -0.40
 tags:
   - autopsy
   - loss
@@ -18,7 +18,7 @@ tags:
 
 > [!abstract] **Decision Quality vs Outcome Matrix (Annie Duke)**
 > - **Ticker:** `HYPE/USDT`
-> - **Realized Outcome:** `LOSS` (`-0.70%`)
+> - **Realized Outcome:** `LOSS` (`-0.40%`)
 > - **Process Quality Score:** `25/100`
 > - **Quadrant Classification:** `BAD_DECISION_LOSS`
 
